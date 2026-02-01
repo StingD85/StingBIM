@@ -1,0 +1,72 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Revit
+*.rvt.lock
+*.rfa.lock
+*.rte.lock
+*.log
+
+# ML.NET Models (optional - keep trained models in git or not)
+# Uncomment if models are too large for git
+# data/Models/*.zip
+
+# User-specific files
+*.log
+logs/
+*.cache
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~

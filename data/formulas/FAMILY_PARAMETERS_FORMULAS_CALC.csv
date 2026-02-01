@@ -1,0 +1,8 @@
+﻿Schedule Name,Category,Fields,Filters,Sorting,Formulas,Header_Color,Text_Color,Background_Color
+Revit_Category,Generic Models,"Electrical Equipment, ELC_PNL_VLT_V, 1080edf4-7df6-5705-9515-0fb674933c1b, ELECTRICAL_POTENTIAL, ELC_PWR, Elc Pnl Vlt V [ISO 19650-1:2018]",,,,#808080,#000000,
+Discipline,Generic Models,"HVAC, HVC_PIPE_PRESSURE_KPA, NUMBER, HVC_HED_M * 9.81, Pressure from head: P = ρ × g × H, HVC_HED_M, kPa, 0772a943-2ff5-5106-b7ac-ec8a48da7e9f, Hvc Pipe Pressure Kpa [ISO 19650-1:2018]",,,,#808080,#000000,
+Revit Family Parameter & Formula Batch Creation,Generic Models,"FORMULAS, Calculated parameters with Revit formulas",,,,#808080,#000000,
+Pyrevit Batch Parameter Creation Code,Generic Models,"""""""",,,,#808080,#000000,
+Parameter_Name,Generic Models,"ASS_CST_TOTAL_UGX_NR, 32347c5d-1605-50ab-9c8c-5dc36c0c1765, CURRENCY, 1, ASS_MNG",,,,#808080,#000000,
+Calculated_Parameter,Generic Models,"PLM_HED_M, PLM_PSR_KPA, Yes, 1",,,,#808080,#000000,
+Revit Formula Syntax Reference,Generic Models,"^, Power/Exponent",,,,#808080,#000000,
