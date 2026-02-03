@@ -1,0 +1,76 @@
+PrimaryFamily,RelatedFamily,RelationshipType,RequirementLevel,ProximityRule,MinDistance_MM,MaxDistance_MM,Quantity,Notes
+Door,Wall,Requires,Critical,Hosted_In,0,0,1,Door must be placed in a wall
+Window,Wall,Requires,Critical,Hosted_In,0,0,1,Window must be placed in a wall
+Skylight,Roof,Requires,Critical,Hosted_In,0,0,1,Skylight requires roof
+Kitchen_Cabinet_Wall,Wall,Requires,Critical,Attached_To,0,50,1,Wall cabinet needs wall backing
+Kitchen_Cabinet_Base,Countertop,Suggests,High,Supports,0,0,1,Base cabinets typically have countertops
+Countertop,Sink_Kitchen,Suggests,High,Hosts,0,0,1-2,Counter can host sink(s)
+Sink_Kitchen,Faucet,Requires,High,Above,0,100,1,Sink needs faucet
+Toilet,Toilet_Paper_Holder,Suggests,Medium,Near,400,800,1-2,Toilet paper within reach
+Shower,Shower_Head,Requires,High,Above,1800,2100,1,Shower needs shower head
+Bathtub,Bathtub_Faucet,Requires,High,At_Edge,0,100,1,Tub needs faucet
+Bathtub,Shower_Head,Suggests,Medium,Above,1800,2100,1,Tub-shower combination
+Bed,Nightstand,Suggests,Medium,Beside,300,600,1-2,Bedside table for convenience
+Bed,Wardrobe,Suggests,Low,Same_Room,1000,5000,1-2,Bedroom storage
+Sofa,Coffee_Table,Suggests,Medium,In_Front,400,800,1,Living room furniture grouping
+Dining_Table,Chair,Requires,High,Around,600,800,4-12,Chairs for dining table
+Desk,Chair,Requires,High,At,400,600,1,Work chair for desk
+Stove,Range_Hood,Requires,High,Above,750,900,1,Kitchen exhaust above stove
+Refrigerator,Outlet,Requires,Critical,Near,0,1000,1,Power for refrigerator
+Dishwasher,Sink_Kitchen,Suggests,High,Beside,0,600,1,Dishwasher near sink for convenience
+Washer,Dryer,Suggests,High,Beside,0,200,1,Laundry pair
+Washer,Laundry_Sink,Suggests,Medium,Near,300,1500,1,Utility sink in laundry
+AC_Unit_Split_Indoor,AC_Unit_Split_Outdoor,Requires,Critical,Connected,0,15000,1,Split system connection
+Water_Heater,Expansion_Tank,Suggests,High,Near,0,1000,1,Thermal expansion tank
+Boiler,Expansion_Tank,Requires,High,Near,0,1000,1,Heating system expansion
+Electrical_Panel,Meter,Suggests,High,Near,300,3000,1,Panel fed from meter
+Lighting_Fixture,Switch,Requires,High,Controls,0,15000,1-3,Light controlled by switch
+Outlet,Switch,Suggests,Low,Near,300,3000,1,Switched outlet option
+Smoke_Detector,Control_Panel,Suggests,Medium,Connected,0,50000,1,Fire alarm system
+Sprinkler,Sprinkler_Riser,Requires,Critical,Fed_From,0,30000,1,Sprinkler water supply
+Duct_Supply,Diffuser,Requires,High,Connects_To,0,3000,1-Multiple,Supply duct to diffuser
+Duct_Return,Grille,Requires,High,Connects_To,0,3000,1-Multiple,Return duct to grille
+Air_Handler,Duct_Supply,Requires,Critical,Supplies,0,2000,1-Multiple,AHU supplies air
+Air_Handler,Duct_Return,Requires,Critical,Returns,0,2000,1,AHU return air
+Furnace,Thermostat,Requires,High,Controlled_By,3000,15000,1,HVAC control
+AC_Unit,Thermostat,Requires,High,Controlled_By,3000,15000,1,Cooling control
+Pipe_Hot_Water,Water_Heater,Requires,Critical,Originates_From,0,30000,1,Hot water source
+Pipe_Cold_Water,Water_Main,Requires,Critical,Originates_From,0,50000,1,Water supply source
+Pipe_Drain,Floor_Drain,Suggests,High,Drains_To,0,10000,1,Drainage termination
+Pipe_Vent,Roof,Requires,Critical,Penetrates,0,50000,1,Plumbing vent to exterior
+Toilet,Pipe_Drain,Requires,Critical,Connects_To,0,1500,1,Waste connection
+Sink,Pipe_Drain,Requires,Critical,Connects_To,0,2000,1,Sink drainage
+Sink,Pipe_Cold_Water,Requires,Critical,Connects_To,0,2000,1,Cold water supply
+Sink_Kitchen,Pipe_Hot_Water,Requires,High,Connects_To,0,2000,1,Hot water supply
+Bathtub,Pipe_Hot_Water,Requires,High,Connects_To,0,2500,1,Tub hot water
+Bathtub,Pipe_Cold_Water,Requires,Critical,Connects_To,0,2500,1,Tub cold water
+Shower,Pipe_Hot_Water,Requires,High,Connects_To,0,2500,1,Shower hot water
+Shower,Pipe_Cold_Water,Requires,Critical,Connects_To,0,2500,1,Shower cold water
+Stair,Handrail,Requires,Critical,Along_Side,0,100,1-2,Stair safety railing
+Stair,Landing,Suggests,High,Contains,0,0,0-Multiple,Stair landings
+Ramp,Handrail,Requires,Critical,Along_Side,0,100,2,Ramp accessibility railing
+Balcony,Guard_Rail,Requires,Critical,At_Edge,0,100,1,Fall protection
+Deck,Guard_Rail,Requires,Critical,At_Edge,0,100,1,Deck safety railing
+Window,Window_Sill,Suggests,High,Below,0,50,1,Interior window sill
+Window,Curtain_Rod,Suggests,Low,Above,100,300,1,Window treatment
+Door,Door_Frame,Requires,Critical,Surrounds,0,0,1,Door jamb and frame
+Door,Door_Hardware,Requires,High,On,0,0,1,Handle/lockset
+Floor,Floor_Finish,Suggests,High,On_Top,0,0,1,Floor covering
+Wall,Wall_Finish,Suggests,High,On_Surface,0,0,1,Wall covering/paint
+Ceiling,Ceiling_Finish,Suggests,High,On_Bottom,0,0,1,Ceiling finish material
+Roof,Roof_Covering,Requires,Critical,On_Top,0,0,1,Roof weatherproofing
+Column,Beam,Suggests,High,Supports,0,500,1-Multiple,Beam on column
+Beam,Slab,Suggests,High,Supports,0,500,1,Slab on beam
+Foundation,Column,Suggests,High,Supports,0,1000,1-Multiple,Column on foundation
+Foundation,Wall,Suggests,High,Supports,0,500,1-Multiple,Wall on foundation
+Electrical_Panel,Circuit_Breaker,Requires,Critical,Contains,0,0,Multiple,Breakers in panel
+Circuit_Breaker,Conduit,Suggests,High,Feeds,0,1000,1,Circuit from breaker
+Outlet,Conduit,Suggests,High,Fed_By,0,5000,1,Power to outlet
+Light_Fixture,Conduit,Suggests,High,Fed_By,0,5000,1,Power to light
+Switch,Conduit,Suggests,High,Fed_By,0,5000,1,Power to switch
+Conduit,Junction_Box,Suggests,Medium,Terminates_At,0,10000,1-Multiple,Conduit connections
+Cable_Tray,Cables,Requires,High,Contains,0,0,Multiple,Cables in tray
+Duct,Duct_Insulation,Suggests,High,Wrapped_With,0,0,1,Duct thermal insulation
+Pipe,Pipe_Insulation,Suggests,High,Wrapped_With,0,0,1,Pipe thermal insulation
+Pipe,Pipe_Hanger,Suggests,High,Supported_By,0,2000,Multiple,Pipe support spacing
+Duct,Duct_Support,Suggests,High,Supported_By,0,2400,Multiple,Duct support spacing

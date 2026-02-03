@@ -1,0 +1,35 @@
+WallType,Thickness_MM,Material,FireRating,Acoustic_STC,ThermalR_Value,UseCase,InteriorStandard,ExteriorStandard,LoadBearing,Description
+Interior_Standard,100,Gypsum,0,35,0.5,General partitions,True,False,False,Standard interior partition wall with gypsum board
+Interior_Acoustic,150,Gypsum+Insulation,0,50,1.2,Between units,True,False,False,Acoustically enhanced partition for privacy
+Interior_Wet_Area,100,Cement_Board,0,35,0.5,Bathrooms,True,False,False,Moisture resistant wall for wet areas
+Exterior_Brick,300,Brick+Block,60,45,2.5,External partitions,False,True,True,Load-bearing brick exterior with cavity insulation
+Exterior_Concrete,200,Concrete,120,50,2.0,External partitions,False,True,True,Reinforced concrete exterior wall
+Exterior_Frame,250,Wood+Insulation+Block,60,40,3.5,External partitions,False,True,False,Timber frame with external cladding
+Party_Wall,200,Brick+Insulation,120,55,1.8,Between units,True,False,True,Fire-rated party wall between dwelling units
+Fire_Wall,300,Concrete_Board,180,50,1.5,Fire compartmentation,True,False,True,High fire resistance compartmentation wall
+Curtain_Wall,150,Glass+Aluminum,30,30,1.8,External glazing,False,True,False,Non-load bearing glazed facade system
+Retaining_Wall,400,Concrete,0,0,0.2,Below grade,False,True,True,Reinforced concrete retaining wall for earth
+Foundation_Wall,300,Concrete,0,0,0.5,Below grade,False,True,True,Reinforced concrete foundation wall
+Shear_Wall,250,Concrete,120,50,1.5,Structural,True,True,True,Lateral load resisting structural wall
+Core_Wall,300,Concrete,180,50,1.0,Structural core,True,False,True,High-strength concrete core wall for tall buildings
+Demising_Wall,200,Gypsum+Insulation,120,52,1.2,Between units,True,False,False,Separation wall between tenant spaces
+Partition_Office,75,Gypsum,0,30,0.3,Office divisions,True,False,False,Lightweight office partition
+Partition_Storage,100,Gypsum,30,35,0.4,Storage rooms,True,False,False,Standard storage room partition
+Cavity_Wall,280,Brick+Air+Block,60,45,2.8,External walls,False,True,True,Double-leaf wall with air cavity
+Insulated_Panel,200,Metal+Insulation,30,35,4.0,Industrial,False,True,False,Insulated metal panel system
+CMU_Wall,200,Concrete_Block,90,48,1.5,General construction,True,True,True,Concrete masonry unit wall
+Stud_Wall_Metal,150,Metal_Stud+Gypsum,60,42,2.2,Commercial interior,True,False,False,Metal stud framed partition
+Stud_Wall_Wood,150,Wood_Stud+Gypsum,45,38,2.5,Residential interior,True,False,False,Wood stud framed partition
+Glass_Partition,12,Tempered_Glass,0,28,0.2,Office dividers,True,False,False,Frameless tempered glass partition
+Double_Glass,50,Glass+Air+Glass,0,32,0.8,Interior glazing,True,False,False,Double glazed interior partition
+Acoustic_Studio,250,Multi-layer,0,60,1.5,Recording studios,True,False,False,High-performance acoustic isolation wall
+Clean_Room,150,Metal+Insulation,30,35,2.0,Healthcare,True,False,False,Smooth cleanable surface for sterile environments
+Blast_Resistant,400,Reinforced_Concrete,180,55,1.0,Security,False,True,True,Blast and impact resistant security wall
+Prefab_Panel,150,Concrete_Panel,60,40,2.0,Modular construction,True,True,True,Precast concrete panel system
+ICF_Wall,250,Concrete+Foam,90,45,4.5,Insulated forms,False,True,True,Insulated concrete form construction
+Rammed_Earth,400,Compressed_Earth,30,45,2.5,Sustainable,False,True,True,Sustainable rammed earth construction
+Adobe_Wall,300,Adobe_Brick,30,40,2.0,Traditional,False,True,True,Traditional adobe brick construction
+Stone_Wall,500,Natural_Stone,60,50,1.5,Traditional exterior,False,True,True,Natural stone masonry wall
+Gabion_Wall,300,Stone+Wire_Mesh,0,0,0.3,Retaining/decorative,False,True,True,Wire cage filled with stone
+Green_Wall,150,Frame+Substrate,0,35,2.5,Living walls,False,True,False,Vertical garden support structure
+SIP_Panel,200,OSB+Foam+OSB,60,35,5.0,Efficient construction,False,True,True,Structural insulated panel system

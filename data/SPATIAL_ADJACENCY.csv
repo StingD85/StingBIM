@@ -1,0 +1,55 @@
+RoomType1,RoomType2,Relationship,Priority,RequiredConnection,PreferredDirection,MinDistance_M,MaxDistance_M,Notes
+Kitchen,Dining,Adjacent,High,Door,Any,0,5,Direct access for serving food
+Kitchen,Pantry,Adjacent,High,Door,Any,0,3,Food storage access
+Kitchen,LaundryRoom,Adjacent,Medium,Door,Any,0,10,Utility connection
+Bedroom,Bathroom,Near,Medium,Hallway,Any,0,15,Private bathroom access
+MasterBedroom,Ensuite,Adjacent,High,Door,Any,0,2,Private ensuite attachment
+Bedroom,Bathroom,Adjacent,High,Door,Any,0,3,Ensuite for master
+LivingRoom,Entrance,Adjacent,High,Direct,Any,0,5,Main entry to living space
+LivingRoom,Kitchen,Near,Medium,Visual,Any,0,10,Open plan connection
+LivingRoom,DiningRoom,Adjacent,High,Open/Door,Any,0,5,Combined living-dining
+DiningRoom,Kitchen,Adjacent,High,Door/Open,Any,0,5,Serving and access
+Garage,Kitchen,Adjacent,Low,Door,Any,0,15,Grocery unloading
+Garage,MudRoom,Adjacent,High,Door,Any,0,3,Entry transition
+MudRoom,Kitchen,Near,Medium,Door,Any,0,8,Secondary entry
+MudRoom,LaundryRoom,Adjacent,Medium,Door,Any,0,5,Utility area grouping
+Office,Bedroom,Separate,Low,Hallway,Any,10,50,Quiet workspace isolation
+Office,LivingRoom,Near,Low,Door,Any,5,15,Work-life separation
+Bathroom,Kitchen,Separate,High,Wall,Any,3,50,Hygiene separation from food prep
+Bathroom,DiningRoom,Separate,High,Wall,Any,3,50,Hygiene separation from dining
+Ensuite,Kitchen,Separate,High,Wall,Any,5,50,Hygiene separation
+PowderRoom,Foyer,Adjacent,High,Door,Any,0,5,Guest convenience
+PowderRoom,LivingRoom,Near,High,Door,Any,0,10,Guest bathroom access
+LaundryRoom,Kitchen,Adjacent,Medium,Door,Any,0,10,Utility grouping
+LaundryRoom,Bathroom,Near,Low,Hallway,Any,0,15,Plumbing consolidation
+Closet,Bedroom,Adjacent,High,Door,Any,0,2,Storage access
+WalkInCloset,MasterBedroom,Adjacent,High,Door,Any,0,2,Master bedroom storage
+Pantry,Kitchen,Adjacent,High,Door,Any,0,3,Food storage access
+Hallway,Bedroom,Adjacent,High,Door,Any,0,5,Circulation to bedrooms
+Hallway,Bathroom,Adjacent,High,Door,Any,0,5,Circulation to bathrooms
+Foyer,LivingRoom,Adjacent,High,Open/Door,Any,0,5,Main entry sequence
+Balcony,LivingRoom,Adjacent,Medium,Door/Window,Any,0,2,Outdoor access
+Balcony,Bedroom,Adjacent,Medium,Door/Window,Any,0,2,Private outdoor space
+Terrace,DiningRoom,Adjacent,High,Door,Any,0,3,Outdoor dining
+Terrace,LivingRoom,Adjacent,High,Door,Any,0,3,Outdoor entertainment
+Utility,Garage,Adjacent,Medium,Door,Any,0,10,Mechanical access
+Utility,Kitchen,Near,Low,Wall,Any,5,20,MEP service routing
+HomeTheater,LivingRoom,Near,Low,Hallway,Any,5,15,Entertainment zone
+Gym,Bedroom,Separate,Medium,Hallway,Any,10,30,Noise separation
+Library,Office,Adjacent,Low,Door,Any,0,10,Study area grouping
+Library,LivingRoom,Near,Medium,Door,Any,0,15,Reading space access
+Workshop,Garage,Adjacent,High,Door,Any,0,5,Tool and material access
+Workshop,Utility,Adjacent,Medium,Wall,Any,0,10,Power and service access
+Sunroom,LivingRoom,Adjacent,High,Door,Any,0,5,Extension of living space
+Sunroom,DiningRoom,Adjacent,Medium,Door,Any,0,5,Natural light dining
+Attic,Hallway,Access,Low,Stairs/Ladder,Up,0,50,Upper level access
+Basement,Kitchen,Access,Low,Stairs,Down,0,50,Lower level access
+Basement,Garage,Access,Medium,Stairs,Down,0,50,Storage access
+FamilyRoom,Kitchen,Adjacent,Medium,Open/Door,Any,0,10,Casual family gathering
+FamilyRoom,LivingRoom,Near,Low,Hallway,Any,5,15,Secondary living space
+GuestBedroom,PowderRoom,Near,High,Hallway,Any,0,10,Guest bathroom access
+GuestBedroom,Foyer,Near,Medium,Hallway,Any,5,15,Guest wing location
+ChildBedroom,Bathroom,Near,High,Hallway,Any,0,10,Children's bathroom
+ChildBedroom,ChildBedroom,Adjacent,Medium,Hallway,Any,0,10,Children's room grouping
+WineCellar,DiningRoom,Near,Low,Stairs,Down,0,20,Wine service access
+WineCellar,Basement,Adjacent,High,Door,Any,0,5,Climate controlled area

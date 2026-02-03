@@ -1,0 +1,51 @@
+RuleID,Category,Rule,Severity,Standard,Description,ValidationFormula,MinValue,MaxValue,Unit,ApplicableCategories
+DR001,Egress,Bedroom must have window min 0.5m²,Critical,IBC,Emergency egress requirement for bedrooms,Window_Area >= 0.5,0.5,,m²,Bedrooms
+DR002,Ventilation,Bathroom requires exhaust fan,Required,ASHRAE,Bathroom ventilation for moisture and odor control,Has_Exhaust_Fan == True,,,Boolean,Bathrooms
+DR003,Lighting,Living areas need 300 lux minimum,Recommended,CIBSE,Adequate lighting for living spaces,Lighting_Level >= 300,300,,lux,Living Areas
+DR004,Accessibility,Doors min 900mm clear width,Required,ADA,Wheelchair accessibility standard,Door_Clear_Width >= 900,900,,mm,All Doors
+DR005,Circulation,Hallway minimum width 1000mm,Required,IBC,Safe circulation width,Hallway_Width >= 1000,1000,,mm,Hallways
+DR006,Safety,Kitchen exhaust required,Critical,IBC,Fire safety and ventilation,Has_Kitchen_Exhaust == True,,,Boolean,Kitchens
+DR007,Plumbing,Bathrooms need proper drainage,Critical,UPC,Plumbing code compliance,Has_Floor_Drain == True,,,Boolean,Wet Rooms
+DR008,Structure,Floor load capacity min 2.0 kPa,Critical,IBC,Structural safety for residential,Floor_Load_Capacity >= 2.0,2.0,,kPa,All Floors
+DR009,Energy,Exterior walls R-value min 3.5,Recommended,ASHRAE 90.1,Thermal insulation requirement,Wall_R_Value >= 3.5,3.5,,m²K/W,Exterior Walls
+DR010,Safety,Stair riser max 200mm,Required,IBC,Safe stair design,Stair_Riser_Height <= 200,,200,mm,Stairs
+DR011,Safety,Stair tread min 250mm,Required,IBC,Safe stair design,Stair_Tread_Depth >= 250,250,,mm,Stairs
+DR012,Accessibility,Ramps max slope 1:12,Required,ADA,Wheelchair ramp accessibility,Ramp_Slope <= 0.0833,,0.0833,ratio,Ramps
+DR013,Plumbing,Hot water temp max 49°C,Required,UPC,Scalding prevention,Hot_Water_Temp <= 49,,49,°C,Hot Water Systems
+DR014,Electrical,Outlets spacing max 3.6m,Recommended,NEC,Adequate power access,Outlet_Spacing <= 3.6,,3.6,m,All Rooms
+DR015,Lighting,Emergency lighting required,Critical,IBC,Life safety requirement,Has_Emergency_Lighting == True,,,Boolean,Egress Paths
+DR016,Fire,Fire-rated walls between units,Critical,IBC,Fire compartmentation,Wall_Fire_Rating >= 60,60,,minutes,Party Walls
+DR017,Acoustic,Bedroom walls STC 50 min,Recommended,IBC,Sound privacy,Wall_STC_Rating >= 50,50,,STC,Bedroom Walls
+DR018,Ventilation,Natural ventilation 5% floor area,Recommended,IBC,Air quality through windows,Window_Area >= Floor_Area * 0.05,0.05,,ratio,Habitable Rooms
+DR019,Ceiling,Habitable rooms min 2.4m height,Required,IBC,Minimum ceiling height,Ceiling_Height >= 2.4,2.4,,m,Habitable Rooms
+DR020,Ceiling,Bathrooms min 2.3m height,Required,IBC,Minimum ceiling height,Ceiling_Height >= 2.3,2.3,,m,Bathrooms
+DR021,Safety,Guard rails min 1.07m height,Critical,IBC,Fall protection,Guard_Rail_Height >= 1.07,1.07,,m,Balconies/Decks
+DR022,Window,Glazing max U-value 1.8,Recommended,ASHRAE 90.1,Energy efficiency,Window_U_Value <= 1.8,,1.8,W/m²K,Windows
+DR023,Door,Fire doors self-closing,Critical,IBC,Fire safety,Has_Self_Closer == True,,,Boolean,Fire Doors
+DR024,Plumbing,Fixture units properly sized,Required,UPC,Adequate drainage,DFU_Calculation_Valid == True,,,Boolean,Plumbing Systems
+DR025,Electrical,GFCI required in wet areas,Critical,NEC,Electrical safety,Has_GFCI == True,,,Boolean,Wet Areas
+DR026,Kitchen,Counter working space min 1.8m,Recommended,NKBA,Functional kitchen design,Counter_Length >= 1.8,1.8,,m,Kitchens
+DR027,Kitchen,Clearance between counters 1.2m,Recommended,NKBA,Kitchen workflow,Counter_Clearance >= 1.2,1.2,,m,Kitchens
+DR028,Bedroom,Minimum floor area 7m²,Required,IBC,Habitable room size,Room_Area >= 7,7,,m²,Bedrooms
+DR029,Living,Minimum floor area 12m²,Recommended,IBC,Adequate living space,Room_Area >= 12,12,,m²,Living Rooms
+DR030,Bathroom,Fixture clearances adequate,Required,IBC,Functional bathroom layout,Has_Adequate_Clearances == True,,,Boolean,Bathrooms
+DR031,Garage,Vehicle clearance 3m width,Recommended,Local,Single car parking,Garage_Width >= 3.0,3.0,,m,Garages
+DR032,Garage,Vehicle clearance 5.5m length,Recommended,Local,Vehicle parking depth,Garage_Depth >= 5.5,5.5,,m,Garages
+DR033,Energy,Air infiltration max 0.6 ACH,Recommended,ASHRAE 90.1,Energy efficiency,Air_Changes_Per_Hour <= 0.6,,0.6,ACH,Building Envelope
+DR034,Mechanical,HVAC minimum 0.35 ACH,Required,ASHRAE 62.1,Indoor air quality,Ventilation_Rate >= 0.35,0.35,,ACH,Habitable Rooms
+DR035,Electrical,Lighting power density limits,Recommended,ASHRAE 90.1,Energy efficiency,LPD_Compliant == True,,,Boolean,All Spaces
+DR036,Plumbing,Water heater capacity adequate,Required,UPC,Hot water demand,Heater_Capacity_Adequate == True,,,Boolean,Water Heaters
+DR037,Safety,Smoke detectors required,Critical,IBC,Life safety,Has_Smoke_Detector == True,,,Boolean,All Bedrooms/Halls
+DR038,Safety,CO detectors required,Critical,IBC,Life safety,Has_CO_Detector == True,,,Boolean,Near Fuel Appliances
+DR039,Accessibility,Clear floor space 1.5m x 1.5m,Required,ADA,Wheelchair turning radius,Has_Turning_Space == True,,,Boolean,Accessible Bathrooms
+DR040,Accessibility,Accessible route continuous,Critical,ADA,Barrier-free access,Accessible_Route_Continuous == True,,,Boolean,Accessible Units
+DR041,Energy,Roof insulation R-value min 6.0,Recommended,ASHRAE 90.1,Thermal insulation,Roof_R_Value >= 6.0,6.0,,m²K/W,Roofs
+DR042,Water,Low-flow fixtures required,Recommended,WaterSense,Water conservation,Has_Low_Flow_Fixtures == True,,,Boolean,Plumbing Fixtures
+DR043,Egress,Two exits required for large units,Critical,IBC,Life safety egress,Has_Two_Exits == True,,,Boolean,Units > 200m²
+DR044,Fire,Sprinklers required in buildings,Required,IBC,Fire suppression,Has_Sprinkler_System == True,,,Boolean,Multi-Unit Buildings
+DR045,Drainage,Roof drainage adequate,Required,IBC,Water management,Drainage_Capacity_Adequate == True,,,Boolean,Roofs
+DR046,Foundation,Footing depth below frost,Critical,IBC,Structural integrity,Footing_Depth >= Frost_Line,,,m,Foundations
+DR047,Structure,Seismic design required,Critical,IBC,Earthquake resistance,Seismic_Design_Compliant == True,,,Boolean,Seismic Zones
+DR048,Envelope,Weather barrier continuous,Required,IBC,Moisture protection,Has_Weather_Barrier == True,,,Boolean,Exterior Walls
+DR049,Roof,Roof slope adequate for drainage,Required,IBC,Water management,Roof_Slope >= 0.02,0.02,,ratio,Flat Roofs
+DR050,Mechanical,Duct insulation in unconditioned,Required,IECC,Energy efficiency,Duct_Insulated == True,,,Boolean,Unconditioned Spaces

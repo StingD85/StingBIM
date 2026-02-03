@@ -1,0 +1,96 @@
+Entity,Synonyms,Category,Examples,Intent_Association
+wall,partition;divider;barrier;wall,Element,exterior wall;interior wall;load-bearing wall;curtain wall,PLACE_ELEMENT;MODIFY_DIMENSION;DELETE_ELEMENT
+door,entrance;doorway;entry;portal;door,Element,front door;sliding door;double door;pocket door,PLACE_ELEMENT;DELETE_ELEMENT
+window,glazing;opening;fenestration;aperture;window,Element,casement window;fixed window;sliding window;bay window,PLACE_ELEMENT;DELETE_ELEMENT
+room,space;area;chamber;compartment;room,RoomType,bedroom;bathroom;kitchen;living room,CREATE_BUILDING;QUERY_PROPERTY
+bedroom,sleeping room;bed;chamber;suite;bedroom,RoomType,master bedroom;guest bedroom;child bedroom,CREATE_BUILDING;QUERY_PROPERTY
+bathroom,toilet;restroom;washroom;lavatory;bath,RoomType,ensuite;powder room;full bathroom,CREATE_BUILDING;QUERY_PROPERTY
+kitchen,cooking area;galley;culinary;pantry;kitchen,RoomType,open kitchen;closed kitchen;galley kitchen,CREATE_BUILDING;QUERY_PROPERTY
+living room,lounge;sitting room;parlor;family room;living,RoomType,great room;den;living area,CREATE_BUILDING;QUERY_PROPERTY
+dining room,eating area;dining;breakfast nook;dinette,RoomType,formal dining;casual dining,CREATE_BUILDING;QUERY_PROPERTY
+garage,carport;parking;car park;auto bay,RoomType,single garage;double garage;attached garage,CREATE_BUILDING
+office,study;workspace;den;home office;study room,RoomType,home office;study;library,CREATE_BUILDING
+hallway,corridor;passage;passageway;hall,RoomType,entry hall;gallery;circulation,CREATE_BUILDING
+balcony,terrace;deck;patio;veranda;lanai,RoomType,outdoor space;balcony;porch,CREATE_BUILDING
+create,make;build;generate;construct;add;place,Intent,create a house;make a building;build a room,CREATE_BUILDING;PLACE_ELEMENT
+add,insert;put;place;include;attach,Intent,add a door;insert window;put furniture,PLACE_ELEMENT
+delete,remove;erase;eliminate;take away;clear,Intent,delete the window;remove door;erase wall,DELETE_ELEMENT
+modify,change;alter;adjust;edit;update,Intent,modify the wall;change dimension;adjust height,MODIFY_DIMENSION
+move,relocate;shift;reposition;transfer,Intent,move the door;relocate window;shift furniture,MOVE_ELEMENT
+resize,scale;adjust size;change size;make bigger;make smaller,Intent,resize the room;make wall longer;adjust width,MODIFY_DIMENSION
+query,what;how;tell me;show me;find,Intent,what's the area;how big;show dimensions,QUERY_PROPERTY
+north,northern;top;upper;N,Direction,north wall;northern side;top edge,PLACE_ELEMENT;MOVE_ELEMENT
+south,southern;bottom;lower;S,Direction,south wall;southern side;bottom edge,PLACE_ELEMENT;MOVE_ELEMENT
+east,eastern;right;E,Direction,east wall;eastern side;right side,PLACE_ELEMENT;MOVE_ELEMENT
+west,western;left;W,Direction,west wall;western side;left side,PLACE_ELEMENT;MOVE_ELEMENT
+house,home;residence;dwelling;building;structure,BuildingType,3-bedroom house;family home;residential building,CREATE_BUILDING
+apartment,flat;condo;unit;suite,BuildingType,studio apartment;2-bedroom flat;condo unit,CREATE_BUILDING
+villa,mansion;estate;manor,BuildingType,luxury villa;country estate,CREATE_BUILDING
+bungalow,cottage;cabin;small house,BuildingType,beach bungalow;mountain cottage,CREATE_BUILDING
+big,large;spacious;generous;wide;broad,Size,big room;large window;spacious bedroom,MODIFY_DIMENSION;CREATE_BUILDING
+small,little;compact;tiny;narrow,Size,small bathroom;compact kitchen;little window,MODIFY_DIMENSION;CREATE_BUILDING
+long,lengthy;extended;elongated,Dimension,long wall;lengthy corridor;4 meters long,MODIFY_DIMENSION;QUERY_PROPERTY
+short,brief;compact;reduced,Dimension,short wall;compact space,MODIFY_DIMENSION;QUERY_PROPERTY
+wide,broad;extensive,Dimension,wide door;broad opening;3 meters wide,MODIFY_DIMENSION;QUERY_PROPERTY
+narrow,thin;slender;confined,Dimension,narrow hallway;thin wall,MODIFY_DIMENSION;QUERY_PROPERTY
+high,tall;elevated,Dimension,high ceiling;tall wall;3 meters high,MODIFY_DIMENSION;QUERY_PROPERTY
+low,short;reduced height,Dimension,low ceiling;short door,MODIFY_DIMENSION;QUERY_PROPERTY
+area,size;extent;space;square footage;floor area,Property,room area;floor area;total size,QUERY_PROPERTY
+length,dimension;extent;measurement,Property,wall length;room length;corridor length,QUERY_PROPERTY;MODIFY_DIMENSION
+width,breadth;span,Property,room width;door width;window width,QUERY_PROPERTY;MODIFY_DIMENSION
+height,elevation;altitude;vertical dimension,Property,wall height;ceiling height;door height,QUERY_PROPERTY;MODIFY_DIMENSION
+here,this location;this spot;at this point,Location,add door here;place window here;put furniture here,PLACE_ELEMENT
+there,that location;that spot;at that point,Location,move to there;place there;put there,PLACE_ELEMENT;MOVE_ELEMENT
+center,middle;central;core,Location,in the center;at the middle;central location,PLACE_ELEMENT;MOVE_ELEMENT
+corner,edge;angle;junction,Location,in the corner;at the edge;corner location,PLACE_ELEMENT;MOVE_ELEMENT
+left,left-hand;leftward;port,Direction,on the left;left side;leftward,PLACE_ELEMENT;MOVE_ELEMENT
+right,right-hand;rightward;starboard,Direction,on the right;right side;rightward,PLACE_ELEMENT;MOVE_ELEMENT
+meter,m;metre;meters,Unit,4 meters;3m long;2.5 meters wide,MODIFY_DIMENSION
+foot,ft;feet,Unit,10 feet;15 ft;20 feet long,MODIFY_DIMENSION
+inch,in;inches,Unit,36 inches;24 in;48 inches wide,MODIFY_DIMENSION
+square meter,m²;sq m;sqm;square metre,Unit,50 square meters;100 m²;75 sqm,QUERY_PROPERTY
+square foot,sq ft;sqft;ft²,Unit,500 square feet;800 sq ft;1000 sqft,QUERY_PROPERTY
+sliding,slide;sliding type;gliding,ElementType,sliding door;sliding window,PLACE_ELEMENT
+swinging,swing;hinged;pivoting,ElementType,swinging door;hinged door,PLACE_ELEMENT
+fixed,stationary;immovable;non-opening,ElementType,fixed window;stationary glass,PLACE_ELEMENT
+casement,side-hung;hinged window,ElementType,casement window;side-opening window,PLACE_ELEMENT
+double,dual;paired;twin,ElementType,double door;double window;paired doors,PLACE_ELEMENT
+single,solo;individual;lone,ElementType,single door;single window,PLACE_ELEMENT
+exterior,external;outside;outer,WallType,exterior wall;external wall;outside wall,PLACE_ELEMENT
+interior,internal;inside;inner,WallType,interior wall;internal wall;partition wall,PLACE_ELEMENT
+load-bearing,structural;supporting;bearing,WallType,load-bearing wall;structural wall,PLACE_ELEMENT
+partition,dividing;separating;non-structural,WallType,partition wall;room divider,PLACE_ELEMENT
+glass,glazed;transparent;see-through,Material,glass door;glass wall;glazed partition,PLACE_ELEMENT
+wood,wooden;timber;lumber,Material,wooden door;wood floor;timber wall,PLACE_ELEMENT
+concrete,cement;masonry,Material,concrete wall;concrete floor,PLACE_ELEMENT
+brick,masonry;brickwork,Material,brick wall;brick exterior,PLACE_ELEMENT
+gypsum,drywall;plasterboard;wallboard,Material,gypsum wall;drywall partition,PLACE_ELEMENT
+tile,tiled;ceramic;porcelain,Material,tile floor;ceramic tile;tiled bathroom,PLACE_ELEMENT
+carpet,carpeted;rug,Material,carpet floor;carpeted bedroom,PLACE_ELEMENT
+master,primary;main;principal,Qualifier,master bedroom;primary bathroom;main entrance,CREATE_BUILDING
+guest,visitor;secondary,Qualifier,guest bedroom;guest bathroom,CREATE_BUILDING
+ensuite,attached;private,Qualifier,ensuite bathroom;attached bath,CREATE_BUILDING
+open,open-plan;connected;flowing,Layout,open kitchen;open plan;flowing space,CREATE_BUILDING
+closed,separate;enclosed;private,Layout,closed kitchen;separate room;private space,CREATE_BUILDING
+adjacent,next to;beside;neighboring;adjoining,Relationship,adjacent to kitchen;next to bathroom;beside living room,PLACE_ELEMENT
+opposite,facing;across from;vis-à-vis,Relationship,opposite the door;across from window;facing entrance,PLACE_ELEMENT
+between,in between;amidst;among,Relationship,between rooms;between windows;in between doors,PLACE_ELEMENT
+floor,level;story;storey;deck,BuildingElement,first floor;ground floor;second level,CREATE_BUILDING
+ceiling,roof;overhead;top,BuildingElement,ceiling height;roof structure,QUERY_PROPERTY;MODIFY_DIMENSION
+foundation,base;footing;groundwork,BuildingElement,foundation depth;concrete base,CREATE_BUILDING
+roof,rooftop;covering;canopy,BuildingElement,roof structure;pitched roof;flat roof,CREATE_BUILDING
+stair,staircase;stairs;steps,BuildingElement,staircase;flight of stairs;stairway,PLACE_ELEMENT
+ramp,incline;slope;gradient,BuildingElement,wheelchair ramp;access ramp,PLACE_ELEMENT
+column,pillar;post;support,BuildingElement,structural column;support pillar,PLACE_ELEMENT
+beam,girder;joist;support beam,BuildingElement,structural beam;support girder,PLACE_ELEMENT
+furniture,furnishing;fixture;equipment,Element,place furniture;add furnishings,PLACE_ELEMENT
+bed,sleeping;cot;mattress,Furniture,king bed;queen bed;single bed,PLACE_ELEMENT
+table,desk;surface;counter,Furniture,dining table;coffee table;work desk,PLACE_ELEMENT
+chair,seat;seating;stool,Furniture,dining chair;office chair;armchair,PLACE_ELEMENT
+sofa,couch;settee;lounge,Furniture,3-seater sofa;sectional couch,PLACE_ELEMENT
+cabinet,cupboard;storage;wardrobe,Furniture,kitchen cabinet;wardrobe;storage cabinet,PLACE_ELEMENT
+counter,countertop;worktop;surface,Furniture,kitchen counter;bathroom counter,PLACE_ELEMENT
+sink,basin;washbasin;lavatory,Fixture,kitchen sink;bathroom sink;wash basin,PLACE_ELEMENT
+toilet,WC;commode;lavatory,Fixture,toilet fixture;water closet,PLACE_ELEMENT
+shower,bath;bathing;stall,Fixture,shower stall;walk-in shower;bathtub,PLACE_ELEMENT
+bathtub,tub;bath;soaking tub,Fixture,bathtub;freestanding tub;soaker,PLACE_ELEMENT

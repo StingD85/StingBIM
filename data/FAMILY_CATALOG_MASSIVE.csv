@@ -1,0 +1,79 @@
+FamilyID,FamilyName,Category,DefaultWidth,DefaultHeight,DefaultDepth,PlacementType,RequiresHost,DefaultMaterial,ParameterSet,Description,Application,UseCase,Manufacturer,Standard,LoadBearing
+FAM-00001,SingleDoor_700x2100_Flush,Doors,700,2100,44,Wall-hosted,TRUE,Wood,Door_Standard,Flush door 700mm wide,Interior,Bedroom/Office,Generic,BS 476 / ASTM E152,FALSE
+FAM-00002,SingleDoor_800x2100_Flush,Doors,800,2100,44,Wall-hosted,TRUE,Wood,Door_Standard,Flush door 800mm wide,Interior,General,Generic,BS 476 / ASTM E152,FALSE
+FAM-00003,SingleDoor_900x2100_Flush,Doors,900,2100,44,Wall-hosted,TRUE,Wood,Door_Standard,Standard flush door,Interior,General,Generic,BS 476 / ASTM E152,FALSE
+FAM-00004,SingleDoor_1000x2100_Flush,Doors,1000,2100,44,Wall-hosted,TRUE,Wood,Door_Standard,Wide flush door,Interior,Accessible,Generic,BS 476 / ASTM E152,FALSE
+FAM-00005,SingleDoor_800x2100_2Panel,Doors,800,2100,44,Wall-hosted,TRUE,Wood,Door_Paneled,2-panel door,Interior,Traditional,Generic,BS 476 / ASTM E152,FALSE
+FAM-00006,SingleDoor_900x2100_4Panel,Doors,900,2100,44,Wall-hosted,TRUE,Wood,Door_Paneled,4-panel door,Interior,Traditional,Generic,BS 476 / ASTM E152,FALSE
+FAM-00007,SingleDoor_900x2100_6Panel,Doors,900,2100,44,Wall-hosted,TRUE,Wood,Door_Paneled,6-panel colonial door,Interior,Traditional,Generic,BS 476 / ASTM E152,FALSE
+FAM-00008,SingleDoor_900x2100_FullGlass,Doors,900,2100,44,Wall-hosted,TRUE,Glass,Door_Glass,Full glass door,Interior,Modern,Generic,BS 476 / ASTM E152,FALSE
+FAM-00009,SingleDoor_900x2100_HalfGlass,Doors,900,2100,44,Wall-hosted,TRUE,Wood/Glass,Door_Glass,Half glass door,Interior/Exterior,Entry,Generic,BS 476 / ASTM E152,FALSE
+FAM-00010,SingleDoor_900x2100_FrenchLite,Doors,900,2100,44,Wall-hosted,TRUE,Wood/Glass,Door_French,French lite door,Exterior,Elegant,Generic,BS 476 / ASTM E152,FALSE
+FAM-00011,DoubleDoor_1400x2100_Flush,Doors,1400,2100,44,Wall-hosted,TRUE,Wood,Door_Standard,Double flush doors,Interior,Wide opening,Generic,BS 476 / ASTM E152,FALSE
+FAM-00012,DoubleDoor_1600x2100_Flush,Doors,1600,2100,44,Wall-hosted,TRUE,Wood,Door_Standard,Wide double doors,Interior,Large rooms,Generic,BS 476 / ASTM E152,FALSE
+FAM-00013,DoubleDoor_1800x2100_Flush,Doors,1800,2100,44,Wall-hosted,TRUE,Wood,Door_Standard,Extra wide double,Interior,Great rooms,Generic,BS 476 / ASTM E152,FALSE
+FAM-00014,DoubleDoor_1600x2100_French,Doors,1600,2100,44,Wall-hosted,TRUE,Wood/Glass,Door_French,French double doors,Exterior,Patio access,Generic,BS 476 / ASTM E152,FALSE
+FAM-00015,DoubleDoor_1800x2100_FrenchFull,Doors,1800,2100,44,Wall-hosted,TRUE,Wood/Glass,Door_French,Full French doors,Exterior,Garden access,Generic,BS 476 / ASTM E152,FALSE
+FAM-00016,SlidingDoor_900x2100_Single,Doors,900,2100,50,Wall-hosted,TRUE,Aluminum/Glass,Door_Sliding,Single sliding door,Interior,Space saving,Generic,BS 476 / ASTM E152,FALSE
+FAM-00017,SlidingDoor_1200x2100_Single,Doors,1200,2100,50,Wall-hosted,TRUE,Aluminum/Glass,Door_Sliding,Wide sliding door,Interior,Modern,Generic,BS 476 / ASTM E152,FALSE
+FAM-00018,SlidingDoor_1800x2100_Double,Doors,1800,2100,50,Wall-hosted,TRUE,Aluminum/Glass,Door_Sliding,Double sliding patio,Exterior,Patio,Generic,BS 476 / ASTM E152,FALSE
+FAM-00019,SlidingDoor_2400x2100_Double,Doors,2400,2100,50,Wall-hosted,TRUE,Aluminum/Glass,Door_Sliding,Wide patio slider,Exterior,Large opening,Generic,BS 476 / ASTM E152,FALSE
+FAM-00020,SlidingDoor_3000x2100_Triple,Doors,3000,2100,50,Wall-hosted,TRUE,Aluminum/Glass,Door_Sliding,Triple sliding glass,Exterior,Panoramic,Generic,BS 476 / ASTM E152,FALSE
+FAM-00021,PocketDoor_700x2100,Doors,700,2100,44,Wall-hosted,TRUE,Wood,Door_Pocket,Pocket door 700mm,Interior,Space saving,Generic,BS 476 / ASTM E152,FALSE
+FAM-00022,PocketDoor_800x2100,Doors,800,2100,44,Wall-hosted,TRUE,Wood,Door_Pocket,Pocket door 800mm,Interior,Space saving,Generic,BS 476 / ASTM E152,FALSE
+FAM-00023,PocketDoor_900x2100,Doors,900,2100,44,Wall-hosted,TRUE,Wood,Door_Pocket,Standard pocket door,Interior,Space saving,Generic,BS 476 / ASTM E152,FALSE
+FAM-00024,BifoldDoor_1200x2100_2Panel,Doors,1200,2100,44,Wall-hosted,TRUE,Wood,Door_Bifold,2-panel bifold,Interior,Closet,Generic,BS 476 / ASTM E152,FALSE
+FAM-00025,BifoldDoor_1500x2100_2Panel,Doors,1500,2100,44,Wall-hosted,TRUE,Wood,Door_Bifold,Wide 2-panel bifold,Interior,Wardrobe,Generic,BS 476 / ASTM E152,FALSE
+FAM-00026,BifoldDoor_1800x2100_4Panel,Doors,1800,2100,44,Wall-hosted,TRUE,Wood,Door_Bifold,4-panel bifold,Interior,Large closet,Generic,BS 476 / ASTM E152,FALSE
+FAM-00027,BifoldDoor_2400x2100_4Panel,Doors,2400,2100,50,Wall-hosted,TRUE,Aluminum/Glass,Door_Bifold,Patio bifold 4-panel,Exterior,Patio,Generic,BS 476 / ASTM E152,FALSE
+FAM-00028,BifoldDoor_3000x2100_5Panel,Doors,3000,2100,50,Wall-hosted,TRUE,Aluminum/Glass,Door_Bifold,Large patio bifold,Exterior,Wide opening,Generic,BS 476 / ASTM E152,FALSE
+FAM-00029,FireDoor_900x2100_30Min,Doors,900,2100,54,Wall-hosted,TRUE,Steel/Wood,Door_Fire,30-minute fire door,Interior,Fire protection,Generic,BS 476 / ASTM E152,FALSE
+FAM-00030,FireDoor_900x2100_60Min,Doors,900,2100,54,Wall-hosted,TRUE,Steel,Door_Fire,60-minute fire door,Interior/Exterior,Fire compartment,Generic,BS 476 / ASTM E152,FALSE
+FAM-00031,FireDoor_1000x2100_60Min,Doors,1000,2100,54,Wall-hosted,TRUE,Steel,Door_Fire,Wide 60-min fire door,Interior,Accessible fire door,Generic,BS 476 / ASTM E152,FALSE
+FAM-00032,FireDoor_1400x2100_60Min_Double,Doors,1400,2100,54,Wall-hosted,TRUE,Steel,Door_Fire,Double 60-min fire door,Interior,Wide fire exit,Generic,BS 476 / ASTM E152,FALSE
+FAM-00033,GarageDoor_2400x2100_Sectional,Doors,2400,2100,50,Wall-hosted,TRUE,Steel,Door_Garage,Single garage sectional,Exterior,1-car garage,Generic,BS 476 / ASTM E152,FALSE
+FAM-00034,GarageDoor_4800x2100_Sectional,Doors,4800,2100,50,Wall-hosted,TRUE,Steel,Door_Garage,Double garage sectional,Exterior,2-car garage,Generic,BS 476 / ASTM E152,FALSE
+FAM-00035,GarageDoor_7200x2100_Sectional,Doors,7200,2100,50,Wall-hosted,TRUE,Steel,Door_Garage,Triple garage sectional,Exterior,3-car garage,Generic,BS 476 / ASTM E152,FALSE
+FAM-00036,GarageDoor_2400x2100_Roller,Doors,2400,2100,50,Wall-hosted,TRUE,Aluminum,Door_Garage,Single roller garage door,Exterior,Space saving,Generic,BS 476 / ASTM E152,FALSE
+FAM-00037,GarageDoor_4800x2100_Roller,Doors,4800,2100,50,Wall-hosted,TRUE,Aluminum,Door_Garage,Double roller garage door,Exterior,Space saving,Generic,BS 476 / ASTM E152,FALSE
+FAM-00038,BarnDoor_900x2100_Single,Doors,900,2100,44,Wall-hosted,TRUE,Wood,Door_Barn,Sliding barn door,Interior,Rustic style,Generic,BS 476 / ASTM E152,FALSE
+FAM-00039,BarnDoor_1800x2100_Double,Doors,1800,2100,44,Wall-hosted,TRUE,Wood,Door_Barn,Double barn doors,Interior,Wide rustic,Generic,BS 476 / ASTM E152,FALSE
+FAM-00040,PivotDoor_1200x2400_Modern,Doors,1200,2400,50,Floor-based,FALSE,Wood/Metal,Door_Pivot,Modern pivot door,Exterior,Contemporary entry,Generic,BS 476 / ASTM E152,FALSE
+FAM-00041,DutchDoor_900x2100,Doors,900,2100,44,Wall-hosted,TRUE,Wood,Door_Dutch,Dutch split door,Exterior,Traditional,Generic,BS 476 / ASTM E152,FALSE
+FAM-00042,AcousticDoor_900x2100_STC45,Doors,900,2100,60,Wall-hosted,TRUE,Composite,Door_Acoustic,Acoustic door STC45,Interior,Sound studios,Generic,BS 476 / ASTM E152,FALSE
+FAM-00043,AcousticDoor_900x2100_STC50,Doors,900,2100,70,Wall-hosted,TRUE,Composite,Door_Acoustic,Acoustic door STC50,Interior,Recording studios,Generic,BS 476 / ASTM E152,FALSE
+FAM-00044,SecurityDoor_900x2100_Grade1,Doors,900,2100,60,Wall-hosted,TRUE,Steel,Door_Security,Grade 1 security door,Exterior,High security,Generic,BS 476 / ASTM E152,FALSE
+FAM-00045,SecurityDoor_900x2100_Grade2,Doors,900,2100,55,Wall-hosted,TRUE,Steel,Door_Security,Grade 2 security door,Exterior,Standard security,Generic,BS 476 / ASTM E152,FALSE
+FAM-00046,CleanRoomDoor_1000x2100,Doors,1000,2100,50,Wall-hosted,TRUE,Stainless Steel,Door_Cleanroom,Cleanroom door,Interior,Sterile environments,Generic,BS 476 / ASTM E152,FALSE
+FAM-00047,FixedWindow_600x600,Windows,600,600,100,Wall-hosted,TRUE,Aluminum,Window_Fixed,Small fixed window,Bathroom/Utility,Ventilation light,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00048,FixedWindow_900x600,Windows,900,600,100,Wall-hosted,TRUE,Aluminum,Window_Fixed,Horizontal fixed,Above doors,Transom,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00049,FixedWindow_600x900,Windows,600,900,100,Wall-hosted,TRUE,Aluminum,Window_Fixed,Vertical fixed,Narrow walls,Sidelight,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00050,FixedWindow_1200x1200,Windows,1200,1200,100,Wall-hosted,TRUE,Aluminum,Window_Fixed,Square fixed window,Living areas,Standard,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00051,FixedWindow_1500x1200,Windows,1500,1200,100,Wall-hosted,TRUE,Aluminum,Window_Fixed,Wide fixed window,Living rooms,View,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00052,FixedWindow_1800x1500,Windows,1800,1500,100,Wall-hosted,TRUE,Aluminum,Window_Fixed,Large fixed window,Great rooms,Picture window,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00053,FixedWindow_2400x1800,Windows,2400,1800,100,Wall-hosted,TRUE,Aluminum,Window_Fixed,Extra large fixed,Feature walls,Panoramic,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00054,CasementWindow_600x1200_Single,Windows,600,1200,100,Wall-hosted,TRUE,Aluminum,Window_Casement,Single casement,Bedrooms,Side opening,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00055,CasementWindow_900x1200_Single,Windows,900,1200,100,Wall-hosted,TRUE,Aluminum,Window_Casement,Standard casement,General,Side opening,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00056,CasementWindow_1200x1200_Double,Windows,1200,1200,100,Wall-hosted,TRUE,Aluminum,Window_Casement,Double casement,Living areas,French casement,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00057,CasementWindow_1800x1200_Double,Windows,1800,1200,100,Wall-hosted,TRUE,Aluminum,Window_Casement,Wide double casement,Dining rooms,Large opening,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00058,SlidingWindow_1200x1200_2Panel,Windows,1200,1200,100,Wall-hosted,TRUE,Aluminum,Window_Sliding,Double slider,Bedrooms,Easy operation,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00059,SlidingWindow_1500x1200_2Panel,Windows,1500,1200,100,Wall-hosted,TRUE,Aluminum,Window_Sliding,Wide double slider,Living areas,Smooth sliding,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00060,SlidingWindow_1800x1200_2Panel,Windows,1800,1200,100,Wall-hosted,TRUE,Aluminum,Window_Sliding,Extra wide slider,Large rooms,Maximum opening,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00061,SlidingWindow_2400x1200_3Panel,Windows,2400,1200,100,Wall-hosted,TRUE,Aluminum,Window_Sliding,Triple slider,Wide walls,Multi-panel,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00062,AwningWindow_900x600,Windows,900,600,100,Wall-hosted,TRUE,Aluminum,Window_Awning,Awning window,Bathrooms,Top hinged,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00063,AwningWindow_1200x600,Windows,1200,600,100,Wall-hosted,TRUE,Aluminum,Window_Awning,Wide awning,Above other windows,Ventilation,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00064,AwningWindow_1500x900,Windows,1500,900,100,Wall-hosted,TRUE,Aluminum,Window_Awning,Large awning,High walls,Weather protection,Generic,BS 6375 / ASTM E2268,FALSE
+FAM-00065,Bed_Single_1000x2000,Furniture,1000,500,2000,Floor-based,FALSE,Wood,Furniture_Bed,Single bed,Bedroom,1-person,Generic,ANSI/BIFMA,FALSE
+FAM-00066,Bed_Twin_1000x2000,Furniture,1000,500,2000,Floor-based,FALSE,Wood,Furniture_Bed,Twin bed,Bedroom,1-person,Generic,ANSI/BIFMA,FALSE
+FAM-00067,Bed_TwinXL_1000x2100,Furniture,1000,500,2100,Floor-based,FALSE,Wood,Furniture_Bed,Twin XL bed,Bedroom,Tall person,Generic,ANSI/BIFMA,FALSE
+FAM-00068,Bed_Full_1400x2000,Furniture,1400,500,2000,Floor-based,FALSE,Wood,Furniture_Bed,Full/Double bed,Bedroom,2-person,Generic,ANSI/BIFMA,FALSE
+FAM-00069,Bed_Queen_1530x2030,Furniture,1530,500,2030,Floor-based,FALSE,Wood,Furniture_Bed,Queen bed,Master Bedroom,2-person standard,Generic,ANSI/BIFMA,FALSE
+FAM-00070,Bed_King_1830x2030,Furniture,1830,500,2030,Floor-based,FALSE,Wood,Furniture_Bed,King bed,Master Bedroom,2-person large,Generic,ANSI/BIFMA,FALSE
+FAM-00071,Bed_CalKing_1830x2130,Furniture,1830,500,2130,Floor-based,FALSE,Wood,Furniture_Bed,California King,Master Bedroom,Extra long,Generic,ANSI/BIFMA,FALSE
+FAM-00072,Nightstand_400x500,Furniture,400,600,500,Floor-based,FALSE,Wood,Furniture_Storage,Nightstand,Bedroom,Bedside storage,Generic,ANSI/BIFMA,FALSE
+FAM-00073,Nightstand_500x500,Furniture,500,650,500,Floor-based,FALSE,Wood,Furniture_Storage,Large nightstand,Bedroom,Extra storage,Generic,ANSI/BIFMA,FALSE
+FAM-00074,Dresser_900x750,Furniture,900,850,450,Floor-based,FALSE,Wood,Furniture_Storage,6-drawer dresser,Bedroom,Clothing storage,Generic,ANSI/BIFMA,FALSE
+FAM-00075,Dresser_1200x750,Furniture,1200,900,450,Floor-based,FALSE,Wood,Furniture_Storage,9-drawer dresser,Bedroom,Large storage,Generic,ANSI/BIFMA,FALSE
+FAM-00076,Wardrobe_1000x2100,Furniture,1000,2100,600,Floor-based,FALSE,Wood,Furniture_Storage,Single wardrobe,Bedroom,Hanging clothes,Generic,ANSI/BIFMA,FALSE
+FAM-00077,Wardrobe_1500x2100,Furniture,1500,2100,600,Floor-based,FALSE,Wood,Furniture_Storage,Double wardrobe,Bedroom,Large hanging,Generic,ANSI/BIFMA,FALSE
+FAM-00078,Wardrobe_2000x2100_Sliding,Furniture,2000,2100,600,Floor-based,FALSE,Wood,Furniture_Storage,Sliding wardrobe,Bedroom,Space-efficient,Generic,ANSI/BIFMA,FALSE

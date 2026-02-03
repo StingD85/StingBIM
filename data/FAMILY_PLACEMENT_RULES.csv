@@ -1,0 +1,67 @@
+FamilyCategory,PlacementRule,RequiredHost,PreferredLocation,MinimumClearance_MM,PlacementConstraint,ValidationRule,Notes
+Doors,Wall-hosted,Wall,Center of wall,100,Requires opening in wall,Host_Width >= Door_Width + 200,Door needs adequate wall width
+Doors,Floor-based,None,Against wall,50,Must touch wall,Adjacent_To_Wall == True,Freestanding door frame
+Windows,Wall-hosted,Wall,Above sill height,100,Requires opening in wall,Sill_Height >= 600 AND Sill_Height <= 1200,Window positioning standard
+Windows,Roof-hosted,Roof,Roof surface,200,Roof penetration,Roof_Slope <= 45,Skylight installation
+Stairs,Floor-based,Floor,Between levels,1200,Connects two floors,Upper_Floor_Exists == True,Requires destination level
+Ramps,Floor-based,Floor,Between levels,1500,ADA compliance,Slope <= 8.33,Accessible ramp gradient
+Columns,Floor-based,Floor,Grid intersections,300,Structural grid,On_Grid == True OR Custom_Location,Column placement logic
+Beams,Line-based,Columns/Walls,Between supports,300,Structural support,Span <= Max_Span,Beam spanning limit
+Floors,Area-based,None,Level boundary,0,Covers room area,Bounded_Region == True,Floor slab extent
+Roofs,Area-based,Walls,Top of building,0,Covers building,Connects_To_Walls == True,Roof coverage
+Ceilings,Area-based,Room,Room boundary,0,Room hosted,Room_Defined == True,Ceiling in room
+Curtain_Wall,Face-based,Building face,Exterior only,0,Facade system,Is_Exterior_Face == True,Building envelope
+Kitchen_Cabinet_Base,Floor-based,Floor,Against wall,600,Wall-backed,Adjacent_To_Wall == True,Base cabinet placement
+Kitchen_Cabinet_Wall,Wall-hosted,Wall,Above counter,450,Wall mounted,Height_Above_Counter >= 450,Wall cabinet height
+Countertop,Cabinet-hosted,Base cabinet,On cabinet,0,Requires base,Base_Cabinet_Exists == True,Counter on base
+Sink_Kitchen,Counter-hosted,Countertop,In counter,300,Counter cutout,Countertop_Width >= Sink_Width + 600,Sink clearance
+Sink_Bathroom,Counter-hosted,Countertop,In counter,200,Counter cutout,Countertop_Width >= Sink_Width + 400,Vanity sink
+Sink_Bathroom,Floor-based,Floor,Against wall,150,Pedestal mount,Adjacent_To_Wall == True,Pedestal sink
+Toilet,Floor-based,Floor,Against wall,400,Plumbing connection,Adjacent_To_Wall == True AND Clearance_Front >= 600,Toilet clearance
+Shower,Floor-based,Floor,Wet area,900,Waterproofed zone,In_Wet_Area == True AND Floor_Drain_Nearby == True,Shower location
+Bathtub,Floor-based,Floor,Against wall,1700,Plumbing access,Adjacent_To_Wall == True,Tub placement
+Urinal,Wall-hosted,Wall,Bathroom,600,Wall mounted,Wall_Is_Plumbed == True,Urinal mounting
+Water_Heater,Floor-based,Floor,Utility area,600,Service access,Ventilation_Adequate == True,Heater ventilation
+AC_Unit_Split,Wall-hosted,Wall,High on wall,2000,Exterior access,Height_Above_Floor >= 2000,Indoor unit height
+AC_Unit_Window,Wall-hosted,Wall,Window opening,100,Window unit,In_Window_Opening == True,Window AC
+AC_Unit_Package,Roof-hosted,Roof,Roof surface,1000,Rooftop unit,Roof_Load_Adequate == True,RTU placement
+Furnace,Floor-based,Floor,Mechanical room,900,Service clearance,Room_Type == Utility,Furnace location
+Boiler,Floor-based,Floor,Mechanical room,900,Service clearance,Room_Type == Utility,Boiler location
+Air_Handler,Ceiling-space,Ceiling,Above ceiling,600,Concealed,Plenum_Height >= Unit_Height + 300,AHU in plenum
+Duct_Rectangular,Route-based,None,Ceiling/walls,300,MEP routing,No_Conflicts == True,Duct routing
+Duct_Round,Route-based,None,Ceiling/walls,200,MEP routing,No_Conflicts == True,Duct routing
+Diffuser,Ceiling-hosted,Ceiling,Ceiling grid,600,Air distribution,Ceiling_Type == Suspended,Diffuser in ceiling
+Grille,Ceiling-hosted,Ceiling,Ceiling grid,600,Return air,Ceiling_Type == Suspended,Return grille
+Pipe_Water,Route-based,None,Walls/floors,100,Plumbing routing,No_Conflicts == True,Water pipe routing
+Pipe_Drain,Route-based,None,Floors/walls,150,Drainage slope,Slope >= 0.5,Drainage gradient
+Pipe_Gas,Route-based,None,Exterior wall,200,Gas line,In_Ventilated_Space == True,Gas pipe safety
+Panel_Main,Wall-hosted,Wall,Service entrance,1000,Electrical service,Near_Service_Entry == True,Main panel location
+Panel_Sub,Wall-hosted,Wall,Distribution point,900,Circuit distribution,Accessible == True,Subpanel location
+Light_Recessed,Ceiling-hosted,Ceiling,Lighting grid,600,Concealed,Plenum_Depth >= Light_Depth + 50,Recessed can depth
+Light_Pendant,Ceiling-hosted,Ceiling,Feature location,2100,Suspended,Height_Above_Floor >= 2100,Pendant clearance
+Light_Surface,Ceiling-hosted,Ceiling,General lighting,0,Surface mount,Ceiling_Accessible == True,Surface fixture
+Light_Track,Ceiling-hosted,Ceiling,Accent lighting,0,Track system,Ceiling_Type == Solid,Track mounting
+Switch,Wall-hosted,Wall,Entry point,1200,Accessible,Height_Above_Floor == 1200,Switch height
+Outlet,Wall-hosted,Wall,Along walls,300,Power access,Height_Above_Floor == 300,Outlet height
+Conduit,Route-based,None,Walls/ceilings,50,Electrical routing,No_Conflicts == True,Conduit path
+Cable_Tray,Route-based,None,Ceiling,300,Cable management,In_Accessible_Space == True,Tray routing
+Bed,Floor-based,Floor,Bedroom,600,Furniture,Room_Type == Bedroom,Bed in bedroom
+Sofa,Floor-based,Floor,Living area,600,Furniture,Room_Type IN (LivingRoom;FamilyRoom),Seating area
+Chair,Floor-based,Floor,Any room,450,Furniture,Floor_Clear == True,Chair placement
+Table_Dining,Floor-based,Floor,Dining area,900,Furniture,Room_Type == DiningRoom OR Room_Type == Kitchen,Dining table
+Table_Coffee,Floor-based,Floor,Living area,600,Furniture,Room_Type == LivingRoom,Coffee table
+Desk,Floor-based,Floor,Office/bedroom,700,Furniture,Room_Type IN (Office;Bedroom),Work surface
+Wardrobe,Floor-based,Floor,Bedroom,600,Storage,Room_Type == Bedroom AND Against_Wall == True,Wardrobe location
+Bookshelf,Floor-based,Floor,Any room,300,Storage,Against_Wall == True,Shelf against wall
+Refrigerator,Floor-based,Floor,Kitchen,900,Appliance,Room_Type == Kitchen AND Power_Nearby == True,Fridge placement
+Stove,Floor-based,Floor,Kitchen,900,Appliance,Room_Type == Kitchen AND Gas_Or_Power_Available == True,Stove location
+Dishwasher,Cabinet-hosted,Cabinet,Kitchen,600,Appliance,Near_Sink == True AND Power_Available == True,Dishwasher near sink
+Washer,Floor-based,Floor,Laundry,700,Appliance,Room_Type == LaundryRoom AND Plumbing_Available == True,Washer placement
+Dryer,Floor-based,Floor,Laundry,700,Appliance,Room_Type == LaundryRoom AND Vent_Available == True,Dryer venting
+Guard_Rail,Line-based,Edge,Balcony/stairs,0,Safety barrier,Height >= 1070,Fall protection
+Handrail,Line-based,Stairs/ramps,Along path,900,Accessibility,Continuous == True,Handrail continuity
+Sprinkler,Ceiling-hosted,Ceiling,Fire protection,2100,Fire safety,Coverage_Adequate == True,Sprinkler coverage
+Smoke_Detector,Ceiling-hosted,Ceiling,Life safety,0,Fire alarm,Code_Compliant_Location == True,Detector placement
+Fire_Extinguisher,Wall-hosted,Wall,Accessible,1200,Fire safety,Height_To_Top <= 1200,Extinguisher height
+Exit_Sign,Wall-hosted,Wall/Door,Egress path,2100,Life safety,Above_Exit == True,Exit signage
+Emergency_Light,Ceiling-hosted,Ceiling,Egress path,2400,Life safety,Illuminates_Exit == True,Emergency lighting

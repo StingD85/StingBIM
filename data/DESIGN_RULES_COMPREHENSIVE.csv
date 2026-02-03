@@ -1,0 +1,79 @@
+RuleID,RuleName,Description,Code_Reference,Priority,Applies_To,Building_Type,Requirement,Category,Notes
+DR-IBC-001,Bedroom Minimum Area,Habitable rooms minimum 70 sq ft (6.5 m²),IBC 1208.2,Critical,Bedroom;Habitable-Room,Residential,Area >= 6.5 m²,Occupancy,Ensure minimum livable space
+DR-IBC-002,Bedroom Minimum Width,Bedrooms minimum 7 feet (2.13 m) in any dimension,IBC 1208.2,Critical,Bedroom,Residential,Width >= 2.13 m,Dimensional,Furniture placement
+DR-IBC-003,Ceiling Height Habitable,"Habitable rooms minimum 7'6"" (2.28 m) ceiling height",IBC 1208.2,Critical,Bedroom;Living;Dining,Residential,Height >= 2.28 m,Dimensional,Livable space requirement
+DR-IBC-004,Bathroom Ceiling Height,"Bathrooms minimum 6'8"" (2.03 m) ceiling height",IBC 1208.2,High,Bathroom,All,Height >= 2.03 m,Dimensional,Reduced height acceptable
+DR-IBC-005,Natural Light Required,Habitable rooms minimum 8% floor area as glazed openings,IBC 1205.2,High,Bedroom;Living;Dining,Residential,Window_Area >= 0.08 * Floor_Area,Light-Air,Natural light requirement
+DR-IBC-006,Natural Ventilation,Ventilation openings minimum 4% of floor area,IBC 1205.4,High,Habitable-Room,All,Operable_Window >= 0.04 * Floor_Area,Light-Air,Unless mechanical ventilation
+DR-IBC-007,Egress Window Required,Bedrooms require egress window minimum 5.7 sq ft,IBC 1030,Critical,Bedroom,Residential,Egress_Window >= 0.53 m²,Life-Safety,Emergency escape
+DR-IBC-008,Egress Window Height,"Egress window minimum 24"" (610 mm) height",IBC 1030.2,Critical,Bedroom,Residential,Window_Height >= 610 mm,Life-Safety,Emergency escape
+DR-IBC-009,Egress Window Width,"Egress window minimum 20"" (508 mm) width",IBC 1030.2,Critical,Bedroom,Residential,Window_Width >= 508 mm,Life-Safety,Emergency escape
+DR-IBC-010,Egress Sill Height,"Egress window sill maximum 44"" (1118 mm) above floor",IBC 1030.2,Critical,Bedroom,Residential,Sill_Height <= 1118 mm,Life-Safety,Accessible escape
+DR-IBC-011,Door Width Minimum,"Doors minimum 32"" (813 mm) clear width",IBC 1010.1.1,High,All-Rooms,All,Door_Clear >= 813 mm,Accessibility,Wheelchair access
+DR-IBC-012,Door Height Minimum,"Doors minimum 80"" (2032 mm) height",IBC 1010.1.1,High,All-Rooms,All,Door_Height >= 2032 mm,Dimensional,Standard clearance
+DR-IBC-013,Corridor Width Residential,"Corridors minimum 36"" (914 mm) width",IBC 1020.2,High,Corridor;Hallway,Residential,Width >= 914 mm,Egress,Evacuation path
+DR-IBC-014,Corridor Width Commercial,"Commercial corridors minimum 44"" (1118 mm) width",IBC 1020.2,Critical,Corridor;Hallway,Commercial,Width >= 1118 mm,Egress,Higher occupancy
+DR-IBC-015,Stair Width Residential,"Residential stairs minimum 36"" (914 mm) clear width",IBC 1011.2,Critical,Stair,Residential,Width >= 914 mm,Egress,Evacuation
+DR-IBC-016,Stair Width Commercial,"Commercial stairs minimum 44"" (1118 mm) clear width",IBC 1011.2,Critical,Stair,Commercial,Width >= 1118 mm,Egress,Higher capacity
+DR-IBC-017,Stair Riser Height Max,"Stair risers maximum 7.75"" (197 mm) height",IBC 1011.5.2,Critical,Stair,All,Riser_Height <= 197 mm,Life-Safety,Safe climbing
+DR-IBC-018,Stair Tread Depth Min,"Stair treads minimum 10"" (254 mm) depth",IBC 1011.5.2,Critical,Stair,All,Tread_Depth >= 254 mm,Life-Safety,Safe footing
+DR-IBC-019,Handrail Height,"Handrails 34""-38"" (864-965 mm) above nosing",IBC 1014.2,Critical,Stair;Ramp,All,864 mm <= Handrail <= 965 mm,Life-Safety,Proper grip height
+DR-IBC-020,Handrail Required,Stairs with 4+ risers require handrails,IBC 1014.1,Critical,Stair,All,Risers >= 4 => Handrail,Life-Safety,Fall prevention
+DR-IBC-021,Guard Height,"Guards minimum 42"" (1067 mm) above floor",IBC 1015.2,Critical,Balcony;Mezzanine;Landing,All,Guard_Height >= 1067 mm,Life-Safety,Fall protection
+DR-IBC-022,Guard Opening,"Guard openings maximum 4"" (102 mm) sphere",IBC 1015.3,Critical,Balcony;Stair,All,Opening_Sphere <= 102 mm,Life-Safety,Child safety
+DR-IBC-023,Ramp Slope Maximum,Ramps maximum 1:12 (8.33%) slope,IBC 1012.2,Critical,Ramp,All,Slope <= 8.33%,Accessibility,Wheelchair access
+DR-IBC-024,Ramp Landing,"Ramps require 60"" (1524 mm) landings every 30"" rise",IBC 1012.6,Critical,Ramp,All,Landing_Every_762mm,Accessibility,Rest platforms
+DR-IBC-025,Toilet Room Size,"Toilet rooms minimum 30"" x 60"" (762 x 1524 mm) clear",IBC 1109.2,High,Bathroom;Toilet,All,Clear_Space >= 762x1524 mm,Accessibility,Wheelchair turning
+DR-IBC-026,Water Closet Clearance,"Toilets require 21"" (533 mm) front clearance minimum",IBC 1109.2,High,Bathroom;Toilet,All,Front_Clear >= 533 mm,Accessibility,Transfer space
+DR-IBC-027,Shower Size Minimum,"Showers minimum 30"" x 30"" (762 x 762 mm)",IBC 1109.6,Medium,Bathroom;Shower,Residential,Shower_Size >= 762x762 mm,Functional,Usable space
+DR-IBC-028,Accessible Shower,"Accessible showers 36"" x 36"" (914 x 914 mm) minimum",IBC 1109.6,High,Bathroom;Shower,Commercial,Shower_Size >= 914x914 mm,Accessibility,Wheelchair access
+DR-IBC-029,Fire Separation Distance,Exterior walls within 5' (1524 mm) fire-rated,IBC 705.8,Critical,Exterior-Wall,All,Wall_Rating based on distance,Fire-Safety,Fire spread prevention
+DR-IBC-030,Fire Resistance Assembly,Type V construction minimum 1-hour floor/ceiling,IBC 602.4,Critical,Floor;Ceiling,Multi-Story,Rating >= 60 min,Fire-Safety,Fire compartmentation
+DR-IBC-031,Smoke Alarm Required,Smoke alarms required in all bedrooms,IBC 907.2.11,Critical,Bedroom,Residential,Smoke_Detector = TRUE,Life-Safety,Early warning
+DR-IBC-032,CO Detector Required,Carbon monoxide detectors required with fuel-burning appliances,IBC 908.7,Critical,Near-Garage;Utility,Residential,CO_Detector = TRUE,Life-Safety,Poison gas detection
+DR-IBC-033,Kitchen Ventilation,Kitchens require ventilation 100 CFM or range hood,IBC 1203.4,High,Kitchen,All,Ventilation >= 100 CFM,Health,Cooking fume removal
+DR-IBC-034,Bathroom Ventilation,Bathrooms require 50 CFM exhaust or window,IBC 1203.4.2,High,Bathroom,All,Exhaust >= 50 CFM OR Window,Health,Moisture control
+DR-IBC-035,Tempered Glass Required,Glass adjacent to doors requires tempering,IBC 2406.4,Critical,Window;Door,All,Tempered_Glass near doors,Life-Safety,Breakage safety
+DR-IBC-036,Glazing Height Hazard,"Glazing within 60"" (1524 mm) of floor requires safety glazing",IBC 2406.4,Critical,Window;Door,All,Safety_Glazing if < 1524 mm,Life-Safety,Impact safety
+DR-IBC-037,Stairway Lighting,Stairs require minimum 1 fc (11 lux) illumination,IBC 1006.1,High,Stair,All,Lighting >= 11 lux,Life-Safety,Safe navigation
+DR-IBC-038,Accessible Route Width,"Accessible routes minimum 36"" (914 mm) clear",IBC 1104.2,High,Corridor;Path,Commercial,Clear_Width >= 914 mm,Accessibility,Wheelchair passage
+DR-IBC-039,Accessible Door Threshold,"Thresholds maximum 0.5"" (13 mm) height",IBC 1010.8,High,Door,Commercial,Threshold <= 13 mm,Accessibility,Wheelchair rolling
+DR-IBC-040,Landing at Doors,"Doors require 60"" (1524 mm) landing on egress side",IBC 1010.1.6,High,Door,All,Landing >= 1524 mm,Life-Safety,Safe exit
+DR-ADA-001,Accessible Route Required,Minimum one accessible route to all public areas,ADA 206.2,Critical,All-Public,Commercial,Accessible_Route = TRUE,Accessibility,Equal access
+DR-ADA-002,Accessible Route Width,"Accessible routes minimum 36"" (915 mm) clear width",ADA 403.5.1,Critical,Corridor;Path,Commercial,Width >= 915 mm,Accessibility,Wheelchair passage
+DR-ADA-003,Passing Space,"Passing spaces minimum 60"" x 60"" (1525 x 1525 mm) every 200' (61 m)",ADA 403.5.3,High,Corridor,Commercial,Passing_Space every 61 m,Accessibility,Two wheelchairs pass
+DR-ADA-004,Door Clear Width,"Doors require 32"" (815 mm) clear opening",ADA 404.2.3,Critical,Door,Commercial,Clear_Width >= 815 mm,Accessibility,Wheelchair passage
+DR-ADA-005,Door Operating Force,Interior doors maximum 5 lbf (22 N) opening force,ADA 404.2.9,High,Door,Commercial,Force <= 22 N,Accessibility,Easy operation
+DR-ADA-006,Door Maneuvering Clear,Doors require maneuvering clearances per approach,ADA 404.2.4,Critical,Door,Commercial,Clear per approach type,Accessibility,Wheelchair positioning
+DR-ADA-007,Door Hardware Height,"Door hardware 34""-48"" (864-1219 mm) above floor",ADA 404.2.7,High,Door,Commercial,864 mm <= Hardware <= 1219 mm,Accessibility,Reachable height
+DR-ADA-008,Ramp Slope,Ramps maximum 1:12 (8.33%) slope,ADA 405.2,Critical,Ramp,Commercial,Slope <= 8.33%,Accessibility,Wheelchair climbing
+DR-ADA-009,Ramp Width,"Ramps minimum 36"" (915 mm) clear width",ADA 405.5,Critical,Ramp,Commercial,Width >= 915 mm,Accessibility,Wheelchair passage
+DR-ADA-010,Ramp Landing Length,"Ramp landings minimum 60"" (1525 mm) length",ADA 405.7,Critical,Ramp,Commercial,Landing >= 1525 mm,Accessibility,Wheelchair stopping
+DR-ADA-011,Ramp Handrails,Ramps steeper than 1:20 require handrails both sides,ADA 405.8,Critical,Ramp,Commercial,Handrails if slope > 5%,Accessibility,Support and guidance
+DR-ADA-012,Toilet Room Size,"Accessible toilet rooms minimum 60"" (1525 mm) turning diameter",ADA 603.2.1,Critical,Bathroom;Toilet,Commercial,Turning_Circle >= 1525 mm,Accessibility,Wheelchair turning
+DR-ADA-013,Water Closet Location,"Accessible toilets 16""-18"" (406-457 mm) from side wall",ADA 604.2,Critical,Bathroom;Toilet,Commercial,406 mm <= Centerline <= 457 mm,Accessibility,Transfer positioning
+DR-ADA-014,Water Closet Clear Floor,"Toilets require 60"" x 56"" (1525 x 1422 mm) clear floor",ADA 604.3,Critical,Bathroom;Toilet,Commercial,Clear >= 1525x1422 mm,Accessibility,Wheelchair positioning
+DR-ADA-015,Grab Bar at Toilet,"Toilets require 42"" (1067 mm) side grab bar",ADA 604.5,Critical,Bathroom;Toilet,Commercial,Grab_Bar_Side = 1067 mm,Accessibility,Transfer support
+DR-ADA-016,Lavatory Clear Floor,"Lavatories require 30"" x 48"" (762 x 1219 mm) clear floor",ADA 606.2,Critical,Bathroom;Sink,Commercial,Clear >= 762x1219 mm,Accessibility,Wheelchair approach
+DR-ADA-017,Lavatory Knee Clearance,"Lavatories minimum 27"" (686 mm) knee clearance",ADA 606.3,Critical,Bathroom;Sink,Commercial,Knee_Clear >= 686 mm,Accessibility,Wheelchair under sink
+DR-ADA-018,Shower Size Transfer,"Transfer showers 36"" x 36"" (915 x 915 mm)",ADA 608.2.1,Critical,Bathroom;Shower,Commercial,Shower = 915x915 mm,Accessibility,Transfer from wheelchair
+DR-ADA-019,Shower Clear Floor,"Showers require 36"" x 48"" (915 x 1219 mm) clear floor",ADA 608.2.2,Critical,Bathroom;Shower,Commercial,Clear >= 915x1219 mm,Accessibility,Wheelchair positioning
+DR-ADA-020,Reach Range High,"Controls maximum 48"" (1219 mm) above floor",ADA 308.2.1,High,All,Commercial,Control_Height <= 1219 mm,Accessibility,Forward reach limit
+DR-ADA-021,Reach Range Low,"Controls minimum 15"" (381 mm) above floor",ADA 308.2.1,High,All,Commercial,Control_Height >= 381 mm,Accessibility,Low reach limit
+DR-ADA-022,Counter Height,"Accessible counters 28""-34"" (711-864 mm) above floor",ADA 902.3,High,Counter;Desk,Commercial,711 mm <= Height <= 864 mm,Accessibility,Seated use
+DR-ADA-023,Protruding Objects,"Objects protruding 4""-12"" (102-305 mm) limited to 80"" (2032 mm) height",ADA 307.2,Critical,Corridor,Commercial,Protrusion rules apply,Life-Safety,Head clearance
+DR-ADA-024,Turning Space,"Accessible spaces require 60"" (1525 mm) turning diameter or T-turn",ADA 304.3,Critical,Room,Commercial,Turning >= 1525 mm dia,Accessibility,Wheelchair maneuver
+DR-ADA-025,Accessible Parking Space,"Accessible parking minimum 96"" (2438 mm) width",ADA 502.2,Critical,Parking,Commercial,Space_Width >= 2438 mm,Accessibility,Vehicle access
+DR-ADA-026,Parking Aisle Width,"Accessible parking aisle minimum 60"" (1525 mm) width",ADA 502.3,Critical,Parking,Commercial,Aisle_Width >= 1525 mm,Accessibility,Wheelchair deployment
+DR-ADA-027,Signage Height,"Signs 48""-60"" (1219-1524 mm) above floor centerline",ADA 703.4.1,Medium,All,Commercial,1219 mm <= Sign <= 1524 mm,Accessibility,Readable height
+DR-ADA-028,Elevator Size,"Elevators minimum 68"" x 51"" (1727 x 1295 mm) clear",ADA 407.4.1,Critical,Elevator,Commercial,Clear >= 1727x1295 mm,Accessibility,Wheelchair cab size
+DR-ADA-029,Elevator Door Width,"Elevator doors minimum 36"" (915 mm) clear",ADA 407.3.6,Critical,Elevator,Commercial,Door_Clear >= 915 mm,Accessibility,Wheelchair entry
+DR-ADA-030,Platform Lift,Platform lifts permitted for max 12' (3658 mm) travel,ADA 206.7,High,Lift,Commercial,Travel <= 3658 mm,Accessibility,Vertical access alternative
+DR-ASHRAE-001,Bedroom Ventilation,Bedrooms require 5 CFM/person continuous,ASHRAE 62.2,High,Bedroom,Residential,Ventilation >= 5 CFM/person,Health,Fresh air supply
+DR-ASHRAE-002,Living Area Ventilation,Living areas require 0.03 CFM/sq ft continuous,ASHRAE 62.2,High,Living;Dining;Family,Residential,Ventilation >= 0.03*Area CFM,Health,Fresh air supply
+DR-ASHRAE-003,Whole House Ventilation,Whole house minimum 7.5 CFM/person + 3 CFM/100 sq ft,ASHRAE 62.2,Critical,Whole-House,Residential,Complex formula,Health,Total ventilation
+DR-ASHRAE-004,Kitchen Exhaust,Kitchens require 100 CFM intermittent or 25 CFM continuous,ASHRAE 62.2,High,Kitchen,Residential,100 CFM intermittent,Health,Cooking fume removal
+DR-ASHRAE-005,Bathroom Exhaust,Bathrooms require 50 CFM intermittent or 20 CFM continuous,ASHRAE 62.2,High,Bathroom,Residential,50 CFM intermittent,Health,Moisture and odor
+DR-ASHRAE-006,Office Ventilation,Offices require 5 CFM/person outdoor air,ASHRAE 62.1,Critical,Office,Commercial,OA >= 5 CFM/person,Health,Indoor air quality
+DR-ASHRAE-007,Conference Room Ventilation,Conference rooms require 5 CFM/person,ASHRAE 62.1,Critical,Conference,Commercial,OA >= 5 CFM/person,Health,CO2 control
+DR-ASHRAE-008,Classroom Ventilation,Classrooms require 10 CFM/person,ASHRAE 62.1,Critical,Classroom;Training,Commercial,OA >= 10 CFM/person,Health,Student concentration

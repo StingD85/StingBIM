@@ -1,0 +1,47 @@
+EquipmentID,Name,Category,Width_MM,Height_MM,Depth_MM,Location,Mounting,Material,Heating_kW,Cooling_kW,Airflow_CFM,Description,Application,Standard,Cost_USD,Cost_UGX
+MEP-HVAC-001,AHU Packaged Rooftop 5-Ton,HVAC-Equipment,1500,1200,900,Roof,Rooftop Unit,Metal/Insulated,17.6,5.0,2500,Packaged rooftop unit,Small commercial,AHRI 210/240,5000,18500000
+MEP-HVAC-002,AHU Packaged Rooftop 10-Ton,HVAC-Equipment,2000,1400,1100,Roof,Rooftop Unit,Metal/Insulated,35.2,10.0,4500,Packaged rooftop unit,Medium commercial,AHRI 210/240,8000,29600000
+MEP-HVAC-003,AHU Packaged Rooftop 20-Ton,HVAC-Equipment,2800,1600,1300,Roof,Rooftop Unit,Metal/Insulated,70.4,20.0,8500,Large packaged unit,Large commercial,AHRI 210/240,15000,55500000
+MEP-HVAC-004,AHU Custom Built 30000-CFM,HVAC-Equipment,3500,2200,2000,Mechanical,Built-Up,Metal/Insulated,850,100.0,30000,Custom built-up AHU,Large building,AHRI 430,35000,129500000
+MEP-HVAC-005,AHU Custom Built 50000-CFM,HVAC-Equipment,4500,2500,2200,Mechanical,Built-Up,Metal/Insulated,1407,150.0,50000,Large custom AHU,Hospital/University,AHRI 430,55000,203500000
+MEP-HVAC-006,Mini-Split 1-Ton Wall,HVAC-Equipment,800,300,200,Wall,Wall-Mounted,Plastic/Metal,3.5,1.0,400,Ductless mini-split indoor,Single room,AHRI 210/240,800,2960000
+MEP-HVAC-007,Mini-Split 1.5-Ton Wall,HVAC-Equipment,900,320,220,Wall,Wall-Mounted,Plastic/Metal,5.3,1.5,550,Ductless mini-split indoor,Large room,AHRI 210/240,1000,3700000
+MEP-HVAC-008,Mini-Split 2-Ton Ceiling,HVAC-Equipment,950,250,650,Ceiling,Ceiling-Cassette,Plastic/Metal,7.0,2.0,700,Ceiling cassette unit,Office/Retail,AHRI 210/240,1500,5550000
+MEP-HVAC-009,Multi-Split Outdoor 5-Ton,HVAC-Equipment,1000,800,350,Exterior,Wall/Ground,Metal,17.6,5.0,0,Multi-zone outdoor unit,Multiple rooms,AHRI 210/240,4000,14800000
+MEP-HVAC-010,VRF Outdoor Unit 20-Ton,HVAC-Equipment,1800,1800,750,Exterior,Ground-Mounted,Metal,70.4,20.0,0,VRF/VRV outdoor condensing,Large multi-zone,AHRI 1230,25000,92500000
+MEP-HVAC-011,Furnace Gas 80% AFUE 60k-BTU,HVAC-Equipment,450,900,600,Mechanical/Basement,Floor-Standing,Metal,17.6,0,600,Natural gas furnace,Residential heating,AHRI 210/240,1500,5550000
+MEP-HVAC-012,Furnace Gas 95% AFUE 100k-BTU,HVAC-Equipment,550,1100,650,Mechanical/Basement,Floor-Standing,Metal,29.3,0,850,High-efficiency gas furnace,Large residential,AHRI 210/240,2500,9250000
+MEP-HVAC-013,Boiler Gas Condensing 199k-BTU,HVAC-Equipment,650,1200,700,Mechanical,Floor-Standing,Metal/Cast-Iron,58.3,0,0,Condensing gas boiler,Hydronic heating,AHRI 1500,4500,16650000
+MEP-HVAC-014,Boiler Gas 500k-BTU Commercial,HVAC-Equipment,900,1800,1100,Mechanical,Floor-Standing,Steel,146.5,0,0,Commercial gas boiler,Large building,ASME,15000,55500000
+MEP-HVAC-015,Chiller Air-Cooled 50-Ton,HVAC-Equipment,2200,2000,1200,Roof/Grade,Outdoor,Metal,0,50.0,0,Air-cooled chiller,Medium commercial,AHRI 550/590,35000,129500000
+MEP-HVAC-016,Chiller Water-Cooled 150-Ton,HVAC-Equipment,2500,2200,1800,Mechanical,Indoor,Metal,0,150.0,0,Water-cooled chiller,Central plant,AHRI 550/590,80000,296000000
+MEP-HVAC-017,Cooling Tower 200-Ton,HVAC-Equipment,3000,3500,3000,Roof,Rooftop,FRP/Metal,0,200.0,15000,Induced draft cooling tower,Chiller heat rejection,CTI STD-201,45000,166500000
+MEP-PLM-001,Water Heater Tank Gas 40-Gal,Plumbing-Equipment,500,1500,500,Mechanical/Utility,Floor-Standing,Steel/Glass-Lined,12.0,0.59,151,Residential gas water heater,6-person household,ANSI Z21.10.1,600,2220000
+MEP-PLM-002,Water Heater Tank Gas 50-Gal,Plumbing-Equipment,550,1550,550,Mechanical/Utility,Floor-Standing,Steel/Glass-Lined,15.1,0.59,189,Large residential gas,8-person household,ANSI Z21.10.1,750,2775000
+MEP-PLM-003,Water Heater Tank Electric 50-Gal,Plumbing-Equipment,550,1450,550,Mechanical/Utility,Floor-Standing,Steel/Glass-Lined,0,4.5,189,Electric water heater,All-electric home,UL 174,700,2590000
+MEP-PLM-004,Water Heater Tankless Gas,Plumbing-Equipment,450,650,250,Wall,Wall-Mounted,Stainless-Steel,0,8.0,0,On-demand gas heater,Energy efficient,ANSI Z21.10.3,1200,4440000
+MEP-PLM-005,Water Heater Tankless Electric,Plumbing-Equipment,350,500,150,Wall,Wall-Mounted,Plastic/Copper,0,27.0,0,Electric tankless heater,Point-of-use,UL 499,800,2960000
+MEP-PLM-006,Water Heater Commercial 119-Gal,Plumbing-Equipment,750,2000,750,Mechanical,Floor-Standing,Steel,45.2,2.9,450,Commercial gas heater,Restaurant/Hotel,ANSI Z21.10.3,3500,12950000
+MEP-PLM-007,Pump Circulator Bronze 1/6-HP,Plumbing-Equipment,150,200,120,Mechanical/Pipe,In-Line,Bronze/Cast-Iron,0.125,0,0,Hydronic circulator pump,Residential heating,ASME B73.1,350,1295000
+MEP-PLM-008,Pump Circulator 1/2-HP Variable,Plumbing-Equipment,200,250,150,Mechanical/Pipe,In-Line,Bronze/Cast-Iron,0.37,0,0,Variable speed circulator,Efficient heating,ASME B73.1,800,2960000
+MEP-PLM-009,Pump Sump 1/3-HP Submersible,Plumbing-Equipment,250,400,250,Sump-Pit,Submersible,Thermoplastic,0.25,0,50,Sump pump drainage,Basement protection,UL 778,200,740000
+MEP-PLM-010,Pump Sewage Ejector 1/2-HP,Plumbing-Equipment,300,500,300,Ejector-Pit,Submersible,Cast-Iron,0.37,0,40,Sewage ejector pump,Below-grade plumbing,UL 778,600,2220000
+MEP-PLM-011,Pump Booster Multistage 3-HP,Plumbing-Equipment,400,600,350,Mechanical,Floor-Mounted,Stainless-Steel,2.24,0,150,Multistage booster pump,Water pressure boost,ASME B73.1,2500,9250000
+MEP-PLM-012,Water Softener 48000-Grain,Plumbing-Equipment,450,1400,450,Mechanical/Utility,Floor-Standing,FRP,0,0,0,Ion exchange water softener,Hard water treatment,NSF/ANSI 44,1200,4440000
+MEP-PLM-013,Water Filter Whole-House Carbon,Plumbing-Equipment,300,1200,300,Mechanical/Utility,Floor/Wall,Plastic,0,0,15,Activated carbon filter,Chlorine/odor removal,NSF/ANSI 42,600,2220000
+MEP-PLM-014,UV Water Purifier 12-GPM,Plumbing-Equipment,150,900,150,Mechanical/Utility,Wall/Pipe,Stainless-Steel,0.04,0,45,UV disinfection system,Bacteria/virus kill,NSF/ANSI 55,800,2960000
+MEP-PLM-015,Backflow Preventer RPZ 2-Inch,Plumbing-Equipment,400,450,300,Exterior/Mechanical,Inline,Bronze,0,0,0,Reduced pressure zone device,Potable water protection,ASSE 1013,1500,5550000
+MEP-ELC-001,Panel Main Residential 200-Amp,Electrical-Equipment,450,800,150,Garage/Utility,Wall-Mounted,Steel,48.0,0,0,200A main breaker panel,Residential service,UL 67,400,1480000
+MEP-ELC-002,Panel Sub 100-Amp 24-Circuit,Electrical-Equipment,350,700,120,Various,Wall-Mounted,Steel,24.0,0,0,100A subpanel,Remote distribution,UL 67,250,925000
+MEP-ELC-003,Panel Commercial 400-Amp MLO,Electrical-Equipment,600,1200,200,Electrical-Room,Wall/Floor,Steel,96.0,0,0,400A main lug only panel,Commercial distribution,UL 67,1500,5550000
+MEP-ELC-004,Panelboard Lighting 225-Amp,Electrical-Equipment,500,1000,150,Electrical-Room,Wall-Mounted,Steel,54.0,0,0,Lighting panelboard,Branch circuits,UL 67,800,2960000
+MEP-ELC-005,Switchboard 1200-Amp 480V,Electrical-Equipment,1800,2200,800,Electrical-Room,Floor-Mounted,Steel,288.0,0,0,Main distribution switchboard,Large building service,UL 891,8000,29600000
+MEP-ELC-006,Transformer Dry 15-kVA,Electrical-Equipment,500,700,400,Electrical-Room,Floor/Wall,Steel/Copper,15.0,0,0,480V to 208V transformer,Voltage conversion,UL 1561,1200,4440000
+MEP-ELC-007,Transformer Dry 45-kVA,Electrical-Equipment,700,900,500,Electrical-Room,Floor-Mounted,Steel/Copper,45.0,0,0,480V to 208V transformer,Medium commercial,UL 1561,2800,10360000
+MEP-ELC-008,Transformer Dry 75-kVA,Electrical-Equipment,800,1100,600,Electrical-Room,Floor-Mounted,Steel/Copper,75.0,0,0,480V to 208V transformer,Large loads,UL 1561,4000,14800000
+MEP-ELC-009,Transformer Pad-Mount 500-kVA,Electrical-Equipment,1800,1600,1200,Exterior-Pad,Pad-Mounted,Steel/Oil,500.0,0,0,Utility voltage transformer,Building service entrance,IEEE C57.12.28,25000,92500000
+MEP-ELC-010,Generator Diesel 20-kW,Electrical-Equipment,1200,1000,700,Exterior-Pad,Outdoor,Steel,20.0,0,0,Standby diesel generator,Emergency power,UL 2200,8000,29600000
+MEP-ELC-011,Generator Diesel 100-kW,Electrical-Equipment,2200,1800,1000,Exterior-Pad/Room,Outdoor/Indoor,Steel,100.0,0,0,Standby generator large,Building backup,UL 2200,35000,129500000
+MEP-ELC-012,UPS Online 10-kVA,Electrical-Equipment,450,900,700,IT-Room,Floor/Rack,Steel/Battery,10.0,0,0,Uninterruptible power supply,Server protection,UL 1778,4000,14800000
+MEP-ELC-013,UPS Online 30-kVA,Electrical-Equipment,600,1200,800,Electrical-Room,Floor-Mounted,Steel/Battery,30.0,0,0,Large UPS system,Data center,UL 1778,12000,44400000
+MEP-ELC-014,ATS Automatic 200-Amp,Electrical-Equipment,500,800,300,Electrical-Room,Wall-Mounted,Steel,48.0,0,0,Automatic transfer switch,Generator switchover,UL 1008,2500,9250000

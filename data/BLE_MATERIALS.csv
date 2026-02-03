@@ -1,0 +1,65 @@
+Category,MaterialName,Manufacturer,Model,Color,ThermalConductivity,Density,Cost_Per_Unit,Unit,Thickness_MM,FireRating_Min,AcousticRating_STC,Sustainability,Application,Notes
+Wall,Concrete_C30,Generic,C30/37,Gray,1.4,2400,15000,m³,200,120,48,Medium,Structural walls,Standard concrete for walls
+Wall,Brick_Common,Generic,Clay Brick,Red,0.8,1800,500,1000 units,100,60,45,High,Masonry walls,Common clay brick
+Wall,Brick_Engineering,Generic,Engineering Brick,Blue,1.2,2100,750,1000 units,100,90,48,Medium,Load-bearing walls,High-strength brick
+Wall,Block_Concrete_Hollow,Generic,Hollow Block,Gray,0.6,1400,8000,m³,200,90,42,Medium,Partition walls,Lightweight block
+Wall,Block_Concrete_Solid,Generic,Solid Block,Gray,1.3,2200,12000,m³,200,120,50,Medium,Structural walls,Dense concrete block
+Wall,Gypsum_Board_Standard,Generic,12.5mm Drywall,White,0.25,800,8000,m²,12.5,30,35,Low,Interior partitions,Standard gypsum board
+Wall,Gypsum_Board_Fire,Generic,Fire-Rated Drywall,Pink,0.25,850,12000,m²,12.5,60,35,Low,Fire-rated walls,Type X gypsum board
+Wall,Gypsum_Board_Moisture,Generic,Green Board,Green,0.25,820,10000,m²,12.5,30,35,Low,Wet areas,Moisture-resistant board
+Wall,Cement_Board,Generic,Fiber Cement,Gray,0.30,1200,15000,m²,12,30,32,Medium,Wet areas,Waterproof backer board
+Wall,Metal_Stud_Steel,Generic,C-Section 100mm,Galvanized,50,7850,5000,linear m,1.2,60,0,Low,Framing,Steel wall framing
+Wall,Wood_Stud_Timber,Generic,100x50mm Stud,Natural,0.12,550,3000,linear m,50,45,0,High,Framing,Timber wall framing
+Wall,Insulation_Fiberglass,Generic,R-3.5 Batt,Yellow,0.04,12,4000,m²,100,0,0,Low,Thermal insulation,Fiberglass batt insulation
+Wall,Insulation_Rockwool,Generic,Mineral Wool,Gray,0.035,150,8000,m²,100,120,48,Medium,Fire/acoustic,Stone wool insulation
+Wall,Insulation_Foam_Rigid,Generic,XPS Board,Blue,0.03,35,12000,m²,50,30,0,Low,Thermal insulation,Extruded polystyrene
+Wall,Plaster_Cement,Generic,Sand-Cement,Gray,0.8,1800,6000,m²,15,30,0,Medium,Wall finish,Cement plaster render
+Wall,Paint_Acrylic,Generic,Emulsion Paint,Various,0.2,1000,800,m²,0.2,0,0,Medium,Wall finish,Interior paint
+Ceiling,Gypsum_Board_Ceiling,Generic,12.5mm Ceiling,White,0.25,800,8000,m²,12.5,30,35,Low,Suspended ceiling,Gypsum ceiling board
+Ceiling,Tile_Acoustic_Mineral,Generic,600x600 Tile,White,0.06,350,15000,m²,15,0,40,Low,Acoustic ceiling,Mineral fiber tile
+Ceiling,Tile_Acoustic_Metal,Generic,600x600 Metal,Aluminum,204,2700,25000,m²,1,0,30,Low,Commercial ceiling,Perforated metal tile
+Ceiling,Grid_Suspended_Steel,Generic,T-Grid System,White,50,7850,8000,m²,0.5,30,0,Low,Ceiling support,Suspended ceiling grid
+Floor,Concrete_Slab_C30,Generic,C30/37 Slab,Gray,1.4,2400,15000,m³,200,120,48,Medium,Floor structure,Structural concrete slab
+Floor,Screed_Cement,Generic,Sand-Cement Screed,Gray,1.2,2000,8000,m³,50,0,0,Medium,Floor leveling,Floor screed
+Floor,Tile_Ceramic,Generic,Porcelain Tile,Various,1.3,2300,35000,m²,10,0,0,Low,Floor finish,Ceramic floor tile
+Floor,Tile_Granite,Generic,Granite Tile,Various,2.8,2650,80000,m²,20,0,0,High,Premium flooring,Natural stone tile
+Floor,Tile_Marble,Generic,Marble Tile,Various,2.5,2700,120000,m²,20,0,0,High,Premium flooring,Natural stone tile
+Floor,Vinyl_LVT,Generic,Luxury Vinyl,Various,0.17,1500,25000,m²,5,0,0,Low,Resilient flooring,Luxury vinyl tile
+Floor,Carpet_Commercial,Generic,Loop Pile,Various,0.06,400,20000,m²,8,0,28,Low,Commercial flooring,Commercial grade carpet
+Floor,Wood_Hardwood,Generic,Oak Flooring,Natural,0.17,720,60000,m²,18,0,0,High,Premium flooring,Solid hardwood
+Floor,Wood_Engineered,Generic,Engineered Oak,Natural,0.15,680,45000,m²,14,0,0,High,Stable flooring,Engineered wood
+Floor,Laminate,Generic,Laminate Flooring,Various,0.17,850,18000,m²,8,0,0,Low,Budget flooring,Laminate planks
+Roof,Concrete_Roof_Slab,Generic,C30/37 Roof,Gray,1.4,2400,15000,m³,150,120,48,Medium,Flat roof structure,Roof concrete slab
+Roof,Tile_Clay,Generic,Clay Roof Tile,Red,1.0,2000,45000,m²,12,60,0,High,Pitched roof,Clay roof tile
+Roof,Tile_Concrete,Generic,Concrete Tile,Gray,1.2,2200,35000,m²,12,60,0,Medium,Pitched roof,Concrete roof tile
+Roof,Sheet_Metal_Steel,Generic,Corrugated Iron,Various,50,7850,18000,m²,0.5,30,0,Low,Industrial roof,Metal roofing sheet
+Roof,Sheet_Metal_Aluminum,Generic,Standing Seam,Various,204,2700,35000,m²,1,30,0,Low,Commercial roof,Aluminum roofing
+Roof,Membrane_EPDM,Generic,Rubber Membrane,Black,0.25,1150,25000,m²,1.5,30,0,Medium,Flat roof,EPDM waterproofing
+Roof,Membrane_TPO,Generic,TPO Membrane,White,0.20,1100,28000,m²,1.5,30,0,Medium,Flat roof,TPO waterproofing
+Roof,Insulation_Polyiso,Generic,PIR Board,Silver,0.023,35,15000,m²,100,30,0,Low,Roof insulation,Polyisocyanurate foam
+Door,Wood_Solid_Core,Generic,Solid Core Door,Various,0.15,650,35000,per door,44,45,28,High,Interior doors,Solid wood core
+Door,Wood_Hollow_Core,Generic,Hollow Core Door,Various,0.12,400,18000,per door,38,20,22,Medium,Interior doors,Lightweight door
+Door,Steel_Fire_Rated,Generic,Fire Door,Various,50,7850,80000,per door,44,120,32,Low,Fire-rated,Steel fire door
+Door,Aluminum_Frame,Generic,Aluminum Door,Various,204,2700,45000,per door,50,30,28,Low,Exterior doors,Aluminum framed
+Door,UPVC,Generic,uPVC Door,White,0.17,1400,55000,per door,70,30,30,Low,Exterior doors,Insulated uPVC
+Window,Aluminum_Frame_Single,Generic,Single Glazed,Various,204,2700,18000,m²,50,30,26,Low,Basic windows,Single pane window
+Window,Aluminum_Frame_Double,Generic,Double Glazed,Various,204,2700,35000,m²,50,30,30,Low,Insulated windows,Double pane window
+Window,UPVC_Double,Generic,uPVC Double,White,0.17,1400,28000,m²,70,30,32,Low,Energy efficient,Insulated uPVC window
+Window,Wood_Frame_Double,Generic,Timber Double,Natural,0.12,550,45000,m²,70,45,32,High,Traditional,Wood frame window
+Window,Glass_Clear,Generic,Float Glass,Clear,1.0,2500,12000,m²,6,20,28,Low,Standard glazing,Clear float glass
+Window,Glass_Low-E,Generic,Low-E Coated,Clear,1.0,2500,18000,m²,6,20,28,Low,Energy efficient,Low-E coated glass
+Window,Glass_Laminated,Generic,Laminated Safety,Clear,1.0,2500,22000,m²,6.4,30,32,Low,Safety glazing,Laminated glass
+Window,Glass_Toughened,Generic,Tempered Glass,Clear,1.0,2500,20000,m²,6,20,28,Low,Safety glazing,Toughened glass
+Finish,Paint_Exterior_Acrylic,Generic,Exterior Paint,Various,0.2,1200,1200,m²,0.3,0,0,Medium,Exterior finish,Weather-resistant paint
+Finish,Paint_Interior_Latex,Generic,Interior Emulsion,Various,0.2,1000,800,m²,0.2,0,0,Medium,Interior finish,Interior wall paint
+Finish,Plaster_Lime,Generic,Lime Plaster,White,0.7,1600,8000,m²,15,30,0,High,Traditional finish,Lime-based plaster
+Finish,Render_Acrylic,Generic,Acrylic Render,Various,0.5,1400,12000,m²,20,30,0,Medium,Exterior finish,Synthetic render
+Finish,Wallpaper_Vinyl,Generic,Vinyl Wallpaper,Various,0.15,900,4000,m²,0.5,0,0,Low,Wall decoration,Washable wallpaper
+Finish,Tile_Wall_Ceramic,Generic,Wall Tile,Various,1.3,2300,28000,m²,8,0,0,Low,Wet area finish,Ceramic wall tile
+Finish,Stone_Cladding,Generic,Natural Stone,Various,2.8,2650,150000,m²,30,60,0,High,Feature walls,Stone veneer cladding
+Insulation,Foam_Spray_PU,Generic,Spray Foam,Cream,0.025,30,25000,m³,Variable,30,0,Low,Cavity insulation,Polyurethane spray foam
+Insulation,Wool_Sheep,Generic,Natural Wool,White,0.04,20,18000,m²,100,0,0,High,Eco insulation,Sheep wool insulation
+Insulation,Cellulose,Generic,Blown Cellulose,Gray,0.04,30,6000,m³,Variable,0,0,High,Eco insulation,Recycled paper insulation
+Waterproofing,Membrane_Liquid,Generic,Liquid Membrane,Various,0.2,1200,8000,m²,2,0,0,Medium,Wet area protection,Liquid waterproofing
+Waterproofing,Sheet_Bitumen,Generic,Bitumen Sheet,Black,0.17,1100,6000,m²,3,30,0,Low,Below grade,Bituminous membrane
+Waterproofing,Tanking_Cementitious,Generic,Cementitious Tanking,Gray,0.8,1800,12000,m²,5,0,0,Medium,Basement walls,Cement-based waterproofing

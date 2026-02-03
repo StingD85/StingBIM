@@ -1,0 +1,163 @@
+MaterialId,Name,Category,SubCategory,ThermalConductivity,Density,UnitCost,Currency,FireRating,Region
+CON-STL-001,Shear Tab W8 Beam to W10 Col 4-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,85,USD,2hr,International
+CON-STL-002,Shear Tab W10 Beam to W12 Col 5-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,105,USD,2hr,International
+CON-STL-003,Shear Tab W12 Beam to W14 Col 6-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,128,USD,2hr,International
+CON-STL-004,Shear Tab W14 Beam to W14 Col 7-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,148,USD,2hr,International
+CON-STL-005,Clip Angle Pair W8 Beam to W10 Col 3-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,95,USD,2hr,International
+CON-STL-006,Clip Angle Pair W10 Beam to W12 Col 4-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,118,USD,2hr,International
+CON-STL-007,Clip Angle Pair W12 Beam to W14 Col 5-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,142,USD,2hr,International
+CON-STL-008,Seat Angle W8 Beam to W10 Col 2-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,72,USD,2hr,International
+CON-STL-009,Seat Angle W10 Beam to W12 Col 3-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,88,USD,2hr,International
+CON-STL-010,Bolted End-Plate W8 Beam to W10 Col 4-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,155,USD,2hr,International
+CON-STL-011,Bolted End-Plate W12 Beam to W14 Col 8-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,280,USD,2hr,International
+CON-STL-012,Bolted End-Plate W14 Beam to W14 Col 12-Bolt,Steel-Connection,Beam-Col-Bolted,50,7850,385,USD,2hr,International
+CON-STL-013,Welded Shear Tab W8 Beam to W10 Col Fillet,Steel-Connection,Beam-Col-Welded,50,7850,110,USD,2hr,International
+CON-STL-014,Welded Shear Tab W12 Beam to W14 Col Fillet,Steel-Connection,Beam-Col-Welded,50,7850,145,USD,2hr,International
+CON-STL-015,Welded Moment Frame W12 Beam to W14 Col,Steel-Connection,Beam-Col-Welded,50,7850,620,USD,2hr,International
+CON-STL-016,Welded Moment Frame W14 Beam to W14 Col,Steel-Connection,Beam-Col-Welded,50,7850,780,USD,2hr,International
+CON-STL-017,Welded Moment Frame W18 Beam to W14 Col,Steel-Connection,Beam-Col-Welded,50,7850,950,USD,2hr,International
+CON-STL-018,Welded Stiffener Pair W10 Col Flange,Steel-Connection,Beam-Col-Welded,50,7850,180,USD,2hr,International
+CON-STL-019,Welded Stiffener Pair W14 Col Flange,Steel-Connection,Beam-Col-Welded,50,7850,240,USD,2hr,International
+CON-STL-020,Welded Bearing Stiffener W18 Beam,Steel-Connection,Beam-Col-Welded,50,7850,195,USD,2hr,International
+CON-STL-021,Framing Beam Shear Tab W8 to W12 4-Bolt,Steel-Connection,Beam-Beam,50,7850,92,USD,2hr,International
+CON-STL-022,Framing Beam Shear Tab W10 to W14 5-Bolt,Steel-Connection,Beam-Beam,50,7850,115,USD,2hr,International
+CON-STL-023,Framing Beam Clip Angle W8 to W12 3-Bolt,Steel-Connection,Beam-Beam,50,7850,98,USD,2hr,International
+CON-STL-024,Coped Beam Seat W8 on W12 Welded,Steel-Connection,Beam-Beam,50,7850,125,USD,2hr,International
+CON-STL-025,Splice Plate Top/Bot W12 Beam 6-Bolt,Steel-Connection,Beam-Beam,50,7850,220,USD,2hr,International
+CON-STL-026,Splice Plate Full-Moment W14 Beam 10-Bolt,Steel-Connection,Beam-Beam,50,7850,380,USD,2hr,International
+CON-STL-027,Base Plate 12x12 W8 Col 4-Anchor Pinned,Steel-Connection,Base-Plate,50,7850,145,USD,2hr,International
+CON-STL-028,Base Plate 18x18 W10 Col 4-Anchor Pinned,Steel-Connection,Base-Plate,50,7850,210,USD,2hr,International
+CON-STL-029,Base Plate 20x20 W12 Col 4-Anchor Fixed,Steel-Connection,Base-Plate,50,7850,320,USD,2hr,International
+CON-STL-030,Base Plate 24x24 W14 Col 8-Anchor Fixed,Steel-Connection,Base-Plate,50,7850,485,USD,2hr,International
+CON-STL-031,Base Plate 30x30 W14 Col 12-Anchor Fixed,Steel-Connection,Base-Plate,50,7850,680,USD,2hr,International
+CON-STL-032,Base Plate 36x36 W18 Col 16-Anchor Fixed,Steel-Connection,Base-Plate,50,7850,920,USD,2hr,International
+CON-STL-033,Anchor Bolt 3/4in Diameter x 18in L7-72,Steel-Connection,Anchor-Bolt,50,7850,12,USD,2hr,International
+CON-STL-034,Anchor Bolt 1in Diameter x 24in L7-72,Steel-Connection,Anchor-Bolt,50,7850,22,USD,2hr,International
+CON-STL-035,Anchor Bolt 1-1/4in Diameter x 30in L7-72,Steel-Connection,Anchor-Bolt,50,7850,35,USD,2hr,International
+CON-STL-036,Headed Stud Anchor 3/4in Dia x 12in A108,Steel-Connection,Anchor-Bolt,50,7850,8,USD,2hr,International
+CON-STL-037,High-Strength Bolt A325 3/4in Diameter,Steel-Connection,Bolt-Hardware,50,7850,2.8,USD,2hr,International
+CON-STL-038,High-Strength Bolt A325 7/8in Diameter,Steel-Connection,Bolt-Hardware,50,7850,4.5,USD,2hr,International
+CON-STL-039,High-Strength Bolt A490 3/4in Diameter,Steel-Connection,Bolt-Hardware,50,7850,3.9,USD,2hr,International
+CON-STL-040,High-Strength Bolt A490 1in Diameter,Steel-Connection,Bolt-Hardware,50,7850,7.2,USD,2hr,International
+CON-STL-041,Gusset Plate Bracing Connection 12in x 12in,Steel-Connection,Gusset-Plate,50,7850,95,USD,2hr,International
+CON-STL-042,Gusset Plate Bracing Connection 18in x 18in,Steel-Connection,Gusset-Plate,50,7850,165,USD,2hr,International
+CON-WOD-001,Joist Hanger 2x8 Single Galvanised,Wood-Connection,Joist-Hanger,0.45,7850,3.2,USD,1hr,International
+CON-WOD-002,Joist Hanger 2x10 Single Galvanised,Wood-Connection,Joist-Hanger,0.45,7850,3.5,USD,1hr,International
+CON-WOD-003,Joist Hanger 2x12 Single Galvanised,Wood-Connection,Joist-Hanger,0.45,7850,3.8,USD,1hr,International
+CON-WOD-004,Joist Hanger 2x8 Double Galvanised,Wood-Connection,Joist-Hanger,0.45,7850,5.4,USD,1hr,International
+CON-WOD-005,Joist Hanger 2x10 Double Galvanised,Wood-Connection,Joist-Hanger,0.45,7850,5.8,USD,1hr,International
+CON-WOD-006,Joist Hanger 2x12 Double Galvanised,Wood-Connection,Joist-Hanger,0.45,7850,6.2,USD,1hr,International
+CON-WOD-007,Joist Hanger LVL 1-3/4x11-7/8 Single,Wood-Connection,Joist-Hanger,0.45,7850,5.5,USD,1hr,International
+CON-WOD-008,Joist Hanger LVL 3-1/2x14 Double,Wood-Connection,Joist-Hanger,0.45,7850,8.8,USD,1hr,International
+CON-WOD-009,Joist Hanger I-Joist 14in Single,Wood-Connection,Joist-Hanger,0.45,7850,4.8,USD,1hr,International
+CON-WOD-010,Joist Hanger I-Joist 16in Single,Wood-Connection,Joist-Hanger,0.45,7850,5.2,USD,1hr,International
+CON-WOD-011,Hurricane Tie Rafter-to-Plate Single,Wood-Connection,Hurricane-Tie,0.45,7850,1.85,USD,1hr,International
+CON-WOD-012,Hurricane Tie Rafter-to-Plate Double,Wood-Connection,Hurricane-Tie,0.45,7850,2.8,USD,1hr,International
+CON-WOD-013,Hurricane Tie Truss-to-Plate Single,Wood-Connection,Hurricane-Tie,0.45,7850,1.95,USD,1hr,International
+CON-WOD-014,Hurricane Tie Truss-to-Plate Heavy,Wood-Connection,Hurricane-Tie,0.45,7850,3.5,USD,1hr,International
+CON-WOD-015,Rafter Tie 2x4 Blocking Strap,Wood-Connection,Hurricane-Tie,0.45,7850,2.4,USD,1hr,International
+CON-WOD-016,Rafter Tie H4 Structural,Wood-Connection,Hurricane-Tie,0.45,7850,2.9,USD,1hr,International
+CON-WOD-017,Hurricane Clip H3 Lateral,Wood-Connection,Hurricane-Tie,0.45,7850,2.2,USD,1hr,International
+CON-WOD-018,Tri-Flat Rafter Clip Lateral,Wood-Connection,Hurricane-Tie,0.45,7850,1.95,USD,1hr,International
+CON-WOD-019,Post Base 4x4 Standoff Galvanised,Wood-Connection,Post-Base,0.45,7850,12.5,USD,Unrated,International
+CON-WOD-020,Post Base 6x6 Standoff Galvanised,Wood-Connection,Post-Base,0.45,7850,18.8,USD,Unrated,International
+CON-WOD-021,Post Base 4x4 Surface Concrete Mount,Wood-Connection,Post-Base,0.45,7850,14.2,USD,Unrated,International
+CON-WOD-022,Post Base 6x6 Surface Concrete Mount,Wood-Connection,Post-Base,0.45,7850,22.5,USD,Unrated,International
+CON-WOD-023,Post Base 4x4 Adjustable Standoff,Wood-Connection,Post-Base,0.45,7850,15.9,USD,Unrated,International
+CON-WOD-024,Post Cap 4x4 Galvanised,Wood-Connection,Post-Cap,0.45,7850,5.8,USD,Unrated,International
+CON-WOD-025,Post Cap 6x6 Galvanised,Wood-Connection,Post-Cap,0.45,7850,8.4,USD,Unrated,International
+CON-WOD-026,Post Cap 4x4 Decorative Copper,Wood-Connection,Post-Cap,0.45,7850,22.0,USD,Unrated,International
+CON-WOD-027,Hold-Down HD8 8-Kip Wall,Wood-Connection,Hold-Down,0.45,7850,42.0,USD,1hr,International
+CON-WOD-028,Hold-Down HD11 11-Kip Wall,Wood-Connection,Hold-Down,0.45,7850,58.0,USD,1hr,International
+CON-WOD-029,Hold-Down HD15 15-Kip Wall,Wood-Connection,Hold-Down,0.45,7850,78.0,USD,1hr,International
+CON-WOD-030,Strap MTA Mudsill Tie-Down 12in,Wood-Connection,Hold-Down,0.45,7850,6.5,USD,1hr,International
+CON-WOD-031,Strap MTA Mudsill Tie-Down 24in,Wood-Connection,Hold-Down,0.45,7850,9.8,USD,1hr,International
+CON-WOD-032,Strap CMSTC Continuous Hold-Down,Wood-Connection,Hold-Down,0.45,7850,12.4,USD,1hr,International
+CON-WOD-033,Ledger Bolt 1/2in x 6in Galvanised,Wood-Connection,Ledger-Bolt,50,7850,1.4,USD,Unrated,International
+CON-WOD-034,Ledger Bolt 1/2in x 8in Galvanised,Wood-Connection,Ledger-Bolt,50,7850,1.75,USD,Unrated,International
+CON-WOD-035,Ledger Bolt 5/8in x 8in Galvanised,Wood-Connection,Ledger-Bolt,50,7850,2.6,USD,Unrated,International
+CON-WOD-036,Lag Screw 3/8in x 6in Galvanised,Wood-Connection,Lag-Screw,50,7850,0.85,USD,Unrated,International
+CON-WOD-037,Lag Screw 1/2in x 6in Galvanised,Wood-Connection,Lag-Screw,50,7850,1.2,USD,Unrated,International
+CON-WOD-038,Lag Screw 1/2in x 8in Galvanised,Wood-Connection,Lag-Screw,50,7850,1.55,USD,Unrated,International
+CON-WOD-039,Nail Plate 2x4 Splice Steel,Wood-Connection,Nail-Plate,50,7850,4.2,USD,Unrated,International
+CON-WOD-040,Nail Plate 2x4 T-Splice Steel,Wood-Connection,Nail-Plate,50,7850,5.1,USD,Unrated,International
+CON-FND-001,Mudsill Anchor Bolt 1/2in x 10in J-Type,Foundation-Connection,Mudsill-Bolt,50,7850,2.8,USD,2hr,International
+CON-FND-002,Mudsill Anchor Bolt 5/8in x 12in J-Type,Foundation-Connection,Mudsill-Bolt,50,7850,4.2,USD,2hr,International
+CON-FND-003,Mudsill Anchor Bolt 1/2in x 10in L-Type,Foundation-Connection,Mudsill-Bolt,50,7850,2.9,USD,2hr,International
+CON-FND-004,Cast-In Anchor Bolt 3/4in x 18in L-Type,Foundation-Connection,Mudsill-Bolt,50,7850,9.5,USD,2hr,International
+CON-FND-005,Wedge Anchor 1/2in Concrete Slab,Foundation-Connection,Slab-Anchor,50,7850,2.1,USD,2hr,International
+CON-FND-006,Wedge Anchor 3/4in Concrete Slab,Foundation-Connection,Slab-Anchor,50,7850,3.8,USD,2hr,International
+CON-FND-007,Epoxy Anchor 3/4in x 12in Rebar Coupler,Foundation-Connection,Slab-Anchor,50,7850,8.4,USD,2hr,International
+CON-FND-008,Simpson Strong-Tie HD Hold-Down Base,Foundation-Connection,Hold-Down-Base,50,7850,55.0,USD,2hr,International
+CON-FND-009,Simpson MTA Mudsill Tie Strap,Foundation-Connection,Mudsill-Strap,50,7850,7.8,USD,2hr,International
+CON-FND-010,Concrete Expansion Sleeve 5/8in,Foundation-Connection,Slab-Anchor,50,7850,2.5,USD,2hr,International
+CON-WP-001,Liquid Waterproof Membrane Polyurethane 30mil,Waterproofing,Liquid-Membrane,0.22,1050,4.8,USD,Unrated,International
+CON-WP-002,Liquid Waterproof Membrane Modified Asphalt 40mil,Waterproofing,Liquid-Membrane,0.17,1200,3.2,USD,Unrated,International
+CON-WP-003,Liquid Waterproof Membrane Acrylic 20mil,Waterproofing,Liquid-Membrane,0.18,1050,3.6,USD,Unrated,International
+CON-WP-004,Liquid Waterproof Membrane Cementitious Thin,Waterproofing,Liquid-Membrane,1.5,1400,2.8,USD,Unrated,International
+CON-WP-005,Liquid Waterproof Membrane Cementitious Thick,Waterproofing,Liquid-Membrane,1.5,1500,4.2,USD,Unrated,International
+CON-WP-006,Liquid Waterproof Membrane Polyurea Spray,Waterproofing,Liquid-Membrane,0.18,1050,6.8,USD,Unrated,International
+CON-WP-007,Liquid Waterproof Membrane Butyl Rubber,Waterproofing,Liquid-Membrane,0.19,1100,5.2,USD,Unrated,International
+CON-WP-008,Liquid Waterproof Detail Coat Primer,Waterproofing,Liquid-Membrane,0.2,1050,2.4,USD,Unrated,International
+CON-WP-009,Sheet Membrane EPDM 60mil Below-Grade,Waterproofing,Sheet-Membrane,0.25,1100,2.9,USD,Unrated,International
+CON-WP-010,Sheet Membrane EPDM 45mil Below-Grade,Waterproofing,Sheet-Membrane,0.25,1100,2.4,USD,Unrated,International
+CON-WP-011,Sheet Membrane TPO 60mil Below-Grade,Waterproofing,Sheet-Membrane,0.22,1100,2.6,USD,Unrated,International
+CON-WP-012,Sheet Membrane SBS Modified-Bitumen 180mil,Waterproofing,Sheet-Membrane,0.17,1050,3.4,USD,Unrated,International
+CON-WP-013,Sheet Membrane APP Modified-Bitumen 150mil,Waterproofing,Sheet-Membrane,0.17,1020,3.1,USD,Unrated,International
+CON-WP-014,Sheet Membrane Self-Adhesive Rubber Board,Waterproofing,Sheet-Membrane,0.19,1100,3.8,USD,Unrated,International
+CON-WP-015,Sheet Membrane Self-Adhesive Bitumen Lead,Waterproofing,Sheet-Membrane,0.17,1200,4.2,USD,Unrated,International
+CON-WP-016,Sheet Membrane Rubberized Asphalt Self-Adh,Waterproofing,Sheet-Membrane,0.17,1150,3.5,USD,Unrated,International
+CON-WP-017,Bentonite Waterproofing Panels Below-Grade,Waterproofing,Bentonite,0.3,1800,3.9,USD,Unrated,International
+CON-WP-018,Bentonite Waterproofing Spray Powder,Waterproofing,Bentonite,0.3,1850,2.8,USD,Unrated,International
+CON-WP-019,Bentonite Waterproofing Tube Joint-Filler,Waterproofing,Bentonite,0.3,1900,8.5,USD,Unrated,International
+CON-WP-020,Sealant Silicone 50% Flex Joint,Waterproofing,Sealant,0.16,1080,5.2,USD,Unrated,International
+CON-WP-021,Sealant Silicone 100% Flex Window,Waterproofing,Sealant,0.16,1080,4.8,USD,Unrated,International
+CON-WP-022,Sealant Polyurethane 50% Flex Joint,Waterproofing,Sealant,0.2,1200,4.9,USD,Unrated,International
+CON-WP-023,Sealant Polyurethane 25% Flex Concrete,Waterproofing,Sealant,0.2,1220,4.5,USD,Unrated,International
+CON-WP-024,Sealant Polysulfide 50% Flex Joint,Waterproofing,Sealant,0.18,1300,5.6,USD,Unrated,International
+CON-WP-025,Sealant Non-Sag Butyl Joint,Waterproofing,Sealant,0.19,1100,3.4,USD,Unrated,International
+CON-WP-026,Sealant Acoustical Sealant Butyl Tape,Waterproofing,Sealant,0.19,1080,2.6,USD,Unrated,International
+CON-WP-027,Drain Board Dimple Mat HDPE Below-Grade,Waterproofing,Drain-Board,0.4,980,1.8,USD,Unrated,International
+CON-WP-028,Drain Board Geotextile Filter Fabric,Waterproofing,Drain-Board,0.6,120,0.8,USD,Unrated,International
+CON-WP-029,Waterproofing Primer Solvent-Based Cut-Back,Waterproofing,Primer,0.18,920,2.2,USD,Unrated,International
+CON-WP-030,Waterproofing Tape Butyl Seam-Tape Roll,Waterproofing,Tape,0.18,1050,3.4,USD,Unrated,International
+CON-FL-001,Head Flashing Aluminium 4in Wide Sheet,Flashing,Window-Head,205,2700,1.9,USD,Unrated,International
+CON-FL-002,Head Flashing Aluminium 6in Wide Sheet,Flashing,Window-Head,205,2700,2.4,USD,Unrated,International
+CON-FL-003,Head Flashing Aluminium 8in Wide Sheet,Flashing,Window-Head,205,2700,2.9,USD,Unrated,International
+CON-FL-004,Sill Flashing Aluminium 4in Wide Sheet,Flashing,Window-Sill,205,2700,1.6,USD,Unrated,International
+CON-FL-005,Sill Flashing Aluminium 6in Wide Sheet,Flashing,Window-Sill,205,2700,2.1,USD,Unrated,International
+CON-FL-006,Sill Pan Flashing PVC Self-Adhesive,Flashing,Window-Sill,0.19,1400,2.8,USD,Unrated,International
+CON-FL-007,Sill Pan Flashing EPDM Pre-Formed,Flashing,Window-Sill,0.25,1100,3.4,USD,Unrated,International
+CON-FL-008,Jamb Flashing Aluminium 3in Z-Bar,Flashing,Window-Jamb,205,2700,1.4,USD,Unrated,International
+CON-FL-009,Jamb Flashing Aluminium 4in Z-Bar,Flashing,Window-Jamb,205,2700,1.7,USD,Unrated,International
+CON-FL-010,Jamb Flashing Copper 4in Z-Bar,Flashing,Window-Jamb,385,8900,4.6,USD,Unrated,International
+CON-FL-011,Door Head Flashing Aluminium 6in Wide,Flashing,Door-Head,205,2700,2.4,USD,Unrated,International
+CON-FL-012,Door Sill Flashing Aluminium Kick-Plate,Flashing,Door-Sill,205,2700,3.1,USD,Unrated,International
+CON-FL-013,Door Threshold Flashing Galvanised 4in,Flashing,Door-Sill,50,7850,2.8,USD,Unrated,International
+CON-FL-014,Window Wrap Tape Self-Adhesive Poly,Flashing,Window-Jamb,0.4,940,1.2,USD,Unrated,International
+CON-FL-015,Counter Flashing Aluminium 4in Slid-Over,Flashing,Roof-Counter,205,2700,2.6,USD,Unrated,International
+CON-FL-016,Counter Flashing Aluminium 6in Slid-Over,Flashing,Roof-Counter,205,2700,3.1,USD,Unrated,International
+CON-FL-017,Counter Flashing Copper 4in Slid-Over,Flashing,Roof-Counter,385,8900,7.8,USD,Unrated,International
+CON-FL-018,Base Flashing Aluminium 4in Wall-to-Roof,Flashing,Roof-Base,205,2700,2.2,USD,Unrated,International
+CON-FL-019,Base Flashing Aluminium 6in Wall-to-Roof,Flashing,Roof-Base,205,2700,2.8,USD,Unrated,International
+CON-FL-020,Parapet Cap Flashing Aluminium 12in Wide,Flashing,Roof-Counter,205,2700,4.2,USD,Unrated,International
+CON-FL-021,Parapet Cap Flashing Galvanised 12in Wide,Flashing,Roof-Counter,50,7850,3.4,USD,Unrated,International
+CON-FL-022,Coping Cap Flashing Aluminium Sheet 24in,Flashing,Roof-Counter,205,2700,5.8,USD,Unrated,International
+CON-FL-023,Valley Flashing Open Aluminium 24in W,Flashing,Roof-Valley,205,2700,3.4,USD,Unrated,International
+CON-FL-024,Valley Flashing Open Galvanised 24in W,Flashing,Roof-Valley,50,7850,2.6,USD,Unrated,International
+CON-FL-025,Valley Flashing Closed W-Pattern 24in,Flashing,Roof-Valley,205,2700,3.8,USD,Unrated,International
+CON-FL-026,Valley Flashing Self-Adhesive Membrane 24in,Flashing,Roof-Valley,0.25,1100,2.9,USD,Unrated,International
+CON-FL-027,Step Flashing 8x8 Aluminium L-Sheet,Flashing,Roof-Step,205,2700,0.9,USD,Unrated,International
+CON-FL-028,Step Flashing 8x10 Aluminium L-Sheet,Flashing,Roof-Step,205,2700,1.05,USD,Unrated,International
+CON-FL-029,Step Flashing 8x8 Copper L-Sheet,Flashing,Roof-Step,385,8900,2.6,USD,Unrated,International
+CON-FL-030,Step Flashing 8x10 Galvanised L-Sheet,Flashing,Roof-Step,50,7850,0.82,USD,Unrated,International
+CON-FL-031,Chimney Flashing Pre-Formed Aluminium Kit,Flashing,Chimney,205,2700,42.0,USD,Unrated,International
+CON-FL-032,Chimney Flashing Saddle Aluminium Sheet,Flashing,Chimney,205,2700,18.0,USD,Unrated,International
+CON-FL-033,Vent Pipe Flashing 3in Lead Boot,Flashing,Vent-Pipe,20,11300,12.0,USD,Unrated,International
+CON-FL-034,Vent Pipe Flashing 4in Lead Boot,Flashing,Vent-Pipe,20,11300,16.0,USD,Unrated,International
+CON-FL-035,Vent Pipe Flashing 3in Aluminium Boot,Flashing,Vent-Pipe,205,2700,5.5,USD,Unrated,International
+CON-FL-036,Vent Pipe Flashing 4in Aluminium Boot,Flashing,Vent-Pipe,205,2700,6.8,USD,Unrated,International
+CON-FL-037,Vent Pipe Flashing 6in Aluminium Boot,Flashing,Vent-Pipe,205,2700,8.4,USD,Unrated,International
+CON-FL-038,Expansion Joint Foam Seal 1in,Flashing,Expansion-Joint,0.04,80,1.8,USD,Unrated,International
+CON-FL-039,Expansion Joint Cover Aluminium 4in,Flashing,Expansion-Joint,205,2700,9.5,USD,Unrated,International
+CON-FL-040,Expansion Joint Cover Aluminium 8in,Flashing,Expansion-Joint,205,2700,14.8,USD,Unrated,International

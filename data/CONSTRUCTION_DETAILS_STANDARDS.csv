@@ -1,0 +1,65 @@
+RuleId,StandardCode,Category,Name,Description,Condition,RequiredValue,Unit,Severity,Region,ApplicableTypes
+STL-AISC-J3.1,AISC,Steel-Bolt,Min Bolt Pretension A325,Minimum pretension for A325 high-strength bolts,Pretension >= 28,28,kips,Critical,International,Bolt-A325
+STL-AISC-J3.1B,AISC,Steel-Bolt,Min Bolt Pretension A490,Minimum pretension for A490 high-strength bolts,Pretension >= 39,39,kips,Critical,International,Bolt-A490
+STL-AISC-J3.2,AISC,Steel-Bolt,Min Bolt Spacing,Minimum bolt spacing centre-to-centre,Spacing >= 2.67 * BoltDia,2.67,dia,Critical,International,Steel-Connection
+STL-AISC-J3.3,AISC,Steel-Bolt,Min Edge Distance,Minimum edge distance from bolt centre to plate edge,EdgeDist >= 1.5 * BoltDia,1.5,dia,Critical,International,Steel-Connection
+STL-AISC-J3.4,AISC,Steel-Bolt,Max Bolt Spacing,Maximum bolt spacing to prevent corrosion ingress,Spacing <= 14 * PlateThk,14,t,Major,International,Steel-Connection
+STL-AISC-J3.5,AISC,Steel-Bolt,Max Edge Distance,Maximum edge distance sheared elements,EdgeDist <= 12 * PlateThk,12,t,Major,International,Steel-Connection
+STL-AWS-D1.1-3.1,AWS,Steel-Weld,Min Fillet Weld Size,Minimum fillet weld leg size based on thicker joined part,FilletLeg >= MinPerTable,3,mm,Critical,International,Steel-Weld
+STL-AWS-D1.1-3.4,AWS,Steel-Weld,Max Fillet Weld Size,Max fillet weld leg at edge of rolled member or plate,FilletLeg <= ThickerPart - 1.6,1.6,mm,Critical,International,Steel-Weld
+STL-AWS-D1.1-3.5,AWS,Steel-Weld,Min Effective Throat,Effective throat of fillet weld = 0.707 × leg,Throat >= 0.707 * FilletLeg,0.707,ratio,Critical,International,Steel-Weld
+STL-AISC-J4.1,AISC,Steel-Design,Shear Strength Nominal Bolt,Nominal shear strength of bolt group Rn = Fnv × Ab,Rn = Fnv * Ab,1,ratio,Critical,International,Steel-Connection
+STL-AISC-J4.3,AISC,Steel-Design,Bearing Strength at Bolt Holes,Nominal bearing strength Rn = 2.4 d t Fu,Rn >= 2.4 * d * t * Fu,2.4,ratio,Critical,International,Steel-Connection
+STL-AISC-J4.4,AISC,Steel-Design,Tear-Out Strength at Bolt Holes,Nominal tear-out Rn = 1.2 Lc t Fu,Rn >= 1.2 * Lc * t * Fu,1.2,ratio,Critical,International,Steel-Connection
+STL-AISC-J9.1,AISC,Steel-Base,Min Base Plate Area,Base plate must distribute column load to concrete,BPArea >= ColLoad / FpA,1,ratio,Critical,International,Base-Plate
+STL-ACI-318-20.3,ACI,Steel-Base,Min Anchor Bolt Embedment,Min embedment depth for cast-in J or L anchors,Embed >= 12 * BoltDia,12,dia,Critical,International,Anchor-Bolt
+STL-ACI-318-20.4,ACI,Steel-Base,Min Anchor Bolt Edge Distance,Min concrete edge distance to prevent blow-out,EdgeDist >= 6 * BoltDia,6,dia,Critical,International,Anchor-Bolt
+STL-AISC-N3.1,AISC,Steel-Inspection,Visual Weld Inspection,All welds shall receive visual inspection per AWS D1.1,VisualInspect == true,1,bool,Critical,International,Steel-Weld
+STL-IBC-1705.3,IBC,Steel-Inspection,Special Inspection Steel Conn,Special inspection required for bolted / welded connections,SpecialInspect == true,1,bool,Critical,USA,Steel-Connection
+STL-NFPA-13-7.3,NFPA,Steel-Fire,Steel Connection Fire Rating,Structural steel connections in fire-rated assemblies need 2hr min,FireRating >= 2,2,hr,Critical,USA,Steel-Connection
+WOD-NDS-12.3.1,NDS,Wood-Spacing,Min Bolt Spacing Parallel,Min spacing between bolts parallel to grain,Spacing >= 4 * BoltDia,4,dia,Critical,International,Wood-Bolt
+WOD-NDS-12.3.2,NDS,Wood-Spacing,Min Bolt Spacing Perp,Min spacing between bolts perpendicular to grain,Spacing >= 3 * BoltDia,3,dia,Critical,International,Wood-Bolt
+WOD-NDS-12.3.3,NDS,Wood-Spacing,Min Edge Distance Parallel,Min end distance parallel to grain loaded end,EndDist >= 7 * BoltDia,7,dia,Critical,International,Wood-Bolt
+WOD-NDS-12.3.4,NDS,Wood-Spacing,Min Edge Distance Perp,Min edge distance perpendicular to grain,EdgeDist >= 2.5 * BoltDia,2.5,dia,Critical,International,Wood-Bolt
+WOD-NDS-10.3.1,NDS,Wood-Spacing,Min Lag Screw Spacing,Min spacing lag screws parallel to grain,LagSpacing >= 4 * LagDia,4,dia,Critical,International,Lag-Screw
+WOD-NDS-10.3.2,NDS,Wood-Spacing,Min Lag Screw Penetration,Min penetration of lag screw into main member,Penetration >= 10 * LagDia,10,dia,Critical,International,Lag-Screw
+WOD-ICC-ESR-MF,ICC-ES,Wood-Connector,Manufacturer Evaluation Report,All proprietary connectors require valid ICC-ES ESR,ESR_Valid == true,1,bool,Critical,International,Wood-Connector
+WOD-IRC-R507.1,IRC,Wood-Ledger,Ledger Board Fastener Spacing,Ledger fasteners max centre-to-centre spacing 600mm,LedgerSpacing <= 600,600,mm,Critical,USA,Ledger-Bolt
+WOD-IRC-R507.2,IRC,Wood-Ledger,Ledger Board Min Embedment,Ledger bolts into concrete or masonry require min embedment,Embedment >= 63,63,mm,Critical,USA,Ledger-Bolt
+WOD-IRC-R602.9,IRC,Wood-Holddown,Hold-Down Location,Hold-downs required at each end of every shear wall,HoldDown_Each_End == true,1,bool,Critical,USA,Hold-Down
+WOD-SDPWS-4.3,SDPWS,Wood-Shear,Shear Wall Nail Spacing,Min common-nail spacing at shear-wall panel edges,NailSpacing <= 150,150,mm,Critical,USA,Shear-Wall
+WOD-NDS-12.1,NDS,Wood-Design,Dowel Bearing Strength,Dowel bearing strength Fe' = Fe* × CD × CM × Ct,FePrime = Fe * CD * CM * Ct,1,ratio,Critical,International,Wood-Bolt
+WOD-IBC-2308.1,IBC,Wood-Fire,Wood Connection Fire Rating,Wood connections in 1hr fire-rated assemblies must maintain rating,FireRating >= 1,1,hr,Critical,USA,Wood-Connection
+WOD-IBC-2304.6,IBC,Wood-Moisture,Connector Corrosion,Galvanised connectors required when CMC > 19%,IF CMC > 19 THEN Galvanised == true,1,bool,Major,USA,Wood-Connector
+FND-IBC-1905.1,IBC,Foundation,Anchor Bolt Concrete Strength,Concrete around anchor bolts min f'c 21 MPa,Fc_Prime >= 21,21,MPa,Critical,USA,Anchor-Bolt
+FND-ACI-318-25.4,ACI,Foundation,Anchor Bolt Group Capacity,Anchor group capacity must exceed factored uplift,CapacityGroup >= 1.0 * Pu,1.0,ratio,Critical,International,Anchor-Bolt
+FND-IRC-R403.1,IRC,Foundation,Mudsill Anchor Spacing,Max spacing of mudsill anchor bolts 1830mm,AnchorSpacing <= 1830,1830,mm,Critical,USA,Mudsill-Bolt
+FND-IRC-R403.2,IRC,Foundation,Mudsill Anchor At Corners,Anchor bolt within 300mm of each end of sill plate,CornerDist <= 300,300,mm,Critical,USA,Mudsill-Bolt
+FND-IBC-1903.4,IBC,Foundation,Epoxy Anchor Cure Time,Epoxy anchor adhesive must fully cure before loading,CureTime >= 24,24,hr,Major,USA,Slab-Anchor
+FND-ASCE-7-12.5,ASCE,Foundation,Seismic Anchor Capacity,Seismic uplift at anchor requires 1.5× design force capacity,CapacityAnchor >= 1.5 * Pu_Seismic,1.5,ratio,Critical,USA,Anchor-Bolt
+WP-ASTM-D412,ASTM,Waterproofing,Elongation Liquid Membrane,Liquid-applied membrane min elongation at break,Elongation >= 500,500,%,Major,International,Liquid-Membrane
+WP-ASTM-D412B,ASTM,Waterproofing,Tensile Liquid Membrane,Liquid-applied membrane min tensile strength,Tensile >= 1.4,1.4,MPa,Major,International,Liquid-Membrane
+WP-ASTM-D6206,ASTM,Waterproofing,Sheet Membrane Elongation,Thermoplastic sheet membrane elongation at break,Elongation >= 300,300,%,Major,International,Sheet-Membrane
+WP-ASTM-D6392,ASTM,Waterproofing,Modified Bitumen Properties,SBS / APP mod-bitumen sheet min properties per spec,ModBitumen == true,1,bool,Major,International,Sheet-Membrane
+WP-ASTM-C504,ASTM,Waterproofing,Sealant Joint Movement,Sealant rated movement capacity must exceed joint movement,MovementCap >= JointMove,1,ratio,Critical,International,Sealant
+WP-ASTM-C790,ASTM,Waterproofing,Sealant Single-Sided,Single-sided sealant joint requires backer rod,BackerRod == true,1,bool,Major,International,Sealant
+WP-ASCE-7-26.1,ASCE,Waterproofing,Below-Grade Membrane Thickness,Below-grade waterproofing min 1.5mm dry-film thickness,DryFilmThk >= 1.5,1.5,mm,Critical,International,Liquid-Membrane
+WP-IRC-R415.1,IRC,Waterproofing,Drain Board Required,Drain board or equivalent required over below-grade membrane,DrainBoard == true,1,bool,Critical,USA,Sheet-Membrane
+WP-IRC-R415.2,IRC,Waterproofing,Bentonite Hydration Protect,Bentonite clay must be protected from premature hydration,PreHydrationProtect == true,1,bool,Major,USA,Bentonite
+WP-IBC-1805.2,IBC,Waterproofing,Foundation Waterproofing Req,Foundations below grade in permeated soil must be waterproofed,WP_Required == true,1,bool,Critical,USA,Waterproofing
+WP-IBC-1805.3,IBC,Waterproofing,Sealant UV Exposure,Sealants exposed to UV must be UV-rated or covered,IF UV_Exposed THEN UV_Rated == true,1,bool,Major,USA,Sealant
+WP-ASHRAE-90.1-WP,ASHRAE,Waterproofing,Roof Membrane R-Value,Below-roof waterproofing layer thermal resistance not counted in R,R_WP_Excluded == true,1,bool,Minor,International,Sheet-Membrane
+WP-BS-EN-20.1,BS,Waterproofing,UK Liquid Membrane Standard,UK EN 13707 polyurethane membrane compliance,EN13707 == true,1,bool,Major,UK,Liquid-Membrane
+WP-BS-EN-20.2,BS,Waterproofing,UK Sheet Membrane Standard,UK EN 13969 sheet waterproofing compliance,EN13969 == true,1,bool,Major,UK,Sheet-Membrane
+FL-IRC-R703.2,IRC,Flashing,Window Head Flashing Required,Head flashing required above all exterior openings,HeadFlashing == true,1,bool,Critical,USA,Window-Head
+FL-IRC-R703.3,IRC,Flashing,Door Sill Flashing Required,Sill pan flashing required at all exterior door thresholds,SillFlashing == true,1,bool,Critical,USA,Door-Sill
+FL-IRC-R703.4,IRC,Flashing,Ext Wall Vert Joints,Vertical joints in exterior cladding require flashing or sealant,FlashOrSeal_VJoint == true,1,bool,Critical,USA,Flashing
+FL-IRC-R905.3,IRC,Flashing,Roof Valley Flashing,Valley flashing min 600mm wide centred on valley,ValleyWidth >= 600,600,mm,Critical,USA,Roof-Valley
+FL-IRC-R905.5,IRC,Flashing,Step Flashing Min Leg,Step flashing perpendicular leg min 100mm up wall,StepLeg >= 100,100,mm,Critical,USA,Roof-Step
+FL-IRC-R905.6,IRC,Flashing,Counter Flashing Overlap,Counter flashing overlap onto base flashing min 38mm,CounterOverlap >= 38,38,mm,Critical,USA,Roof-Counter
+FL-IBC-1503.3,IBC,Flashing,Roof-Wall Junction Flashing,Flashing required at every roof-to-wall junction,RoofWallFlash == true,1,bool,Critical,USA,Roof-Base
+FL-IBC-1503.4,IBC,Flashing,Vent Pipe Flashing,Vent pipe penetrations shall have flashing or boot,VentBoot == true,1,bool,Critical,USA,Vent-Pipe
+FL-IBC-2603.1,IBC,Flashing,Flashing Material Compat,Flashing metals must be galvanically compatible or separated,GalvanicCompat == true,1,bool,Major,USA,Flashing
+FL-ASHRAE-27-F,ASHRAE,Flashing,Expansion Joint Movement,Expansion joint cover must allow design movement ±25%,MovementCapacity >= 0.25 * JointMovement,0.25,ratio,Major,International,Expansion-Joint
+FL-BS-EN-30.1,BS,Flashing,UK Aluminium Flashing,EN 1688 aluminium products for building applications,EN1688 == true,1,bool,Major,UK,Flashing
+FL-BS-EN-30.2,BS,Flashing,UK Lead Sheet,EN 1468 lead sheet for building applications,EN1468 == true,1,bool,Major,UK,Flashing

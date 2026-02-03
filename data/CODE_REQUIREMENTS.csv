@@ -1,0 +1,74 @@
+Standard,Category,Requirement,MinValue,MaxValue,Unit,ApplicableElements,Severity,ValidationRule,Notes
+IBC,Egress,Egress door minimum width,810,,mm,Doors,Critical,Width >= 810,Required egress width
+IBC,Egress,Bedroom window minimum area,0.5,,m²,Windows,Critical,Area >= 0.5,Emergency escape
+IBC,Circulation,Corridor minimum width,1070,,mm,Hallways,Required,Width >= 1070,Accessible corridor
+IBC,Circulation,Doorway clear width,810,,mm,Doors,Required,Clear_Width >= 810,Wheelchair passage
+IBC,Ceiling,Habitable room minimum height,2400,,mm,Rooms,Required,Height >= 2400,Livable space height
+IBC,Ceiling,Bathroom minimum height,2300,,mm,Bathrooms,Required,Height >= 2300,Reduced height allowed
+IBC,Safety,Guard rail minimum height,1070,,mm,Balconies/Decks,Critical,Height >= 1070,Fall protection
+IBC,Safety,Handrail height,865,965,mm,Stairs/Ramps,Critical,865 <= Height <= 965,Graspable rail height
+IBC,Safety,Stair riser maximum,178,200,mm,Stairs,Required,Riser <= 200,Safe stair geometry
+IBC,Safety,Stair tread minimum,254,,mm,Stairs,Required,Tread >= 254,Safe stair geometry
+IBC,Safety,Stair width minimum,910,,mm,Stairs,Required,Width >= 910,Egress stair width
+IBC,Fire,Fire separation between units,60,,minutes,Walls,Critical,Fire_Rating >= 60,Fire compartmentation
+IBC,Fire,Smoke detector required,Yes,,Boolean,Bedrooms/Hallways,Critical,Detector_Present == True,Life safety
+IBC,Fire,CO detector required,Yes,,Boolean,Near Fuel Appliances,Critical,Detector_Present == True,Carbon monoxide safety
+ADA,Accessibility,Door clear width,815,,mm,Doors,Required,Clear_Width >= 815,Wheelchair clearance
+ADA,Accessibility,Door opening force,,22,N,Doors,Required,Force <= 22,Easy opening
+ADA,Accessibility,Ramp maximum slope,8.33,,percent,Ramps,Critical,Slope <= 8.33,1:12 maximum gradient
+ADA,Accessibility,Ramp landing minimum,1525,,mm,Ramps,Required,Landing >= 1525,Wheelchair maneuver
+ADA,Accessibility,Turning circle diameter,1525,,mm,Accessible Rooms,Required,Diameter >= 1525,Wheelchair turning
+ADA,Accessibility,Toilet clearance front,1220,,mm,Bathrooms,Required,Clearance >= 1220,Wheelchair approach
+ADA,Accessibility,Grab bar at toilet,Yes,,Boolean,Accessible Bathrooms,Required,Grab_Bar_Present == True,Transfer support
+ADA,Accessibility,Sink knee clearance,685,,mm,Accessible Bathrooms,Required,Clearance >= 685,Wheelchair access
+ADA,Accessibility,Counter height,865,,mm,Accessible Kitchens,Required,Height <= 865,Reachable surface
+ADA,Accessibility,Light switch height,1220,,mm,Accessible Rooms,Required,Height <= 1220,Reachable control
+ADA,Accessibility,Outlet height,380,1220,mm,Accessible Rooms,Required,380 <= Height <= 1220,Reachable access
+ASHRAE,HVAC,Minimum ventilation rate,0.35,,ACH,Habitable Rooms,Required,Ventilation >= 0.35,Indoor air quality
+ASHRAE,HVAC,Kitchen ventilation,15,,ACH,Kitchens,Required,Ventilation >= 15,Cooking exhaust
+ASHRAE,HVAC,Bathroom ventilation,8,,ACH,Bathrooms,Required,Ventilation >= 8,Moisture control
+ASHRAE,Energy,Wall insulation R-value,3.5,,m²K/W,Exterior Walls,Recommended,R_Value >= 3.5,Thermal performance
+ASHRAE,Energy,Roof insulation R-value,6.0,,m²K/W,Roofs,Recommended,R_Value >= 6.0,Thermal performance
+ASHRAE,Energy,Window U-value,,1.8,W/m²K,Windows,Recommended,U_Value <= 1.8,Energy efficiency
+ASHRAE,Energy,Air infiltration maximum,,0.6,ACH50,Building Envelope,Recommended,Infiltration <= 0.6,Airtightness
+NEC,Electrical,Outlet spacing maximum,3600,,mm,Walls,Required,Spacing <= 3600,Adequate outlets
+NEC,Electrical,Kitchen counter outlets,2,,count,Kitchens,Required,Count >= 2,Appliance access
+NEC,Electrical,GFCI in wet areas,Yes,,Boolean,Bathrooms/Kitchens,Critical,GFCI_Present == True,Electrical safety
+NEC,Electrical,AFCI in bedrooms,Yes,,Boolean,Bedrooms,Required,AFCI_Present == True,Arc fault protection
+NEC,Electrical,Smoke detector interconnection,Yes,,Boolean,All Detectors,Required,Interconnected == True,Synchronized alarm
+UPC,Plumbing,Hot water temperature maximum,,49,°C,Water Heaters,Required,Temperature <= 49,Scalding prevention
+UPC,Plumbing,Toilet flush volume maximum,,6,liters,Toilets,Required,Flush <= 6,Water conservation
+UPC,Plumbing,Shower flow rate maximum,,9.5,L/min,Showers,Required,Flow <= 9.5,Water conservation
+UPC,Plumbing,Fixture drainage slope minimum,2,,percent,Drainage Pipes,Required,Slope >= 2,Gravity drainage
+UPC,Plumbing,Vent pipe minimum,40,,mm,Vent Pipes,Required,Diameter >= 40,Adequate venting
+UPC,Plumbing,Water supply minimum,15,,mm,Supply Pipes,Required,Diameter >= 15,Adequate flow
+IECC,Energy,Lighting power density,10,,W/m²,All Spaces,Recommended,LPD <= 10,Energy efficiency
+IECC,Energy,Duct insulation R-value,2.5,,m²K/W,Ducts Unconditioned,Required,R_Value >= 2.5,Thermal loss prevention
+IECC,Energy,Pipe insulation thickness,25,,mm,Hot Pipes,Required,Insulation >= 25,Energy conservation
+NFPA,Fire,Sprinkler spacing maximum,4600,,mm,Sprinkler Coverage,Required,Spacing <= 4600,Fire suppression coverage
+NFPA,Fire,Smoke detector spacing,930,,m²,Detector Coverage,Required,Coverage_Area <= 930,Detection coverage
+NFPA,Fire,Exit sign illumination,Yes,,Boolean,Egress Paths,Critical,Exit_Sign_Present == True,Egress marking
+NFPA,Fire,Emergency lighting,Yes,,Boolean,Egress Paths,Critical,Emergency_Light == True,Safe evacuation
+NFPA,Fire,Fire extinguisher travel,23,,m,All Areas,Required,Travel_Distance <= 23,Fire suppression access
+ANSI,Kitchen,Work triangle perimeter,4000,8000,mm,Kitchens,Recommended,Triangle <= 8000,Efficient workflow
+ANSI,Kitchen,Counter clearance,1200,,mm,Kitchens,Recommended,Clearance >= 1200,Workspace between counters
+ANSI,Kitchen,Landing space at refrigerator,380,,mm,Kitchens,Recommended,Landing >= 380,Door swing clearance
+ANSI,Kitchen,Landing space at range,300,,mm,Kitchens,Recommended,Landing >= 300,Safe cooking area
+ANSI,Bathroom,Toilet centerline clearance,400,,mm,Bathrooms,Required,Clearance >= 400,Side clearance
+ANSI,Bathroom,Toilet front clearance,610,,mm,Bathrooms,Required,Front >= 610,Access clearance
+ANSI,Bathroom,Shower minimum size,900,,mm,Bathrooms,Recommended,Size >= 900,Comfortable shower
+ANSI,Bathroom,Vanity height,810,910,mm,Bathrooms,Recommended,810 <= Height <= 910,Ergonomic height
+BS,Structure,Floor live load residential,2.0,,kPa,Floors,Required,Load_Capacity >= 2.0,Structural safety
+BS,Structure,Balcony live load,4.0,,kPa,Balconies,Required,Load_Capacity >= 4.0,Higher load requirement
+BS,Structure,Roof live load,1.5,,kPa,Roofs,Required,Load_Capacity >= 1.5,Maintenance access
+BS,Acoustic,Bedroom wall STC,50,,STC,Bedroom Walls,Recommended,STC >= 50,Sound privacy
+BS,Acoustic,Floor impact rating,50,,IIC,Floors,Recommended,IIC >= 50,Impact sound insulation
+ISO,Energy,Thermal bridging psi-value,,0.15,W/mK,Junctions,Recommended,Psi <= 0.15,Minimize heat loss
+ISO,Daylight,Daylight factor minimum,2,,percent,Habitable Rooms,Recommended,DF >= 2,Natural lighting
+ISO,Acoustic,Background noise maximum,,35,dB,Bedrooms,Recommended,Noise <= 35,Sleep quality
+Local,Parking,Parking space dimensions,2400,5500,mm,Garages,Required,2400x5500,Single car space
+Local,Setback,Front setback minimum,6000,,mm,Building,Local,Setback >= 6000,Property line distance
+Local,Setback,Side setback minimum,1500,,mm,Building,Local,Setback >= 1500,Neighbor separation
+Local,Setback,Rear setback minimum,3000,,mm,Building,Local,Setback >= 3000,Rear boundary
+Local,Height,Maximum building height,,12000,mm,Building,Local,Height <= 12000,Zoning restriction
+Local,Coverage,Maximum site coverage,,50,percent,Site,Local,Coverage <= 50,Lot coverage limit

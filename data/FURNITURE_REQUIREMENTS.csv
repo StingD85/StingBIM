@@ -1,0 +1,74 @@
+RoomType,FurnitureItem,Quantity,MinClearance_MM,Placement,Priority,Dimensions_MM,Notes
+Bedroom,Bed_Queen,1,600,Against wall,Essential,1530x2030x500,Primary sleeping furniture
+Bedroom,Nightstand,1-2,300,Beside bed,High,500x400x600,Bedside storage and lighting
+Bedroom,Wardrobe,1,600,Against wall,Essential,1200x600x2100,Clothing storage
+Bedroom,Dresser,1,600,Against wall,Medium,1000x500x900,Additional storage
+Bedroom,Chair,1,450,Corner or window,Low,600x700x900,Seating area
+MasterBedroom,Bed_King,1,750,Against wall,Essential,1830x2030x500,Larger bed for master
+MasterBedroom,Nightstand,2,300,Both sides,High,500x400x600,Symmetric placement
+MasterBedroom,Dresser,1-2,600,Against wall,High,1200x500x1000,Generous storage
+MasterBedroom,Seating,1,600,Sitting area,Medium,Variable,Reading or relaxation area
+MasterBedroom,TV_Stand,1,600,Opposite bed,Low,1500x450x600,Entertainment
+ChildBedroom,Bed_Single,1,600,Against wall,Essential,1000x2000x500,Child-sized bed
+ChildBedroom,Desk,1,700,Near window,High,1200x600x750,Study area
+ChildBedroom,Chair_Desk,1,450,At desk,High,500x500x850,Study seating
+ChildBedroom,Storage,1,300,Against wall,High,900x400x1800,Toys and clothes storage
+Bathroom,Vanity,1,750,Against wall,Essential,600-1200x500x850,Sink cabinet
+Bathroom,Mirror,1,0,Above vanity,Essential,600-1200x800,Wall-mounted
+Bathroom,Toilet_Paper_Holder,1,400,Near toilet,Essential,150x100x100,Within reach
+Bathroom,Towel_Rail,1-2,600,Near shower,High,600x100x50,Towel storage
+Bathroom,Storage_Cabinet,1,300,Wall or floor,Medium,300x200x600,Toiletries storage
+Kitchen,Base_Cabinet,3-6,600,Along walls,Essential,600x600x900,Counter support
+Kitchen,Wall_Cabinet,3-6,450,Above base,High,600x350x750,Upper storage
+Kitchen,Countertop,1,600,On base cabinets,Essential,Variable x 600 x 40,Work surface
+Kitchen,Sink,1,300,In counter,Essential,500-800x500x200,Cleanup area
+Kitchen,Stove,1,600,In counter or freestanding,Essential,600x600x900,Cooking appliance
+Kitchen,Refrigerator,1,600,End of run,Essential,900x750x1800,Food storage
+Kitchen,Dining_Table,1,900,Central or against wall,Medium,1200-1800x800x750,Informal dining
+Kitchen,Chairs,2-6,600,Around table,Medium,450x500x850,Table seating
+LivingRoom,Sofa_3Seater,1,600,Against wall or floating,Essential,2100x900x850,Primary seating
+LivingRoom,Sofa_2Seater,1,600,Perpendicular or opposite,Medium,1500x900x850,Additional seating
+LivingRoom,Coffee_Table,1,400,In front of sofa,High,1200x600x450,Central focus
+LivingRoom,TV_Stand,1,600,Opposite seating,High,1500-2000x450x600,Entertainment center
+LivingRoom,Side_Table,1-2,300,Beside seating,Low,500x500x600,Lamp and storage
+LivingRoom,Bookshelf,1,300,Against wall,Low,900x300x1800,Display and storage
+LivingRoom,Armchair,1-2,600,Accent seating,Low,800x900x900,Additional seating
+DiningRoom,Dining_Table_6,1,900,Central,Essential,1800x900x750,Main dining surface
+DiningRoom,Dining_Chair,6-8,600,Around table,Essential,450x500x850,Seating for table
+DiningRoom,Sideboard,1,600,Against wall,Medium,1500x450x850,Serving and storage
+DiningRoom,China_Cabinet,1,300,Against wall,Low,1200x400x1800,Display storage
+FamilyRoom,Sofa_Sectional,1,600,Corner or against walls,Essential,2400+x900x850,Family seating
+FamilyRoom,Ottoman,1-2,300,Central,Medium,900x900x450,Footrest and storage
+FamilyRoom,TV_Stand,1,600,Opposite seating,Essential,1800x450x600,Entertainment
+FamilyRoom,Storage_Unit,1,300,Against wall,High,1800x400x1200,Toy and media storage
+Office,Desk,1,700,Near window,Essential,1500x750x750,Work surface
+Office,Office_Chair,1,600,At desk,Essential,600x600x1100,Ergonomic seating
+Office,Bookshelf,1-2,300,Against wall,High,900x300x1800,Book and file storage
+Office,Filing_Cabinet,1,600,Under or beside desk,Medium,450x600x700,Document storage
+Office,Guest_Chair,1-2,600,Opposite desk,Low,600x700x850,Client seating
+Library,Bookshelf,3-6,300,Along walls,Essential,900x300x1800,Book storage
+Library,Reading_Chair,1-2,600,Corner or window,Essential,800x900x1100,Comfortable seating
+Library,Side_Table,1-2,300,Beside chair,High,500x500x600,Lamp and reading material
+Library,Desk,1,700,Against wall,Medium,1200x600x750,Writing surface
+LaundryRoom,Washer,1,700,Against wall,Essential,600x600x900,Clothes washing
+LaundryRoom,Dryer,1,600,Beside washer,Essential,600x600x900,Clothes drying
+LaundryRoom,Utility_Sink,1,600,Against wall,Medium,500x500x900,Cleaning and soaking
+LaundryRoom,Storage_Cabinet,1,300,Above appliances,High,1200x350x750,Detergent storage
+LaundryRoom,Ironing_Board,1,300,Wall-mounted or freestanding,Low,350x1200x900,Ironing surface
+MudRoom,Bench,1,600,Against wall,High,1200x400x450,Seating for shoes
+MudRoom,Coat_Hooks,1,300,Above bench,Essential,1200x100x50,Coat storage
+MudRoom,Shoe_Storage,1,300,Below bench,High,1200x400x300,Shoe organization
+MudRoom,Storage_Cubbies,1,300,Wall-mounted,Medium,1200x350x400,Personal storage
+Garage,Storage_Shelving,2-4,600,Along walls,High,1800x450x1800,Tool and equipment storage
+Garage,Workbench,1,900,Against wall,Medium,2400x600x900,Repair and maintenance
+Garage,Tool_Cabinet,1,600,Near workbench,Medium,900x450x1800,Tool organization
+HomeTheater,Recliner,2-6,600,Rows facing screen,Essential,800x1000x1100,Theater seating
+HomeTheater,Screen,1,1000,Front wall,Essential,2400x1350x100,Display surface
+HomeTheater,Equipment_Rack,1,600,Side or rear,Essential,600x600x1200,AV equipment
+Gym,Exercise_Equipment,1-3,1200,Spaced throughout,Essential,Variable,Fitness machines
+Gym,Weight_Rack,1,900,Against wall,High,1200x600x1500,Free weights storage
+Gym,Bench,1,1000,Central area,Medium,1200x400x450,Exercise bench
+Gym,Mirror,1,300,Full wall,High,2400x1800,Wall-mounted
+Workshop,Workbench,1,900,Against wall,Essential,2400x750x900,Work surface
+Workshop,Tool_Storage,1,300,Above workbench,Essential,2400x300x600,Tool organization
+Workshop,Storage_Cabinet,2-4,600,Along walls,High,900x450x1800,Material storage

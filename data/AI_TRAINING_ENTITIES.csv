@@ -1,0 +1,189 @@
+Entity,Type,Synonyms,Associated_Intents,Description
+toilet,FIXTURE,Toilet;WC;Commode;Lavatory;Privy;Head,CREATE_ROOM;QUERY_DIMENSION;QUERY_FIXTURE_UNITS,Sanitary fixture for waste
+WC,FIXTURE,WC;Toilet;Water-Closet;Commode;Head,CREATE_ROOM;QUERY_FIXTURE_UNITS,Water-closet term
+sink,FIXTURE,Sink;Basin;Lavatory;Washbasin;Wash-Sink,CREATE_ROOM;QUERY_DIMENSION,Wash basin fixture
+kitchen sink,FIXTURE,Kitchen-Sink;KSink;Domestic-Sink;Kitchen-Basin,CREATE_ROOM;QUERY_DIMENSION,Kitchen washing fixture
+bathroom sink,FIXTURE,Bath-Sink;Lavatory;Washbasin;Bath-Basin,CREATE_ROOM;QUERY_DIMENSION,Bathroom washing fixture
+vanity sink,FIXTURE,Vanity-Sink;Vanity-Basin;Built-In-Sink,CREATE_ROOM;QUERY_DIMENSION,Integrated vanity sink
+vessel sink,FIXTURE,Vessel-Sink;Bowl-Sink;Freestanding-Basin,CREATE_ROOM;QUERY_DIMENSION,Above-counter bowl sink
+shower,FIXTURE,Shower;Shower-Stall;Shower-Bath;Wet-Room,CREATE_ROOM;QUERY_DIMENSION,Overhead spray bathing
+bathtub,FIXTURE,Bathtub;Bath;Tub;Bath-Tub;Soaking-Tub,CREATE_ROOM;QUERY_DIMENSION,Full immersion bathing
+faucet,FIXTURE,Faucet;Tap;Mixer;Spigot;Tap-Fitting,CREATE_ROOM;QUERY_DIMENSION,Water delivery fitting
+water heater,FIXTURE,Water-Heater;Boiler;Hot-Water-Tank;WH,CREATE_ROOM;QUERY_COST,Domestic hot-water unit
+bidet,FIXTURE,Bidet;Bidet-Toilet;Integrated-Bidet,CREATE_ROOM;QUERY_DIMENSION,Personal hygiene fixture
+urinal,FIXTURE,Urinal;Urinals;Wall-Urinal,CREATE_ROOM;QUERY_DIMENSION,Male sanitary fixture
+utility sink,FIXTURE,Utility-Sink;Laundry-Sink;Deep-Sink,CREATE_ROOM;QUERY_DIMENSION,Deep utility basin
+dishwasher,FIXTURE,Dishwasher;DW;Dish-Washer,CREATE_ROOM;QUERY_DIMENSION,Automatic dish cleaner
+washer,FIXTURE,Washer;Washing-Machine;Washing-Unit;WM,CREATE_ROOM;QUERY_DIMENSION,Clothes washing machine
+dryer,FIXTURE,Dryer;Clothes-Dryer;Tumble-Dryer;Drier,CREATE_ROOM;QUERY_DIMENSION,Clothes drying machine
+bathtub freestanding,FIXTURE,Freestanding-Tub;Clawfoot;Stand-Alone-Tub,CREATE_ROOM;QUERY_DIMENSION,Free-standing bath
+shower base,FIXTURE,Shower-Base;Shower-Pan;Shower-Floor,CREATE_ROOM;QUERY_DIMENSION,Waterproof shower floor
+shower valve,FIXTURE,Shower-Valve;Pressure-Balance;Thermostatic,CREATE_ROOM;QUERY_DIMENSION,Shower mixing valve
+shower head,FIXTURE,Shower-Head;Rain-Head;Handheld;Body-Spray,CREATE_ROOM;QUERY_DIMENSION,Water spray head
+pedestal,FIXTURE,Pedestal;Pedestal-Sink;Ped-Sink,CREATE_ROOM;QUERY_DIMENSION,Stand-alone pedestal sink
+bolted connection,CONNECTION,Bolted-Connection;Bolt-Joint;Bolted-Joint,CREATE_CONNECTION;QUERY_CAPACITY,Steel joint using bolts
+welded connection,CONNECTION,Welded-Connection;Weld-Joint;Welded-Joint,CREATE_CONNECTION;QUERY_CAPACITY,Steel joint using welds
+moment frame,CONNECTION,Moment-Frame;Rigid-Frame;Rigid-Connection,CREATE_CONNECTION;QUERY_CAPACITY,Moment-resisting frame
+shear tab,CONNECTION,Shear-Tab;Shear-Plate;Shear-Connector,CREATE_CONNECTION;QUERY_CAPACITY,Beam shear transfer plate
+clip angle,CONNECTION,Clip-Angle;Angle-Clip;Seat-Clip,CREATE_CONNECTION;QUERY_CAPACITY,Angle bracket connection
+end plate,CONNECTION,End-Plate;Beam-End-Plate;Flange-Plate,CREATE_CONNECTION;QUERY_CAPACITY,Beam end flange plate
+base plate,CONNECTION,Base-Plate;Column-Base;Bearing-Plate,CREATE_CONNECTION;QUERY_CAPACITY,Column-to-foundation plate
+gusset plate,CONNECTION,Gusset-Plate;Gusset;Bracing-Plate,CREATE_CONNECTION;QUERY_CAPACITY,Bracing connection plate
+splice plate,CONNECTION,Splice-Plate;Splice;Field-Splice,CREATE_CONNECTION;QUERY_CAPACITY,Beam field-splice plate
+stiffener,CONNECTION,Stiffener;Web-Stiffener;Bearing-Stiffener,CREATE_CONNECTION;QUERY_CAPACITY,Web reinforcement plate
+anchor bolt,CONNECTION,Anchor-Bolt;Cast-In-Bolt;Foundation-Bolt,CREATE_CONNECTION;QUERY_CAPACITY,Column-to-concrete bolt
+headed stud,CONNECTION,Headed-Stud;Shear-Stud;Stud-Anchor,CREATE_CONNECTION;QUERY_CAPACITY,Composite shear stud
+joist hanger,CONNECTION,Joist-Hanger;Hanger;Joist-Bracket,CREATE_CONNECTION;QUERY_CAPACITY,Wood joist support bracket
+hurricane tie,CONNECTION,Hurricane-Tie;Rafter-Tie;Hold-Clip,CREATE_CONNECTION;QUERY_CAPACITY,Wind uplift tie clip
+hold down,CONNECTION,Hold-Down;Holddown;Tie-Down;HD-Bracket,CREATE_CONNECTION;QUERY_CAPACITY,Shear-wall uplift resist
+post base,CONNECTION,Post-Base;Post-Anchor;Column-Base-Wood,CREATE_CONNECTION;QUERY_DIMENSION,Timber post foundation anchor
+ledger bolt,CONNECTION,Ledger-Bolt;Deck-Bolt;Ledger-Fastener,CREATE_CONNECTION;QUERY_DIMENSION,Ledger board fastener
+lag screw,CONNECTION,Lag-Screw;Lag-Bolt;Timber-Lag,CREATE_CONNECTION;QUERY_DIMENSION,Large threaded wood screw
+mudsill bolt,CONNECTION,Mudsill-Bolt;Sill-Bolt;Sill-Anchor,CREATE_CONNECTION;QUERY_DIMENSION,Sill plate anchor to concrete
+wedge anchor,CONNECTION,Wedge-Anchor;Expansion-Anchor;Wall-Anchor,CREATE_CONNECTION;QUERY_DIMENSION,Concrete expansion anchor
+epoxy anchor,CONNECTION,Epoxy-Anchor;Chemical-Anchor;Adhesive-Bolt,CREATE_CONNECTION;QUERY_DIMENSION,Adhesive-set anchor bolt
+nail plate,CONNECTION,Nail-Plate;Gang-Nail;Truss-Plate,CREATE_CONNECTION;QUERY_DIMENSION,Pressed-in nail plate
+rafter tie,CONNECTION,Rafter-Tie;Roof-Tie;Rafter-Strap,CREATE_CONNECTION;QUERY_DIMENSION,Rafter-to-plate tie
+post cap,CONNECTION,Post-Cap;Column-Cap;Cap-Connector,CREATE_CONNECTION;QUERY_DIMENSION,Timber post top cap
+seat angle,CONNECTION,Seat-Angle;Seat-Bracket;Support-Angle,CREATE_CONNECTION;QUERY_CAPACITY,Beam bearing seat angle
+A325 bolt,CONNECTION,A325-Bolt;High-Strength-Bolt;HS-Bolt,CREATE_CONNECTION;QUERY_CAPACITY,ASTM A325 structural bolt
+A490 bolt,CONNECTION,A490-Bolt;High-Strength-Bolt-A490,CREATE_CONNECTION;QUERY_CAPACITY,ASTM A490 high-strength bolt
+fillet weld,CONNECTION,Fillet-Weld;Fillet;Corner-Weld,CREATE_CONNECTION;QUERY_CAPACITY,Triangle-profile weld
+waterproofing,WATERPROOFING,Waterproofing;WP;Waterproof;Water-Barrier,CREATE_WATERPROOFING;QUERY_WATERPROOFING_REQ,Moisture barrier system
+liquid membrane,WATERPROOFING,Liquid-Membrane;Liquid-Applied;Brush-On,CREATE_WATERPROOFING;QUERY_COST,Fluid-applied coating
+sheet membrane,WATERPROOFING,Sheet-Membrane;Roll-Membrane;Sheet-WP,CREATE_WATERPROOFING;QUERY_COST,Factory-made sheet film
+EPDM membrane,WATERPROOFING,EPDM;Ethylene-Propylene-Diene,CREATE_WATERPROOFING;QUERY_COST,Rubber sheet membrane
+TPO membrane,WATERPROOFING,TPO;Thermoplastic-Polyolefin;TPO-Sheet,CREATE_WATERPROOFING;QUERY_COST,Thermoplastic membrane
+bentonite,WATERPROOFING,Bentonite;Clay-Waterproofing;Bentonite-Panel,CREATE_WATERPROOFING;QUERY_COST,Self-healing clay barrier
+sealant,WATERPROOFING,Sealant;Joint-Sealant;Caulk;Caulking,CREATE_WATERPROOFING;QUERY_COST,Flexible joint filler
+silicone sealant,WATERPROOFING,Silicone;Silicone-Sealant;Silicone-Caulk,CREATE_WATERPROOFING;QUERY_COST,Silicone-based sealant
+polyurethane sealant,WATERPROOFING,PU-Sealant;Poly-Sealant;PU-Caulk,CREATE_WATERPROOFING;QUERY_COST,PU-based joint sealant
+drain board,WATERPROOFING,Drain-Board;Dimple-Mat;Drainage-Layer,CREATE_WATERPROOFING;QUERY_COST,Below-grade drainage mat
+waterproof primer,WATERPROOFING,WP-Primer;Cut-Back-Primer;WP-Coat,CREATE_WATERPROOFING;QUERY_COST,Pre-coat for membranes
+modified bitumen,WATERPROOFING,Mod-Bit;SBS-Membrane;APP-Membrane,CREATE_WATERPROOFING;QUERY_COST,Modified-asphalt sheet
+flashing,FLASHING,Flashing;Flash;Metal-Flashing,CREATE_FLASHING;QUERY_FLASHING_REQ,Water-shed metal sheet
+head flashing,FLASHING,Head-Flash;Window-Head;Head-Drip,CREATE_FLASHING;QUERY_COST,Top-of-opening drip
+sill flashing,FLASHING,Sill-Flash;Sill-Pan;Window-Sill-Pan,CREATE_FLASHING;QUERY_COST,Bottom-of-opening shed
+jamb flashing,FLASHING,Jamb-Flash;Z-Bar;Jamb-Z,CREATE_FLASHING;QUERY_COST,Side-of-opening strip
+counter flashing,FLASHING,Counter-Flash;Roof-Counter;Slide-Over,CREATE_FLASHING;QUERY_COST,Upper cap over base flash
+base flashing,FLASHING,Base-Flash;Wall-to-Roof;Kick-Up,CREATE_FLASHING;QUERY_COST,Lower roof-wall junction
+valley flashing,FLASHING,Valley-Flash;Open-Valley;W-Valley,CREATE_FLASHING;QUERY_COST,Roof valley water shed
+step flashing,FLASHING,Step-Flash;Step-L;Rafter-Step,CREATE_FLASHING;QUERY_COST,Per-course L-sheet step
+chimney flashing,FLASHING,Chimney-Flash;Chimney-Kit;Chimney-Saddle,CREATE_FLASHING;QUERY_COST,Chimney penetration shed
+vent boot,FLASHING,Vent-Boot;Pipe-Boot;Vent-Flash,CREATE_FLASHING;QUERY_COST,Pipe penetration seal
+expansion joint,FLASHING,Exp-Joint;Movement-Joint;Expansion-Cover,CREATE_EXPANSION_JOINT;QUERY_COST,Thermal movement cover
+parapet cap,FLASHING,Parapet-Cap;Cap-Flash;Coping-Cap,CREATE_FLASHING;QUERY_COST,Parapet top rain cap
+coping,FLASHING,Coping;Coping-Cap;Roof-Coping,CREATE_FLASHING;QUERY_COST,Parapet top cover
+aluminium flashing,FLASHING,Al-Flash;Aluminium-Flash;Alu-Flash,CREATE_FLASHING;QUERY_COST,Aluminium sheet flashing
+copper flashing,FLASHING,Cu-Flash;Copper-Flash;Copper-Sheet,CREATE_FLASHING;QUERY_COST,Copper sheet flashing
+lead flashing,FLASHING,Lead-Flash;Lead-Boot;Lead-Sheet,CREATE_FLASHING;QUERY_COST,Lead sheet flashing
+galvanised flashing,FLASHING,Galv-Flash;GI-Flash;Zinc-Flash,CREATE_FLASHING;QUERY_COST,Zinc-coated steel flashing
+window wrap,FLASHING,Window-Wrap;Wrap-Tape;Poly-Wrap,CREATE_FLASHING;QUERY_COST,Self-adhesive window wrap
+hardwood floor,FLOORING,Hardwood;HW-Floor;Solid-Hardwood,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Solid-wood floor plank
+engineered wood,FLOORING,Engineered;EW-Floor;Plywood-Core,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Plywood-core wood floor
+LVT,FLOORING,LVT;Luxury-Vinyl-Tile;Vinyl-Tile,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Luxury vinyl tile
+LVP,FLOORING,LVP;Luxury-Vinyl-Plank;Vinyl-Plank,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Luxury vinyl plank
+SPC,FLOORING,SPC;Stone-Plastic-Composite;Rigid-Core,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Stone-plastic rigid core
+WPC,FLOORING,WPC;Wood-Plastic-Composite;Foam-Core,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Wood-plastic composite
+ceramic tile,FLOORING,Ceramic;Ceramic-Tile;Glazed-Tile,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Glazed ceramic tile
+porcelain tile,FLOORING,Porcelain;Porcelain-Tile;Through-Body,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Through-body porcelain
+natural stone tile,FLOORING,Stone-Tile;Natural-Stone;Marble;Granite,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Cut natural stone tile
+carpet,FLOORING,Carpet;Carpeting;Soft-Floor,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Textile floor covering
+carpet tile,FLOORING,Carpet-Tile;Modular-Carpet;Module,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Modular carpet square
+sheet vinyl,FLOORING,Sheet-Vinyl;Vinyl-Sheet;Roll-Vinyl,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Continuous vinyl roll
+linoleum,FLOORING,Lino;Linoleum;Roll-Lino,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Natural bio-based floor
+cork floor,FLOORING,Cork;Cork-Floor;Cork-Tile,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Bark-based resilient floor
+rubber floor,FLOORING,Rubber-Floor;Rubber-Tile;Gym-Floor,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Synthetic rubber surface
+epoxy floor,FLOORING,Epoxy-Floor;Epoxy-Coating;Resin-Floor,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Resin-coated surface
+terrazzo,FLOORING,Terrazzo;Terrazzo-Tile;Chip-Tile,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Composite chip flooring
+polished concrete,FLOORING,Polished-Concrete;Sealed-Slab;Concrete-Floor,CREATE_FLOOR;MODIFY_FLOOR_TYPE,Ground sealed slab floor
+refrigerator,APPLIANCE,Fridge;Refrigerator;Mini-Fridge;Cooler,CREATE_APPLIANCE;QUERY_DIMENSION,Food cooling unit
+oven,APPLIANCE,Oven;Cooking-Range;Stove;Cooker,CREATE_APPLIANCE;QUERY_DIMENSION,Cooking appliance
+microwave,APPLIANCE,Microwave;Microwave-Oven;Micro,CREATE_APPLIANCE;QUERY_DIMENSION,Microwave cooking unit
+sofa,FURNITURE,Sofa;Couch;Settee;Lounge;Chesterfield,CREATE_FURNITURE;QUERY_DIMENSION,Living-room seating
+dining table,FURNITURE,Dining-Table;Table;Dinner-Table,CREATE_FURNITURE;QUERY_DIMENSION,Meal surface table
+bed,FURNITURE,Bed;Bed-Frame;Mattress;Bedstead,CREATE_FURNITURE;QUERY_DIMENSION,Sleeping surface
+desk,FURNITURE,Desk;Work-Desk;Writing-Desk;Computer-Desk,CREATE_FURNITURE;QUERY_DIMENSION,Working surface
+chair,FURNITURE,Chair;Armchair;Desk-Chair;Office-Chair,CREATE_FURNITURE;QUERY_DIMENSION,Single seating unit
+wardrobe,FURNITURE,Wardrobe;Closet;Robe;Built-In-Wardrobe,CREATE_FURNITURE;QUERY_DIMENSION,Clothing storage unit
+bookshelf,FURNITURE,Bookshelf;Book-Case;Shelf;Shelving,CREATE_FURNITURE;QUERY_DIMENSION,Book storage shelving
+dining chair,FURNITURE,Dining-Chair;Table-Chair;Dining-Seat,CREATE_FURNITURE;QUERY_DIMENSION,Chair for dining table
+coffee table,FURNITURE,Coffee-Table;Low-Table;CT,CREATE_FURNITURE;QUERY_DIMENSION,Low living-room table
+nightstand,FURNITURE,Nightstand;Night-Table;Bedside;Bedside-Table,CREATE_FURNITURE;QUERY_DIMENSION,Bedroom side table
+island,FURNITURE,Kitchen-Island;Island;Centre-Bench,CREATE_FURNITURE;QUERY_DIMENSION,Freestanding kitchen block
+counter,FURNITURE,Counter;Countertop;Counter-Top;Bench,CREATE_COUNTERTOP;QUERY_DIMENSION,Kitchen working surface
+cabinet,FURNITURE,Cabinet;Cupboard;Kitchen-Cabinet;Upper,CREATE_CABINET;QUERY_DIMENSION,Enclosed storage unit
+HVAC,MEP,HVAC;Heating-Ventilation;Air-Conditioning;Climate,CREATE_HVAC_ZONE;QUERY_HVAC_LOAD,Climate-control system
+duct,MEP,Duct;Ductwork;Air-Duct;Supply-Duct,CREATE_DUCTWORK;QUERY_DIMENSION,Air distribution tube
+supply duct,MEP,Supply-Duct;Supply;Supply-Air-Duct,CREATE_DUCTWORK;QUERY_DIMENSION,Supply-air ductwork
+return duct,MEP,Return-Duct;Return;Return-Air-Duct,CREATE_DUCTWORK;QUERY_DIMENSION,Return-air ductwork
+exhaust duct,MEP,Exhaust-Duct;Exhaust;Vent-Duct,CREATE_DUCTWORK;QUERY_DIMENSION,Exhaust ventilation duct
+pipe,MEP,Pipe;Piping;Water-Pipe;Tube,CREATE_PIPE;QUERY_DIMENSION,Water transport tube
+supply pipe,MEP,Supply-Pipe;Cold-Water;Hot-Water;Feed,CREATE_PIPE;QUERY_DIMENSION,Water supply line
+drain pipe,MEP,Drain-Pipe;DWV;Waste-Pipe;Drainage,CREATE_PIPE;QUERY_DIMENSION,Waste water pipe
+vent pipe,MEP,Vent-Pipe;Stack;Vent-Stack;Drain-Vent,CREATE_PIPE;QUERY_DIMENSION,Plumbing vent stack
+electrical panel,MEP,Panel;Electrical-Panel;Switchboard;MDB,CREATE_ELECTRICAL_CIRCUIT;QUERY_DIMENSION,Circuit breaker panel
+circuit,MEP,Circuit;Electrical-Circuit;Wiring;Branch,CREATE_ELECTRICAL_CIRCUIT;QUERY_DIMENSION,Single electrical loop
+outlet,MEP,Outlet;Receptacle;Socket;Power-Point,CREATE_OUTLET;QUERY_DIMENSION,Electrical power socket
+switch,MEP,Switch;Light-Switch;Toggle;Rocker-Switch,CREATE_SWITCH;QUERY_DIMENSION,Light control device
+light fixture,MEP,Light;Fixture;Luminaire;Pendant;Recessed,CREATE_LIGHTING;QUERY_DIMENSION,Light-emitting unit
+downlight,MEP,Downlight;Recessed-Light;Can-Light;Spot,CREATE_LIGHTING;QUERY_DIMENSION,Recessed ceiling light
+pendant light,MEP,Pendant;Hanging-Light;Drop-Light,CREATE_LIGHTING;QUERY_DIMENSION,Hanging light fixture
+ceiling fan,MEP,Fan;Ceiling-Fan;Rotary-Fan,CREATE_LIGHTING;QUERY_DIMENSION,Overhead air-circulation
+smoke detector,MEP,Smoke-Detector;Fire-Alarm;SD;Detector,CREATE_SMOKE_DETECTOR;QUERY_DIMENSION,Smoke sensing device
+sprinkler,MEP,Sprinkler;Fire-Sprinkler;Sprinkler-Head,CREATE_SPRINKLER;QUERY_DIMENSION,Fire-suppression head
+fire extinguisher,MEP,Fire-Extinguisher;FE;Extinguisher,CREATE_FIRE_EXTINGUISHER;QUERY_DIMENSION,Portable fire-suppressor
+thermostat,MEP,Thermostat;Temp-Sensor;Climate-Sensor,MODIFY_HVAC_SETPOINT;QUERY_DIMENSION,Temperature controller
+elevator,MEP,Elevator;Lift;Lift-Car;Elevator-Cab,CREATE_ELEVATOR;QUERY_DIMENSION,Vertical transport cabin
+fire escape,FIRE-SAFETY,Fire-Escape;Fire-Exit;Emergency-Exit,CREATE_FIRE_ESCAPE;QUERY_EGRESS,Emergency exit route
+fire door,FIRE-SAFETY,Fire-Door;Fire-Rated-Door;FRD,CREATE_DOOR_TYPED;QUERY_FIRE_RATING,Fire-resistant door
+fire wall,FIRE-SAFETY,Fire-Wall;Fire-Barrier;Firewall,CREATE_WALL;QUERY_FIRE_RATING,Fire compartment barrier
+fire rating,FIRE-SAFETY,Fire-Rating;Fire-Resistance;FR;1hr;2hr,QUERY_FIRE_RATING;MODIFY_FIRE_RATING,Resistance duration class
+egress,FIRE-SAFETY,Egress;Exit;Exit-Route;Escape-Route,QUERY_EGRESS,Occupant escape path
+fire stair,FIRE-SAFETY,Fire-Stair;Fire-Stairwell;Protected-Stair,CREATE_FIRE_STAIR;QUERY_FIRE_RATING,Fire-protected stairway
+sprinkler zone,FIRE-SAFETY,Sprinkler-Zone;Fire-Zone;Coverage,CREATE_SPRINKLER;QUERY_CAPACITY,Sprinkler coverage area
+fire alarm,FIRE-SAFETY,Fire-Alarm;Alarm;Alert-Device,CREATE_SMOKE_DETECTOR;QUERY_DIMENSION,Fire warning device
+emergency lighting,FIRE-SAFETY,Emergency-Light;Exit-Light;Safety-Light,CREATE_LIGHTING;QUERY_DIMENSION,Emergency illumination
+evacuation,FIRE-SAFETY,Evacuation;Evacuation-Route;Evac,QUERY_EGRESS,Building evacuation path
+occupancy,FIRE-SAFETY,Occupancy;Occupancy-Load;People-Count,QUERY_OCCUPANCY;MODIFY_OCCUPANCY_LOAD,Person capacity load
+exit sign,FIRE-SAFETY,Exit-Sign;Escape-Sign;Green-Sign,CREATE_LIGHTING;QUERY_DIMENSION,Illuminated exit marker
+setback,PROPERTY,Setback;Building-Setback;Set-Back,QUERY_SETBACK;MODIFY_SETBACK,Distance from boundary
+lot,PROPERTY,Lot;Plot;Site;Land;Property,QUERY_LOT_COVERAGE,Building site parcel
+FAR,PROPERTY,FAR;Floor-Area-Ratio;Plot-Ratio,QUERY_FLOOR_AREA_RATIO,Floor-to-site ratio
+lot coverage,PROPERTY,Lot-Coverage;Ground-Coverage;Site-Cover,QUERY_LOT_COVERAGE,Footprint to lot ratio
+boundary,PROPERTY,Boundary;Site-Boundary;Plot-Line,QUERY_SETBACK,Site edge line
+zoning,PROPERTY,Zoning;Zone;Land-Use;Zoning-District,QUERY_CODE_COMPLIANCE,Land-use classification
+parking,PROPERTY,Parking;Car-Park;Parking-Space;Bay,CREATE_PARKING_SPACE;QUERY_COUNT,Vehicle resting space
+site,PROPERTY,Site;Project-Site;Plot;Lot-Area,QUERY_LOT_COVERAGE,Total building site
+grid,PROPERTY,Grid;Structural-Grid;Column-Grid,CREATE_GRID;NAVIGATE_TOGGLE_LAYER,Structural grid layout
+level,PROPERTY,Level;Story;Floor-Level;Storey,CREATE_LEVEL;NAVIGATE_TO_LEVEL,Building vertical level
+orientation,PROPERTY,Orientation;Building-Orientation;Facing,QUERY_NATURAL_LIGHT,Compass direction facing
+solar access,PROPERTY,Solar-Access;Daylight;Sun-Access,QUERY_NATURAL_LIGHT,Solar light availability
+wind load,PROPERTY,Wind-Load;Lateral-Wind;Wind-Pressure,QUERY_WIND_LOAD,Lateral wind force
+seismic zone,PROPERTY,Seismic-Zone;Earthquake-Zone;Seismic-Cat,QUERY_SEISMIC_ZONE,Earthquake hazard class
+snow load,PROPERTY,Snow-Load;Ground-Snow;Roof-Snow,QUERY_CAPACITY,Roof snow force
+dead load,PROPERTY,Dead-Load;DL;Self-Weight;Permanent-Load,QUERY_WEIGHT,Permanent gravity load
+degree,UNIT,Degree;Degrees;°;Deg,MODIFY_SLOPE;MODIFY_ROOF_SLOPE,Angular measure
+percent,UNIT,Percent;%;Percentage;Per-Cent,MODIFY_SLOPE;MODIFY_SETBACK,Proportional measure
+GPF,UNIT,GPF;Gallons-Per-Flush;Flush-Rate,QUERY_DIMENSION;MODIFY_TOILET_GPF,Toilet flush rate
+GPM,UNIT,GPM;Gallons-Per-Minute;Flow-Rate,QUERY_DIMENSION,Water flow rate
+BTU,UNIT,BTU;British-Thermal-Unit;Heat-Unit,QUERY_HVAC_LOAD,Heat energy unit
+kW,UNIT,kW;Kilowatt;Kilowatts,QUERY_CAPACITY,Electrical power unit
+lux,UNIT,Lux;Foot-Candle;Light-Level,QUERY_LIGHTING_LEVEL;MODIFY_LIGHTING_DIM,Illuminance unit
+CFM,UNIT,CFM;Cubic-Feet-Per-Minute;Air-Flow,QUERY_VENTILATION;MODIFY_VENTILATION,Air flow rate
+ACH,UNIT,ACH;Air-Changes;Air-Changes-Per-Hour,QUERY_VENTILATION,Ventilation air-change rate
+STC,UNIT,STC;Sound-Transmission-Class;Acoustic,QUERY_SOUND_RATING;MODIFY_ACOUSTIC_RATING,Sound insulation class
+R-value,UNIT,R-Value;R;Thermal-Resistance;Insulation,QUERY_R_VALUE;MODIFY_INSULATION,Thermal resistance value
+U-value,UNIT,U-Value;U;Thermal-Transmittance,QUERY_R_VALUE;MODIFY_INSULATION,Thermal transmittance value
+live load,STRUCTURAL,Live-Load;LL;Imposed-Load;Occupancy-Load,QUERY_CAPACITY,Variable floor loading
+point load,STRUCTURAL,Point-Load;Concentrated-Load;Spot-Load,QUERY_CAPACITY,Single concentrated force
+distributed load,STRUCTURAL,Distributed-Load;UDL;Uniform-Load,QUERY_CAPACITY,Spread force per length
+bearing capacity,STRUCTURAL,Bearing-Capacity;BC;Soil-Bearing,QUERY_CAPACITY,Ground load resistance
+shear,STRUCTURAL,Shear;Shear-Force;Transverse-Force,QUERY_CAPACITY,Lateral internal force
+moment,STRUCTURAL,Moment;Bending-Moment;BM;Couple,QUERY_CAPACITY,Rotational internal force
+buckling,STRUCTURAL,Buckling;Column-Buckling;Euler,QUERY_CAPACITY,Instability failure mode
+deflection,STRUCTURAL,Deflection;Sag;Mid-Span;Displacement,QUERY_CAPACITY,Beam bending displacement
+reinforcement,STRUCTURAL,Reinforcement;Rebar;RC;Rebars,QUERY_DIMENSION;MODIFY_MATERIAL,Steel bar in concrete
+prestress,STRUCTURAL,Prestress;Pretension;Post-Tension;PT,QUERY_DIMENSION,Pre-tensioned concrete
+truss,STRUCTURAL,Truss;Roof-Truss;Floor-Truss;Space-Frame,QUERY_DIMENSION,Triangulated frame
+brace,STRUCTURAL,Brace;Bracing;Diagonal-Brace;Cross-Brace,QUERY_DIMENSION;CREATE_CONNECTION,Lateral stability member

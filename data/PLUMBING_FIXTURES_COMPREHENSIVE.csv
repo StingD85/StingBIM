@@ -1,0 +1,101 @@
+MaterialId,Name,Category,SubCategory,ThermalConductivity,Density,UnitCost,Currency,FireRating,Region
+MAT-PL-001,Toilet 2-Piece Elongated 1.28GPF Gravity,Plumbing,Toilet-Two-Piece,99.0,2400,220,USD,Unrated,International
+MAT-PL-002,Toilet 2-Piece Round 1.6GPF Gravity,Plumbing,Toilet-Two-Piece,99.0,2400,180,USD,Unrated,International
+MAT-PL-003,Toilet 2-Piece Elongated 1.0GPF HET,Plumbing,Toilet-Two-Piece,99.0,2400,280,USD,Unrated,International
+MAT-PL-004,Toilet 2-Piece Elongated 1.28GPF ADA,Plumbing,Toilet-Two-Piece,99.0,2400,320,USD,Unrated,International
+MAT-PL-005,Toilet 2-Piece Round 1.28GPF Compact,Plumbing,Toilet-Two-Piece,99.0,2400,200,USD,Unrated,International
+MAT-PL-006,Toilet 2-Piece Elongated Dual-Flush,Plumbing,Toilet-Two-Piece,99.0,2400,340,USD,Unrated,International
+MAT-PL-007,Toilet 1-Piece Elongated 1.28GPF Modern,Plumbing,Toilet-One-Piece,99.0,2400,420,USD,Unrated,International
+MAT-PL-008,Toilet 1-Piece Elongated Dual-Flush,Plumbing,Toilet-One-Piece,99.0,2400,480,USD,Unrated,International
+MAT-PL-009,Toilet 1-Piece Round 1.0GPF HET,Plumbing,Toilet-One-Piece,99.0,2400,380,USD,Unrated,International
+MAT-PL-010,Toilet 2-Piece Elongated 1.0GPF Pressure,Plumbing,Toilet-Pressure,99.0,2400,450,USD,Unrated,International
+MAT-PL-011,Toilet 2-Piece Elongated 1.28GPF Pressure ADA,Plumbing,Toilet-Pressure,99.0,2400,520,USD,Unrated,International
+MAT-PL-012,Toilet 1-Piece Round 1.0GPF Pressure,Plumbing,Toilet-Pressure,99.0,2400,500,USD,Unrated,International
+MAT-PL-013,Toilet Wall-Hung Elongated 1.28GPF,Plumbing,Toilet-Wall-Hung,99.0,2400,650,USD,Unrated,International
+MAT-PL-014,Toilet Wall-Hung Elongated Dual-Flush,Plumbing,Toilet-Wall-Hung,99.0,2400,750,USD,Unrated,International
+MAT-PL-015,Toilet Wall-Hung Round 1.28GPF,Plumbing,Toilet-Wall-Hung,99.0,2400,620,USD,Unrated,International
+MAT-PL-016,Toilet Bidet Integrated 1.28GPF,Plumbing,Toilet-Bidet,99.0,2500,900,USD,Unrated,International
+MAT-PL-017,Toilet Bidet Integrated Dual-Flush,Plumbing,Toilet-Bidet,99.0,2500,1100,USD,Unrated,International
+MAT-PL-018,Toilet Tankless Commercial Wall-Hung,Plumbing,Toilet-Tankless,99.0,2400,850,USD,Unrated,International
+MAT-PL-019,Kitchen Sink SS 33x22 Drop-In Double,Plumbing,Sink-Kitchen,15.0,7850,380,USD,Unrated,International
+MAT-PL-020,Kitchen Sink SS 32x21 Undermount Single,Plumbing,Sink-Kitchen,15.0,7850,460,USD,Unrated,International
+MAT-PL-021,Kitchen Sink SS 36x22 Undermount 60-40,Plumbing,Sink-Kitchen,15.0,7850,520,USD,Unrated,International
+MAT-PL-022,Kitchen Sink SS 33x22 Single-Bowl Large,Plumbing,Sink-Kitchen,15.0,7850,410,USD,Unrated,International
+MAT-PL-023,Kitchen Sink SS Farmhouse 33x22 Apron,Plumbing,Sink-Kitchen,15.0,7850,680,USD,Unrated,International
+MAT-PL-024,Kitchen Sink CI 33x22 Drop-In Double,Plumbing,Sink-Kitchen,80.0,7200,560,USD,Unrated,International
+MAT-PL-025,Kitchen Sink CI 32x21 Undermount Single,Plumbing,Sink-Kitchen,80.0,7200,620,USD,Unrated,International
+MAT-PL-026,Kitchen Sink CI Farmhouse 36x22 Apron,Plumbing,Sink-Kitchen,80.0,7200,780,USD,Unrated,International
+MAT-PL-027,Kitchen Sink Composite 33x22 Undermount,Plumbing,Sink-Kitchen,0.9,2400,480,USD,Unrated,International
+MAT-PL-028,Kitchen Sink Quartz 33x22 Drop-In Double,Plumbing,Sink-Kitchen,0.9,2600,520,USD,Unrated,International
+MAT-PL-029,Kitchen Sink Composite Farmhouse 36x22,Plumbing,Sink-Kitchen,0.9,2400,680,USD,Unrated,International
+MAT-PL-030,Kitchen Sink Fiberglass 33x22 Drop-In,Plumbing,Sink-Kitchen,0.35,1500,280,USD,Unrated,International
+MAT-PL-031,Kitchen Sink Acrylic 33x22 Double,Plumbing,Sink-Kitchen,0.17,1180,250,USD,Unrated,International
+MAT-PL-032,Utility Sink Deep 24x20 Concrete,Plumbing,Sink-Utility,1.7,2400,320,USD,Unrated,International
+MAT-PL-033,Bath Sink 19in Oval Drop-In White,Plumbing,Sink-Bathroom,99.0,2400,110,USD,Unrated,International
+MAT-PL-034,Bath Sink 20in Rectangular Drop-In,Plumbing,Sink-Bathroom,99.0,2400,125,USD,Unrated,International
+MAT-PL-035,Bath Sink 22in Oval Drop-In Almond,Plumbing,Sink-Bathroom,99.0,2400,130,USD,Unrated,International
+MAT-PL-036,Bath Sink 18in Oval Undermount,Plumbing,Sink-Bathroom,99.0,2400,160,USD,Unrated,International
+MAT-PL-037,Bath Sink 20in Rectangular Undermount,Plumbing,Sink-Bathroom,99.0,2400,185,USD,Unrated,International
+MAT-PL-038,Bath Sink 21in Round Undermount,Plumbing,Sink-Bathroom,99.0,2400,170,USD,Unrated,International
+MAT-PL-039,Bath Vessel 15in Round Ceramic,Plumbing,Sink-Bathroom,99.0,2400,200,USD,Unrated,International
+MAT-PL-040,Bath Vessel 18in Round Glass,Plumbing,Sink-Bathroom,0.9,2500,280,USD,Unrated,International
+MAT-PL-041,Bath Vessel 18in Oval Stone,Plumbing,Sink-Bathroom,1.7,2500,380,USD,Unrated,International
+MAT-PL-042,Bath Vessel 16in Square Ceramic,Plumbing,Sink-Bathroom,99.0,2400,220,USD,Unrated,International
+MAT-PL-043,Bath Sink 20in Wall-Hung ADA,Plumbing,Sink-Bathroom,99.0,2400,320,USD,Unrated,International
+MAT-PL-044,Bath Sink 24in Wall-Hung Commercial,Plumbing,Sink-Bathroom,99.0,2400,380,USD,Unrated,International
+MAT-PL-045,Bath Sink 20in Wall-Hung Concealed Carrier,Plumbing,Sink-Bathroom,99.0,2400,350,USD,Unrated,International
+MAT-PL-046,Bath Sink 22in Pedestal Classic,Plumbing,Sink-Bathroom,99.0,2400,280,USD,Unrated,International
+MAT-PL-047,Bath Sink 24in Pedestal ADA,Plumbing,Sink-Bathroom,99.0,2400,320,USD,Unrated,International
+MAT-PL-048,Bath Vanity-Top 24in Single Basin,Plumbing,Sink-Bathroom,1.7,2200,420,USD,Unrated,International
+MAT-PL-049,Bath Vanity-Top 36in Single Basin,Plumbing,Sink-Bathroom,1.7,2200,520,USD,Unrated,International
+MAT-PL-050,Bath Vanity-Top 48in Double Basin,Plumbing,Sink-Bathroom,1.7,2200,680,USD,Unrated,International
+MAT-PL-051,Shower Prefab 32x32 Fiberglass One-Piece,Plumbing,Shower-Prefab,0.35,1400,580,USD,Unrated,International
+MAT-PL-052,Shower Prefab 36x36 Fiberglass One-Piece,Plumbing,Shower-Prefab,0.35,1400,680,USD,Unrated,International
+MAT-PL-053,Shower Prefab 48x36 Fiberglass One-Piece,Plumbing,Shower-Prefab,0.35,1500,780,USD,Unrated,International
+MAT-PL-054,Shower Prefab 32x32 Acrylic One-Piece,Plumbing,Shower-Prefab,0.17,1180,480,USD,Unrated,International
+MAT-PL-055,Shower Prefab 36x36 Surround Kit,Plumbing,Shower-Prefab,0.17,1180,520,USD,Unrated,International
+MAT-PL-056,Shower Base 32x32 Acrylic White,Plumbing,Shower-Base,0.17,1180,180,USD,Unrated,International
+MAT-PL-057,Shower Base 36x36 Fiberglass White,Plumbing,Shower-Base,0.35,1400,220,USD,Unrated,International
+MAT-PL-058,Shower Base 48x36 Fiberglass White,Plumbing,Shower-Base,0.35,1400,280,USD,Unrated,International
+MAT-PL-059,Shower Drain Assembly 2in,Plumbing,Shower-Drain,15.0,7850,45,USD,Unrated,International
+MAT-PL-060,Shower ADA Transfer 60x36 Base,Plumbing,Shower-Base,0.35,1400,380,USD,Unrated,International
+MAT-PL-061,Bathtub Alcove 60x32 Acrylic White,Plumbing,Bathtub-Alcove,0.17,1180,420,USD,Unrated,International
+MAT-PL-062,Bathtub Alcove 60x30 Fiberglass White,Plumbing,Bathtub-Alcove,0.35,1400,380,USD,Unrated,International
+MAT-PL-063,Bathtub Alcove 72x32 Acrylic White,Plumbing,Bathtub-Alcove,0.17,1180,520,USD,Unrated,International
+MAT-PL-064,Bathtub Drop-In 60x32 Acrylic Overflow,Plumbing,Bathtub-Drop-In,0.17,1180,480,USD,Unrated,International
+MAT-PL-065,Bathtub Drop-In 60x30 Fiberglass Bubble,Plumbing,Bathtub-Drop-In,0.35,1400,620,USD,Unrated,International
+MAT-PL-066,Bathtub Freestanding 60x30 Acrylic Classic,Plumbing,Bathtub-Freestanding,0.17,1180,780,USD,Unrated,International
+MAT-PL-067,Bathtub Freestanding 60x30 Cast-Iron Clawfoot,Plumbing,Bathtub-Freestanding,80.0,7200,1800,USD,Unrated,International
+MAT-PL-068,Bathtub Freestanding 72x32 Stone Resin,Plumbing,Bathtub-Freestanding,1.5,2200,2200,USD,Unrated,International
+MAT-PL-069,Bathtub Cast-Iron 60x32 Alcove,Plumbing,Bathtub-Alcove,80.0,7200,1200,USD,Unrated,International
+MAT-PL-070,Bathtub Cast-Iron 60x30 Roll-Top,Plumbing,Bathtub-Freestanding,80.0,7200,1600,USD,Unrated,International
+MAT-PL-071,Bathtub Whirlpool 60x32 Acrylic Alcove,Plumbing,Bathtub-Whirlpool,0.17,1200,1400,USD,Unrated,International
+MAT-PL-072,Bathtub Soaking Deep 60x32 Acrylic,Plumbing,Bathtub-Soaking,0.17,1200,680,USD,Unrated,International
+MAT-PL-073,Kitchen Faucet Pull-Down Single-Handle,Plumbing,Faucet-Kitchen,15.0,8400,280,USD,Unrated,International
+MAT-PL-074,Kitchen Faucet Pull-Out Single-Handle,Plumbing,Faucet-Kitchen,15.0,8400,260,USD,Unrated,International
+MAT-PL-075,Kitchen Faucet Bridge Double-Handle,Plumbing,Faucet-Kitchen,15.0,8400,380,USD,Unrated,International
+MAT-PL-076,Kitchen Faucet Farmhouse Arc Single,Plumbing,Faucet-Kitchen,15.0,8400,320,USD,Unrated,International
+MAT-PL-077,Kitchen Faucet Touchless Single,Plumbing,Faucet-Kitchen,15.0,8400,580,USD,Unrated,International
+MAT-PL-078,Kitchen Faucet Commercial Spring Single,Plumbing,Faucet-Kitchen,15.0,8400,420,USD,Unrated,International
+MAT-PL-079,Bath Faucet Single-Handle Lever,Plumbing,Faucet-Bathroom,15.0,8400,120,USD,Unrated,International
+MAT-PL-080,Bath Faucet Single-Handle Arc Spout,Plumbing,Faucet-Bathroom,15.0,8400,140,USD,Unrated,International
+MAT-PL-081,Bath Faucet Single-Handle Vessel,Plumbing,Faucet-Bathroom,15.0,8400,160,USD,Unrated,International
+MAT-PL-082,Bath Faucet Widespread 8in Double-Handle,Plumbing,Faucet-Bathroom,15.0,8400,220,USD,Unrated,International
+MAT-PL-083,Bath Faucet Widespread 12in Double-Handle,Plumbing,Faucet-Bathroom,15.0,8400,280,USD,Unrated,International
+MAT-PL-084,Bath Faucet Centerset 4in Double-Handle,Plumbing,Faucet-Bathroom,15.0,8400,150,USD,Unrated,International
+MAT-PL-085,Shower Valve Pressure-Balance Trim,Plumbing,Faucet-Shower,15.0,8400,180,USD,Unrated,International
+MAT-PL-086,Shower Valve Thermostatic Trim,Plumbing,Faucet-Shower,15.0,8400,380,USD,Unrated,International
+MAT-PL-087,Shower Head Fixed 2.5GPM Std,Plumbing,Faucet-Shower,15.0,8400,80,USD,Unrated,International
+MAT-PL-088,Shower Head Rain 10in Ceiling,Plumbing,Faucet-Shower,15.0,8400,180,USD,Unrated,International
+MAT-PL-089,Shower Head Handheld 2.0GPM Low-Flow,Plumbing,Faucet-Shower,15.0,8400,60,USD,Unrated,International
+MAT-PL-090,Utility Faucet Gooseneck Single,Plumbing,Faucet-Utility,15.0,8400,90,USD,Unrated,International
+MAT-PL-091,Water Heater Gas Tank 40gal 40kBTU,Plumbing,Water-Heater,15.0,7000,580,USD,1hr,International
+MAT-PL-092,Water Heater Gas Tank 50gal 40kBTU,Plumbing,Water-Heater,15.0,7000,680,USD,1hr,International
+MAT-PL-093,Water Heater Gas Tank 75gal 75kBTU,Plumbing,Water-Heater,15.0,7000,980,USD,1hr,International
+MAT-PL-094,Water Heater Electric Tank 40gal 4.5kW,Plumbing,Water-Heater,15.0,7000,520,USD,1hr,International
+MAT-PL-095,Water Heater Electric Tank 50gal 4.5kW,Plumbing,Water-Heater,15.0,7000,620,USD,1hr,International
+MAT-PL-096,Water Heater Tankless Gas 7.5GPM,Plumbing,Water-Heater,15.0,4500,1200,USD,1hr,International
+MAT-PL-097,Water Heater Tankless Electric 4GPM,Plumbing,Water-Heater,15.0,4500,980,USD,1hr,International
+MAT-PL-098,Water Heater Heat-Pump 50gal 4.5kW,Plumbing,Water-Heater,15.0,7000,1400,USD,1hr,International
+MAT-PL-099,Water Heater Gas Condensing 75gal,Plumbing,Water-Heater,15.0,7200,1580,USD,1hr,International
+MAT-PL-100,Water Heater Tankless Gas 10GPM Condensing,Plumbing,Water-Heater,15.0,4500,1800,USD,1hr,International

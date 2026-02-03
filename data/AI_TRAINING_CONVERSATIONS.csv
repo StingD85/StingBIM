@@ -1,0 +1,150 @@
+ConvId,Turn,Speaker,Utterance,Intent,Entities,Slots,Response,Context,Category
+CONV-001,1,User,I need to add a bedroom,CREATE_ROOM,bedroom,RoomType=bedroom,Sure! What dimensions would you like for the bedroom?,,Create-Room
+CONV-001,2,User,Make it 4 metres by 5 metres,MODIFY_DIMENSION,4 metres|5 metres,Width=4m;Length=5m,I've added a 4 m × 5 m bedroom. Where should I place it?,CONV-001-1,Create-Room
+CONV-001,3,User,Put it in the north-east corner,NAVIGATE_TO_COORDINATE,north-east corner,Location=NE-corner,Done — bedroom placed in the NE corner of the plan.,CONV-001-2,Create-Room
+CONV-002,1,User,Create a kitchen please,CREATE_ROOM_TYPED,kitchen,RoomType=kitchen,What size kitchen do you want?,,Create-Room
+CONV-002,2,User,About 3.5 by 4,MODIFY_DIMENSION,3.5|4,Width=3.5m;Length=4m,3.5 m × 4 m kitchen created. Shall I add cabinets and appliances?,CONV-002-1,Create-Room
+CONV-002,3,User,Yes add a refrigerator and oven,CREATE_APPLIANCE,refrigerator|oven,Appliance1=refrigerator;Appliance2=oven,Refrigerator and oven placed in the kitchen.,CONV-002-2,Create-Room
+CONV-003,1,User,Add a master bathroom,CREATE_ROOM_TYPED,master bathroom,RoomType=master-bathroom,How large should the master bathroom be?,,Create-Room
+CONV-003,2,User,12 by 10 feet,MODIFY_DIMENSION,12|10 feet,Width=12ft;Length=10ft;Unit=ft,12 × 10 ft master bathroom created. Want fixtures added?,CONV-003-1,Create-Room
+CONV-003,3,User,Put in a bathtub toilet and shower,CREATE_SHOWER,bathtub|toilet|shower,Fixtures=bathtub;toilet;shower,"Bathtub, toilet, and shower placed in the master bath.",CONV-003-2,Create-Room
+CONV-003,4,User,Make the shower a rain shower,MODIFY_DIMENSION,rain shower,ShowerHead=rain,Shower head upgraded to rain style.,CONV-003-3,Create-Room
+CONV-004,1,User,I want a home office,CREATE_ROOM_TYPED,office,RoomType=home-office,What dimensions would you like?,,Create-Room
+CONV-004,2,User,3 by 3.5 metres is fine,MODIFY_DIMENSION,3|3.5 metres,Width=3m;Length=3.5m,3 m × 3.5 m home office created. Add a desk?,CONV-004-1,Create-Room
+CONV-004,3,User,Yes a desk and a bookshelf,CREATE_FURNITURE,desk|bookshelf,Furniture1=desk;Furniture2=bookshelf,Desk and bookshelf placed in the office.,CONV-004-2,Create-Room
+CONV-005,1,User,Add a garage for two cars,CREATE_ROOM_TYPED,garage,RoomType=garage,Standard two-car garage is about 6 m × 6 m. Use that?,,Create-Room
+CONV-005,2,User,Yes that works,CONFIRM,,,6 m × 6 m two-car garage added to the plan.,CONV-005-1,Create-Room
+CONV-005,3,User,Put it on the west side,NAVIGATE_TO_COORDINATE,west side,Location=West,Garage repositioned to the west side.,CONV-005-2,Create-Room
+CONV-006,1,User,Create a living room,CREATE_ROOM_TYPED,living room,RoomType=living-room,What size living room?,,Create-Room
+CONV-006,2,User,5 by 7,MODIFY_DIMENSION,5|7,Width=5m;Length=7m,5 m × 7 m living room created. Add furniture?,CONV-006-1,Create-Room
+CONV-006,3,User,Add a sofa and coffee table,CREATE_FURNITURE,sofa|coffee table,Furniture1=sofa;Furniture2=coffee-table,Sofa and coffee table placed.,CONV-006-2,Create-Room
+CONV-007,1,User,I need a powder room,CREATE_ROOM_TYPED,powder room,RoomType=powder-room,A standard powder room is about 1.5 m × 2 m. Proceed?,,Create-Room
+CONV-007,2,User,Make it a bit bigger — 2 by 2.5,MODIFY_DIMENSION,2|2.5,Width=2m;Length=2.5m,2 m × 2.5 m powder room created. Add toilet and sink?,CONV-007-1,Create-Room
+CONV-007,3,User,Yes,CONFIRM,,,Toilet and half-bath sink added.,CONV-007-2,Create-Room
+CONV-008,1,User,Add a laundry room,CREATE_ROOM_TYPED,laundry,RoomType=laundry,Standard laundry is about 2 m × 3 m. OK?,,Create-Room
+CONV-008,2,User,That's fine,CONFIRM,,,2 m × 3 m laundry room created. Add washer and dryer?,CONV-008-1,Create-Room
+CONV-008,3,User,Please,CONFIRM,,,Washer and dryer placed in the laundry room.,CONV-008-2,Create-Room
+CONV-009,1,User,Make a dining room next to the kitchen,CREATE_ROOM_TYPED,dining room,RoomType=dining-room,What size dining room?,,Create-Room
+CONV-009,2,User,4 by 4.5,MODIFY_DIMENSION,4|4.5,Width=4m;Length=4.5m,4 m × 4.5 m dining room placed adjacent to the kitchen. Add a table?,CONV-009-1,Create-Room
+CONV-009,3,User,Add a dining table for six,CREATE_FURNITURE,dining table,Furniture=dining-table;Seats=6,Six-seat dining table added.,CONV-009-2,Create-Room
+CONV-010,1,User,I want a playroom for the kids,CREATE_ROOM_TYPED,playroom,RoomType=playroom,Recommended minimum is 3 m × 3 m. Size?,,Create-Room
+CONV-010,2,User,3.5 by 4 please,MODIFY_DIMENSION,3.5|4,Width=3.5m;Length=4m,3.5 m × 4 m playroom created.,CONV-010-1,Create-Room
+CONV-011,1,User,Add a storage closet,CREATE_ROOM_TYPED,closet,RoomType=closet,How big should the closet be?,,Create-Room
+CONV-011,2,User,About 1 by 1.5,MODIFY_DIMENSION,1|1.5,Width=1m;Length=1.5m,1 m × 1.5 m storage closet created.,CONV-011-1,Create-Room
+CONV-012,1,User,Put a foyer at the entrance,CREATE_ROOM_TYPED,foyer,RoomType=foyer,Standard foyer is about 2 m × 2.5 m. Dimensions?,,Create-Room
+CONV-012,2,User,2 by 3 is better,MODIFY_DIMENSION,2|3,Width=2m;Length=3m,2 m × 3 m foyer placed at the building entrance.,CONV-012-1,Create-Room
+CONV-013,1,User,Add a W12 column at grid B3,CREATE_COLUMN,W12 column|grid B3,ColumnType=W12;Location=B3,W12 column placed at B3. What height?,,Create-Structural
+CONV-013,2,User,Floor to floor 3.5 metres,MODIFY_DIMENSION,3.5 metres,Height=3.5m,Column height set to 3.5 m at B3.,CONV-013-1,Create-Structural
+CONV-014,1,User,I need a steel beam from B2 to B3,CREATE_BEAM,steel beam|B2|B3,BeamType=steel;Start=B2;End=B3,What depth beam do you need?,,Create-Structural
+CONV-014,2,User,W14 should work,MODIFY_DIMENSION,W14,BeamSize=W14,W14 steel beam placed from B2 to B3.,CONV-014-1,Create-Structural
+CONV-015,1,User,Add a bolted shear tab at the B2-B3 joint,CREATE_CONNECTION,bolted shear tab|B2-B3,ConnType=shear-tab;Joint=B2-B3,How many bolts?,,Create-Structural
+CONV-015,2,User,5 bolt pattern,MODIFY_DIMENSION,5 bolt,Bolts=5,5-bolt shear tab connection placed at B2-B3.,CONV-015-1,Create-Structural
+CONV-016,1,User,Create a base plate under column C1,CREATE_BASE_PLATE,base plate|column C1,Element=column-C1,How many anchor bolts?,,Create-Structural
+CONV-016,2,User,4 anchors for a pinned base,MODIFY_DIMENSION,4 anchors|pinned,Anchors=4;Type=pinned,4-bolt pinned base plate created under C1.,CONV-016-1,Create-Structural
+CONV-017,1,User,I want joist hangers for the second floor,CREATE_CONNECTION,joist hangers|second floor,ConnType=joist-hanger;Level=2,What joist size?,,Create-Structural
+CONV-017,2,User,2x10 joists,MODIFY_DIMENSION,2x10,JoistSize=2x10,2×10 joist hangers placed on all joists at level 2.,CONV-017-1,Create-Structural
+CONV-018,1,User,Put in hurricane ties at the roof,CREATE_CONNECTION,hurricane ties|roof,ConnType=hurricane-tie;Location=roof,Rafter-to-plate or truss-to-plate?,,Create-Structural
+CONV-018,2,User,Truss to plate,MODIFY_MATERIAL,truss to plate,Type=truss-to-plate,Truss-to-plate hurricane ties added at every rafter.,CONV-018-1,Create-Structural
+CONV-019,1,User,Add hold-downs at the shear wall ends,CREATE_CONNECTION,hold-downs|shear wall,ConnType=hold-down;Location=shear-wall-ends,Which rating — HD8 HD11 or HD15?,,Create-Structural
+CONV-019,2,User,HD11 for each end,MODIFY_DIMENSION,HD11,HoldDown=HD11,HD11 hold-downs placed at both ends of the shear wall.,CONV-019-1,Create-Structural
+CONV-020,1,User,Add a moment frame connection,CREATE_CONNECTION,moment frame,ConnType=moment-frame,Which beam and column?,,Create-Structural
+CONV-020,2,User,W14 beam to the W14 column at A1,MODIFY_DIMENSION,W14 beam|W14 column|A1,Beam=W14;Column=W14;Location=A1,Welded moment-frame connection created at A1.,CONV-020-1,Create-Structural
+CONV-021,1,User,I need ledger bolts for the deck,CREATE_CONNECTION,ledger bolts|deck,ConnType=ledger-bolt;Location=deck,Ledger length?,,Create-Structural
+CONV-021,2,User,8 metres long,MODIFY_DIMENSION,8 metres,Length=8m,Ledger bolts spaced at 600 mm along 8 m deck ledger.,CONV-021-1,Create-Structural
+CONV-022,1,User,Create a gusset plate for the brace,CREATE_CONNECTION,gusset plate|brace,ConnType=gusset-plate;Location=brace,Brace size and angle?,,Create-Structural
+CONV-022,2,User,Standard 45 degree brace 12 by 12 plate,MODIFY_DIMENSION,45 degree|12 by 12,Angle=45deg;Plate=12x12,12 × 12 in gusset plate placed at the brace connection.,CONV-022-1,Create-Structural
+CONV-023,1,User,Waterproof the basement walls,CREATE_WATERPROOFING,waterproof|basement walls,Location=basement-walls,Liquid or sheet membrane?,,Create-WP-Flashing
+CONV-023,2,User,Sheet membrane is fine,MODIFY_MATERIAL,sheet membrane,MembraneType=sheet-EPDM,EPDM sheet membrane applied to all basement walls.,CONV-023-1,Create-WP-Flashing
+CONV-024,1,User,Add liquid waterproofing under the slab,CREATE_WATERPROOFING,liquid waterproofing|slab,Location=under-slab,Polyurethane or cementitious?,,Create-WP-Flashing
+CONV-024,2,User,Polyurethane 30 mil,MODIFY_MATERIAL,polyurethane 30 mil,Type=polyurethane;DFT=30mil,30-mil polyurethane membrane applied under the slab.,CONV-024-1,Create-WP-Flashing
+CONV-025,1,User,I need bentonite at the foundation joints,CREATE_WATERPROOFING,bentonite|foundation joints,Location=foundation-joints,Panel or tube filler?,,Create-WP-Flashing
+CONV-025,2,User,Tube filler for the joints,MODIFY_MATERIAL,tube filler,Type=bentonite-tube,Bentonite tube filler placed at all foundation joints.,CONV-025-1,Create-WP-Flashing
+CONV-026,1,User,Add sealant at the expansion joints,CREATE_WATERPROOFING,sealant|expansion joints,Location=expansion-joints,Silicone or polyurethane?,,Create-WP-Flashing
+CONV-026,2,User,Silicone 50 percent movement,MODIFY_MATERIAL,silicone 50 percent,Type=silicone;Movement=50pct,50%-movement silicone sealant placed at all expansion joints.,CONV-026-1,Create-WP-Flashing
+CONV-027,1,User,Put head flashing above all windows,CREATE_FLASHING,head flashing|windows,FlashType=head;Location=windows,Aluminium or copper?,,Create-WP-Flashing
+CONV-027,2,User,Aluminium 6 inch,MODIFY_MATERIAL,aluminium 6 inch,Material=aluminium;Width=6in,6-inch aluminium head flashing placed above every window.,CONV-027-1,Create-WP-Flashing
+CONV-028,1,User,Add step flashing at the chimney,CREATE_FLASHING,step flashing|chimney,FlashType=step;Location=chimney,Material — aluminium copper or lead?,,Create-WP-Flashing
+CONV-028,2,User,Lead is best for the chimney,MODIFY_MATERIAL,lead,Material=lead,Lead step flashing installed at chimney.,CONV-028-1,Create-WP-Flashing
+CONV-029,1,User,I need valley flashing on the east roof,CREATE_FLASHING,valley flashing|east roof,FlashType=valley;Location=east-roof,Open valley or W-pattern?,,Create-WP-Flashing
+CONV-029,2,User,Open valley aluminium,MODIFY_MATERIAL,open valley aluminium,Type=open;Material=aluminium,24-inch aluminium open-valley flashing placed on east roof.,CONV-029-1,Create-WP-Flashing
+CONV-030,1,User,Add vent boots for the plumbing penetrations,CREATE_FLASHING,vent boots|plumbing,FlashType=vent-boot;Location=plumbing,Lead or aluminium boots?,,Create-WP-Flashing
+CONV-030,2,User,Aluminium for all of them,MODIFY_MATERIAL,aluminium,Material=aluminium,Aluminium vent boots placed at every pipe penetration.,CONV-030-1,Create-WP-Flashing
+CONV-031,1,User,Make the bedroom wall thicker,MODIFY_THICKNESS,bedroom wall,Element=bedroom-wall,Current thickness is 150 mm. New thickness?,,Modify
+CONV-031,2,User,200 mm,MODIFY_THICKNESS,200 mm,Thickness=200mm,Bedroom wall thickness updated to 200 mm.,CONV-031-1,Modify
+CONV-032,1,User,Change the kitchen floor to tile,MODIFY_FLOOR_TYPE,kitchen floor|tile,Floor=kitchen;Type=tile,Ceramic or porcelain tile?,,Modify
+CONV-032,2,User,Porcelain 24x24,MODIFY_FLOOR_TYPE,porcelain 24x24,TileType=porcelain;Size=24x24,Kitchen floor changed to 24 × 24 porcelain tile.,CONV-032-1,Modify
+CONV-033,1,User,Raise the living room ceiling to 3 metres,MODIFY_CEILING_HEIGHT,living room ceiling|3 metres,Room=living-room;Height=3m,Living room ceiling updated to 3 m.,,Modify
+CONV-034,1,User,Switch the sliding door to a french door,MODIFY_DOOR_TYPE,sliding door|french door,Door=sliding;NewType=french,French door placed — same opening size or adjust?,,Modify
+CONV-034,2,User,Same size is fine,CONFIRM,,,French door installed in the existing opening.,CONV-034-1,Modify
+CONV-035,1,User,I want the roof steeper,MODIFY_ROOF_SLOPE,roof,Element=roof,Current pitch is 5:12. New pitch?,,Modify
+CONV-035,2,User,7:12,MODIFY_ROOF_SLOPE,7:12,Slope=7:12,Roof pitch updated to 7:12.,CONV-035-1,Modify
+CONV-036,1,User,Change the exterior wall cladding to timber,MODIFY_CLADDING,exterior wall|timber,Wall=exterior;Cladding=timber,Timber cladding applied to all exterior walls.,,Modify
+CONV-037,1,User,Upgrade insulation to R-24,MODIFY_INSULATION,insulation|R-24,Element=walls;R=24,R-24 insulation applied to all exterior walls.,,Modify
+CONV-038,1,User,Change the column material to concrete,MODIFY_COLUMN_MATERIAL,column|concrete,Column=C1;Material=concrete,Which column?,,Modify
+CONV-038,2,User,All columns on the ground floor,MODIFY_COLUMN_MATERIAL,all columns|ground floor,Columns=all;Level=ground,All ground-floor columns converted to reinforced concrete.,CONV-038-1,Modify
+CONV-039,1,User,Make the hallway wider,MODIFY_WIDTH,hallway,Element=hallway,Current width is 1.2 m. New width?,,Modify
+CONV-039,2,User,1.8 metres,MODIFY_WIDTH,1.8 metres,Width=1.8m,Hallway widened to 1.8 m.,CONV-039-1,Modify
+CONV-040,1,User,Set the bathroom STC to 52,MODIFY_ACOUSTIC_RATING,bathroom|STC 52,Room=bathroom;STC=52,Bathroom wall upgraded to STC 52.,,Modify
+CONV-041,1,User,Change the shower to a rain shower head,MODIFY_DIMENSION,shower|rain shower head,Fixture=shower;Head=rain,Rain shower head installed.,,Modify
+CONV-042,1,User,Upgrade the water heater to 50 gallons,MODIFY_WATER_HEATER_SIZE,water heater|50 gallons,Heater=WH;Capacity=50gal,Water heater upgraded to 50-gallon unit.,,Modify
+CONV-043,1,User,Remove the partition in the office,DELETE_WALL,partition|office,Element=office-partition,Partition removed from the office.,,Delete
+CONV-044,1,User,Delete the balcony,DELETE_ELEMENT,balcony,Element=balcony,Are you sure? The balcony will be permanently removed.,,Delete
+CONV-044,2,User,Yes remove it,CONFIRM,,,Balcony removed from the plan.,CONV-044-1,Delete
+CONV-045,1,User,Take out the sliding door,DELETE_DOOR,sliding door,Element=sliding-door,Sliding door removed. Leave the opening or fill it?,,Delete
+CONV-045,2,User,Fill it with wall,CREATE_WALL,wall,Action=fill,Opening filled with wall.,CONV-045-1,Delete
+CONV-046,1,User,Remove the sprinkler in the storage room,DELETE_ELEMENT,sprinkler|storage room,Element=sprinkler;Room=storage,Note: removing sprinklers may affect fire-safety compliance. Proceed?,,Delete
+CONV-046,2,User,Yes that room is exempt,CONFIRM,,,Sprinkler removed from storage room.,CONV-046-1,Delete
+CONV-047,1,User,Delete the bookshelf,DELETE_FURNITURE,bookshelf,Element=bookshelf,Bookshelf removed.,,Delete
+CONV-048,1,User,Remove the window in the pantry,DELETE_WINDOW,window|pantry,Element=pantry-window,Pantry window removed. Fill opening with wall?,,Delete
+CONV-048,2,User,Yes fill it,CREATE_WALL,wall,Action=fill,Opening filled.,CONV-048-1,Delete
+CONV-049,1,User,Take out the joist hanger at bay 3,DELETE_ELEMENT,joist hanger|bay 3,Element=joist-hanger;Bay=3,Joist hanger removed at bay 3. Verify structural support.,,Delete
+CONV-050,1,User,Remove the expansion joint cover on the east wing,DELETE_ELEMENT,expansion joint cover|east wing,Element=exp-joint;Location=east-wing,Expansion joint cover removed.,,Delete
+CONV-051,1,User,What is the area of the master bedroom?,QUERY_AREA,master bedroom,Element=master-bedroom,The master bedroom is 4 m × 5 m = 20 m².,,Query
+CONV-052,1,User,How many fixture units in the master bath?,QUERY_FIXTURE_UNITS,master bath,Room=master-bath,Master bath: 1 WC (4 FU) + 1 shower (2 FU) + 1 tub (2 FU) + 1 sink (1 FU) = 9 FU.,,Query
+CONV-053,1,User,What pipe size do I need?,QUERY_PIPE_SIZE,pipe size,System=plumbing,With 9 FU total the minimum DWV pipe is 76 mm (3-inch).,,Query
+CONV-054,1,User,Is the kitchen ADA compliant?,QUERY_ACCESSIBILITY,kitchen|ADA,Element=kitchen,Kitchen passes ADA — counter height sink reach and clearances are within limits.,,Query
+CONV-055,1,User,What is the R-value of the exterior wall?,QUERY_R_VALUE,exterior wall,Element=ext-wall,Ext wall R-value: R-24 insulation + R-2.1 board + R-0.9 drywall = R-27 total.,,Query
+CONV-056,1,User,How many tiles do I need for the bathroom?,QUERY_TILE_COUNT,tiles|bathroom,Room=bathroom,Bathroom is 8.5 m². With 12×12 tiles and 10% waste you need 132 tiles.,,Query
+CONV-057,1,User,What is the STC rating on the party wall?,QUERY_SOUND_RATING,party wall|STC,Element=party-wall,Party wall STC is 50. Code requires minimum 50 — compliant.,,Query
+CONV-058,1,User,Show me the fire rating of the stairwell,QUERY_FIRE_RATING,stairwell,Element=stairwell,Fire stairwell assembly is rated 2 hours.,,Query
+CONV-059,1,User,How many doors are on the ground floor?,QUERY_DOOR_COUNT,doors|ground floor,Level=ground,Ground floor has 11 doors: 8 interior 2 exterior 1 fire door.,,Query
+CONV-060,1,User,What is the total floor area?,QUERY_TOTAL_FLOOR_AREA,total floor area,Building=all,Total gross floor area across all levels: 320 m².,,Query
+CONV-061,1,User,What code applies to the water heater?,QUERY_STANDARD,water heater|code,Element=water-heater,IPC 807.1 (T&P relief valve) and IPC 807.2 (max 49 C) govern the water heater.,,Query
+CONV-062,1,User,Which formula calculates tile count?,QUERY_FORMULA,formula|tile count,OutputType=count;Category=floor,Use FL-TILE-COUNT-WASTE: CEIL(FloorArea / (TileW × TileL) × (1 + WastePct/100)).,,Query
+CONV-063,1,User,What is the bearing capacity of the soil?,QUERY_CAPACITY,bearing capacity|soil,Element=soil,Site report indicates allowable bearing pressure of 150 kPa.,,Query
+CONV-064,1,User,How much concrete do I need for the slab?,QUERY_CONCRETE_VOLUME,concrete|slab,Element=slab,Slab 12 m × 8 m × 0.2 m thick = 19.2 m³ of concrete.,,Query
+CONV-065,1,User,What ventilation rate does the bathroom need?,QUERY_VENTILATION,ventilation|bathroom,Room=bathroom,ASHRAE 62.1 requires minimum 10 CFM for a bathroom.,,Query
+CONV-066,1,User,Is the shear tab at B3 adequate?,QUERY_CAPACITY,shear tab|B3,Element=shear-tab-B3,5-bolt shear tab capacity is 218 kN. Design shear is 180 kN — adequate.,,Query
+CONV-067,1,User,What is the setback on the east side?,QUERY_SETBACK,setback|east,Side=east,East-side setback is 3 m as per zoning.,,Query
+CONV-068,1,User,How many rolls of carpet do I need?,QUERY_CARPET_ROLLS,carpet rolls|living room,Room=living-room,Living room 5 m × 7 m with 12-ft rolls needs 3 rolls.,,Query
+CONV-069,1,User,What is the wind load on the building?,QUERY_WIND_LOAD,wind load,Building=all,Design wind speed 150 km/h gives a base pressure of 1.08 kPa.,,Query
+CONV-070,1,User,Tell me the properties of SPC flooring,QUERY_MATERIAL_PROPERTY,SPC flooring,Material=SPC,SPC: k = 0.17 W/m·K density 1750 kg/m³ cost ~USD 2.80/sqft Class A fire rating.,,Query
+CONV-071,1,User,Show me the kitchen,NAVIGATE_TO_ROOM,kitchen,Room=kitchen,View zoomed to the kitchen.,,Navigate
+CONV-072,1,User,Zoom out so I can see everything,NAVIGATE_ZOOM_OUT,,,Zoomed out to full building view.,,Navigate
+CONV-073,1,User,Switch to 3D view,NAVIGATE_3D_VIEW,,,Switched to 3D perspective view.,,Navigate
+CONV-074,1,User,Go to level 2,NAVIGATE_TO_LEVEL,level 2,Level=2,Navigated to floor level 2.,,Navigate
+CONV-075,1,User,Show me the elevation from the south,NAVIGATE_ELEVATION_VIEW,south,Side=south,South elevation displayed.,,Navigate
+CONV-076,1,User,Pan left a bit,NAVIGATE_PAN,left,Direction=west,View panned west.,,Navigate
+CONV-077,1,User,Give me a section through the stairwell,NAVIGATE_SECTION_VIEW,stairwell,CutPlane=stairwell,Section cut through the stairwell displayed.,,Navigate
+CONV-078,1,User,Fit everything on screen,NAVIGATE_FIT_ALL,,,View fitted to show the entire model.,,Navigate
+CONV-079,1,User,Compare hardwood and LVP costs,COMPARE_COSTS,hardwood|LVP,FloorA=hardwood;FloorB=LVP,Hardwood ~ USD 10.50/sqft installed; LVP ~ USD 2.80/sqft. LVP saves ~73%.,,Compare
+CONV-080,1,User,Which is more soundproof — the party wall or the exterior wall?,COMPARE_ACOUSTIC,party wall|exterior wall,WallA=party;WallB=exterior,Party wall STC 50 vs exterior wall STC 38. Party wall is better.,,Compare
+CONV-081,1,User,Compare the bolted and welded connection at B3,COMPARE_CONNECTIONS,bolted|welded|B3,ConnA=bolted;ConnB=welded,Bolted: 185 kN USD 380. Welded: 220 kN USD 550.,,Compare
+CONV-082,1,User,Compare sheet and liquid waterproofing,COMPARE_MATERIALS,sheet membrane|liquid membrane,MatA=sheet;MatB=liquid,Sheet: USD 2.90/m² quick install. Liquid: USD 4.80/m² better detail coverage.,,Compare
+CONV-083,1,User,Flat roof vs pitched — cost comparison,COMPARE_COSTS,flat roof|pitched roof,RoofA=flat;RoofB=pitched,Flat roof ~ USD 8/sqft pitched ~ USD 11/sqft. Flat is 27% cheaper initially.,,Compare
+CONV-084,1,User,Which tile is better — ceramic or porcelain?,COMPARE_MATERIALS,ceramic|porcelain,MatA=ceramic;MatB=porcelain,Porcelain is harder (PEI 5) more durable and better for wet areas. Ceramic is cheaper.,,Compare
+CONV-085,1,User,Export the plan as a PDF,EXPORT_PDF,PDF,Format=PDF,Which pages — all levels or just ground floor?,,Export
+CONV-085,2,User,All levels please,EXPORT_PDF,all levels,Pages=all,PDF exported with all floor levels.,CONV-085-1,Export
+CONV-086,1,User,Save as IFC for the BIM model,EXPORT_IFC,IFC,Format=IFC,IFC 4.0 or 4.3?,,Export
+CONV-086,2,User,4.3,EXPORT_IFC,4.3,Version=4.3,IFC 4.3 file exported.,CONV-086-1,Export
+CONV-087,1,User,Export room schedule to Excel,EXPORT_SCHEDULE,room schedule,ScheduleType=room;Format=xlsx,Room schedule exported.,,Export
+CONV-088,1,User,Give me a quantity take-off,EXPORT_QUANTITY,quantity take-off,Format=xlsx,QTO exported — includes materials fixtures and labour hours.,,Export
+CONV-089,1,User,Export DWG file,EXPORT_DWG,DWG,Format=DWG,DWG exported for AutoCAD.,,Export
+CONV-090,1,User,Hi,GREETING,,,Hello! I can help you design buildings — rooms structure MEP and more.,,Help
+CONV-091,1,User,What can you do?,LIST_COMMANDS,,,I can create rooms walls doors windows structural elements MEP systems modify anything query properties compare options and export files.,,Help
+CONV-092,1,User,Explain IPC 807.1,HELP_CODE,IPC 807.1,CodeRef=IPC-807.1,IPC 807.1 requires a temperature and pressure relief valve on every gas or electric water heater.,,Help
+CONV-093,1,User,How do I calculate the R-value?,HELP_FORMULA,R-value,FormulaId=FL-RVALUE,R-value = sum of each layer R. Use formula FL-RVALUE: SUM(R1 R2 … Rn).,,Help
+CONV-094,1,User,Undo that last change,UNDO,,,Last action undone — wall thickness reverted to 150 mm.,,Help
+CONV-095,1,User,Never mind cancel,CANCEL,,,Operation cancelled.,,Help
+CONV-096,1,User,Thank you!,THANKS,,,You're welcome! Let me know if you need anything else.,,Help
+CONV-097,1,User,Tell me about polyurethane sealant,HELP_MATERIAL,polyurethane sealant,Material=polyurethane-sealant,PU sealant: 50% movement elongation 500%+ cures 24 hrs excellent adhesion.,,Help

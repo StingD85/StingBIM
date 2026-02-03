@@ -1,0 +1,99 @@
+FamilyName,Category,DefaultWidth,DefaultHeight,DefaultDepth,PlacementType,RequiresHost,DefaultMaterial,ParameterSet,Description
+SingleDoor_Swing,Doors,900,2100,50,Wall-hosted,True,Wood,Door_Standard,Standard single swinging door
+DoubleDoor_Swing,Doors,1800,2100,50,Wall-hosted,True,Wood,Door_Standard,Double swinging door
+SlidingDoor_Single,Doors,900,2100,50,Wall-hosted,True,Aluminum,Door_Sliding,Single sliding door panel
+SlidingDoor_Double,Doors,1800,2100,50,Wall-hosted,True,Aluminum,Door_Sliding,Double sliding door system
+PocketDoor,Doors,800,2100,50,Wall-hosted,True,Wood,Door_Pocket,Door that slides into wall cavity
+BifoldDoor,Doors,1500,2100,50,Wall-hosted,True,Wood,Door_Bifold,Folding door system
+FrenchDoor_Double,Doors,1800,2100,50,Wall-hosted,True,Wood,Door_French,Double door with glass panels
+GarageDoor_Sectional,Doors,2400,2100,50,Wall-hosted,True,Steel,Door_Garage,Sectional overhead garage door
+GarageDoor_Roller,Doors,2400,2100,50,Wall-hosted,True,Steel,Door_Garage,Rolling garage door
+FixedWindow,Windows,1200,1200,100,Wall-hosted,True,Aluminum,Window_Fixed,Non-opening fixed window
+CasementWindow_Single,Windows,900,1200,100,Wall-hosted,True,Aluminum,Window_Operable,Single casement window
+CasementWindow_Double,Windows,1800,1200,100,Wall-hosted,True,Aluminum,Window_Operable,Double casement window
+SlidingWindow,Windows,1500,1200,100,Wall-hosted,True,Aluminum,Window_Operable,Horizontal sliding window
+AwningWindow,Windows,1200,600,100,Wall-hosted,True,Aluminum,Window_Operable,Top-hinged awning window
+HopperWindow,Windows,1200,600,100,Wall-hosted,True,Aluminum,Window_Operable,Bottom-hinged hopper window
+BayWindow,Windows,2400,1500,600,Wall-hosted,True,Wood,Window_Bay,Projected bay window assembly
+BowWindow,Windows,3000,1500,800,Wall-hosted,True,Wood,Window_Bay,Curved bow window assembly
+SkylightFlat,Windows,1200,1200,150,Roof-hosted,True,Aluminum,Window_Skylight,Flat roof skylight
+SkylightDome,Windows,1200,1200,300,Roof-hosted,True,Acrylic,Window_Skylight,Domed roof skylight
+CurtainWallPanel,Walls,1500,3000,150,Face-based,False,Glass,Curtain_Wall,Modular curtain wall panel
+StairStraight,Stairs,1200,3000,3600,Floor-based,False,Concrete,Stair_Standard,Straight run staircase
+StairL-Shaped,Stairs,2400,3000,3600,Floor-based,False,Concrete,Stair_Standard,L-shaped staircase with landing
+StairU-Shaped,Stairs,3000,3000,3600,Floor-based,False,Concrete,Stair_Standard,U-shaped return staircase
+StairSpiral,Stairs,1500,3000,3600,Floor-based,False,Steel,Stair_Spiral,Circular spiral staircase
+RampStraight,Ramps,1500,500,12000,Floor-based,False,Concrete,Ramp_Accessible,Straight accessible ramp
+ColumnRectangular,Columns,300,3000,300,Floor-based,False,Concrete,Column_Structural,Rectangular structural column
+ColumnCircular,Columns,300,3000,300,Floor-based,False,Concrete,Column_Structural,Circular structural column
+ColumnSteel_I,Columns,200,3000,200,Floor-based,False,Steel,Column_Structural,Steel I-beam column
+BeamRectangular,Beams,300,500,Variable,Line-based,False,Concrete,Beam_Structural,Rectangular structural beam
+BeamSteel_I,Beams,200,400,Variable,Line-based,False,Steel,Beam_Structural,Steel I-beam
+BeamSteel_Wide,Beams,300,300,Variable,Line-based,False,Steel,Beam_Structural,Wide flange steel beam
+SlabFloor_Concrete,Floors,200,,,Area-based,False,Concrete,Floor_Structural,Concrete floor slab
+SlabRoof_Concrete,Roofs,150,,,Area-based,False,Concrete,Roof_Structural,Concrete roof slab
+CeilingGypsum,Ceilings,12,,,Area-based,True,Gypsum,Ceiling_Finish,Suspended gypsum ceiling
+CeilingAcoustic,Ceilings,20,,,Area-based,True,Mineral_Fiber,Ceiling_Finish,Acoustic tile ceiling
+RoofPitched,Roofs,200,,,Area-based,False,Tile,Roof_Pitched,Pitched roof system
+RoofFlat,Roofs,300,,,Area-based,False,Membrane,Roof_Flat,Flat roof with parapet
+KitchenCabinet_Base,Casework,600,900,600,Floor-based,False,Wood,Cabinet_Kitchen,Base kitchen cabinet
+KitchenCabinet_Wall,Casework,600,750,350,Wall-hosted,True,Wood,Cabinet_Kitchen,Wall-mounted kitchen cabinet
+KitchenCabinet_Tall,Casework,600,2100,600,Floor-based,False,Wood,Cabinet_Kitchen,Tall pantry cabinet
+Countertop_Kitchen,Casework,600,40,Variable,Cabinet-hosted,True,Granite,Countertop_Standard,Kitchen countertop surface
+Sink_Kitchen_Single,Plumbing Fixtures,500,200,500,Counter-hosted,True,Stainless_Steel,Sink_Kitchen,Single basin kitchen sink
+Sink_Kitchen_Double,Plumbing Fixtures,800,200,500,Counter-hosted,True,Stainless_Steel,Sink_Kitchen,Double basin kitchen sink
+Sink_Bathroom_Vanity,Plumbing Fixtures,500,150,400,Counter-hosted,True,Ceramic,Sink_Bathroom,Bathroom vanity sink
+Sink_Bathroom_Pedestal,Plumbing Fixtures,500,850,400,Floor-based,False,Ceramic,Sink_Bathroom,Pedestal sink
+Toilet_Floor_Mounted,Plumbing Fixtures,400,800,650,Floor-based,False,Ceramic,Toilet_Standard,Floor mounted toilet
+Toilet_Wall_Hung,Plumbing Fixtures,400,600,500,Wall-hosted,True,Ceramic,Toilet_Standard,Wall hung toilet
+Shower_Stall,Plumbing Fixtures,900,2000,900,Floor-based,False,Tile,Shower_Standard,Shower stall enclosure
+Bathtub_Standard,Plumbing Fixtures,1700,600,750,Floor-based,False,Acrylic,Bathtub_Standard,Standard bathtub
+Bathtub_Freestanding,Plumbing Fixtures,1700,600,800,Floor-based,False,Acrylic,Bathtub_Freestanding,Freestanding bathtub
+Urinal_Wall,Plumbing Fixtures,350,600,350,Wall-hosted,True,Ceramic,Urinal_Standard,Wall mounted urinal
+WaterHeater_Tank,Plumbing Equipment,600,1200,600,Floor-based,False,Steel,Water_Heater,Tank water heater
+WaterHeater_Tankless,Plumbing Equipment,400,600,200,Wall-hosted,True,Steel,Water_Heater,Tankless water heater
+ACUnit_Split,Mechanical Equipment,900,300,250,Wall-hosted,True,Metal,AC_Split,Split system AC indoor unit
+ACUnit_Window,Mechanical Equipment,500,400,300,Wall-hosted,True,Metal,AC_Window,Window air conditioning unit
+ACUnit_Package,Mechanical Equipment,1500,1000,800,Roof-hosted,False,Metal,AC_Package,Packaged rooftop unit
+Furnace_Gas,Mechanical Equipment,600,1500,800,Floor-based,False,Metal,Furnace_Standard,Gas furnace
+Boiler_Gas,Mechanical Equipment,800,1200,600,Floor-based,False,Metal,Boiler_Standard,Gas boiler
+AirHandler,Mechanical Equipment,1200,800,600,Ceiling-space,False,Metal,Air_Handler,Air handling unit
+Duct_Rectangular,Ducts,Variable,Variable,Variable,Route-based,False,Galvanized_Steel,Duct_HVAC,Rectangular ductwork
+Duct_Round,Ducts,Variable,Variable,Variable,Route-based,False,Galvanized_Steel,Duct_HVAC,Round ductwork
+DiffuserCeiling,Air Terminals,600,600,150,Ceiling-hosted,True,Aluminum,Diffuser_Standard,Ceiling air diffuser
+GrilleCeiling,Air Terminals,600,600,100,Ceiling-hosted,True,Aluminum,Grille_Standard,Ceiling return grille
+Pipe_Water,Pipes,Variable,Variable,Variable,Route-based,False,Copper,Pipe_Plumbing,Water supply pipe
+Pipe_Drain,Pipes,Variable,Variable,Variable,Route-based,False,PVC,Pipe_Plumbing,Drainage pipe
+Pipe_Gas,Pipes,Variable,Variable,Variable,Route-based,False,Steel,Pipe_Gas,Gas supply pipe
+ElectricalPanel_Main,Electrical Equipment,600,800,200,Wall-hosted,True,Metal,Panel_Electrical,Main electrical panel
+ElectricalPanel_Sub,Electrical Equipment,400,600,150,Wall-hosted,True,Metal,Panel_Electrical,Subpanel
+LightingFixture_Recessed,Lighting Fixtures,150,150,200,Ceiling-hosted,True,Metal,Light_Recessed,Recessed can light
+LightingFixture_Pendant,Lighting Fixtures,300,400,300,Ceiling-hosted,True,Metal,Light_Pendant,Pendant light fixture
+LightingFixture_Surface,Lighting Fixtures,300,100,300,Ceiling-hosted,True,Metal,Light_Surface,Surface mounted light
+LightingFixture_Track,Lighting Fixtures,1200,100,100,Ceiling-hosted,True,Metal,Light_Track,Track lighting system
+Switch_Single,Electrical Fixtures,80,120,40,Wall-hosted,True,Plastic,Switch_Standard,Single pole switch
+Switch_Double,Electrical Fixtures,120,120,40,Wall-hosted,True,Plastic,Switch_Standard,Double switch
+Outlet_Duplex,Electrical Fixtures,80,120,40,Wall-hosted,True,Plastic,Outlet_Standard,Duplex power outlet
+Outlet_GFCI,Electrical Fixtures,80,120,40,Wall-hosted,True,Plastic,Outlet_GFCI,GFCI protected outlet
+Conduit_EMT,Conduits,Variable,Variable,Variable,Route-based,False,Steel,Conduit_Electrical,EMT conduit
+CableTray,Cable Trays,Variable,100,Variable,Route-based,False,Aluminum,Cable_Tray,Cable tray system
+Bed_Single,Furniture,1000,500,2000,Floor-based,False,Wood,Furniture_Bed,Single bed
+Bed_Double,Furniture,1400,500,2000,Floor-based,False,Wood,Furniture_Bed,Double bed
+Bed_Queen,Furniture,1500,500,2030,Floor-based,False,Wood,Furniture_Bed,Queen size bed
+Bed_King,Furniture,1800,500,2030,Floor-based,False,Wood,Furniture_Bed,King size bed
+Sofa_2Seater,Furniture,1500,800,900,Floor-based,False,Fabric,Furniture_Seating,2-seater sofa
+Sofa_3Seater,Furniture,2100,800,900,Floor-based,False,Fabric,Furniture_Seating,3-seater sofa
+Chair_Dining,Furniture,450,850,500,Floor-based,False,Wood,Furniture_Seating,Dining chair
+Chair_Office,Furniture,600,1100,600,Floor-based,False,Fabric,Furniture_Seating,Office chair
+Table_Dining_4,Furniture,1200,750,1200,Floor-based,False,Wood,Furniture_Table,4-person dining table
+Table_Dining_6,Furniture,1800,750,900,Floor-based,False,Wood,Furniture_Table,6-person dining table
+Table_Coffee,Furniture,1200,450,600,Floor-based,False,Wood,Furniture_Table,Coffee table
+Desk_Office,Furniture,1500,750,750,Floor-based,False,Wood,Furniture_Desk,Office desk
+Wardrobe,Furniture,1200,2100,600,Floor-based,False,Wood,Furniture_Storage,Wardrobe cabinet
+Bookshelf,Furniture,900,1800,300,Floor-based,False,Wood,Furniture_Storage,Bookshelf
+TV_Stand,Furniture,1500,500,400,Floor-based,False,Wood,Furniture_Media,TV stand
+Refrigerator,Specialty Equipment,900,1800,750,Floor-based,False,Metal,Appliance_Kitchen,Refrigerator
+Stove_Gas,Specialty Equipment,600,900,600,Floor-based,False,Metal,Appliance_Kitchen,Gas stove
+Dishwasher,Specialty Equipment,600,900,600,Cabinet-hosted,True,Metal,Appliance_Kitchen,Dishwasher
+Washer,Specialty Equipment,600,900,600,Floor-based,False,Metal,Appliance_Laundry,Washing machine
+Dryer,Specialty Equipment,600,900,600,Floor-based,False,Metal,Appliance_Laundry,Clothes dryer

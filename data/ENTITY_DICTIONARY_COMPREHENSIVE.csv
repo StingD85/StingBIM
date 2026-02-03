@@ -1,0 +1,146 @@
+Entity,Type,Synonyms,Associated_Intents,Description
+wall,ELEMENT,Wall;Partition;Barrier;Divider;Partition-Wall,CREATE_BUILDING;PLACE_ELEMENT,Vertical building element
+partition,ELEMENT,Partition;Wall;Divider;Screen;Separator,CREATE_BUILDING;PLACE_ELEMENT,Interior dividing wall
+exterior wall,ELEMENT,Exterior-Wall;Facade;External-Wall;Building-Envelope,CREATE_BUILDING,Outer building wall
+interior wall,ELEMENT,Interior-Wall;Partition;Internal-Wall;Room-Divider,CREATE_BUILDING,Inside dividing wall
+load-bearing wall,ELEMENT,Load-Bearing-Wall;Structural-Wall;Bearing-Wall;Support-Wall,CREATE_BUILDING,Structural support wall
+curtain wall,ELEMENT,Curtain-Wall;Glass-Wall;Facade-System;Glazed-Wall,CREATE_BUILDING,Non-structural glass wall
+shear wall,ELEMENT,Shear-Wall;Lateral-Wall;Bracing-Wall;Core-Wall,CREATE_BUILDING,Lateral force resisting wall
+retaining wall,ELEMENT,Retaining-Wall;Earth-Wall;Support-Wall;Basement-Wall,CREATE_BUILDING,Earth retaining structure
+party wall,ELEMENT,Party-Wall;Demising-Wall;Separation-Wall;Fire-Wall,CREATE_BUILDING,Shared boundary wall
+fire wall,ELEMENT,Fire-Wall;Fire-Barrier;Fire-Rated-Wall;Firewall,CREATE_BUILDING,Fire compartment wall
+door,ELEMENT,Door;Entry;Doorway;Entrance;Portal,PLACE_ELEMENT,Opening with hinged panel
+entrance,ELEMENT,Entrance;Entry;Door;Access-Point;Gateway,PLACE_ELEMENT,Building entry
+single door,ELEMENT,Single-Door;Standard-Door;Swing-Door,PLACE_ELEMENT,One panel door
+double door,ELEMENT,Double-Door;French-Door;Pair-of-Doors,PLACE_ELEMENT,Two panel door
+sliding door,ELEMENT,Sliding-Door;Slider;Patio-Door;Gliding-Door,PLACE_ELEMENT,Horizontally sliding door
+pocket door,ELEMENT,Pocket-Door;Concealed-Door;Wall-Pocket-Door,PLACE_ELEMENT,Door slides into wall
+bifold door,ELEMENT,Bifold-Door;Folding-Door;Accordion-Door,PLACE_ELEMENT,Folding panel door
+french door,ELEMENT,French-Door;Glass-Door;Patio-Door,PLACE_ELEMENT,Glass panel door
+fire door,ELEMENT,Fire-Door;Fire-Rated-Door;Fireproof-Door,PLACE_ELEMENT,Fire resistant door
+garage door,ELEMENT,Garage-Door;Overhead-Door;Roll-Up-Door,PLACE_ELEMENT,Vehicle entry door
+window,ELEMENT,Window;Opening;Glazing;Fenestration,PLACE_ELEMENT,Wall opening with glass
+glazing,ELEMENT,Glazing;Window;Glass;Fenestration,PLACE_ELEMENT,Glass window system
+fixed window,ELEMENT,Fixed-Window;Picture-Window;Non-Operable,PLACE_ELEMENT,Non-opening window
+casement window,ELEMENT,Casement-Window;Hinged-Window;Swing-Window,PLACE_ELEMENT,Side-hinged window
+sliding window,ELEMENT,Sliding-Window;Gliding-Window;Horizontal-Slider,PLACE_ELEMENT,Horizontally sliding window
+awning window,ELEMENT,Awning-Window;Top-Hinged;Hopper-Window,PLACE_ELEMENT,Top-hinged window
+bay window,ELEMENT,Bay-Window;Bow-Window;Projection-Window,PLACE_ELEMENT,Projecting window assembly
+skylight,ELEMENT,Skylight;Roof-Window;Overhead-Glazing,PLACE_ELEMENT,Roof-mounted window
+clerestory,ELEMENT,Clerestory;High-Window;Upper-Window,PLACE_ELEMENT,High wall window
+floor,ELEMENT,Floor;Flooring;Floor-Slab;Walking-Surface,CREATE_BUILDING,Horizontal walking surface
+slab,ELEMENT,Slab;Floor-Slab;Concrete-Slab;Floor-Deck,CREATE_BUILDING,Concrete floor
+raised floor,ELEMENT,Raised-Floor;Access-Floor;Computer-Floor,PLACE_ELEMENT,Elevated floor system
+subfloor,ELEMENT,Subfloor;Underlayment;Floor-Base;Substrate,CREATE_BUILDING,Structural floor base
+ceiling,ELEMENT,Ceiling;Overhead;Ceiling-Plane;Soffit,CREATE_BUILDING,Overhead surface
+suspended ceiling,ELEMENT,Suspended-Ceiling;Drop-Ceiling;Acoustic-Ceiling;T-Bar,PLACE_ELEMENT,Hung ceiling system
+coffered ceiling,ELEMENT,Coffered-Ceiling;Sunken-Panel;Recessed-Panel,CREATE_BUILDING,Decorative recessed panels
+vaulted ceiling,ELEMENT,Vaulted-Ceiling;Cathedral-Ceiling;High-Ceiling,CREATE_BUILDING,Angled high ceiling
+roof,ELEMENT,Roof;Roofing;Roof-Deck;Top-Cover,CREATE_BUILDING,Building top covering
+flat roof,ELEMENT,Flat-Roof;Low-Slope-Roof;Roof-Deck,CREATE_BUILDING,Horizontal roof
+pitched roof,ELEMENT,Pitched-Roof;Sloped-Roof;Gable-Roof,CREATE_BUILDING,Sloped roof
+hip roof,ELEMENT,Hip-Roof;Hipped-Roof;Four-Slope,CREATE_BUILDING,Four-sided sloped roof
+gable roof,ELEMENT,Gable-Roof;A-Frame;Peaked-Roof,CREATE_BUILDING,Two-sided sloped roof
+mansard roof,ELEMENT,Mansard-Roof;French-Roof;Gambrel,CREATE_BUILDING,Four-sided double-slope
+stair,ELEMENT,Stair;Stairs;Staircase;Stairway;Steps,PLACE_ELEMENT,Vertical circulation steps
+staircase,ELEMENT,Staircase;Stair;Stairs;Stairway,PLACE_ELEMENT,Step assembly
+straight stair,ELEMENT,Straight-Stair;Linear-Stair;Run-Stair,PLACE_ELEMENT,Single run stairs
+L-shaped stair,ELEMENT,L-Stair;Quarter-Turn;Landing-Stair,PLACE_ELEMENT,90-degree turn stairs
+U-shaped stair,ELEMENT,U-Stair;Switchback;Half-Turn,PLACE_ELEMENT,180-degree turn stairs
+spiral stair,ELEMENT,Spiral-Stair;Circular-Stair;Helical-Stair,PLACE_ELEMENT,Circular rotating stairs
+ramp,ELEMENT,Ramp;Accessible-Ramp;Incline;Slope,PLACE_ELEMENT,Sloped walking surface
+column,ELEMENT,Column;Pillar;Post;Support,PLACE_ELEMENT,Vertical structural member
+beam,ELEMENT,Beam;Girder;Lintel;Header,PLACE_ELEMENT,Horizontal structural member
+foundation,ELEMENT,Foundation;Footing;Base;Foundation-Wall,CREATE_BUILDING,Building base support
+bedroom,ROOM_TYPE,Bedroom;Sleeping-Room;Chamber;Quarters,CREATE_BUILDING;QUERY_PROPERTY,Sleeping space
+master bedroom,ROOM_TYPE,Master-Bedroom;Primary-Bedroom;Main-Bedroom,CREATE_BUILDING,Primary bedroom suite
+guest bedroom,ROOM_TYPE,Guest-Bedroom;Guest-Room;Spare-Room,CREATE_BUILDING,Visitor bedroom
+bathroom,ROOM_TYPE,Bathroom;Restroom;Washroom;Toilet;WC;Lavatory,CREATE_BUILDING;QUERY_PROPERTY,Hygiene facilities
+master bathroom,ROOM_TYPE,Master-Bathroom;Ensuite;Primary-Bathroom,CREATE_BUILDING,Primary bathroom suite
+powder room,ROOM_TYPE,Powder-Room;Half-Bath;Guest-Bath;Toilet,CREATE_BUILDING,Half bathroom
+kitchen,ROOM_TYPE,Kitchen;Cooking-Area;Kitchenette;Galley,CREATE_BUILDING;QUERY_PROPERTY,Food preparation
+living room,ROOM_TYPE,Living-Room;Lounge;Sitting-Room;Parlor;Drawing-Room,CREATE_BUILDING,Main living space
+family room,ROOM_TYPE,Family-Room;Den;Recreation-Room;TV-Room,CREATE_BUILDING,Casual living space
+dining room,ROOM_TYPE,Dining-Room;Dining-Area;Eating-Area,CREATE_BUILDING,Meal space
+office,ROOM_TYPE,Office;Study;Home-Office;Workspace,CREATE_BUILDING;QUERY_PROPERTY,Work space
+garage,ROOM_TYPE,Garage;Car-Park;Vehicle-Storage;Carport,CREATE_BUILDING;QUERY_PROPERTY,Vehicle storage
+laundry,ROOM_TYPE,Laundry;Laundry-Room;Utility-Room;Wash-Room,CREATE_BUILDING,Washing facilities
+pantry,ROOM_TYPE,Pantry;Storage;Food-Storage;Larder,CREATE_BUILDING,Food storage
+closet,ROOM_TYPE,Closet;Wardrobe;Storage;Cabinet,CREATE_BUILDING,Storage space
+hallway,ROOM_TYPE,Hallway;Corridor;Passage;Hall,CREATE_BUILDING,Circulation space
+foyer,ROOM_TYPE,Foyer;Entry;Entrance;Entryway;Vestibule,CREATE_BUILDING,Entry space
+mudroom,ROOM_TYPE,Mudroom;Mud-Room;Entry;Back-Entry,CREATE_BUILDING,Transition entry
+attic,ROOM_TYPE,Attic;Loft;Upper-Floor;Roof-Space,CREATE_BUILDING,Under-roof space
+basement,ROOM_TYPE,Basement;Cellar;Lower-Level;Below-Grade,CREATE_BUILDING,Below ground space
+gym,ROOM_TYPE,Gym;Gymnasium;Exercise-Room;Fitness-Room,CREATE_BUILDING,Exercise space
+theater,ROOM_TYPE,Theater;Home-Theater;Media-Room;Cinema,CREATE_BUILDING,Entertainment room
+library,ROOM_TYPE,Library;Reading-Room;Book-Room;Study,CREATE_BUILDING,Book storage/reading
+playroom,ROOM_TYPE,Playroom;Game-Room;Recreation;Play-Area,CREATE_BUILDING,Children's play
+conservatory,ROOM_TYPE,Conservatory;Sunroom;Solarium;Glass-Room,CREATE_BUILDING,Glass enclosed room
+conference room,ROOM_TYPE,Conference-Room;Meeting-Room;Boardroom,CREATE_BUILDING,Meeting space
+boardroom,ROOM_TYPE,Boardroom;Executive-Room;Board-Room,CREATE_BUILDING,Executive meeting
+reception,ROOM_TYPE,Reception;Reception-Area;Lobby;Waiting-Area,CREATE_BUILDING,Entry/waiting
+lobby,ROOM_TYPE,Lobby;Entry;Foyer;Reception;Atrium,CREATE_BUILDING,Building entry
+cafeteria,ROOM_TYPE,Cafeteria;Dining-Hall;Canteen;Lunchroom,CREATE_BUILDING,Large dining
+break room,ROOM_TYPE,Break-Room;Staff-Room;Lounge;Kitchen,CREATE_BUILDING,Employee break
+server room,ROOM_TYPE,Server-Room;Data-Center;IT-Room;Computer-Room,CREATE_BUILDING,IT infrastructure
+mechanical room,ROOM_TYPE,Mechanical-Room;Equipment-Room;Plant-Room,CREATE_BUILDING,Building systems
+electrical room,ROOM_TYPE,Electrical-Room;Switchgear;Panel-Room,CREATE_BUILDING,Electrical distribution
+storage room,ROOM_TYPE,Storage-Room;Store-Room;Storage;Warehouse,CREATE_BUILDING,Storage space
+create,INTENT,Create;Make;Build;Generate;Construct;Design;Add,CREATE_BUILDING,Generate new element
+build,INTENT,Build;Construct;Make;Create;Erect,CREATE_BUILDING,Construction action
+add,INTENT,Add;Insert;Place;Put;Include,PLACE_ELEMENT,Add element
+place,INTENT,Place;Position;Locate;Put;Set,PLACE_ELEMENT,Position element
+insert,INTENT,Insert;Add;Place;Put-In;Include,PLACE_ELEMENT,Insert element
+delete,INTENT,Delete;Remove;Erase;Eliminate;Take-Away,DELETE_ELEMENT,Remove element
+remove,INTENT,Remove;Delete;Erase;Take-Out;Extract,DELETE_ELEMENT,Remove element
+modify,INTENT,Modify;Change;Alter;Edit;Update;Adjust,MODIFY_DIMENSION,Change element
+change,INTENT,Change;Modify;Alter;Update;Transform,MODIFY_DIMENSION,Change property
+resize,INTENT,Resize;Scale;Change-Size;Adjust-Size,MODIFY_DIMENSION,Change dimensions
+move,INTENT,Move;Relocate;Shift;Transfer;Reposition,MOVE_ELEMENT,Change position
+copy,INTENT,Copy;Duplicate;Clone;Replicate,COPY_ELEMENT,Duplicate element
+rotate,INTENT,Rotate;Turn;Spin;Pivot;Revolve,ROTATE_ELEMENT,Change orientation
+flip,INTENT,Flip;Mirror;Reflect;Reverse,MIRROR_ELEMENT,Mirror element
+align,INTENT,Align;Line-Up;Arrange;Straighten,ALIGN_ELEMENT,Align elements
+connect,INTENT,Connect;Join;Link;Attach,CONNECT_ELEMENT,Join elements
+north,DIRECTION,North;Northern;Top;Upward;N,PLACE_ELEMENT;MOVE_ELEMENT,North direction
+south,DIRECTION,South;Southern;Bottom;Down;S,PLACE_ELEMENT;MOVE_ELEMENT,South direction
+east,DIRECTION,East;Eastern;Right;E,PLACE_ELEMENT;MOVE_ELEMENT,East direction
+west,DIRECTION,West;Western;Left;W,PLACE_ELEMENT;MOVE_ELEMENT,West direction
+northeast,DIRECTION,Northeast;NE;Upper-Right,PLACE_ELEMENT;MOVE_ELEMENT,Northeast direction
+northwest,DIRECTION,Northwest;NW;Upper-Left,PLACE_ELEMENT;MOVE_ELEMENT,Northwest direction
+southeast,DIRECTION,Southeast;SE;Lower-Right,PLACE_ELEMENT;MOVE_ELEMENT,Southeast direction
+southwest,DIRECTION,Southwest;SW;Lower-Left,PLACE_ELEMENT;MOVE_ELEMENT,Southwest direction
+above,DIRECTION,Above;Over;On-Top;Upper;Higher,PLACE_ELEMENT,Vertical above
+below,DIRECTION,Below;Under;Beneath;Lower;Underneath,PLACE_ELEMENT,Vertical below
+left,DIRECTION,Left;Left-Side;West,PLACE_ELEMENT;MOVE_ELEMENT,Left direction
+right,DIRECTION,Right;Right-Side;East,PLACE_ELEMENT;MOVE_ELEMENT,Right direction
+center,DIRECTION,Center;Middle;Central;Centre,PLACE_ELEMENT,Center position
+corner,DIRECTION,Corner;Edge;Intersection,PLACE_ELEMENT,Corner location
+large,SIZE,Large;Big;Wide;Spacious;Huge;Massive,MODIFY_DIMENSION;CREATE_BUILDING,Large size
+small,SIZE,Small;Little;Compact;Tiny;Narrow,MODIFY_DIMENSION;CREATE_BUILDING,Small size
+medium,SIZE,Medium;Average;Standard;Normal;Regular,MODIFY_DIMENSION;CREATE_BUILDING,Medium size
+wide,SIZE,Wide;Broad;Expansive;Spacious,MODIFY_DIMENSION,Wide dimension
+narrow,SIZE,Narrow;Thin;Slim;Tight,MODIFY_DIMENSION,Narrow dimension
+tall,SIZE,Tall;High;Elevated;Lofty,MODIFY_DIMENSION,Tall height
+short,SIZE,Short;Low;Squat;Compact,MODIFY_DIMENSION,Short height
+long,SIZE,Long;Lengthy;Extended;Elongated,MODIFY_DIMENSION,Long length
+thick,SIZE,Thick;Deep;Heavy;Substantial,MODIFY_DIMENSION,Thick dimension
+thin,SIZE,Thin;Slim;Slender;Narrow,MODIFY_DIMENSION,Thin dimension
+concrete,MATERIAL,Concrete;Cement;Masonry;Cast,MODIFY_PROPERTY,Concrete material
+brick,MATERIAL,Brick;Masonry;Clay-Brick;Brickwork,MODIFY_PROPERTY,Brick material
+wood,MATERIAL,Wood;Timber;Lumber;Wooden,MODIFY_PROPERTY,Wood material
+steel,MATERIAL,Steel;Metal;Iron;Structural-Steel,MODIFY_PROPERTY,Steel material
+glass,MATERIAL,Glass;Glazing;Transparent;Window-Glass,MODIFY_PROPERTY,Glass material
+aluminum,MATERIAL,Aluminum;Aluminium;Metal;Al,MODIFY_PROPERTY,Aluminum material
+gypsum,MATERIAL,Gypsum;Drywall;Plasterboard;Sheetrock,MODIFY_PROPERTY,Gypsum board
+plaster,MATERIAL,Plaster;Render;Stucco;Plasterwork,MODIFY_PROPERTY,Plaster finish
+tile,MATERIAL,Tile;Ceramic;Porcelain;Tiling,MODIFY_PROPERTY,Tile material
+stone,MATERIAL,Stone;Rock;Natural-Stone;Masonry,MODIFY_PROPERTY,Stone material
+meter,UNIT,Meter;Metre;M;Meters;Metres,MODIFY_DIMENSION,Metric length
+millimeter,UNIT,Millimeter;Millimetre;MM;Millimeters,MODIFY_DIMENSION,Metric small length
+centimeter,UNIT,Centimeter;Centimetre;CM;Centimeters,MODIFY_DIMENSION,Metric medium length
+foot,UNIT,Foot;Feet;Ft;Footmark,MODIFY_DIMENSION,Imperial length
+inch,UNIT,Inch;Inches;In;Double-Quote,MODIFY_DIMENSION,Imperial small length
+square meter,UNIT,Square-Meter;M2;Sq-M;Square-Metre,MODIFY_DIMENSION,Metric area
+square foot,UNIT,Square-Foot;Sq-Ft;SF;Square-Feet,MODIFY_DIMENSION,Imperial area

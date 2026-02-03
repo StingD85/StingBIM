@@ -1,0 +1,32 @@
+RoomType,MinArea_M2,MaxArea_M2,MinHeight_M,RequiresWindow,RequiresVent,RequiresPlumbing,DefaultFunction,DefaultFurniture,Notes
+Bedroom,9,25,2.4,true,false,false,Bed;Wardrobe;Nightstand,Sleeping;Storage,Main sleeping area for occupants
+MasterBedroom,12,30,2.4,true,false,false,Bed;Wardrobe;Nightstand;Dresser,Sleeping;Storage,Primary bedroom with ensuite option
+ChildBedroom,7,15,2.4,true,false,false,Bed;Desk;Wardrobe,Sleeping;Study,Smaller bedroom for children
+GuestBedroom,9,20,2.4,true,false,false,Bed;Wardrobe;Chair,Sleeping;Storage,Occasional use bedroom
+Bathroom,4,12,2.4,false,true,true,Toilet;Sink;Shower,Hygiene;Bathing,Full bathroom with all fixtures
+Ensuite,3,8,2.4,false,true,true,Toilet;Sink;Shower,Hygiene;Bathing,Private bathroom attached to bedroom
+PowderRoom,2,4,2.4,false,true,true,Toilet;Sink,Hygiene,Half bathroom for guests
+Kitchen,8,20,2.4,true,true,true,Counter;Sink;Stove;Fridge,Cooking;Food prep,Primary food preparation area
+LivingRoom,15,40,2.7,true,false,false,Sofa;TV;CoffeeTable,Relaxation;Entertainment,Main gathering space
+DiningRoom,10,25,2.7,true,false,false,Table;Chairs,Eating;Gathering,Formal or casual dining area
+FamilyRoom,12,30,2.7,true,false,false,Sofa;TV;Storage,Relaxation;Entertainment,Casual family gathering space
+Office,6,15,2.4,true,false,false,Desk;Chair;Bookshelf,Work;Study,Home office or study room
+Library,10,25,2.7,true,false,false,Bookshelf;Chair;Desk,Reading;Study,Dedicated reading and book storage
+LaundryRoom,4,10,2.4,false,true,true,Washer;Dryer;Sink,Laundry;Cleaning,Clothes washing area
+MudRoom,3,8,2.4,false,false,false,Bench;Storage;Hooks,Entry;Storage,Transition space with storage
+Garage,18,50,2.4,false,true,false,Storage;Parking,Vehicle;Storage,Vehicle parking and storage
+Pantry,2,6,2.4,false,true,false,Shelving,Storage;Food,Food storage area
+Closet,1,4,2.4,false,false,false,Hanging;Shelving,Storage;Clothing,General storage closet
+WalkInCloset,3,10,2.4,false,false,false,Hanging;Shelving;Drawers,Storage;Clothing,Large clothing storage
+Hallway,4,15,2.4,false,false,false,Passage,Circulation,Connecting corridor
+Foyer,4,12,2.7,false,false,false,Entry,Reception;Circulation,Main entrance area
+Balcony,3,15,0,false,false,false,Seating,Outdoor;Relaxation,External space
+Terrace,8,30,0,false,false,false,Seating;Dining,Outdoor;Entertainment,Large outdoor space
+Utility,3,8,2.4,false,true,false,Storage;Systems,Mechanical;Storage,Mechanical systems room
+HomeTheater,15,35,2.7,false,true,false,Seating;Screen;Audio,Entertainment;Media,Dedicated media room
+Gym,10,25,2.7,true,true,false,Equipment;Mirror,Exercise;Fitness,Home fitness area
+Wine Cellar,4,15,2.4,false,true,false,Racks;Storage,Storage;Wine,Temperature controlled wine storage
+Workshop,10,30,2.7,true,true,false,Workbench;Storage;Tools,Craft;Repair,Hobby and repair workspace
+Sunroom,8,20,2.7,true,false,false,Seating;Plants,Relaxation;Nature,Glass enclosed living space
+Attic,10,40,1.8,false,true,false,Storage,Storage;Seasonal,Upper level storage space
+Basement,15,60,2.4,false,true,false,Storage;Recreation,Multiple uses,Below grade space

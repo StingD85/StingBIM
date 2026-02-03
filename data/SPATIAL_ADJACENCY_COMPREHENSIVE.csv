@@ -1,0 +1,129 @@
+RoomType1,RoomType2,Relationship,Priority,RequiredConnection,PreferredDirection,MinDistance_M,MaxDistance_M,Notes
+Bedroom-Master,Bathroom-Master,Adjacent,Critical,Direct,Any,0,2,Private ensuite access
+Bedroom-Master,Closet-Walk-In,Adjacent,Critical,Direct,Any,0,2,Dressing room access
+Bedroom-Master,Bedroom-Child,Near,Medium,Corridor,Any,3,10,Parents hear children
+Bedroom-Master,Kitchen,Separate,Low,Different-Floor-OK,Any,10,999,Noise separation
+Bedroom-Master,Living-Room,Near,Low,Corridor,Any,5,15,Access to living areas
+Bedroom-Master,Office-Home,Near,Low,Corridor,Any,3,12,Work from home convenience
+Bedroom-Guest,Bathroom-Guest,Adjacent,High,Direct-or-Corridor,Any,0,5,Guest convenience
+Bedroom-Guest,Kitchen,Near,Medium,Corridor,Any,5,15,Guest access to kitchen
+Bedroom-Guest,Living-Room,Near,Medium,Corridor,Any,3,12,Guest socializing
+Bedroom-Guest,Bedroom-Master,Separate,Medium,Different-Wing,Any,8,999,Privacy for both
+Bedroom-Child,Bathroom-Family,Near,High,Corridor,Any,2,8,Bathroom access
+Bedroom-Child,Playroom,Near,High,Corridor,Any,2,10,Play area access
+Bedroom-Child,Kitchen,Near,Medium,Corridor,Any,5,15,Meal access
+Bedroom-Child,Bedroom-Child,Adjacent,Medium,Shared-Wall-OK,Any,0,5,Siblings near each other
+Kitchen,Dining-Room-Formal,Adjacent,Critical,Direct,Any,0,3,Food service
+Kitchen,Dining-Room-Casual,Adjacent,Critical,Open-Plan-OK,Any,0,2,Casual dining access
+Kitchen,Breakfast-Nook,Adjacent,High,Open-Plan,Any,0,3,Morning meals
+Kitchen,Living-Room,Adjacent,Medium,Visual-Connection,Any,0,8,Family gathering
+Kitchen,Family-Room,Adjacent,High,Open-Plan,Any,0,5,Family interaction
+Kitchen,Pantry-Walk-In,Adjacent,High,Direct,Any,0,3,Food storage access
+Kitchen,Scullery,Adjacent,Medium,Direct,Any,0,2,Back kitchen service
+Kitchen,Butler-Pantry,Adjacent,Medium,Direct,Any,0,3,Service connection
+Kitchen,Laundry-Room,Near,Medium,Corridor,Any,2,8,Utility convenience
+Kitchen,Garage-Single,Near,High,Direct,Any,1,5,Grocery unloading
+Kitchen,Mud-Room,Near,Medium,Corridor,Any,2,8,Entry from outside
+Kitchen,Bathroom-Powder,Separate,Medium,Different-Zone,Any,5,999,Hygiene separation
+Kitchen,Bedroom-Master,Separate,High,Different-Floor,Any,10,999,Noise and odor separation
+Dining-Room-Formal,Living-Room,Adjacent,High,Visual-Connection,Any,0,5,Entertaining flow
+Dining-Room-Formal,Butler-Pantry,Adjacent,Medium,Direct,Any,0,3,Service access
+Dining-Room-Formal,Foyer-Grand,Near,Medium,Visual,Any,2,8,Guest impression
+Living-Room,Foyer-Grand,Adjacent,High,Visual-Connection,Any,0,5,Entry welcome
+Living-Room,Family-Room,Adjacent,Low,Flexible,Any,0,10,Can be combined
+Living-Room,Powder-Room,Near,High,Discreet,Any,3,10,Guest bathroom access
+Living-Room,Bedroom-Master,Separate,Medium,Different-Floor,Any,8,999,Privacy and quiet
+Bathroom-Master,Bedroom-Master,Adjacent,Critical,Private-Door,Any,0,0,Ensuite access
+Bathroom-Master,Closet-Walk-In,Adjacent,High,Through-Bathroom,Any,0,2,Dressing suite
+Bathroom-Family,Bedroom-Child,Near,High,Corridor,Any,2,8,Children's access
+Bathroom-Family,Bedroom-Guest,Near,High,Corridor,Any,2,8,Guest access
+Bathroom-Family,Hallway-Main,Adjacent,High,Direct,Any,0,2,Central access
+Powder-Room,Foyer-Grand,Near,High,Discreet,Any,2,5,Guest access from entry
+Powder-Room,Living-Room,Near,High,Discreet,Any,2,8,Guest convenience
+Powder-Room,Kitchen,Separate,High,Different-Zone,Any,5,999,Hygiene separation
+Laundry-Room,Kitchen,Near,Medium,Corridor,Any,2,8,Utility zone
+Laundry-Room,Mud-Room,Adjacent,High,Direct,Any,0,3,Soiled clothes handling
+Laundry-Room,Garage-Single,Near,Medium,Direct,Any,1,5,Service access
+Laundry-Room,Bedroom-Master,Separate,Low,Different-Floor,Any,8,999,Noise separation
+Mud-Room,Kitchen,Adjacent,High,Direct,Any,0,3,Grocery entry
+Mud-Room,Garage-Single,Adjacent,Critical,Direct,Any,0,2,Vehicle entry
+Mud-Room,Laundry-Room,Adjacent,High,Direct,Any,0,3,Soiled clothes
+Office-Home,Foyer-Grand,Near,Medium,Direct,Any,2,8,Professional entry
+Office-Home,Powder-Room,Near,High,Corridor,Any,2,8,Client bathroom
+Office-Home,Bedroom-Master,Near,Low,Flexible,Any,3,15,Work-life balance
+Office-Home,Kitchen,Near,Low,Corridor,Any,5,15,Coffee breaks
+Office-Home,Family-Room,Separate,High,Different-Zone,Any,8,999,Noise separation
+Garage-Single,Kitchen,Adjacent,High,Direct-Door,Any,0,3,Grocery access
+Garage-Single,Mud-Room,Adjacent,Critical,Direct,Any,0,2,Entry transition
+Garage-Single,Laundry-Room,Near,Medium,Corridor,Any,2,5,Utility zone
+Reception-Area,Lobby-Corporate,Adjacent,Critical,Direct,Any,0,2,Primary entry point
+Reception-Area,Waiting-Room,Adjacent,Critical,Visual,Any,0,2,Visitor management
+Reception-Area,Conference-Room-Small,Near,High,Corridor,Any,2,10,Visitor meetings
+Reception-Area,Office-Executive,Near,Medium,Corridor,Any,3,15,Executive access
+Reception-Area,Powder-Room,Near,High,Discreet,Any,3,10,Visitor facilities
+Office-Executive,Conference-Room-Large,Adjacent,High,Direct,Any,0,5,Executive meetings
+Office-Executive,Boardroom,Adjacent,High,Direct,Any,0,5,Board access
+Office-Executive,Office-Executive,Near,Medium,Corridor,Any,2,10,Executive suite
+Office-Executive,Reception-Area,Near,Medium,Corridor,Any,5,15,Controlled access
+Office-Executive,Break-Room,Separate,Low,Different-Floor,Any,10,999,Privacy from common areas
+Office-Private,Office-Private,Adjacent,Low,Shared-Wall,Any,0,5,Office cluster
+Office-Private,Conference-Room-Small,Near,High,Corridor,Any,2,15,Meeting access
+Office-Private,Copy-Room,Near,Medium,Corridor,Any,5,20,Print access
+Office-Private,Break-Room,Near,Medium,Corridor,Any,5,25,Break access
+Office-Open-Plan,Conference-Room-Small,Adjacent,High,Direct,Any,0,10,Team meetings
+Office-Open-Plan,Meeting-Room-Huddle,Adjacent,Critical,Direct,Any,0,5,Quick meetings
+Office-Open-Plan,Break-Room,Near,High,Corridor,Any,3,15,Break access
+Office-Open-Plan,Copy-Room,Near,High,Corridor,Any,3,20,Print services
+Office-Open-Plan,Bathroom-Family,Near,High,Corridor,Any,5,25,Restroom access
+Conference-Room-Large,Boardroom,Near,Medium,Corridor,Any,3,15,Meeting cluster
+Conference-Room-Large,Conference-Room-Small,Near,Medium,Corridor,Any,2,15,Meeting zone
+Conference-Room-Large,Training-Room,Near,Medium,Corridor,Any,3,20,Training cluster
+Conference-Room-Large,Break-Room,Near,High,Corridor,Any,5,20,Catering access
+Break-Room,Copy-Room,Near,High,Corridor,Any,2,10,Common services
+Break-Room,Mail-Room,Near,Medium,Corridor,Any,3,15,Service zone
+Break-Room,Office-Open-Plan,Near,High,Corridor,Any,3,20,Easy access
+Break-Room,Bathroom-Family,Adjacent,High,Corridor,Any,1,8,Facilities cluster
+Server-Room,IT-Room,Adjacent,Critical,Direct,Any,0,3,IT infrastructure
+Server-Room,Electrical-Room,Near,Critical,Direct,Any,1,5,Power supply
+Server-Room,Mechanical-Room,Near,High,Direct,Any,2,10,Cooling access
+Server-Room,Office-Open-Plan,Separate,Critical,Different-Floor,Any,15,999,Noise and security
+IT-Room,Server-Room,Adjacent,Critical,Direct,Any,0,3,Equipment access
+IT-Room,Telephone-Room,Adjacent,High,Direct,Any,0,5,Communications cluster
+IT-Room,Electrical-Room,Near,High,Corridor,Any,2,10,Power access
+Storage-Room,Mail-Room,Near,High,Corridor,Any,2,10,Supply cluster
+Storage-Room,Copy-Room,Near,Medium,Corridor,Any,3,15,Supply delivery
+Storage-Room,Loading-Dock,Near,High,Corridor,Any,5,25,Receiving access
+Mechanical-Room,Electrical-Room,Adjacent,Critical,Direct,Any,0,5,Building systems
+Mechanical-Room,Server-Room,Near,High,Corridor,Any,2,10,Cooling supply
+Mechanical-Room,Loading-Dock,Near,Medium,Corridor,Any,5,20,Equipment access
+Gym-Home,Bathroom-Family,Adjacent,Critical,Direct,Any,0,3,Shower access
+Gym-Home,Laundry-Room,Near,High,Corridor,Any,2,8,Towel service
+Gym-Home,Garage-Single,Near,Medium,Direct,Any,2,10,Equipment access
+Gym-Home,Bedroom-Master,Separate,High,Different-Floor,Any,8,999,Noise separation
+Home-Theater,Family-Room,Near,Medium,Corridor,Any,2,10,Entertainment zone
+Home-Theater,Game-Room,Adjacent,Medium,Direct,Any,0,5,Recreation cluster
+Home-Theater,Bedroom-Master,Separate,High,Different-Floor,Any,10,999,Sound isolation
+Home-Theater,Bar-Home,Adjacent,Medium,Direct,Any,0,5,Entertainment amenity
+Wine-Cellar,Kitchen,Near,High,Stair,Any,2,15,Wine service
+Wine-Cellar,Dining-Room-Formal,Near,High,Stair,Any,2,15,Wine presentation
+Wine-Cellar,Mechanical-Room,Separate,Critical,Different-Zone,Any,10,999,Temperature control
+Workshop-Heavy,Garage-Single,Adjacent,High,Direct,Any,0,5,Tool and material access
+Workshop-Heavy,Storage-Room,Adjacent,High,Direct,Any,0,5,Material storage
+Workshop-Heavy,Bedroom-Master,Separate,Critical,Different-Building,Any,20,999,Noise and dust
+Workshop-Heavy,Living-Room,Separate,Critical,Different-Zone,Any,15,999,Noise separation
+Music-Room,Recording-Studio,Adjacent,High,Sound-Lock,Any,0,3,Practice to recording
+Music-Room,Bedroom-Master,Separate,High,Different-Floor,Any,10,999,Sound isolation
+Music-Room,Living-Room,Separate,Medium,Corridor,Any,8,20,Sound control
+Art-Studio,Storage-Room,Adjacent,High,Direct,Any,0,5,Art supply storage
+Art-Studio,Laundry-Room,Near,Medium,Corridor,Any,3,10,Cleaning access
+Art-Studio,Living-Room,Separate,Medium,Corridor,Any,5,15,Mess separation
+Pool-Room-Indoor,Mechanical-Room,Adjacent,Critical,Direct,Any,0,5,Pool equipment
+Pool-Room-Indoor,Bathroom-Family,Adjacent,Critical,Direct,Any,0,3,Changing facilities
+Pool-Room-Indoor,Gym-Home,Adjacent,High,Direct,Any,0,5,Fitness cluster
+Pool-Room-Indoor,Bedroom-Master,Separate,Critical,Different-Floor,Any,15,999,Humidity control
+Sauna,Bathroom-Family,Adjacent,Critical,Direct,Any,0,3,Shower access
+Sauna,Pool-Room-Indoor,Adjacent,High,Direct,Any,0,5,Spa cluster
+Sauna,Gym-Home,Adjacent,High,Corridor,Any,1,8,Wellness zone
+Game-Room,Bar-Home,Adjacent,High,Direct,Any,0,3,Entertainment amenity
+Game-Room,Home-Theater,Adjacent,Medium,Corridor,Any,0,8,Entertainment zone
+Game-Room,Family-Room,Adjacent,Low,Flexible,Any,0,10,Recreation area

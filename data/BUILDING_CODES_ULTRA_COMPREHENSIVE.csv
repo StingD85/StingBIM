@@ -1,0 +1,141 @@
+RuleID,RuleName,Description,Code_Reference,Priority,Applies_To,Building_Type,Requirement,Category,Notes
+DR-IBC-001,Habitable Room Definition,"Habitable rooms include living, sleeping, eating, cooking spaces. Excludes bathrooms, toilet rooms, closets, halls, storage",IBC 202,Critical,Habitable-Room,All,Definition applies,Classification,Determines code application
+DR-IBC-002,Dwelling Unit Definition,"Single unit with permanent provisions for living, sleeping, eating, cooking, sanitation",IBC 202,Critical,Residential-Unit,Residential,Complete facilities required,Classification,Unit designation
+DR-IBC-003,R-2 Residential Occupancy,"Apartment buildings, dormitories, non-transient residential with >2 dwelling units",IBC 310,Critical,Multi-Family,Residential,R-2 classification,Occupancy,Determines code requirements
+DR-IBC-004,R-3 Residential Occupancy,"One and two-family dwellings, townhouses (≤3 stories)",IBC 310,Critical,Single-Family,Residential,R-3 classification,Occupancy,Less restrictive than R-2
+DR-IBC-005,B Business Occupancy,"Office, professional, service-type transactions, education >12th grade",IBC 304,Critical,Office;Commercial,Commercial,B classification,Occupancy,Business use designation
+DR-IBC-006,A Assembly Occupancy,"Assembly for >50 persons (theaters, restaurants, churches, lecture halls)",IBC 303,Critical,Assembly,Commercial,A classification,Occupancy,High occupant load
+DR-IBC-007,M Mercantile Occupancy,"Display and sale of merchandise (stores, markets, retail)",IBC 309,Critical,Retail,Commercial,M classification,Occupancy,Retail use
+DR-IBC-008,S Storage Occupancy,"Storage not classified as hazardous (warehouses, freight depots)",IBC 311,Critical,Storage;Warehouse,Industrial,S classification,Occupancy,Storage use
+DR-IBC-009,Covered Mall Buildings,"Single building enclosing tenant spaces with pedestrian mall, anchor stores, food court",IBC 402,High,Mall;Shopping-Center,Commercial,Special mall provisions,Special-Use,Complex retail design
+DR-IBC-010,High-Rise Buildings,"Buildings >75 feet (22,860 mm) in building height",IBC 403,Critical,All,Commercial,Height > 75 feet,Special-Use,Enhanced life safety
+DR-IBC-011,Atriums,"Large volume space connecting ≥2 stories, enclosed at top, volume > 1,800 cubic feet",IBC 404,High,Atrium,Commercial,Special atrium provisions,Special-Use,Smoke control required
+DR-IBC-012,Underground Buildings,Floor level >30 feet below lowest level of exit discharge,IBC 405,Critical,Basement,All,Depth > 30 feet below grade,Special-Use,Enhanced egress/ventilation
+DR-IBC-013,Building Height Limit Type VA,"Type V-A construction: 65 feet, 4 stories max for R-3",IBC 504,Critical,All,Residential,"Height ≤ 65 feet, Stories ≤ 4",Height-Area,Most common wood frame
+DR-IBC-014,Building Height Limit Type VB,"Type V-B construction: 55 feet, 3 stories max for R-3",IBC 504,Critical,All,Residential,"Height ≤ 55 feet, Stories ≤ 3",Height-Area,Non-rated wood frame
+DR-IBC-015,Building Area Type VA,"Type V-A R-3: 12,000 sq ft per story, 36,000 sq ft total with sprinklers",IBC 506,High,All,Residential,Area limits per type,Height-Area,Increased with sprinklers
+DR-IBC-016,Mezzanine Area Limit,"Mezzanine area ≤ 1/3 of room area in which located, aggregate of all mezzanines ≤ 1/3 floor area",IBC 505,High,Mezzanine,All,Mezzanine ≤ 33% of floor,Height-Area,Not counted as story if compliant
+DR-IBC-017,Fire Resistance Type IA,"Type I-A: 3-hour columns, 2-hour floors, most restrictive",IBC 602,Critical,Structure,Commercial,"3hr columns, 2hr floors",Fire-Resistance,"Non-combustible, highest rating"
+DR-IBC-018,Fire Resistance Type IB,"Type I-B: 2-hour columns, 2-hour floors",IBC 602,Critical,Structure,Commercial,"2hr columns, 2hr floors",Fire-Resistance,Non-combustible construction
+DR-IBC-019,Fire Resistance Type IIA,"Type II-A: 1-hour columns, 1-hour floors",IBC 602,High,Structure,Commercial,"1hr columns, 1hr floors",Fire-Resistance,"Non-combustible, moderate rating"
+DR-IBC-020,Fire Resistance Type IIIA,"Type III-A: 1-hour exterior walls, interior any material",IBC 602,High,Structure,Commercial,1hr exterior walls,Fire-Resistance,Exterior non-combustible
+DR-IBC-021,Fire Resistance Type VA,"Type V-A: 1-hour exterior walls, 1-hour floor/ceiling assemblies",IBC 602,High,Structure,Residential,1hr rated assemblies,Fire-Resistance,Wood frame with rating
+DR-IBC-022,Fire Resistance Type VB,Type V-B: No fire resistance rating required,IBC 602,Medium,Structure,Residential,No rating required,Fire-Resistance,Standard wood frame
+DR-IBC-023,Fire Separation Distance 0-5 feet,"Exterior walls < 5' from property line: 1-hour rated, max 25% openings",IBC 705,Critical,Exterior-Wall,All,Rating based on distance,Fire-Safety,Prevents fire spread to adjacent property
+DR-IBC-024,Fire Separation Distance 5-10 feet,"Exterior walls 5-10' from property line: 1-hour rated, max 45% openings",IBC 705,Critical,Exterior-Wall,All,Rating based on distance,Fire-Safety,Moderate separation
+DR-IBC-025,Fire Separation Distance >30 feet,"Exterior walls >30' from property line: No rating required, unlimited openings",IBC 705,Low,Exterior-Wall,All,No rating if > 30 feet,Fire-Safety,Adequate separation
+DR-IBC-026,Fire Walls,"Fire walls extend from foundation to/through roof, create separate buildings, 3-4 hour rating",IBC 706,Critical,Fire-Wall,All,3-4 hour rating,Fire-Safety,Complete separation
+DR-IBC-027,Fire Barriers,"Fire barriers separate occupancies, create fire areas, 1-2 hour rating",IBC 707,Critical,Fire-Barrier,All,1-2 hour rating,Fire-Safety,Compartmentation
+DR-IBC-028,Fire Partitions,"Fire partitions for corridor walls, dwelling separations, 1 hour rating",IBC 708,High,Fire-Partition,All,1 hour rating,Fire-Safety,Corridor and unit separation
+DR-IBC-029,Smoke Barriers,"Smoke barriers resist smoke passage, typically 1 hour rating",IBC 709,High,Smoke-Barrier,Healthcare;Institutional,1 hour rating,Fire-Safety,Smoke control
+DR-IBC-030,Exit Access Travel Distance R,"Residential occupancies: 200 feet non-sprinklered, 250 feet sprinklered",IBC 1017,Critical,All,Residential,Travel ≤ 200/250 feet,Egress,Distance to exit
+DR-IBC-031,Exit Access Travel Distance B,"Business occupancies: 200 feet non-sprinklered, 300 feet sprinklered",IBC 1017,Critical,All,Commercial,Travel ≤ 200/300 feet,Egress,Distance to exit
+DR-IBC-032,Number of Exits Required,"Occupant load 1-500: 2 exits; 501-1,000: 3 exits; >1,000: 4 exits",IBC 1006,Critical,All,All,Based on occupant load,Egress,Redundancy requirement
+DR-IBC-033,Exit Separation,"Two exits required to be separated by ≥ 1/3 diagonal of area served, or 1/2 with sprinklers",IBC 1007,Critical,All,All,Separation ≥ 1/3 diagonal,Egress,Prevents single event blocking exits
+DR-IBC-034,Occupant Load Calculation Residential,Residential dwelling units: 200 sq ft per occupant,IBC 1004,High,Dwelling-Unit,Residential,Area / 200 sq ft,Occupancy,Determines required exits
+DR-IBC-035,Occupant Load Calculation Office,Office spaces: 150 sq ft per occupant,IBC 1004,High,Office,Commercial,Area / 150 sq ft,Occupancy,Determines required exits
+DR-IBC-036,Occupant Load Calculation Assembly,Assembly concentrated (fixed seats): 7 sq ft per occupant,IBC 1004,Critical,Assembly,Commercial,Area / 7 sq ft,Occupancy,High density assembly
+DR-IBC-037,Occupant Load Calculation Retail,Retail sales ground floor: 60 sq ft per occupant; other floors: 120 sq ft per occupant,IBC 1004,High,Retail,Commercial,Area / 60 or 120 sq ft,Occupancy,Shopping density
+DR-IBC-038,Common Path of Egress Travel,Residential sprinklered: 125 feet max common path (portion with only one exit direction),IBC 1006.2,High,All,Residential,Common path ≤ 125 feet,Egress,Single direction travel limit
+DR-IBC-039,Dead-End Corridor Limit,"Dead-end corridors: 20 feet max, 50 feet if sprinklered",IBC 1020.4,High,Corridor,All,Dead-end ≤ 20/50 feet,Egress,Prevents traps
+DR-IBC-040,Door Opening Force Interior,Interior hinged doors: 5 lbf (22.2 N) maximum opening force,IBC 1010.1.3,High,Door,All,Force ≤ 5 lbf,Accessibility,Easy operation
+DR-IBC-041,Door Opening Force Exterior,Exterior hinged doors: 15 lbf (66.7 N) maximum opening force,IBC 1010.1.3,High,Door,All,Force ≤ 15 lbf,Accessibility,Weather seal resistance
+DR-IBC-042,Door Swing Direction,Doors serving spaces with occupant load ≥50 must swing in direction of egress travel,IBC 1010.1.2,Critical,Door,All,Swing out if OL ≥ 50,Egress,Panic prevention
+DR-IBC-043,Door Hardware Type,Doors serving occupant load ≥50 require panic hardware or fire exit hardware,IBC 1010.1.10,Critical,Door,Assembly;Commercial,Panic hardware if OL ≥ 50,Life-Safety,Push-to-exit
+DR-IBC-044,Door Closer Required,Fire doors and smoke doors must be self-closing or automatic-closing,IBC 715.4.7,Critical,Fire-Door;Smoke-Door,All,Self/auto closing required,Fire-Safety,Maintains barrier
+DR-IBC-045,Door Vision Panel,"Doors in corridors serving ≥10 occupants require vision panel, 100 sq in minimum",IBC 1010.1.1,Medium,Door,Commercial,Vision panel if serves ≥10,Life-Safety,Visibility through door
+DR-IBC-046,Revolving Door Capacity,"Revolving doors: each door = 50% of required egress capacity, must have adjacent hinged door",IBC 1010.1.4,High,Door,Commercial,≤ 50% egress capacity,Egress,Not primary egress
+DR-IBC-047,Stair Riser Height Consistency,"Greatest riser height ≤ smallest + 3/8"" (9.5 mm) within any flight",IBC 1011.5.2,Critical,Stair,All,"Riser variation ≤ 3/8""",Life-Safety,Trip prevention
+DR-IBC-048,Stair Tread Depth Consistency,"Greatest tread depth ≤ smallest + 3/8"" (9.5 mm) within any flight",IBC 1011.5.2,Critical,Stair,All,"Tread variation ≤ 3/8""",Life-Safety,Trip prevention
+DR-IBC-049,Stair Riser Height Min,"Stair risers minimum 4"" (102 mm) height",IBC 1011.5.2,High,Stair,All,Riser ≥ 4 inches,Life-Safety,Visibility requirement
+DR-IBC-050,Stair Tread Depth Min,"Stair treads minimum 11"" (279 mm) depth measured nosing to nosing",IBC 1011.5.2,Critical,Stair,All,Tread ≥ 11 inches,Life-Safety,Adequate foot placement
+DR-IBC-051,Stair Width Clear,"Stairs minimum 44"" (1118 mm) clear width between handrails",IBC 1011.2,Critical,Stair,Commercial,Width ≥ 44 inches,Egress,Two-way traffic
+DR-IBC-052,Stair Landing Width,Stair landings width ≥ width of stairway served,IBC 1011.6,Critical,Stair,All,Landing ≥ stair width,Life-Safety,Safe transition
+DR-IBC-053,Stair Landing Length,"Stair landings length ≥ 44"" (1118 mm) in direction of travel",IBC 1011.6,Critical,Stair,All,Landing ≥ 44 inches,Life-Safety,Adequate stopping space
+DR-IBC-054,Stair Headroom,"Stair headroom minimum 80"" (2032 mm) clearance measured vertically",IBC 1011.3,Critical,Stair,All,Headroom ≥ 80 inches,Life-Safety,No head strike hazard
+DR-IBC-055,Handrail Extension Top,"Handrails extend ≥ 12"" (305 mm) beyond top riser, parallel to floor",IBC 1014.3,High,Stair,All,Extension ≥ 12 inches top,Life-Safety,Continuous support
+DR-IBC-056,Handrail Extension Bottom,"Handrails extend ≥ tread depth beyond bottom riser, continue slope then ≥12"" horizontal",IBC 1014.3,High,Stair,All,Extension ≥ tread depth,Life-Safety,Continuous support
+DR-IBC-057,Handrail Graspability,"Handrails Type I: 1.25-2"" (32-51mm) perimeter; Type II: 4-6.25"" (100-160mm) perimeter",IBC 1014.4,High,Stair;Ramp,All,Graspable profile,Life-Safety,Secure grip
+DR-IBC-058,Handrail Clearance,"Handrails minimum 1.5"" (38 mm) clearance from adjacent wall",IBC 1014.4,High,Stair;Ramp,All,Clearance ≥ 1.5 inches,Life-Safety,Hand wrap space
+DR-IBC-059,Handrail Continuity,Handrails must be continuous full length of stair flight,IBC 1014.2,Critical,Stair,All,Continuous rail,Life-Safety,No gaps
+DR-IBC-060,Stair Illumination,Stairs require minimum 1 fc (11 lux) illumination at all times,IBC 1006.1,High,Stair,All,≥ 1 fc always on,Life-Safety,Visibility
+DR-ADA-031,Accessible Route Surface,"Accessible routes: stable, firm, slip-resistant surface, changes in level ≤ 1/2""",ADA 302,Critical,Path;Route,Commercial,"Stable, firm, slip-resistant",Accessibility,Wheelchair traction
+DR-ADA-032,Accessible Route Slope,"Accessible routes: maximum 1:20 (5%) running slope, steeper requires ramp",ADA 403.3,Critical,Path;Route,Commercial,Slope ≤ 5%,Accessibility,Wheelchair propulsion
+DR-ADA-033,Accessible Route Cross Slope,Accessible routes: maximum 1:48 (2.08%) cross slope,ADA 403.3,Critical,Path;Route,Commercial,Cross slope ≤ 2.08%,Accessibility,Prevents wheelchair drift
+DR-ADA-034,Protruding Objects Cane Detection,"Objects protruding 4-80"" (102-2032 mm) height: max 4"" (102 mm) projection",ADA 307.2,Critical,Any-Object,Commercial,Protrusion ≤ 4 inches,Life-Safety,Cane detectable at ground
+DR-ADA-035,Protruding Objects Vertical Clearance,"Vertical clearance ≥ 80"" (2032 mm) along accessible routes",ADA 307.4,Critical,Ceiling;Overhang,Commercial,Clearance ≥ 80 inches,Life-Safety,Head clearance
+DR-ADA-036,Accessible Parking Ratio 1-25,1 accessible space per 1-25 total parking spaces,ADA 208.2,Critical,Parking,Commercial,Ratio calculation,Accessibility,Required accessible parking
+DR-ADA-037,Accessible Parking Ratio 26-50,2 accessible spaces per 26-50 total parking spaces,ADA 208.2,Critical,Parking,Commercial,Ratio calculation,Accessibility,Required accessible parking
+DR-ADA-038,Accessible Parking Ratio 51-75,3 accessible spaces per 51-75 total parking spaces,ADA 208.2,Critical,Parking,Commercial,Ratio calculation,Accessibility,Required accessible parking
+DR-ADA-039,Van Accessible Parking,"1 of 6 accessible parking spaces must be van-accessible (98"" width + 96"" aisle)",ADA 208.2.4,Critical,Parking,Commercial,1:6 must be van-accessible,Accessibility,Van lift clearance
+DR-ADA-040,Accessible Parking Signage,"Accessible parking spaces require reflectorized sign showing symbol, 60"" min height",ADA 502.6,High,Parking,Commercial,Sign required,Accessibility,Space identification
+DR-ADA-041,Door Threshold Height,"Thresholds at doorways: max 1/2"" (13 mm) height, beveled if > 1/4"" (6 mm)",ADA 404.2.5,High,Door,Commercial,Threshold ≤ 1/2 inch,Accessibility,Wheelchair rolling
+DR-ADA-042,Door Vision Light Height,"Vision lights in doors: max 43"" (1092 mm) bottom height above floor",ADA 404.2.11,Medium,Door,Commercial,Vision light ≤ 43 inches,Accessibility,Seated viewing
+DR-ADA-043,Door Closer Adjustment,Door closers: adjusted so door takes ≥ 5 seconds to close from 90° to 12° from latch,ADA 404.2.8.1,High,Door,Commercial,≥ 5 second close time,Accessibility,Adequate passage time
+DR-ADA-044,Door Kickplate,"Doors with closer and occupant must push: kickplate ≥ 10"" (254 mm) height smooth surface",ADA 404.2.10,Medium,Door,Commercial,10 inch kickplate,Durability,Wheelchair damage prevention
+DR-ADA-045,Power Assist Door,"Power-assisted doors: 3-second max opening time, remain open ≥ 30 seconds",ADA 404.3,High,Door,Commercial,Timing requirements,Accessibility,Automatic assistance
+DR-ADA-046,Toilet Seat Height,"Accessible toilet seats: 17-19"" (432-483 mm) above floor",ADA 604.4,Critical,Toilet;Water-Closet,Commercial,17-19 inches height,Accessibility,Transfer height
+DR-ADA-047,Toilet Flush Control,"Flush controls: hand-operated or automatic, max 44"" (1118 mm) height",ADA 604.6,High,Toilet;Water-Closet,Commercial,≤ 44 inches height,Accessibility,Reach requirement
+DR-ADA-048,Toilet Paper Dispenser Location,"Toilet paper dispenser: 7-9"" (178-229 mm) in front of toilet, max 36"" (914 mm) height",ADA 604.7,High,Toilet;Water-Closet,Commercial,7-9 inches forward,Accessibility,Reachable location
+DR-ADA-049,Side Wall Grab Bar Length,"Side wall grab bar: 42"" (1067 mm) minimum length",ADA 604.5.1,Critical,Toilet;Water-Closet,Commercial,42 inches minimum,Accessibility,Transfer support
+DR-ADA-050,Side Wall Grab Bar Height,"Side wall grab bar: 33-36"" (838-914 mm) height above floor",ADA 609.4,Critical,Grab-Bar,Commercial,33-36 inches height,Accessibility,Optimal support height
+DR-ADA-051,Rear Wall Grab Bar Width,"Rear wall grab bar: 36"" (914 mm) minimum width, centered on toilet",ADA 604.5.2,Critical,Toilet;Water-Closet,Commercial,36 inches centered,Accessibility,Stability support
+DR-ADA-052,Grab Bar Diameter,"Grab bars: 1.25-2"" (32-51 mm) outside diameter",ADA 609.2.1,High,Grab-Bar,Commercial,1.25-2 inch diameter,Accessibility,Graspable size
+DR-ADA-053,Grab Bar Spacing,"Grab bars: 1.5"" (38 mm) minimum spacing from wall",ADA 609.2.3,High,Grab-Bar,Commercial,1.5 inch clearance,Accessibility,Hand wrap space
+DR-ADA-054,Grab Bar Strength,Grab bars: withstand 250 lbf (1112 N) in any direction,ADA 609.8,Critical,Grab-Bar,Commercial,250 lbf strength,Life-Safety,Support body weight
+DR-ADA-055,Lavatory Height,"Accessible lavatory rim: max 34"" (864 mm) height above floor",ADA 606.3,Critical,Sink;Lavatory,Commercial,≤ 34 inches height,Accessibility,Seated reach
+DR-ADA-056,Lavatory Knee Clearance Height,"Knee clearance: 27"" (686 mm) minimum height at 8"" (203 mm) depth",ADA 606.3,Critical,Sink;Lavatory,Commercial,27 inch knee clearance,Accessibility,Wheelchair under sink
+DR-ADA-057,Lavatory Toe Clearance,"Toe clearance: 9"" (229 mm) minimum height extending 6"" (152 mm) beyond knee",ADA 306.2,High,Sink;Lavatory,Commercial,9 inch x 6 inch toe,Accessibility,Foot placement
+DR-ADA-058,Faucet Controls Type,"Faucets: lever-operated, push, touch, electronic, self-closing (max 10 seconds)",ADA 606.4,High,Sink;Lavatory,Commercial,Operable without grasping,Accessibility,Easy operation
+DR-ADA-059,Faucet Operating Force,Faucets: max 5 lbf (22.2 N) operating force,ADA 309.4,High,Sink;Lavatory,Commercial,≤ 5 lbf force,Accessibility,Easy operation
+DR-ADA-060,Lavatory Pipe Protection,Exposed pipes under lavatories: insulated or configured to prevent contact,ADA 606.5,High,Sink;Lavatory,Commercial,Pipe protection required,Life-Safety,Burn prevention
+DR-ASHRAE-009,Whole House Ventilation Formula,Total ventilation rate = 0.03 × floor area (ft²) + 7.5 × (bedrooms + 1),ASHRAE 62.2-4.1.1,Critical,Whole-House,Residential,Formula calculation,Health,Fresh air for occupants
+DR-ASHRAE-010,Continuous Ventilation,Whole house ventilation must operate continuously or provide equivalent exposure,ASHRAE 62.2-4.4,Critical,Whole-House,Residential,Continuous operation,Health,Consistent air quality
+DR-ASHRAE-011,Kitchen Range Hood Minimum,Kitchen range hood: 100 CFM intermittent or 5 ACH continuous,ASHRAE 62.2-5.1,High,Kitchen,Residential,100 CFM or 5 ACH,Health,Cooking pollutant removal
+DR-ASHRAE-012,Bathroom Exhaust Continuous,Bathroom continuous exhaust: 20 CFM minimum,ASHRAE 62.2-4.4,High,Bathroom,Residential,20 CFM continuous,Health,Moisture control
+DR-ASHRAE-013,Dwelling Unit Infiltration Credit,Infiltration credit for ventilation: based on blower door test results,ASHRAE 62.2-4.1.3,Medium,Whole-House,Residential,Test-based credit,Efficiency,Recognize natural ventilation
+DR-ASHRAE-014,Garage Exhaust,"Attached garage: 100 CFM exhaust when occupied, or 0.5 ACH continuous",ASHRAE 62.2-4.2.3,High,Garage,Residential,100 CFM or 0.5 ACH,Health,Vehicle emission removal
+DR-ASHRAE-015,Crawl Space Ventilation,"Vented crawl spaces: 1 ft² per 150 ft² floor area, or sealed with supply air",ASHRAE 62.2-4.5,Medium,Crawl-Space,Residential,Venting requirements,Health,Moisture and radon control
+DR-ASHRAE-016,Office Outdoor Air Rate,Offices: 5 CFM/person outdoor air minimum,ASHRAE 62.1 Table 6-1,Critical,Office,Commercial,5 CFM/person,Health,Dilution ventilation
+DR-ASHRAE-017,Conference Room Outdoor Air,Conference rooms: 5 CFM/person outdoor air minimum,ASHRAE 62.1 Table 6-1,Critical,Conference,Commercial,5 CFM/person,Health,Meeting room air quality
+DR-ASHRAE-018,Reception Area Outdoor Air,Reception areas: 5 CFM/person outdoor air minimum,ASHRAE 62.1 Table 6-1,Critical,Reception;Lobby,Commercial,5 CFM/person,Health,Waiting area ventilation
+DR-ASHRAE-019,Break Room Outdoor Air,Break/lunch rooms: 5 CFM/person outdoor air minimum,ASHRAE 62.1 Table 6-1,High,Break-Room,Commercial,5 CFM/person,Health,Eating area ventilation
+DR-ASHRAE-020,Classroom Outdoor Air,Classrooms ages 9+: 10 CFM/person outdoor air minimum,ASHRAE 62.1 Table 6-1,Critical,Classroom;Training,Commercial,10 CFM/person,Health,Student learning environment
+DR-ASHRAE-021,Retail Sales Outdoor Air,Retail sales areas: 7.5 CFM/person + 0.12 CFM/ft² minimum,ASHRAE 62.1 Table 6-1,High,Retail,Commercial,Combination rate,Health,Shopping environment
+DR-ASHRAE-022,Gym Outdoor Air,Exercise rooms: 20 CFM/person outdoor air minimum,ASHRAE 62.1 Table 6-1,Critical,Gym;Exercise,Commercial,20 CFM/person,Health,High metabolic rate ventilation
+DR-ASHRAE-023,Locker Room Outdoor Air,Locker rooms: 0.5 CFM/ft² outdoor air minimum,ASHRAE 62.1 Table 6-1,High,Locker-Room,Commercial,0.5 CFM/ft²,Health,Odor and moisture control
+DR-ASHRAE-024,Toilet Room Exhaust,Public toilet rooms: 50 CFM per water closet + 20 CFM per urinal exhaust,ASHRAE 62.1 Table 6-4,Critical,Toilet;Bathroom,Commercial,50 CFM/WC + 20/urinal,Health,Odor control
+DR-ASHRAE-025,Parking Garage Ventilation,Enclosed parking: 0.75 CFM/ft² or CO monitoring with variable ventilation,ASHRAE 62.1 Table 6-4,Critical,Parking-Garage,Commercial,0.75 CFM/ft² or CO control,Health,Vehicle emission dilution
+DR-ASHRAE-026,Restaurant Dining Outdoor Air,Restaurant dining rooms: 7.5 CFM/person + 0.18 CFM/ft² minimum,ASHRAE 62.1 Table 6-1,Critical,Restaurant;Dining,Commercial,Combination rate,Health,Dining environment
+DR-ASHRAE-027,Kitchen Commercial Makeup Air,Commercial kitchens: makeup air ≥ exhaust air minus 10%,ASHRAE 62.1-6.2.5.1,Critical,Kitchen,Commercial,Makeup = 90-100% exhaust,Health,Replace exhausted air
+DR-ASHRAE-028,Server Room Ventilation,"Data processing rooms: maintain temperature/humidity, dedicated HVAC recommended",ASHRAE TC 9.9,Critical,Server-Room,Commercial,Temperature control primary,Equipment,Equipment reliability
+DR-ASHRAE-029,Hotel Guest Room Outdoor Air,Hotel guest rooms: 30 CFM per room when occupied,ASHRAE 62.1 Table 6-1,High,Hotel-Room,Commercial,30 CFM/room,Health,Temporary occupancy
+DR-ASHRAE-030,Warehouse Storage Ventilation,Warehouse storage: 0.06 CFM/ft² outdoor air minimum,ASHRAE 62.1 Table 6-1,Medium,Warehouse,Industrial,0.06 CFM/ft²,Health,Minimal occupancy
+DR-ASHRAE-031,Laboratory Fume Hood Exhaust,"Laboratory fume hoods: 100 FPM face velocity minimum, dedicated exhaust",ASHRAE 62.1,Critical,Laboratory,Commercial,100 FPM face velocity,Life-Safety,Containment ventilation
+DR-ASHRAE-032,Indoor Pool Dehumidification,"Indoor pools: dedicated dehumidification system, 50-60% RH target",ASHRAE Apps Ch60,Critical,Pool-Indoor,Commercial,Dehumidification required,Health,Moisture and chemical control
+DR-ASHRAE-033,Natatorium Outdoor Air,Natatorium spaces: 0.5 CFM/ft² minimum outdoor air,ASHRAE 62.1 Table 6-1,Critical,Pool-Indoor;Natatorium,Commercial,0.5 CFM/ft²,Health,Chemical off-gassing
+DR-NFPA-001,NFPA 13 Sprinkler Coverage,Light hazard occupancy: 1 sprinkler per 130-200 ft² with specific spacing rules,NFPA 13-8.6.2,Critical,All,All,Coverage per occupancy,Fire-Safety,Automatic suppression
+DR-NFPA-002,NFPA 13 Residential Sprinkler,"Residential sprinklers: max 144 ft² per head, max 12' spacing",NFPA 13-8.4.4,Critical,All,Residential,144 ft² coverage,Fire-Safety,Dwelling protection
+DR-NFPA-003,NFPA 13D Dwelling Sprinklers,"NFPA 13D: sprinklers in habitable spaces, not required in bathrooms, closets < 24 ft²",NFPA 13D-6.3,High,Habitable-Room,Residential,Sprinklers in habitable,Fire-Safety,Life safety focus
+DR-NFPA-004,NFPA 72 Smoke Alarm Placement,"Smoke alarms: each bedroom, outside each sleeping area, each level including basement",NFPA 72-29.5.1,Critical,Bedroom;Dwelling,Residential,3 minimum placements,Life-Safety,Early detection
+DR-NFPA-005,NFPA 72 Smoke Alarm Interconnection,Dwelling smoke alarms: interconnected so activation of one activates all,NFPA 72-29.5.1.1,Critical,All,Residential,Interconnected alarms,Life-Safety,Building-wide alert
+DR-NFPA-006,NFPA 72 Smoke Alarm Power,"Smoke alarms: primary power from building wiring, battery backup required",NFPA 72-29.6,Critical,All,Residential,Hardwired + battery,Life-Safety,Reliable power
+DR-NFPA-007,NFPA 96 Kitchen Hood Exhaust,Commercial cooking: Type I hood over equipment producing grease vapors,NFPA 96-8.1,Critical,Kitchen,Commercial,Type I hood required,Fire-Safety,Grease capture
+DR-NFPA-008,NFPA 96 Kitchen Suppression,Commercial cooking: automatic fire suppression system required in Type I hoods,NFPA 96-10.1,Critical,Kitchen,Commercial,Automatic suppression,Fire-Safety,Grease fire protection
+DR-NFPA-009,NFPA 101 Exit Sign Illumination,"Exit signs: internally illuminated or externally illuminated, visible in normal and emergency",NFPA 101-7.10.1,Critical,Exit;Egress,Commercial,Illuminated exit signs,Life-Safety,Way finding
+DR-NFPA-010,NFPA 101 Emergency Lighting,"Emergency lighting: min 1 fc average, min 0.1 fc anywhere, 90 minutes duration",NFPA 101-7.9,Critical,Egress-Path,Commercial,Emergency lighting required,Life-Safety,Egress visibility
+DR-NFPA-011,NFPA 80 Fire Door Self-Closing,"Fire doors: self-closing or automatic-closing, latching hardware",NFPA 80-5.2.4,Critical,Fire-Door,All,Self/auto closing,Fire-Safety,Compartment integrity
+DR-NFPA-012,NFPA 80 Fire Door Clearances,"Fire door clearances: bottom max 3/4"" (19 mm), sides/top max 1/8"" (3 mm)",NFPA 80-4.8.4,High,Fire-Door,All,Clearance limits,Fire-Safety,Smoke/flame restriction
+DR-NFPA-013,NFPA 13 Obstruction to Discharge,"Sprinkler discharge: minimum 18"" (457 mm) clearance from storage",NFPA 13-8.5.5,High,Storage,All,18 inch clearance,Fire-Safety,Effective spray pattern
+DR-NFPA-014,NFPA 25 Sprinkler Inspection,"Sprinkler systems: annual inspection, 5-year trip test, 10-year hydrostatic",NFPA 25 Tables,High,Sprinkler-System,All,Regular inspection schedule,Fire-Safety,System reliability
+DR-NFPA-015,NFPA 110 Emergency Generator,"Emergency generators: Level 1 (10 seconds), Level 2 (60 seconds) start time",NFPA 110-4.4,Critical,Generator,Commercial,Start time requirements,Life-Safety,Power reliability
+DR-NFPA-016,NFPA 70 NEC Circuit Breakers,"Electrical panelboards: circuit breaker workingspace 30"" wide x 36"" deep minimum",NFPA 70-110.26,Critical,Electrical-Room,All,Working space required,Life-Safety,Safe maintenance access
+DR-NFPA-017,NFPA 70 NEC GFCI Protection,"GFCI protection: bathrooms, kitchens within 6' of sink, outdoors, garages, unfinished basements",NFPA 70-210.8,Critical,Outlet,Residential,GFCI in wet areas,Life-Safety,Shock protection
+DR-NFPA-018,NFPA 70 NEC AFCI Protection,"AFCI protection: all 15A and 20A, 120V branch circuits in dwelling units",NFPA 70-210.12,Critical,Circuit,Residential,AFCI required,Fire-Safety,Arc fault protection
+DR-NFPA-019,NFPA 70 NEC Receptacle Spacing,"Receptacles: max 6' from doorway, max 12' apart, or 2' from room corner",NFPA 70-210.52,High,Outlet,Residential,6-12-2 rule,Convenience,Adequate outlets
+DR-NFPA-020,NFPA 70 NEC Kitchen Countertop Outlets,"Kitchen countertop: receptacle every 4' or within 2' of counter space ≥ 12"" wide",NFPA 70-210.52(C),High,Kitchen,Residential,4 foot spacing max,Convenience,Small appliance access
+DR-NFPA-021,NFPA 70 NEC Kitchen Dedicated Circuits,"Kitchen: minimum 2x 20A small appliance circuits, 1x dedicated refrigerator circuit",NFPA 70-210.11,High,Kitchen,Residential,2+ dedicated circuits,Safety,Adequate electrical capacity
+DR-NFPA-022,NFPA 70 NEC Bathroom Dedicated Circuit,Bathroom: minimum 1x 20A dedicated circuit for receptacles,NFPA 70-210.11,High,Bathroom,Residential,Dedicated circuit,Safety,Hair dryer/appliance load
+DR-NFPA-023,NFPA 70 NEC Smoke Alarm Circuit,"Smoke alarm circuit: dedicated 15A or 20A circuit, AFCI not required",NFPA 70-210.12(D),High,Smoke-Alarm,Residential,Dedicated circuit allowed,Life-Safety,Independent power
+DR-NFPA-024,NFPA 88A Parking Garage CO Detection,Enclosed parking: CO detection system if mechanically ventilated,NFPA 88A-6.4,High,Parking-Garage,Commercial,CO detection required,Health,Toxic gas monitoring
+DR-NFPA-025,NFPA 99 Healthcare Electrical Systems,Healthcare: essential electrical system with automatic transfer switch (10 seconds),NFPA 99-6.4,Critical,Healthcare,Healthcare,Emergency power required,Life-Safety,Patient safety

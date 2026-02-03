@@ -1,0 +1,261 @@
+IntentId,IntentName,Category,Description,ExamplePhrases,SlotNames,Priority,Confidence_Threshold
+INT-CR-001,CREATE_ROOM,Create,Add a new room to the floor plan,add a room|create a room|make a new room|I need a room|put a room,RoomType;Width;Length;Height,1,0.75
+INT-CR-002,CREATE_ROOM_TYPED,Create,Add a specific room type,add a bedroom|create a kitchen|make a bathroom|put in a living room,RoomType;Width;Length,1,0.80
+INT-CR-003,CREATE_ROOM_SIZED,Create,Add a room with explicit dimensions,add a 4m x 5m bedroom|make a 3 metre kitchen|create a room 12 by 15 feet,RoomType;Width;Length;Unit,1,0.85
+INT-CR-004,CREATE_WALL,Create,Add a wall segment,add a wall|draw a wall|create a wall|put a wall here|I need a wall,WallType;Length;Thickness,1,0.75
+INT-CR-005,CREATE_EXTERIOR_WALL,Create,Add an exterior wall,add an exterior wall|draw outside wall|create ext wall|make outer wall,Length;Thickness;Material,1,0.80
+INT-CR-006,CREATE_INTERIOR_WALL,Create,Add a partition wall,add an interior wall|draw a partition|make an inside wall|add divider,Length;Thickness;Material,1,0.80
+INT-CR-007,CREATE_LOADBEARING_WALL,Create,Add a structural wall,add a load-bearing wall|make a structural wall|create bearing wall,Length;Thickness;Material,1,0.82
+INT-CR-008,CREATE_SHEAR_WALL,Create,Add a shear wall,add a shear wall|create lateral wall|make shear wall in core,Length;Thickness;Material,1,0.82
+INT-CR-009,CREATE_DOOR,Create,Add a door,add a door|put a door|create a door|place a door in the wall,DoorType;Width;Height;Wall,1,0.78
+INT-CR-010,CREATE_DOOR_TYPED,Create,Add a specific door type,add a sliding door|create a french door|put in a pocket door|add double door,DoorType;Width;Height,1,0.82
+INT-CR-011,CREATE_WINDOW,Create,Add a window,add a window|put in a window|create a window|place a window,WindowType;Width;Height;Wall,1,0.78
+INT-CR-012,CREATE_WINDOW_TYPED,Create,Add a specific window type,add a casement window|create a skylight|put in a bay window|add fixed window,WindowType;Width;Height,1,0.82
+INT-CR-013,CREATE_FLOOR,Create,Add a floor surface,add a floor|create floor finish|put flooring|set the floor,FloorType;Material;Area,1,0.78
+INT-CR-014,CREATE_CEILING,Create,Add a ceiling,add a ceiling|create a ceiling|put in a ceiling|make the ceiling,CeilingType;Height;Material,1,0.78
+INT-CR-015,CREATE_ROOF,Create,Add a roof,add a roof|create a roof|put on a roof|design the roof,RoofType;Slope;Material,1,0.78
+INT-CR-016,CREATE_STAIRCASE,Create,Add a staircase,add a staircase|create stairs|put in stairs|make a stairway,StairType;Rise;Run;Width,1,0.80
+INT-CR-017,CREATE_COLUMN,Create,Add a structural column,add a column|place a column|create a pillar|put in a post,ColumnType;Width;Depth;Height,1,0.80
+INT-CR-018,CREATE_BEAM,Create,Add a structural beam,add a beam|create a beam|place a girder|put in a header,BeamType;Depth;Width;Span,1,0.80
+INT-CR-019,CREATE_FOUNDATION,Create,Add a foundation element,add a foundation|create a footing|place a foundation wall,FoundationType;Width;Depth,1,0.80
+INT-CR-020,CREATE_RAMP,Create,Add an accessible ramp,add a ramp|create a ramp|put in a ramp|make an accessible ramp,Width;Length;Slope,1,0.78
+INT-CR-021,CREATE_SLAB,Create,Add a concrete slab,add a slab|create a concrete slab|put in a floor slab,Thickness;Material;Area,1,0.78
+INT-CR-022,CREATE_RAISED_FLOOR,Create,Add a raised floor system,add a raised floor|create access floor|put in computer floor,Height;Area;Material,1,0.78
+INT-CR-023,CREATE_SKYLIGHT,Create,Add a skylight,add a skylight|create a roof window|put in overhead glazing,Width;Height;SlopeAngle,1,0.80
+INT-CR-024,CREATE_BALCONY,Create,Add a balcony,add a balcony|create a balcony|put out a balcony|make a terrace,Width;Depth;Railing,1,0.80
+INT-CR-025,CREATE_COURTYARD,Create,Add a courtyard,add a courtyard|create an open courtyard|make an inner yard,Width;Length,1,0.78
+INT-CR-026,CREATE_HVAC_ZONE,Create,Add an HVAC zone,add an HVAC zone|create a heating zone|make a climate zone,ZoneType;Area;SetpointTemp,1,0.80
+INT-CR-027,CREATE_DUCTWORK,Create,Add ductwork,add ductwork|create ducts|put in supply duct|run a duct,DuctType;Diameter;Length,1,0.78
+INT-CR-028,CREATE_PIPE,Create,Add a plumbing pipe,add a pipe|create plumbing|run a pipe|put in water line,PipeType;Diameter;Length;Material,1,0.78
+INT-CR-029,CREATE_ELECTRICAL_CIRCUIT,Create,Add an electrical circuit,add a circuit|create a panel circuit|wire a circuit,Amperage;Voltage;Runs,1,0.78
+INT-CR-030,CREATE_LIGHTING,Create,Add a light fixture,add a light|put in a fixture|create lighting|place a lamp,LightType;Wattage;Location,1,0.78
+INT-CR-031,CREATE_OUTLET,Create,Add an electrical outlet,add an outlet|put in a receptacle|create a socket|place an outlet,OutletType;Voltage;Location,1,0.78
+INT-CR-032,CREATE_SWITCH,Create,Add a light switch,add a switch|create a light switch|put in a toggle,SwitchType;Location,1,0.78
+INT-CR-033,CREATE_TOILET,Create,Add a toilet,add a toilet|place a WC|create a toilet|put in a commode,ToiletType;Location,1,0.80
+INT-CR-034,CREATE_SINK,Create,Add a sink,add a sink|create a basin|put in a lavatory|place a sink,SinkType;Location;Size,1,0.80
+INT-CR-035,CREATE_SHOWER,Create,Add a shower,add a shower|create a shower|put in a shower stall,ShowerType;Width;Depth,1,0.80
+INT-CR-036,CREATE_BATHTUB,Create,Add a bathtub,add a bathtub|create a tub|put in a bath|place a bathtub,TubType;Length;Width,1,0.80
+INT-CR-037,CREATE_FAUCET,Create,Add a faucet,add a faucet|create a tap|put in a mixer|place a faucet,FaucetType;Location,1,0.78
+INT-CR-038,CREATE_WATER_HEATER,Create,Add a water heater,add a water heater|create a boiler|put in a tank heater,HeaterType;Capacity;Location,1,0.80
+INT-CR-039,CREATE_CONNECTION,Create,Add a structural connection,add a connection|create a steel joint|put in a bolted connection,ConnectionType;BeamSize;ColSize,1,0.82
+INT-CR-040,CREATE_BASE_PLATE,Create,Add a column base plate,add a base plate|create a column base|put in a base plate,ColSize;AnchorCount;PlateSize,1,0.82
+INT-CR-041,CREATE_WATERPROOFING,Create,Add waterproofing membrane,add waterproofing|create a membrane|put in WP|waterproof the foundation,MembraneType;Area,1,0.80
+INT-CR-042,CREATE_FLASHING,Create,Add roof or window flashing,add flashing|create window flashing|put in roof flashing,FlashingType;Location;Width,1,0.80
+INT-CR-043,CREATE_FURNITURE,Create,Add a furniture item,add a sofa|create a dining table|put in a bed|place furniture,FurnitureType;Width;Depth;Location,1,0.78
+INT-CR-044,CREATE_COUNTERTOP,Create,Add a kitchen countertop,add a countertop|create kitchen counter|put in a counter,Material;Length;Width;Location,1,0.78
+INT-CR-045,CREATE_CABINET,Create,Add a cabinet,add a cabinet|create kitchen cabinets|put in upper cabinets,CabinetType;Width;Height;Location,1,0.78
+INT-CR-046,CREATE_APPLIANCE,Create,Add a kitchen appliance,add a refrigerator|create an oven|put in a dishwasher,ApplianceType;Width;Depth;Location,1,0.78
+INT-CR-047,CREATE_PARKING_SPACE,Create,Add a parking space,add a parking space|create a car space|put in parking,SpaceType;Width;Length,1,0.78
+INT-CR-048,CREATE_ELEVATOR,Create,Add an elevator,add an elevator|create a lift|put in an elevator cab,ElevatorType;CabSize;Capacity,1,0.82
+INT-CR-049,CREATE_FIRE_STAIR,Create,Add a fire-rated staircase,add a fire stair|create fire escape stairs|make fire stairwell,Width;Rise;LandingSize,1,0.82
+INT-CR-050,CREATE_RETAINING_WALL,Create,Add a retaining wall,add a retaining wall|create a garden wall|put in retaining,Height;Length;Material,1,0.80
+INT-CR-051,CREATE_DIMENSION,Create,Add a dimension annotation,add a dimension|dimension this|annotate the length|show dimensions,Element;Axis,1,0.75
+INT-CR-052,CREATE_GRID,Create,Add a structural grid,add a grid|create grid lines|put in a structural grid,SpacingX;SpacingY;Origin,1,0.78
+INT-CR-053,CREATE_LEVEL,Create,Add a building level,add a level|create a new floor level|put in a story,LevelName;Elevation;Height,1,0.80
+INT-CR-054,CREATE_ZONE,Create,Add a functional zone,add a zone|create a functional zone|designate an area,ZoneName;Boundary,1,0.78
+INT-CR-055,CREATE_SETBACK,Create,Add a property setback,add a setback|create a building setback|show setback line,Side;Distance,1,0.78
+INT-CR-056,CREATE_COURTYARD,Create,Add an outdoor courtyard,add a courtyard|make an atrium|create a light well,Width;Length,1,0.78
+INT-CR-057,CREATE_CANOPY,Create,Add a building canopy,add a canopy|create a covered entrance|put in an awning,Width;Depth;Height,1,0.78
+INT-CR-058,CREATE_PERGOLA,Create,Add a pergola,add a pergola|create an outdoor pergola|put in a trellis structure,Width;Length;Height,1,0.78
+INT-CR-059,CREATE_SHED,Create,Add a shed structure,add a shed|create a tool shed|put in a garden shed,Width;Length;Height,1,0.78
+INT-CR-060,CREATE_POOL,Create,Add a swimming pool,add a pool|create a swimming pool|put in a plunge pool,Width;Length;Depth,1,0.78
+INT-CR-061,CREATE_FIRE_ESCAPE,Create,Add a fire escape route,add a fire escape|create escape route|put in fire exit,RouteType;Width,1,0.82
+INT-CR-062,CREATE_SMOKE_DETECTOR,Create,Add a smoke detector,add a smoke detector|create fire alarm|place a detector,Type;Location,1,0.78
+INT-CR-063,CREATE_SPRINKLER,Create,Add a sprinkler head,add a sprinkler|create fire sprinkler|place a sprinkler head,Type;Location;Coverage,1,0.78
+INT-CR-064,CREATE_FIRE_EXTINGUISHER,Create,Add a fire extinguisher location,add a fire extinguisher|place an extinguisher|create FE mount,Type;Location,1,0.78
+INT-CR-065,CREATE_EXPANSION_JOINT,Create,Add an expansion joint,add an expansion joint|create a movement joint|put in a joint,JointType;Location;Width,1,0.80
+INT-MD-001,MODIFY_DIMENSION,Modify,Change element dimensions,change the size|make it bigger|resize|adjust dimensions|how wide is it,Element;Axis;Value;Unit,2,0.78
+INT-MD-002,MODIFY_WIDTH,Modify,Change width specifically,change the width|make it wider|set width to|adjust the width,Element;Value;Unit,2,0.80
+INT-MD-003,MODIFY_HEIGHT,Modify,Change height specifically,change the height|make it taller|set height to|raise the ceiling,Element;Value;Unit,2,0.80
+INT-MD-004,MODIFY_LENGTH,Modify,Change length specifically,change the length|extend it|shorten it|set length to,Element;Value;Unit,2,0.80
+INT-MD-005,MODIFY_THICKNESS,Modify,Change wall or slab thickness,change thickness|make it thicker|thinner wall|adjust thickness,Element;Value;Unit,2,0.80
+INT-MD-006,MODIFY_MATERIAL,Modify,Change material of element,change to brick|make it concrete|switch to wood|use steel instead,Element;NewMaterial,2,0.82
+INT-MD-007,MODIFY_WALL_TYPE,Modify,Change wall classification,change to load-bearing|make it a shear wall|convert to partition,Wall;NewType,2,0.82
+INT-MD-008,MODIFY_DOOR_TYPE,Modify,Change door type,change to sliding door|swap to french door|make it a pocket door,Door;NewType,2,0.82
+INT-MD-009,MODIFY_WINDOW_TYPE,Modify,Change window type,change to casement|swap to fixed window|make it a skylight,Window;NewType,2,0.82
+INT-MD-010,MODIFY_ROOF_SLOPE,Modify,Change roof pitch,change roof slope|adjust the pitch|steeper roof|flatter roof,Roof;NewSlope;Unit,2,0.80
+INT-MD-011,MODIFY_CEILING_HEIGHT,Modify,Change ceiling height,raise the ceiling|lower the ceiling|change ceiling height,Room;NewHeight;Unit,2,0.80
+INT-MD-012,MODIFY_ROOM_NAME,Modify,Rename a room,rename the room|call it|change room name to|label it,Room;NewName,2,0.78
+INT-MD-013,MODIFY_FLOOR_TYPE,Modify,Change floor finish type,change to hardwood|switch to tile|use carpet instead|change flooring,Floor;NewType;Material,2,0.82
+INT-MD-014,MODIFY_STAIR_TYPE,Modify,Change staircase type,change to spiral stair|make it an L-stair|switch to U-shaped,Stair;NewType,2,0.82
+INT-MD-015,MODIFY_COLUMN_SIZE,Modify,Change column cross-section,resize the column|change column to 300x300|make column bigger,Column;NewWidth;NewDepth,2,0.82
+INT-MD-016,MODIFY_BEAM_SIZE,Modify,Change beam cross-section,resize the beam|change beam depth|make beam wider|deeper beam,Beam;NewDepth;NewWidth,2,0.82
+INT-MD-017,MODIFY_HVAC_SETPOINT,Modify,Change temperature setpoint,set temperature to 22|change setpoint|adjust thermostat to,Zone;NewTemp;Unit,2,0.78
+INT-MD-018,MODIFY_LIGHTING_DIM,Modify,Change light level,dim the lights|brighten lights|set lighting to 500 lux|adjust light,Room;NewLevel;Unit,2,0.78
+INT-MD-019,MODIFY_PIPE_SIZE,Modify,Change pipe diameter,change pipe size|resize the pipe|larger pipe diameter|set pipe to 50mm,Pipe;NewDiameter;Unit,2,0.80
+INT-MD-020,MODIFY_DUCT_SIZE,Modify,Change duct dimensions,resize the duct|change duct diameter|larger duct|set duct to 300mm,Duct;NewSize;Unit,2,0.80
+INT-MD-021,MODIFY_WINDOW_SILL_HEIGHT,Modify,Change window sill height,raise the sill|lower sill height|change sill to 900mm,Window;NewSillHeight;Unit,2,0.80
+INT-MD-022,MODIFY_DOOR_SWING,Modify,Change door swing direction,change door swing|flip the door|swing inward instead|open outward,Door;NewSwing,2,0.82
+INT-MD-023,MODIFY_WALL_FINISH,Modify,Change wall surface finish,change to painted|make it tiled|switch wall to plaster|textured finish,Wall;NewFinish,2,0.78
+INT-MD-024,MODIFY_ROOF_TYPE,Modify,Change roof type,change to hip roof|make it a flat roof|switch to gable|mansard roof,Roof;NewType,2,0.82
+INT-MD-025,MODIFY_FOUNDATION_TYPE,Modify,Change foundation type,change to slab|switch to pile foundation|raft foundation instead,Foundation;NewType,2,0.82
+INT-MD-026,MODIFY_INSULATION,Modify,Change insulation specification,add insulation|change insulation to R-20|increase R-value|better insulation,Element;NewR;Unit,2,0.80
+INT-MD-027,MODIFY_FIRE_RATING,Modify,Change fire rating,increase fire rating|set to 2 hour rating|make fire resistant,Element;NewRating;Unit,2,0.82
+INT-MD-028,MODIFY_ACOUSTIC_RATING,Modify,Change sound rating,increase STC|set acoustic rating|sound insulate the wall|STC 50,Element;NewSTC,2,0.80
+INT-MD-029,MODIFY_COLOR,Modify,Change element colour,change colour to blue|paint it white|make it red|colour the wall,Element;NewColor,2,0.75
+INT-MD-030,MODIFY_SLOPE,Modify,Change slope or grade,change the slope|adjust grade to 2%|steeper slope|set gradient,Element;NewSlope;Unit,2,0.80
+INT-MD-031,MODIFY_SETBACK,Modify,Change property setback,change setback to 5m|adjust front setback|increase side setback,Side;NewDistance;Unit,2,0.80
+INT-MD-032,MODIFY_PARKING_COUNT,Modify,Change parking space count,add more parking|reduce parking to 10|increase parking spaces,NewCount,2,0.78
+INT-MD-033,MODIFY_OCCUPANCY_LOAD,Modify,Change occupancy factor,change occupancy to 100|set person count|adjust people load,Room;NewOccupancy,2,0.80
+INT-MD-034,MODIFY_VENTILATION,Modify,Change ventilation rate,increase ventilation|set CFM to 200|adjust fresh air rate,Room;NewRate;Unit,2,0.80
+INT-MD-035,MODIFY_TOILET_GPF,Modify,Change toilet flush rating,change to low-flow toilet|set GPF to 1.28|upgrade to HET toilet,Toilet;NewGPF,2,0.78
+INT-MD-036,MODIFY_WATER_HEATER_SIZE,Modify,Change water heater capacity,upgrade water heater to 50 gal|change heater size|bigger water heater,Heater;NewCapacity;Unit,2,0.80
+INT-MD-037,MODIFY_CONNECTION_TYPE,Modify,Change structural connection,change to welded connection|switch to moment frame|upgrade connection,Connection;NewType,2,0.82
+INT-MD-038,MODIFY_WATERPROOFING_TYPE,Modify,Change waterproofing membrane,switch to liquid membrane|change WP to sheet|upgrade waterproofing,WP;NewType,2,0.80
+INT-MD-039,MODIFY_FLASHING_MATERIAL,Modify,Change flashing metal,switch flashing to copper|change to aluminium flashing|upgrade flashing,Flashing;NewMaterial,2,0.80
+INT-MD-040,MODIFY_CARPET_PILE,Modify,Change carpet pile type,change to loop pile|switch to cut pile|saxony carpet|berber carpet,Carpet;NewPile,2,0.78
+INT-MD-041,MODIFY_TILE_GROUT,Modify,Change grout specification,change grout colour|epoxy grout|switch to white grout|colour grout,Tile;NewGrout,2,0.75
+INT-MD-042,MODIFY_PAINT_FINISH,Modify,Change paint sheen,change to matte paint|glossy finish|eggshell paint|satin paint,Surface;NewFinish,2,0.75
+INT-MD-043,MODIFY_DOOR_HARDWARE,Modify,Change door hardware,change to lever handle|deadbolt handle|electronic lock|pocket door hardware,Door;NewHardware,2,0.78
+INT-MD-044,MODIFY_WINDOW_GLAZING,Modify,Change window glass type,change to double glazing|triple pane|low-E glass|laminated glass,Window;NewGlazing,2,0.80
+INT-MD-045,MODIFY_ROOF_MATERIAL,Modify,Change roofing material,change to slate roof|metal roofing|switch to shingles|clay tile roof,Roof;NewMaterial,2,0.82
+INT-MD-046,MODIFY_CLADDING,Modify,Change exterior cladding,change cladding to timber|aluminium cladding|brick veneer|stone cladding,Wall;NewCladding,2,0.82
+INT-MD-047,MODIFY_RAILING_TYPE,Modify,Change railing specification,change to glass railing|steel railing|wooden railing|aluminium rail,Railing;NewType,2,0.78
+INT-MD-048,MODIFY_STAIR_RISER,Modify,Change stair riser height,change riser height|set rise to 180mm|adjust step height|lower the rise,Stair;NewRise;Unit,2,0.80
+INT-MD-049,MODIFY_STAIR_TREAD,Modify,Change stair tread depth,change tread depth|set tread to 250mm|adjust step depth|wider tread,Stair;NewTread;Unit,2,0.80
+INT-MD-050,MODIFY_BEAM_MATERIAL,Modify,Change beam material,change beam to steel|timber beam|concrete beam|switch beam material,Beam;NewMaterial,2,0.82
+INT-MD-051,MODIFY_COLUMN_MATERIAL,Modify,Change column material,change column to steel|concrete column|timber column|switch column material,Column;NewMaterial,2,0.82
+INT-MD-052,MODIFY_SLAB_THICKNESS,Modify,Change slab thickness,change slab to 200mm|thicker slab|thinner slab|adjust slab thickness,Slab;NewThickness;Unit,2,0.80
+INT-MD-053,MODIFY_VENT_SIZE,Modify,Change ventilation vent size,resize the vent|change vent to 300x150|larger vent|smaller vent grille,Vent;NewSize;Unit,2,0.78
+INT-MD-054,MODIFY_SPRINKLER_COVERAGE,Modify,Change sprinkler coverage area,increase sprinkler coverage|change to 5m coverage|wider sprinkler zone,Sprinkler;NewCoverage;Unit,2,0.78
+INT-MD-055,MODIFY_EXPANSION_JOINT_WIDTH,Modify,Change expansion joint size,change joint width to 50mm|wider expansion joint|adjust movement joint,Joint;NewWidth;Unit,2,0.80
+INT-DL-001,DELETE_ELEMENT,Delete,Remove any element,delete this|remove it|erase that|take it away|get rid of it,Element,3,0.75
+INT-DL-002,DELETE_WALL,Delete,Remove a wall,remove the wall|delete this wall|erase that wall|take out the wall,Wall,3,0.80
+INT-DL-003,DELETE_DOOR,Delete,Remove a door,remove the door|delete this door|erase that door|take out the door,Door,3,0.80
+INT-DL-004,DELETE_WINDOW,Delete,Remove a window,remove the window|delete this window|erase that window|take out window,Window,3,0.80
+INT-DL-005,DELETE_ROOM,Delete,Remove an entire room,delete the room|remove this room|erase the bedroom|take out that room,Room,3,0.82
+INT-DL-006,DELETE_FURNITURE,Delete,Remove a furniture piece,remove the sofa|delete the table|take out the desk|erase the chair,Furniture,3,0.78
+INT-DL-007,DELETE_COLUMN,Delete,Remove a column,remove the column|delete this pillar|take out that column,Column,3,0.80
+INT-DL-008,DELETE_BEAM,Delete,Remove a beam,remove the beam|delete this beam|take out that girder,Beam,3,0.80
+INT-DL-009,DELETE_STAIRCASE,Delete,Remove a staircase,remove the stairs|delete this staircase|take out the stairway,Stair,3,0.80
+INT-DL-010,DELETE_FIXTURE,Delete,Remove a plumbing fixture,remove the toilet|delete the sink|take out the shower|erase bathtub,Fixture,3,0.80
+INT-DL-011,DELETE_LIGHT,Delete,Remove a light fixture,remove the light|delete this fixture|take out that lamp,Light,3,0.78
+INT-DL-012,DELETE_PIPE,Delete,Remove a pipe run,remove the pipe|delete this plumbing|take out that pipe run,Pipe,3,0.78
+INT-DL-013,DELETE_DUCT,Delete,Remove ductwork,remove the duct|delete this ductwork|take out that duct run,Duct,3,0.78
+INT-DL-014,DELETE_LEVEL,Delete,Remove a building level,delete this floor level|remove the story|take out level 3,Level,3,0.82
+INT-DL-015,DELETE_GRID,Delete,Remove grid lines,remove the grid|delete grid lines|clear the structural grid,Grid,3,0.78
+INT-QR-001,QUERY_DIMENSION,Query,Ask for element size,how big is it|what are the dimensions|how wide|how tall|what is the size,Element,4,0.75
+INT-QR-002,QUERY_AREA,Query,Ask for room or surface area,what is the area|how much area|square footage|floor area|total area,Element,4,0.78
+INT-QR-003,QUERY_VOLUME,Query,Ask for enclosed volume,what is the volume|how much volume|cubic meters|room volume,Element,4,0.78
+INT-QR-004,QUERY_MATERIAL,Query,Ask what material something is,what material|what is it made of|what type of material|what is it,Element,4,0.78
+INT-QR-005,QUERY_COST,Query,Ask about element or total cost,how much does it cost|what is the cost|total cost|price of|budget,Element,4,0.78
+INT-QR-006,QUERY_COUNT,Query,Ask how many of something,how many rooms|how many doors|count the windows|number of walls,ElementType,4,0.78
+INT-QR-007,QUERY_FIRE_RATING,Query,Ask about fire rating,what is the fire rating|how fire resistant|fire rating of|1hr or 2hr,Element,4,0.78
+INT-QR-008,QUERY_SOUND_RATING,Query,Ask about acoustic rating,what is the STC|sound transmission class|how soundproof|acoustic rating,Element,4,0.78
+INT-QR-009,QUERY_R_VALUE,Query,Ask about thermal insulation value,what is the R-value|thermal resistance|insulation value|U-value,Element,4,0.78
+INT-QR-010,QUERY_OCCUPANCY,Query,Ask about occupancy load,how many people|occupancy load|max occupancy|person capacity,Room,4,0.78
+INT-QR-011,QUERY_EGRESS,Query,Ask about exit requirements,egress width|exit door size|how wide is the exit|escape route,Room,4,0.80
+INT-QR-012,QUERY_ACCESSIBILITY,Query,Ask about ADA compliance,is it ADA compliant|accessibility check|wheelchair access|is it accessible,Element,4,0.80
+INT-QR-013,QUERY_CODE_COMPLIANCE,Query,Ask about code compliance,does it meet code|is it compliant|check the code|building code check,Element,4,0.82
+INT-QR-014,QUERY_FIXTURE_UNITS,Query,Ask about plumbing fixture units,fixture units|how many FU|plumbing load|total fixture units,Room,4,0.78
+INT-QR-015,QUERY_PIPE_SIZE,Query,Ask required pipe size,what pipe size|pipe diameter|required pipe|size the pipe,System,4,0.78
+INT-QR-016,QUERY_WATER_DEMAND,Query,Ask about water demand,water demand|daily water use|water consumption|hot water load,Building,4,0.78
+INT-QR-017,QUERY_HVAC_LOAD,Query,Ask about heating or cooling load,heating load|cooling load|HVAC load|BTU required|how much heating,Zone,4,0.78
+INT-QR-018,QUERY_LIGHTING_LEVEL,Query,Ask about light level requirement,what lux|lighting level|light requirement|how bright should it be,Room,4,0.78
+INT-QR-019,QUERY_VENTILATION,Query,Ask about ventilation requirement,ventilation rate|CFM required|fresh air|air changes per hour|ACH,Room,4,0.78
+INT-QR-020,QUERY_SETBACK,Query,Ask about property setbacks,what is the setback|how far from boundary|front setback|side setback,Building,4,0.78
+INT-QR-021,QUERY_FLOOR_AREA_RATIO,Query,Ask about FAR,floor area ratio|what is the FAR|plot ratio|total floor area ratio,Building,4,0.78
+INT-QR-022,QUERY_LOT_COVERAGE,Query,Ask about lot coverage,lot coverage|ground floor ratio|building footprint|coverage ratio,Building,4,0.78
+INT-QR-023,QUERY_WALL_COUNT,Query,Ask how many walls in a room,how many walls|wall count|number of walls in the room,Room,4,0.78
+INT-QR-024,QUERY_WINDOW_COUNT,Query,Ask how many windows,how many windows|window count|number of windows|windows in the room,Room,4,0.78
+INT-QR-025,QUERY_DOOR_COUNT,Query,Ask how many doors,how many doors|door count|number of doors|how many entrances,Room,4,0.78
+INT-QR-026,QUERY_STAIR_COUNT,Query,Ask how many staircases,how many stairs|stair count|number of staircases,Building,4,0.78
+INT-QR-027,QUERY_LEVEL_COUNT,Query,Ask how many levels,how many floors|how many stories|number of levels|building height,Building,4,0.78
+INT-QR-028,QUERY_ROOM_ADJACENCY,Query,Ask what rooms are next to each other,what is next to the bedroom|adjacent rooms|neighbours of the kitchen,Room,4,0.80
+INT-QR-029,QUERY_ROOM_LIST,Query,List all rooms,list all rooms|what rooms are there|show me the rooms|all rooms,Building,4,0.75
+INT-QR-030,QUERY_ELEMENT_LIST,Query,List elements of a type,list all walls|show all doors|what elements are there|all windows,ElementType,4,0.75
+INT-QR-031,QUERY_NEAREST,Query,Find nearest element,nearest door|closest exit|what is nearest|find the closest|nearest toilet,Element;Location,4,0.80
+INT-QR-032,QUERY_BETWEEN,Query,Ask what is between two points,what is between|what separates|wall between|distance between,PointA;PointB,4,0.80
+INT-QR-033,QUERY_PERIMETER,Query,Ask for perimeter length,what is the perimeter|perimeter of the room|total wall length|circumference,Element,4,0.78
+INT-QR-034,QUERY_WEIGHT,Query,Ask about structural weight,how much does it weigh|weight of the slab|dead load|structural weight,Element,4,0.78
+INT-QR-035,QUERY_SPAN,Query,Ask about beam or slab span,what is the span|beam span|how far does it span|maximum span,Element,4,0.78
+INT-QR-036,QUERY_DEPTH,Query,Ask about depth,what is the depth|how deep|depth of the beam|foundation depth,Element,4,0.78
+INT-QR-037,QUERY_SLOPE,Query,Ask about slope or pitch,what is the slope|roof pitch|ramp gradient|grade percentage,Element,4,0.78
+INT-QR-038,QUERY_CAPACITY,Query,Ask about load capacity,load capacity|how much can it hold|bearing capacity|max load,Element,4,0.78
+INT-QR-039,QUERY_STANDARD,Query,Ask which standard applies,which standard|what code applies|which regulation|what rule governs,Element;Category,4,0.80
+INT-QR-040,QUERY_FORMULA,Query,Ask which formula to use,which formula|how do I calculate|what equation|formula for,Category;OutputType,4,0.78
+INT-QR-041,QUERY_MATERIAL_PROPERTY,Query,Ask material k or density,thermal conductivity|density of|k-value of|material properties,Material,4,0.78
+INT-QR-042,QUERY_UNIT_COST,Query,Ask cost per unit,how much per metre|cost per square meter|unit cost|price per piece,Element,4,0.78
+INT-QR-043,QUERY_BOLT_SPACING,Query,Ask bolt spacing requirement,bolt spacing|min spacing|edge distance|how far apart bolts,Element,4,0.80
+INT-QR-044,QUERY_WELD_TYPE,Query,Ask which weld to use,what weld|fillet or butt|weld type required|size the weld,Connection,4,0.80
+INT-QR-045,QUERY_WATERPROOFING_REQ,Query,Ask WP requirement,do I need waterproofing|waterproofing required|WP needed|membrane type,Element;Location,4,0.80
+INT-QR-046,QUERY_FLASHING_REQ,Query,Ask flashing requirement,do I need flashing|flashing required|where is flashing needed,Element;Location,4,0.80
+INT-QR-047,QUERY_TILE_COUNT,Query,Ask how many tiles needed,how many tiles|tile count|number of tiles|tiles for the room,Room;TileSize,4,0.78
+INT-QR-048,QUERY_PLANK_COUNT,Query,Ask plank count for flooring,how many planks|plank count|boards needed|hardwood count,Room;PlankSize,4,0.78
+INT-QR-049,QUERY_CARPET_ROLLS,Query,Ask carpet roll count,how many rolls|carpet rolls|rolls of carpet|sheets needed,Room;RollSize,4,0.78
+INT-QR-050,QUERY_CONCRETE_VOLUME,Query,Ask concrete volume,how much concrete|concrete volume|cubic meters of concrete|concrete needed,Element,4,0.78
+INT-QR-051,QUERY_STEEL_TONNAGE,Query,Ask steel quantity,how much steel|steel tonnage|steel weight|tonnes of steel,Building,4,0.78
+INT-QR-052,QUERY_FIXTURE_LOCATION,Query,Ask where a fixture is,where is the toilet|location of sink|where is the shower|find the faucet,Fixture,4,0.78
+INT-QR-053,QUERY_ROOM_LOCATION,Query,Ask where a room is,where is the bedroom|location of kitchen|which floor is the office,Room,4,0.78
+INT-QR-054,QUERY_ELEMENT_LOCATION,Query,Ask where an element is,where is the column|location of the beam|where is that wall,Element,4,0.78
+INT-QR-055,QUERY_TOTAL_WALL_LENGTH,Query,Ask total wall length,total wall length|how much wall|metres of wall|total partition length,Building,4,0.78
+INT-QR-056,QUERY_TOTAL_FLOOR_AREA,Query,Ask total building floor area,total floor area|gross floor area|total GFA|total building area,Building,4,0.78
+INT-QR-057,QUERY_NATURAL_LIGHT,Query,Ask about daylight,natural light|daylight factor|how much sunlight|natural lighting,Room,4,0.78
+INT-QR-058,QUERY_WIND_LOAD,Query,Ask about wind load,wind load|lateral wind|wind pressure|design wind speed,Building,4,0.80
+INT-QR-059,QUERY_SEISMIC_ZONE,Query,Ask about seismic classification,seismic zone|earthquake zone|seismic classification|seismic category,Building,4,0.80
+INT-QR-060,QUERY_ENERGY_EFFICIENCY,Query,Ask about energy performance,energy efficiency|energy rating|R-value overall|thermal performance|U-value,Building,4,0.78
+INT-NV-001,NAVIGATE_TO_ROOM,Navigate,Zoom to a room,go to the bedroom|navigate to kitchen|zoom to the bathroom|show me living room,Room,5,0.75
+INT-NV-002,NAVIGATE_TO_ELEMENT,Navigate,Zoom to an element,go to that column|show me the door|navigate to the window|zoom to the stair,Element,5,0.78
+INT-NV-003,NAVIGATE_TO_LEVEL,Navigate,Switch to a building level,go to floor 2|navigate to level 3|switch to ground floor|show basement,Level,5,0.75
+INT-NV-004,NAVIGATE_ZOOM_IN,Navigate,Zoom into the view,zoom in|get closer|make it bigger|magnify,,5,0.70
+INT-NV-005,NAVIGATE_ZOOM_OUT,Navigate,Zoom out of the view,zoom out|pull back|make it smaller|step back|overview,,5,0.70
+INT-NV-006,NAVIGATE_PAN,Navigate,Pan the view,pan left|pan right|scroll up|move view|pan down,Direction,5,0.72
+INT-NV-007,NAVIGATE_TOP_VIEW,Navigate,Switch to plan view,top view|plan view|bird eye|look down|2D plan,,5,0.72
+INT-NV-008,NAVIGATE_3D_VIEW,Navigate,Switch to 3D view,3D view|isometric|perspective|show in 3D|three dimensional,,5,0.72
+INT-NV-009,NAVIGATE_SECTION_VIEW,Navigate,Switch to section view,section view|cross section|show the section|cut view,CutPlane,5,0.75
+INT-NV-010,NAVIGATE_ELEVATION_VIEW,Navigate,Switch to elevation,elevation view|show elevation|front elevation|side elevation,Side,5,0.75
+INT-NV-011,NAVIGATE_NORTH,Navigate,Pan north,go north|move up|pan north|scroll north,,5,0.72
+INT-NV-012,NAVIGATE_SOUTH,Navigate,Pan south,go south|move down|pan south|scroll south,,5,0.72
+INT-NV-013,NAVIGATE_EAST,Navigate,Pan east,go east|move right|pan east|scroll right,,5,0.72
+INT-NV-014,NAVIGATE_WEST,Navigate,Pan west,go west|move left|pan west|scroll left,,5,0.72
+INT-NV-015,NAVIGATE_FIT_ALL,Navigate,Fit entire model on screen,fit all|show everything|zoom to fit|full view|see the whole thing,,5,0.72
+INT-NV-016,NAVIGATE_PREVIOUS,Navigate,Go back to previous view,go back|previous view|undo view|last view,,5,0.70
+INT-NV-017,NAVIGATE_ROTATE_VIEW,Navigate,Rotate the 3D view,rotate the view|orbit around|spin the model|turn it,Angle,5,0.72
+INT-NV-018,NAVIGATE_TO_COORDINATE,Navigate,Go to a coordinate,go to coordinate|navigate to point|jump to location|go to x y,X;Y;Z,5,0.78
+INT-NV-019,NAVIGATE_TOGGLE_LAYER,Navigate,Toggle a drawing layer,show walls only|hide dimensions|toggle layer|turn off grid,Layer;OnOff,5,0.75
+INT-NV-020,NAVIGATE_RESET_VIEW,Navigate,Reset to default view,reset view|default view|home view|reset camera|starting view,,5,0.70
+INT-CP-001,COMPARE_COSTS,Compare,Compare costs of options,compare costs|which is cheaper|cost comparison|which option costs less,OptionA;OptionB,6,0.80
+INT-CP-002,COMPARE_MATERIALS,Compare,Compare material properties,compare materials|which material is better|material comparison,MaterialA;MaterialB,6,0.80
+INT-CP-003,COMPARE_ROOMS,Compare,Compare room dimensions,compare rooms|which room is bigger|room size comparison,RoomA;RoomB,6,0.78
+INT-CP-004,COMPARE_DESIGNS,Compare,Compare two layout options,compare designs|which layout is better|option A vs option B,DesignA;DesignB,6,0.80
+INT-CP-005,COMPARE_STANDARDS,Compare,Compare two standards,compare standards|which code is stricter|IBC vs IRC|code comparison,StdA;StdB,6,0.80
+INT-CP-006,COMPARE_ELEMENTS,Compare,Compare two elements,compare these two|which is larger|compare dimensions|side by side,ElementA;ElementB,6,0.78
+INT-CP-007,COMPARE_THERMAL,Compare,Compare thermal performance,compare R-values|which is more insulated|thermal comparison|U-value compare,ElementA;ElementB,6,0.80
+INT-CP-008,COMPARE_ACOUSTIC,Compare,Compare sound ratings,compare STC|which is more soundproof|acoustic comparison,ElementA;ElementB,6,0.80
+INT-CP-009,COMPARE_FIRE_RATINGS,Compare,Compare fire ratings,compare fire ratings|which is more fire resistant|fire rating compare,ElementA;ElementB,6,0.80
+INT-CP-010,COMPARE_AREAS,Compare,Compare room or building areas,compare areas|which is bigger|area comparison|total area vs,AreaA;AreaB,6,0.78
+INT-CP-011,COMPARE_CONNECTIONS,Compare,Compare connection types,compare connections|bolted vs welded|which connection is stronger,ConnA;ConnB,6,0.82
+INT-CP-012,COMPARE_FIXTURES,Compare,Compare plumbing fixtures,compare toilets|which sink is better|fixture comparison,FixA;FixB,6,0.78
+INT-CP-013,COMPARE_FLOOR_TYPES,Compare,Compare flooring options,compare flooring|hardwood vs tile|LVP or carpet|floor comparison,FloorA;FloorB,6,0.80
+INT-CP-014,COMPARE_ROOF_TYPES,Compare,Compare roof systems,compare roofs|flat vs pitched|hip vs gable|roof comparison,RoofA;RoofB,6,0.80
+INT-CP-015,COMPARE_ENERGY,Compare,Compare energy performance,compare energy|which is more efficient|energy comparison|which saves more,OptionA;OptionB,6,0.80
+INT-EX-001,EXPORT_DWG,Export,Export as AutoCAD DWG,export DWG|save as DWG|AutoCAD file|DWG export,Format;FileName,7,0.78
+INT-EX-002,EXPORT_PDF,Export,Export as PDF,export PDF|save as PDF|print to PDF|PDF export,Format;FileName;Pages,7,0.78
+INT-EX-003,EXPORT_IFC,Export,Export as IFC BIM file,export IFC|save as IFC|BIM export|IFC file,Format;FileName;Version,7,0.78
+INT-EX-004,EXPORT_GBXML,Export,Export as gbXML energy model,export gbXML|energy model export|gbXML file,Format;FileName,7,0.78
+INT-EX-005,EXPORT_SCHEDULE,Export,Export room or door schedule,export schedule|room schedule|door schedule|window schedule,ScheduleType;Format;FileName,7,0.78
+INT-EX-006,EXPORT_QUANTITY,Export,Export quantity take-off,export quantities|quantity take-off|material list|QTO export,Format;FileName,7,0.78
+INT-EX-007,EXPORT_REPORT,Export,Export compliance report,export report|compliance report|code report|generate report,ReportType;Format;FileName,7,0.80
+INT-EX-008,EXPORT_IMAGE,Export,Export as image,export image|save as PNG|screenshot|render image|JPG export,Format;Resolution;FileName,7,0.75
+INT-EX-009,EXPORT_CSV,Export,Export data as CSV,export CSV|save data|CSV file|export to spreadsheet,DataType;FileName,7,0.78
+INT-EX-010,EXPORT_3D_MODEL,Export,Export 3D model file,export 3D model|OBJ file|FBX export|3D export|model file,Format;FileName,7,0.78
+INT-HP-001,HELP_GENERAL,Help,Show general help,help|what can you do|show help|assist me|I need help,,8,0.70
+INT-HP-002,HELP_CREATE,Help,Help with creating elements,how to create|how do I add|how to make|help me build,Topic,8,0.72
+INT-HP-003,HELP_MODIFY,Help,Help with modifying elements,how to modify|how do I change|how to edit|help me adjust,Topic,8,0.72
+INT-HP-004,HELP_QUERY,Help,Help with querying data,how to query|how do I check|how to find|help me search,Topic,8,0.72
+INT-HP-005,HELP_EXPORT,Help,Help with exporting,how to export|how do I save|export help|exporting files,Topic,8,0.72
+INT-HP-006,HELP_CODE,Help,Explain a building code rule,explain the code|what does the code say|building code help,CodeRef,8,0.78
+INT-HP-007,HELP_FORMULA,Help,Explain a formula,explain the formula|how is it calculated|formula help|show calculation,FormulaId,8,0.78
+INT-HP-008,HELP_MATERIAL,Help,Get info about a material,tell me about concrete|material info|properties of steel|about this material,Material,8,0.75
+INT-HP-009,UNDO,Help,Undo last action,undo|undo that|go back|revert|take that back|undo last,,8,0.72
+INT-HP-010,REDO,Help,Redo last undone action,redo|redo that|put it back|repeat that|forward,,8,0.72
+INT-HP-011,CANCEL,Help,Cancel current operation,cancel|stop|abort|never mind|cancel that|let me start over,,8,0.70
+INT-HP-012,CONFIRM,Help,Confirm pending action,yes|ok|confirm|go ahead|do it|apply|accept,,8,0.70
+INT-HP-013,DENY,Help,Deny pending action,no|don't do that|reject|deny|not that|nope|don't,,8,0.70
+INT-HP-014,GREETING,Help,User says hello,hello|hi|good morning|hey|greetings|what's up,,8,0.65
+INT-HP-015,FAREWELL,Help,User says goodbye,goodbye|bye|see you|later|thanks bye|closing,,8,0.65
+INT-HP-016,THANKS,Help,User says thank you,thank you|thanks|appreciate it|cheers|much appreciated,,8,0.65
+INT-HP-017,SELECT_ELEMENT,Help,Select an element by click or voice,select this|click on that|pick this|choose that element,Element,8,0.72
+INT-HP-018,DESELECT,Help,Deselect current selection,deselect|unselect|clear selection|nothing selected,,8,0.70
+INT-HP-019,SETTINGS,Help,Open settings panel,open settings|show settings|preferences|configuration,,8,0.70
+INT-HP-020,LIST_COMMANDS,Help,Show available commands,what commands|list commands|show commands|available actions,,8,0.70

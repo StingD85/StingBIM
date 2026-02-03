@@ -1,0 +1,81 @@
+Category,MaterialName,Specification,Size_Range,Material_Type,Pressure_Rating,Temperature_Rating,Cost_Per_Unit,Unit,Application,Standard,Notes
+Electrical_Cable,PVC_1.5mm2,1.5mm² Single Core,1.5,Copper/PVC,450/750V,70°C,800,100m,Lighting circuits,BS 6004,Standard lighting cable
+Electrical_Cable,PVC_2.5mm2,2.5mm² Single Core,2.5,Copper/PVC,450/750V,70°C,1200,100m,Power circuits,BS 6004,Socket outlet cable
+Electrical_Cable,PVC_4mm2,4mm² Single Core,4,Copper/PVC,450/750V,70°C,1800,100m,Cooker circuits,BS 6004,High current cable
+Electrical_Cable,PVC_6mm2,6mm² Single Core,6,Copper/PVC,450/750V,70°C,2500,100m,Sub-main circuits,BS 6004,Distribution cable
+Electrical_Cable,Armored_10mm2,10mm² SWA 3-Core,10,Copper/Steel,600/1000V,90°C,8000,100m,Sub-mains,BS 5467,Steel wire armored
+Electrical_Cable,Armored_16mm2,16mm² SWA 3-Core,16,Copper/Steel,600/1000V,90°C,12000,100m,Main distribution,BS 5467,Heavy duty cable
+Electrical_Conduit,PVC_Conduit_20mm,20mm PVC Conduit,20,PVC Rigid,N/A,60°C,800,3m,Cable protection,BS EN 61386,Light duty conduit
+Electrical_Conduit,PVC_Conduit_25mm,25mm PVC Conduit,25,PVC Rigid,N/A,60°C,1000,3m,Cable protection,BS EN 61386,Standard conduit
+Electrical_Conduit,Steel_Conduit_20mm,20mm Steel Conduit,20,Galvanized Steel,N/A,200°C,2500,3m,Industrial,BS 31,Heavy duty conduit
+Electrical_Conduit,Steel_Conduit_25mm,25mm Steel Conduit,25,Galvanized Steel,N/A,200°C,3200,3m,Industrial,BS 31,Mechanical protection
+Electrical_Conduit,Flexible_Conduit_20mm,20mm Flex Conduit,20,PVC Flexible,N/A,60°C,1200,25m,Final connections,BS EN 61386,Flexible conduit
+Cable_Tray,Tray_Light_100mm,100mm Light Duty,100,Galvanized Steel,N/A,N/A,8000,3m,Light cable load,BS EN 61537,Return-flanged tray
+Cable_Tray,Tray_Medium_200mm,200mm Medium Duty,200,Galvanized Steel,N/A,N/A,12000,3m,Medium cable load,BS EN 61537,Standard cable tray
+Cable_Tray,Tray_Heavy_300mm,300mm Heavy Duty,300,Galvanized Steel,N/A,N/A,18000,3m,Heavy cable load,BS EN 61537,Ladder-type tray
+Cable_Tray,Tray_Perforated_150mm,150mm Perforated,150,Galvanized Steel,N/A,N/A,10000,3m,Ventilated routing,BS EN 61537,Perforated base
+Plumbing_Pipe,Copper_15mm,15mm Copper Type B,15,Copper,PN 16,110°C,3500,3m,Hot/cold water,BS EN 1057,Half-inch copper
+Plumbing_Pipe,Copper_22mm,22mm Copper Type B,22,Copper,PN 16,110°C,5500,3m,Hot/cold water,BS EN 1057,Three-quarter inch
+Plumbing_Pipe,Copper_28mm,28mm Copper Type B,28,Copper,PN 16,110°C,8000,3m,Hot/cold water,BS EN 1057,One-inch copper
+Plumbing_Pipe,PEX_16mm,16mm PEX-Al-PEX,16,Cross-linked PE,PN 10,95°C,1800,100m,Hot/cold water,BS 7291,Flexible pipe
+Plumbing_Pipe,PEX_20mm,20mm PEX-Al-PEX,20,Cross-linked PE,PN 10,95°C,2500,100m,Hot/cold water,BS 7291,Multilayer pipe
+Plumbing_Pipe,CPVC_15mm,15mm CPVC,15,Chlorinated PVC,PN 16,90°C,1200,3m,Hot water,ASTM D2846,Hot water suitable
+Plumbing_Pipe,CPVC_20mm,20mm CPVC,20,Chlorinated PVC,PN 16,90°C,1800,3m,Hot water,ASTM D2846,Chemical resistant
+Plumbing_Pipe,PPR_20mm,20mm PPR,20,Polypropylene,PN 20,95°C,1500,4m,Hot/cold water,DIN 8077,Fusion-welded
+Plumbing_Pipe,PPR_25mm,25mm PPR,25,Polypropylene,PN 20,95°C,2200,4m,Hot/cold water,DIN 8077,High pressure
+Drainage_Pipe,PVC_40mm,40mm PVC Waste,40,Unplasticized PVC,N/A,60°C,800,3m,Waste water,BS EN 1329,Solvent weld
+Drainage_Pipe,PVC_50mm,50mm PVC Waste,50,Unplasticized PVC,N/A,60°C,1200,3m,Waste water,BS EN 1329,Standard waste
+Drainage_Pipe,PVC_110mm,110mm PVC Soil,110,Unplasticized PVC,N/A,60°C,3500,3m,Soil drainage,BS EN 1329,Push-fit joints
+Drainage_Pipe,PVC_160mm,160mm PVC Soil,160,Unplasticized PVC,N/A,60°C,6500,3m,Main drainage,BS EN 1329,Large diameter
+Drainage_Pipe,Cast_Iron_100mm,100mm Cast Iron,100,Cast Iron,N/A,300°C,12000,3m,Fire-rated drainage,BS EN 877,Sound-insulated
+HVAC_Duct,Galv_Sheet_Rectangular,Galvanized Steel Sheet,Variable,Galvanized Steel,Low Pressure,80°C,15000,m²,Supply/return air,SMACNA,Custom fabricated
+HVAC_Duct,Galv_Sheet_Spiral,Spiral Duct 200mm,200,Galvanized Steel,Low Pressure,80°C,8000,3m,Supply/return air,SMACNA,Factory-made
+HVAC_Duct,Galv_Sheet_Spiral_300mm,Spiral Duct 300mm,300,Galvanized Steel,Low Pressure,80°C,12000,3m,Main distribution,SMACNA,Large diameter spiral
+HVAC_Duct,Flex_Duct_150mm,150mm Flex Duct,150,Aluminum/Insulation,Low Pressure,70°C,3500,7.6m,Final connections,UL 181,Insulated flexible
+HVAC_Duct,Flex_Duct_200mm,200mm Flex Duct,200,Aluminum/Insulation,Low Pressure,70°C,4500,7.6m,Final connections,UL 181,Standard flex duct
+HVAC_Duct,Insulation_Duct_Wrap,Duct Insulation Wrap,Variable,Glass Fiber,N/A,250°C,4000,m²,Thermal/acoustic,ASTM C1290,Wrap insulation
+HVAC_Duct,Insulation_Duct_Board,Duct Board 25mm,Variable,Fiber Glass Board,Low Pressure,120°C,8000,m²,Insulated ductwork,ASTM C1071,Rigid duct board
+Pipe_Insulation,Foam_Tube_15mm,15mm Foam Tube,15,Polyethylene Foam,N/A,110°C,600,2m,Pipe insulation,BS 5422,Self-adhesive
+Pipe_Insulation,Foam_Tube_22mm,22mm Foam Tube,22,Polyethylene Foam,N/A,110°C,800,2m,Pipe insulation,BS 5422,Standard thickness
+Pipe_Insulation,Mineral_Wool_Pipe,Mineral Wool Section,Variable,Rock Wool,N/A,250°C,3500,m,High temperature,BS 5422,Fire-rated insulation
+Pipe_Insulation,Armaflex_15mm,15mm Armaflex,15,Nitrile Rubber,N/A,110°C,2500,2m,Condensation control,BS 5422,Closed-cell foam
+Gas_Pipe,Steel_Black_15mm,15mm Black Steel,15,Carbon Steel,PN 16,200°C,4500,6m,Natural gas,BS 1387,Medium grade steel
+Gas_Pipe,Steel_Black_20mm,20mm Black Steel,20,Carbon Steel,PN 16,200°C,6000,6m,Natural gas,BS 1387,Screwed joints
+Gas_Pipe,Steel_Black_25mm,25mm Black Steel,25,Carbon Steel,PN 16,200°C,8000,6m,Natural gas,BS 1387,Main gas supply
+Gas_Pipe,CSST_15mm,15mm CSST,15,Stainless Steel,PN 5,200°C,8000,30m,Natural gas,BS 7838,Corrugated flexible
+Gas_Pipe,PE_25mm,25mm PE Gas,25,Medium Density PE,PN 4,40°C,3500,100m,Underground gas,BS 7281,Yellow PE pipe
+Sanitary_Fitting,Trap_Bottle_32mm,32mm Bottle Trap,32,Polypropylene,N/A,80°C,2500,each,Basin waste,BS EN 274,P-trap
+Sanitary_Fitting,Trap_P_40mm,40mm P-Trap,40,Polypropylene,N/A,80°C,3000,each,Sink waste,BS EN 274,Deep seal trap
+Sanitary_Fitting,Trap_Bath,Bath Trap 40mm,40,Polypropylene,N/A,80°C,3500,each,Bath waste,BS EN 274,Shallow trap
+Sanitary_Fitting,WC_Pan_Connector,WC Connector,110,Polypropylene,N/A,80°C,1500,each,Toilet connection,BS EN 274,Flexible connector
+Pipe_Fitting_Copper,Elbow_90_15mm,15mm Copper Elbow 90°,15,Copper,PN 16,110°C,450,each,Direction change,BS EN 1254,Capillary fitting
+Pipe_Fitting_Copper,Tee_Equal_15mm,15mm Equal Tee,15,Copper,PN 16,110°C,650,each,Branch connection,BS EN 1254,Three-way fitting
+Pipe_Fitting_Copper,Reducer_22_15mm,22mm to 15mm Reducer,22-15,Copper,PN 16,110°C,550,each,Size reduction,BS EN 1254,Concentric reducer
+Pipe_Fitting_Copper,End_Cap_15mm,15mm End Cap,15,Copper,PN 16,110°C,350,each,Pipe termination,BS EN 1254,Stop end
+Valve_Water,Gate_Valve_15mm,15mm Gate Valve,15,Brass,PN 16,110°C,3500,each,Isolation,BS 5154,Full bore valve
+Valve_Water,Ball_Valve_20mm,20mm Ball Valve,20,Brass,PN 16,110°C,4500,each,Isolation,BS 5154,Quarter-turn valve
+Valve_Water,Check_Valve_25mm,25mm Check Valve,25,Brass,PN 16,110°C,5500,each,Backflow prevention,BS 5153,Non-return valve
+Valve_Water,PRV_15mm,15mm Pressure Reducing,15,Brass,PN 25,110°C,12000,each,Pressure control,BS 1212,Adjustable PRV
+Valve_Gas,Gas_Cock_15mm,15mm Gas Cock,15,Brass,PN 5,200°C,4500,each,Gas isolation,BS 812,Lever valve
+Valve_Gas,Gas_Ball_20mm,20mm Gas Ball Valve,20,Brass,PN 5,200°C,6500,each,Gas isolation,BS 812,Safety valve
+Damper,Volume_Damper_200mm,200mm Volume Damper,200,Galvanized Steel,Low,80°C,3500,each,Airflow control,AMCA,Manual damper
+Damper,Fire_Damper_300mm,300mm Fire Damper,300,Galvanized Steel,Low,1000°C,18000,each,Fire compartmentation,BS EN 15650,Fusible link damper
+Damper,Motorized_Damper_250mm,250mm Motorized Damper,250,Galvanized Steel,Low,80°C,28000,each,Automated control,AMCA,24V actuator
+Air_Terminal,Diffuser_Square_600mm,600mm 4-Way Diffuser,600,Aluminum,Low,50°C,8000,each,Air distribution,BS 5588,Ceiling diffuser
+Air_Terminal,Grille_Return_600mm,600mm Return Grille,600,Aluminum,Low,50°C,6000,each,Return air,BS 5588,Fixed blade grille
+Air_Terminal,Register_Floor_300mm,300mm Floor Register,300,Steel,Low,50°C,5500,each,Floor supply,AMCA,Adjustable register
+Electrical_Device,Socket_13A,13A Socket Outlet,Single,Plastic,250V,85°C,1200,each,Power outlet,BS 1363,Switched socket
+Electrical_Device,Switch_1Gang,1-Gang Light Switch,Single,Plastic,250V,85°C,800,each,Lighting control,BS 3676,Plate switch
+Electrical_Device,Switch_2Gang,2-Gang Light Switch,Double,Plastic,250V,85°C,1200,each,Lighting control,BS 3676,Dual switch
+Electrical_Device,RCBO_32A,32A RCBO Type B,32A,Plastic/Metal,230V,70°C,8500,each,Circuit protection,BS EN 61009,Combined protection
+Electrical_Device,MCB_16A,16A MCB Type B,16A,Plastic/Metal,230V,70°C,3500,each,Overcurrent protection,BS EN 60898,Miniature breaker
+Electrical_Device,RCD_63A,63A RCD 30mA,63A,Plastic/Metal,230V,70°C,15000,each,Earth fault protection,BS EN 61008,Residual current device
+Lighting,LED_Downlight_12W,12W LED Downlight,12W,Aluminum/Plastic,230V,70°C,4500,each,Recessed lighting,Energy Star,3000K warm white
+Lighting,LED_Panel_40W,600x600 LED Panel 40W,40W,Aluminum,230V,70°C,12000,each,Ceiling lighting,Energy Star,4000K neutral
+Lighting,LED_Bulkhead_18W,18W LED Bulkhead,18W,Polycarbonate,230V,80°C,5500,each,Exterior lighting,IP65,Weatherproof
+Lighting,Emergency_Light_3W,3W Emergency Light,3W,Plastic,230V,70°C,8000,each,Emergency egress,BS 5266,3-hour battery
+Fire_System,Smoke_Detector_Optical,Optical Smoke Detector,N/A,Plastic,24V,60°C,6500,each,Fire detection,BS 5839,Addressable detector
+Fire_System,Heat_Detector,Heat Detector 58°C,N/A,Plastic,24V,85°C,5500,each,Fire detection,BS 5839,Rate-of-rise detector
+Fire_System,Manual_Call_Point,Break Glass Call Point,N/A,Plastic/Glass,24V,60°C,4500,each,Fire alarm activation,BS 5839,Resettable element
+Fire_System,Sprinkler_Head_K80,K80 Sprinkler Head,15mm,Brass/Glass,PN 12,68°C,3500,each,Fire suppression,BS EN 12259,Fusible bulb
+Fire_System,Sprinkler_Head_K115,K115 Sprinkler Head,20mm,Brass/Glass,PN 12,68°C,4500,each,Fire suppression,BS EN 12259,High flow rate

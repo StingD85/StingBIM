@@ -1,0 +1,44 @@
+RuleId,StandardCode,Category,Name,Description,Condition,RequiredValue,Unit,Severity,Region,ApplicableTypes
+FL-IBC-420.1,IBC,Fire,Floor Fire Rating Residential,Min fire-resistance rating residential floor assembly,FireRating >= 1hr,1,hr,Critical,USA,Floor-Assembly
+FL-IBC-420.2,IBC,Fire,Floor Fire Rating Commercial,Min fire-resistance rating commercial floor assembly,FireRating >= 2hr,2,hr,Critical,USA,Floor-Assembly
+FL-IBC-1207.1,IBC,Acoustic,Floor Impact Rating,Min impact-sound class between dwelling units,IIC >= 50,50,IIC,Critical,USA,Floor-Assembly
+FL-IBC-1207.2,IBC,Acoustic,Floor Sound Transmission,Min sound-transmission class between dwelling units,STC >= 50,50,STC,Critical,USA,Floor-Assembly
+FL-IBC-1209.1,IBC,Moisture,Floor Moisture Barrier,Concrete slab ground contact requires moisture barrier,MoistureBarrier == true,1,bool,Critical,USA,Floor-Slab
+FL-ASHRAE-90.1-C,ASHRAE,Energy,Floor Insulation Zone 4,Min R-value slab-edge insulation Zone 4,R >= 10,10,ft-h-F/BTU,Major,USA-Zone4,Floor-Slab
+FL-ASHRAE-90.1-D,ASHRAE,Energy,Floor Insulation Zone 5,Min R-value slab-edge insulation Zone 5,R >= 15,15,ft-h-F/BTU,Major,USA-Zone5,Floor-Slab
+FL-ASTM-F1292,ASTM,Performance,Resilient Floor Impact Resistance,LVT/LVP/SPC/WPC resilient flooring wear-layer spec,WearMil >= 12,12,mil,Major,International,Resilient-Floor
+FL-ASTM-F38,ASTM,Performance,Linoleum Floor Spec,Linoleum composition and wear surface requirement,LinoleoumComposition == true,1,bool,Major,International,Linoleum
+FL-ASTM-F210,ASTM,Performance,Carpet Performance Test,Carpet pile type / density / wear rating,CarpetDensity >= 35,35,oz/yd²,Major,International,Carpet
+FL-ASTM-C503,ASTM,Performance,Natural Stone Marble,Absorption / hardness / abrasion for marble,Absorption <= 0.20,0.20,%,Major,International,Tile-Natural-Stone
+FL-ASTM-C615,ASTM,Performance,Natural Stone Granite,Absorption / hardness / abrasion for granite,Absorption <= 0.40,0.40,%,Major,International,Tile-Natural-Stone
+FL-ASTM-C629,ASTM,Performance,Natural Stone Slate,Absorption / hardness / abrasion for slate,Absorption <= 0.40,0.40,%,Major,International,Tile-Natural-Stone
+FL-ASTM-C1028,ASTM,Performance,Natural Stone Travertine,Absorption for travertine tiles,Absorption <= 2.00,2.00,%,Major,International,Tile-Natural-Stone
+FL-ANSI-A137.1,ANSI,Performance,Ceramic Tile Standard,PEI wear class / dimensions / colour,PEI >= 3,3,class,Major,International,Tile-Ceramic
+FL-ADA-302.1,ADA,Accessibility,Floor Surface Stable,Walking surfaces must be stable firm slip-resistant,SlipResist == true,1,bool,Critical,USA,Floor-All
+FL-ADA-302.2,ADA,Accessibility,Carpet Pile Height,Max carpet pile height on accessible route,PileHeight <= 13,13,mm,Critical,USA,Carpet
+FL-ADA-303.1,ADA,Accessibility,Floor Level Change,Max vertical level change between surfaces,LevelChange <= 6,6,mm,Critical,USA,Floor-All
+FL-ADA-303.2,ADA,Accessibility,Floor Bevelled Change,Max bevelled level change 1:2 slope,BevelChange <= 13,13,mm,Critical,USA,Floor-All
+FL-NFPA-101-10.2,NFPA,Fire,Exit Path Floor,Floors on egress paths must not exceed Class C flame spread,FlamespreadClass <= C,1,class,Critical,USA,Floor-Egress
+FL-BS-EN-00,BS,Performance,UK Ceramic Tile,EN 14411 porcelain/ceramic tile standard,EN14411 == true,1,bool,Major,UK,Tile-Ceramic
+FL-BS-EN-01,BS,Performance,UK LVP Floor,EN 16519 resilient floor coverings,EN16519 == true,1,bool,Major,UK,Resilient-Floor
+PL-IPC-712.1,IPC,Drainage,Min Trap Seal Depth,Minimum water depth of fixture trap,TrapDepth >= 51,51,mm,Critical,USA,Trap
+PL-IPC-712.2,IPC,Drainage,Max Trap Seal Depth,Maximum water depth of fixture trap,TrapDepth <= 102,102,mm,Critical,USA,Trap
+PL-IPC-712.3,IPC,Drainage,Toilet Setback Min,Min distance from WC centre to side wall,SetbackMin >= 406,406,mm,Critical,USA,Toilet
+PL-IPC-712.4,IPC,Drainage,Toilet Clear Floor,Min clear floor in front of WC,ClearFloor >= 610,610,mm,Critical,USA,Toilet
+PL-IPC-807.1,IPC,Safety,Water Heater Relief,Gas/elec water heaters require T&P relief valve,TPRelief == true,1,bool,Critical,USA,Water-Heater
+PL-IPC-807.2,IPC,Safety,Hot Water Max Temp,Maximum domestic hot-water temp at fixture,HWTemp <= 49,49,°C,Critical,USA,Water-Heater
+PL-IPC-504.1,IPC,Installation,Shower Base Slope,Min slope shower base to drain,Slope >= 10,10,mm/m,Major,USA,Shower-Base
+PL-IPC-903.1,IPC,Venting,Vent Pipe Min Dia,Minimum diameter of individual fixture vent,VentDia >= 38,38,mm,Major,USA,Vent
+PL-IPC-903.2,IPC,Venting,Vent Pipe Above Roof,Vent termination above finished roof,VentAboveRoof >= 152,152,mm,Major,USA,Vent
+PL-ASME-112.19.2,ASME,Performance,Vitreous China Fixtures,WC / lavatory china spec and test method,ASME19_2 == true,1,bool,Major,International,"Toilet,Sink"
+PL-ASME-112.19.3,ASME,Performance,Plumbing Fixtures SS,Stainless-steel sinks spec,ASME19_3 == true,1,bool,Major,International,Sink-Kitchen
+PL-ADA-604.1,ADA,Accessibility,WC Height ADA,Toilet seat top height compliant range,SeatTop >= 432,432,mm,Critical,USA,Toilet
+PL-ADA-604.2,ADA,Accessibility,WC Side Clearance,Min clear space beside WC,SideClear >= 914,914,mm,Critical,USA,Toilet
+PL-ADA-605.1,ADA,Accessibility,Lavatory Knee Clear,Min knee clearance under lavatory,KneeClear >= 686,686,mm,Critical,USA,Sink-Bathroom
+PL-ADA-605.2,ADA,Accessibility,Lavatory Rim Height,Max lavatory rim height,RimHeight <= 864,864,mm,Critical,USA,Sink-Bathroom
+PL-ADA-608.1,ADA,Accessibility,Shower Transfer,Min transfer-type shower clear floor,ShowerFloor >= 915,915,mm,Critical,USA,Shower
+PL-ADA-608.2,ADA,Accessibility,Shower Roll-In,Min roll-in shower clear floor,ShowerRollIn >= 1524,1524,mm,Critical,USA,Shower
+PL-NFPA-101-PL,NFPA,Fire,Plumbing Room Fire,Rooms housing water heaters need 1hr fire separation,FireSep >= 1,1,hr,Critical,USA,Water-Heater
+PL-ASHRAE-62.1-PLM,ASHRAE,Ventilation,Plumbing Room Vent,Min ventilation rate for plumbing rooms,Vent >= 0.50,0.50,CFM/sqft,Major,USA,Plumbing-Room
+PL-BS-EN-02,BS,Performance,UK WC,BS EN 31 vitreous china WC,EN31 == true,1,bool,Major,UK,Toilet
+PL-BS-EN-03,BS,Performance,UK Tap,BS EN 200 single-seated taps,EN200 == true,1,bool,Major,UK,Faucet

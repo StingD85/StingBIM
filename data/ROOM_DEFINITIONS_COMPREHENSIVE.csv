@@ -1,0 +1,122 @@
+ID,RoomType,MinArea_M2,MaxArea_M2,MinWidth_M,MinHeight_M,RequiresWindow,RequiresVent,RequiresPlumbing,DefaultFurniture,Description,Notes
+RM-001,Master Bedroom,14,50,3.0,2.4,true,false,false,Bed King;Wardrobe Walk-in;Nightstand x2;Dresser;Seating Area;TV,Primary bedroom with ensuite,Accessible door 900mm
+RM-002,Bedroom 2,9,25,2.5,2.4,true,false,false,Bed Queen;Wardrobe;Nightstand;Desk;Chair,Secondary bedroom,Accessible door 810mm
+RM-003,Bedroom 3,9,20,2.5,2.4,true,false,false,Bed Double;Wardrobe;Nightstand;Study desk,Third bedroom,Accessible door 810mm
+RM-004,Bedroom 4,7,18,2.4,2.4,true,false,false,Bed Single;Wardrobe;Desk;Storage,Fourth bedroom or child room,Accessible door 810mm
+RM-005,Guest Bedroom,10,22,2.6,2.4,true,false,false,Bed Queen;Wardrobe;Armchair;Side table,Guest accommodation,Accessible door 810mm
+RM-006,Child Bedroom 1,8,15,2.4,2.4,true,false,false,Bed Single;Storage;Desk;Toy storage,Primary child room,Safe fittings
+RM-007,Child Bedroom 2,8,15,2.4,2.4,true,false,false,Bed Single;Storage;Desk;Play area,Secondary child room,Safe fittings
+RM-008,Nursery,9,16,2.5,2.4,true,false,false,Crib;Changing table;Rocking chair;Storage,Baby room,Temperature control
+RM-009,Teen Bedroom,11,20,2.7,2.4,true,false,false,Bed Double;Desk;Gaming area;Storage;Seating,Teenager room with study,Multiple power outlets
+RM-010,Dorm Room,10,15,2.5,2.4,true,false,false,Bunk beds;Study desks x2;Storage x2,Shared dormitory room,Compact design
+RM-011,Master Ensuite,8,15,2.5,2.3,false,true,true,Toilet;Double sink;Shower;Bathtub,Luxury master bathroom,Heated floor option
+RM-012,Main Bathroom,5,12,2.2,2.3,false,true,true,Toilet;Sink;Shower;Bath,Full family bathroom,Storage cabinet
+RM-013,Ensuite Bathroom,4,8,1.8,2.3,false,true,true,Toilet;Sink;Shower,Private bathroom,Compact layout
+RM-014,Powder Room,2.5,5,1.3,2.3,false,true,true,Toilet;Sink,Guest half bath,Decorative finish
+RM-015,Jack and Jill Bathroom,6,10,2.3,2.3,false,true,true,Toilet;Double sink;Shower;Storage,Shared between bedrooms,Double access
+RM-016,Wet Room,5,9,2.1,2.3,false,true,true,Toilet;Sink;Walk-in shower;Drainage,Fully waterproofed bathroom,Level access
+RM-017,Accessible Bathroom,7,12,2.6,2.3,false,true,true,Toilet;Sink;Roll-in shower;Grab bars,ADA compliant bathroom,1500mm turning circle
+RM-018,Kitchen,10,30,2.8,2.4,true,true,true,Cabinets;Sink;Stove;Refrigerator;Counter;Island,Primary food preparation,Work triangle 4-8m
+RM-019,Gourmet Kitchen,18,45,3.5,2.7,true,true,true,Premium appliances;Double oven;Wine fridge;Large island;Pantry access,Chef's kitchen,Professional equipment
+RM-020,Galley Kitchen,6,12,1.8,2.4,true,true,true,Cabinets;Sink;Stove;Refrigerator;Counter,Efficient narrow kitchen,Parallel counters
+RM-021,Open Plan Kitchen,15,40,3.5,2.7,true,true,true,Large island;Dining connection;Living connection,Integrated living space,Open concept
+RM-022,Kitchenette,4,8,1.8,2.4,false,true,true,Mini fridge;Microwave;Sink;Small counter,Compact kitchen,Apartment/studio
+RM-023,Breakfast Nook,6,12,2.2,2.4,true,false,false,Table;Bench seating;Storage,Casual breakfast area,Adjacent to kitchen
+RM-024,Butler's Pantry,4,10,1.8,2.4,false,false,true,Cabinets;Counter;Sink;Wine storage,Service kitchen support,Between kitchen and dining
+RM-025,Scullery,5,12,2.0,2.4,false,true,true,Sink;Counter;Storage;Appliances,Working pantry/back kitchen,Cleanup and storage
+RM-026,Living Room,18,60,4.0,2.7,true,false,false,Sofa;Armchairs;Coffee table;TV;Shelving,Main living space,Multiple seating areas
+RM-027,Great Room,30,80,5.0,3.5,true,false,false,Multiple seating;Fireplace;Entertainment;Dining,Combined living/dining,High ceiling
+RM-028,Family Room,15,40,3.5,2.7,true,false,false,Sectional sofa;TV;Storage;Play area,Casual family gathering,Durable finishes
+RM-029,Sitting Room,12,25,3.0,2.7,true,false,false,Sofa;Armchairs;Side tables;Reading lights,Formal sitting area,Quiet space
+RM-030,Lounge,20,45,4.0,2.7,true,false,false,Modular seating;Bar area;Entertainment,Relaxation space,Flexible layout
+RM-031,Den,10,20,2.8,2.4,true,false,false,Sofa;Desk;Bookshelf;TV,Multi-purpose room,Cozy atmosphere
+RM-032,Snug,8,15,2.4,2.4,true,false,false,Small sofa;Armchair;Reading light,Small cozy room,Intimate space
+RM-033,Dining Room,12,35,3.2,2.7,true,false,false,Dining table 8-seat;Sideboard;China cabinet,Formal dining,Chandelier
+RM-034,Formal Dining,16,40,3.8,3.0,true,false,false,Dining table 10-12 seat;Sideboard;Display,Elegant dining,High-end finishes
+RM-035,Breakfast Room,8,15,2.5,2.4,true,false,false,Table 4-6 seat;Casual seating,Casual dining,Adjacent to kitchen
+RM-036,Dining Nook,5,10,2.0,2.4,true,false,false,Built-in bench;Small table,Compact dining,Space-efficient
+RM-037,Open Office,100,500,10.0,2.7,true,false,false,Workstations;Desks;Chairs;Filing,Open plan workspace,Flexible layout
+RM-038,Private Office,9,25,2.8,2.7,true,false,false,Desk;Chairs;Bookshelf;Filing,Individual office,Acoustic privacy
+RM-039,Executive Office,20,50,4.0,3.0,true,false,false,Desk;Meeting area;Bookshelf;Credenza,Senior executive space,Premium finishes
+RM-040,Conference Room Small,15,30,3.5,2.7,true,false,false,Table 6-8 seat;Chairs;AV equipment;Whiteboard,Small meeting room,Video conference
+RM-041,Conference Room Medium,25,50,4.5,2.7,true,false,false,Table 10-14 seat;Chairs;AV;Presentation screen,Medium meeting room,Professional AV
+RM-042,Conference Room Large,40,80,6.0,3.0,true,false,false,Table 16-24 seat;Chairs;Full AV;Multiple screens,Large meeting room,Boardroom quality
+RM-043,Boardroom,35,70,5.5,3.0,true,false,false,Table 12-18 seat;Executive chairs;Premium AV,Executive boardroom,Prestigious finishes
+RM-044,Meeting Pod,4,8,2.0,2.7,true,false,false,Small table;4 chairs;Screen,Quick meeting space,Acoustic pod
+RM-045,Huddle Room,6,12,2.3,2.7,true,false,false,Table 4-6 seat;Chairs;Screen;Whiteboard,Informal collaboration,Flexible use
+RM-046,War Room,20,40,4.0,2.7,true,false,false,Tables;Whiteboards;Screens;Project boards,Project command center,Intensive collaboration
+RM-047,Training Room,30,80,5.0,2.7,true,false,false,Tables;Chairs 20+;Projector;Whiteboard,Educational training,Flexible seating
+RM-048,Computer Lab,40,100,6.0,2.7,true,false,false,Workstations 20+;Computers;Server connection,IT training lab,High power capacity
+RM-049,Break Room,12,30,3.2,2.7,true,false,true,Tables;Chairs;Kitchenette;Refrigerator;Microwave,Staff break area,Casual atmosphere
+RM-050,Cafeteria,80,300,10.0,3.0,true,false,true,Tables;Chairs 50+;Service counter;Kitchen access,Staff dining,Food service
+RM-051,Reception,15,60,3.8,3.0,true,false,false,Reception desk;Waiting seats;Display;Signage,Main reception area,Brand representation
+RM-052,Waiting Area,10,40,3.0,2.7,true,false,false,Seating;Coffee table;Magazine rack;TV,Client waiting,Comfortable seating
+RM-053,Copy Room,6,15,2.2,2.7,true,true,false,Copier;Printer;Supplies storage;Work counter,Print and copy,Equipment ventilation
+RM-054,Mail Room,8,25,2.5,2.7,true,false,false,Sorting tables;Mailboxes;Scales;Storage,Mail processing,Organized layout
+RM-055,IT Server Room,10,40,3.0,2.7,false,true,false,Server racks;UPS;Cooling;Cable management,Data center,Climate controlled 18-22°C
+RM-056,Data Center,50,500,8.0,3.0,false,true,false,Server racks;Cooling;Power distribution;Fire suppression,Large data center,Redundant systems
+RM-057,Archive Room,12,60,3.0,2.7,false,true,false,Shelving;Filing;Mobile storage;Ladder,Document storage,Climate controlled
+RM-058,Storage Room,6,40,2.2,2.7,false,true,false,Shelving;Cabinets;Bins,General storage,Organized system
+RM-059,Janitor Closet,2,6,1.4,2.4,false,true,true,Sink;Storage;Cleaning supplies;Mop rack,Janitorial storage,Service access
+RM-060,Security Office,8,20,2.5,2.7,true,false,false,Desk;Monitors;Control panel;Storage,Security control,24/7 operation
+RM-061,Interview Room,8,16,2.5,2.7,true,false,false,Table;4-6 chairs;Recording equipment,HR interviews,Acoustic privacy
+RM-062,Meditation Room,8,20,2.5,2.7,false,true,false,Cushions;Mat storage;Soft lighting,Quiet reflection,Peaceful atmosphere
+RM-063,Wellness Room,10,25,2.8,2.7,false,true,false,Bed;Chair;Sink;First aid,Health and wellness,Private and quiet
+RM-064,Lactation Room,6,12,2.2,2.7,false,true,false,Chair;Table;Sink;Refrigerator;Privacy,Nursing mothers,Lockable door
+RM-065,Phone Booth,2,4,1.2,2.4,false,true,false,Stool;Shelf;Phone;Acoustic treatment,Private phone calls,Soundproof pod
+RM-066,Focus Room,4,8,1.8,2.7,false,false,false,Desk;Chair;Monitor;Task light,Concentrated work,Minimal distraction
+RM-067,Home Theater,16,50,3.8,2.7,false,true,false,Recliners;Screen;Projector;Surround sound;Acoustic panels,Private cinema,Acoustic treatment
+RM-068,Media Room,12,35,3.2,2.7,true,false,false,Sectional;Large TV;Gaming;Sound system,Entertainment room,Blackout capable
+RM-069,Game Room,15,45,3.5,2.7,true,false,false,Pool table;Gaming consoles;Seating;Bar,Recreation room,Durable finishes
+RM-070,Music Room,12,35,3.2,3.0,true,false,false,Piano;Instrument storage;Seating;Music stands,Music practice,Acoustic design
+RM-071,Recording Studio,15,40,3.5,3.0,false,true,false,Recording booth;Mixing desk;Monitors;Acoustic treatment,Professional recording,Soundproof NRC 0.9
+RM-072,Art Studio,18,50,4.0,3.5,true,true,false,Easels;Work tables;Storage;Sink;Natural light,Art creation,North light preferred
+RM-073,Craft Room,10,25,2.8,2.7,true,true,false,Work tables;Storage;Cutting mat;Sewing machine,Crafts and hobbies,Good task lighting
+RM-074,Workshop,15,50,3.5,3.0,true,true,false,Workbench;Tool storage;Power tools;Ventilation,Woodworking/repairs,Dust extraction
+RM-075,Pottery Studio,14,40,3.3,3.0,true,true,true,Potter's wheel;Kiln;Storage;Sink;Drying racks,Ceramics studio,Kiln ventilation
+RM-076,Photography Studio,20,80,4.5,4.0,false,true,false,Backdrop;Lighting;Camera equipment;Props,Photo shoots,Blackout and lighting control
+RM-077,Dance Studio,40,150,6.5,3.5,true,true,false,Mirrors;Barre;Sound system;Storage,Dance practice,Sprung floor
+RM-078,Yoga Studio,30,100,5.5,3.0,true,true,false,Mat storage;Mirrors;Sound system;Props,Yoga practice,Natural light and ventilation
+RM-079,Gym,20,80,4.5,3.0,true,true,false,Cardio equipment;Weights;Mirrors;Flooring,Home fitness,Ventilation and durability
+RM-080,Exercise Room,12,30,3.2,2.7,true,true,false,Multi-gym;Mats;Mirrors;TV,Personal training,Rubber flooring
+RM-081,Spa Room,12,30,3.2,2.7,false,true,true,Massage table;Sink;Storage;Aromatherapy,Spa treatments,Relaxing atmosphere
+RM-082,Sauna,4,12,2.0,2.1,false,true,false,Benches;Heater;Controls;Ventilation,Dry sauna,Cedar lined 80-90°C
+RM-083,Steam Room,4,10,2.0,2.1,false,true,true,Benches;Steam generator;Drainage,Wet steam,Tile finish waterproof
+RM-084,Wine Cellar,6,40,2.3,2.4,false,false,false,Wine racks;Storage;Tasting area;Cooling,Wine storage,Climate 12-15°C 70% RH
+RM-085,Wine Tasting Room,15,35,3.5,2.7,true,false,false,Tasting table;Glassware;Storage;Display,Wine tasting,Controlled environment
+RM-086,Cigar Room,10,25,2.8,2.7,true,true,false,Seating;Humidor;Ventilation;Bar,Cigar lounge,Dedicated exhaust
+RM-087,Bar,8,25,2.5,2.7,true,false,true,Bar counter;Stools;Glassware;Refrigeration;Storage,Home bar,Entertainment focus
+RM-088,Billiard Room,20,50,4.5,3.0,true,false,false,Pool table;Seating;Cue rack;Scoreboard,Billiards/pool,8' clearance around table
+RM-089,Bowling Alley,100,200,12.0,4.0,true,false,false,Lanes;Ball return;Seating;Scoring,Private bowling,60' lane length
+RM-090,Indoor Pool,80,300,10.0,4.0,false,true,true,Pool;Deck;Dehumidification;Storage,Swimming pool,High humidity control
+RM-091,Pool House,20,60,4.5,3.0,true,false,true,Bathroom;Kitchenette;Seating;Storage,Pool support building,Outdoor access
+RM-092,Greenhouse,12,60,3.2,3.0,true,true,false,Growing benches;Irrigation;Climate control;Storage,Plant cultivation,Glass construction
+RM-093,Conservatory,15,50,3.5,3.5,true,false,false,Seating;Plants;Natural light;Climate control,Sun room living,Glass walls/roof
+RM-094,Sunroom,10,30,3.0,2.7,true,false,false,Seating;Plants;Storage;Ceiling fan,Three-season room,Large windows
+RM-095,Solarium,12,40,3.2,3.5,true,false,false,Seating;Plants;Solar heat;Shading,Solar room,South-facing glass
+RM-096,Observatory,8,25,2.5,3.0,false,false,false,Telescope;Star charts;Seating;Red lighting,Astronomy,Dome or opening roof
+RM-097,Library,15,80,3.5,3.0,true,false,false,Bookshelves;Reading chairs;Desk;Ladder,Book collection,Quiet atmosphere
+RM-098,Study,9,20,2.7,2.7,true,false,false,Desk;Bookshelves;Chair;Filing,Private study,Good lighting
+RM-099,Office,9,25,2.7,2.7,true,false,false,Desk;Chair;Storage;Technology,Home office,Ergonomic design
+RM-100,Computer Room,8,20,2.5,2.7,true,true,false,Computer desks;Ergonomic chairs;Server;Cooling,IT workspace,Cable management
+RM-101,Sewing Room,9,20,2.7,2.7,true,false,false,Sewing machine;Cutting table;Storage;Ironing,Sewing and alterations,Good task lighting
+RM-102,Laundry Room,6,20,2.3,2.4,true,true,true,Washer;Dryer;Sink;Folding counter;Storage,Clothes washing,Ventilation and drainage
+RM-103,Utility Room,5,15,2.0,2.4,false,true,true,Washer;Sink;Storage;Boiler;Freezer,Multi-purpose utility,Service connections
+RM-104,Mud Room,4,12,1.8,2.4,true,false,false,Bench;Hooks;Shoe storage;Cubbies;Mat,Entry transition,Durable flooring
+RM-105,Boot Room,5,12,2.0,2.4,true,true,false,Boot storage;Bench;Hooks;Drying area,Outdoor gear storage,Easy clean finishes
+RM-106,Cloakroom,3,8,1.6,2.4,false,true,false,Coat hooks;Storage;Bench,Guest coat storage,Entry area
+RM-107,Pantry,3,12,1.6,2.4,false,true,false,Shelving;Food storage;Counter;Bins,Food storage,Cool and dry
+RM-108,Walk-in Pantry,5,15,2.0,2.4,false,true,false,Shelving;Counter;Appliance storage;Bins,Large food storage,Organized system
+RM-109,Closet,2,6,1.2,2.4,false,false,false,Rod;Shelving;Drawers,General storage,Minimum 600mm depth
+RM-110,Walk-in Closet,4,20,1.8,2.4,false,false,false,Hanging rods;Shelving;Drawers;Mirror;Island,Large wardrobe,Luxury storage
+RM-111,Linen Closet,2,4,1.2,2.4,false,true,false,Shelving;Baskets,Linen storage,Organized shelving
+RM-112,Broom Closet,1.5,3,1.0,2.4,false,true,false,Hooks;Shelving;Mop sink option,Cleaning storage,Service access
+RM-113,Mechanical Room,8,30,2.5,2.7,false,true,false,HVAC;Water heater;Electrical panel;Access,Building systems,Service clearances
+RM-114,Boiler Room,6,20,2.2,2.7,false,true,false,Boiler;Expansion tank;Controls;Ventilation,Heating system,Combustion air
+RM-115,Furnace Room,6,18,2.2,2.7,false,true,false,Furnace;Ductwork;Controls;Filter access,Forced air heating,Return air
+RM-116,Electrical Room,8,25,2.5,2.7,false,true,false,Main panel;Subpanels;Meters;Safety equipment,Electrical distribution,Working clearances
+RM-117,Generator Room,10,30,2.8,3.0,false,true,false,Generator;Fuel;Transfer switch;Exhaust,Emergency power,Ventilation and fuel storage
+RM-118,Pump Room,6,20,2.2,2.7,false,true,true,Pumps;Valves;Drainage;Controls,Water pressure,Drainage pit
+RM-119,Water Softener Room,3,8,1.6,2.4,false,true,true,Softener;Salt storage;Drainage,Water treatment,Service access
+RM-120,Trash Room,4,15,1.8,2.7,false,true,true,Bins;Recycling;Chute option;Sink,Waste management,Washable finishes
+RM-121,Recycling Room,4,12,1.8,2.7,false,true,false,Sorting bins;Shelving;Labels,Recyclables,Organized sorting

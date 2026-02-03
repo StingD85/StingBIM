@@ -1,0 +1,38 @@
+FurnitureID,Name,Category,Width_MM,Height_MM,Depth_MM,RoomType,PlacementType,Material,Description,Function,Style,Cost_USD,Cost_UGX,Standard
+FUR-BED-001,Bed Single 1000x2000,Furniture,1000,500,2000,Bedroom,Floor-based,Wood/Metal,Single bed frame with mattress,1-person sleeping,Standard single,200,740,ANSI/BIFMA X5.1
+FUR-BED-002,Bed Twin 990x1905,Furniture,990,500,1905,Bedroom,Floor-based,Wood/Metal,Twin bed frame,1-person US standard,Twin size,180,666,ANSI/BIFMA X5.1
+FUR-BED-003,Bed Twin XL 990x2030,Furniture,990,500,2030,Bedroom,Floor-based,Wood/Metal,Twin XL bed frame,1-person tall,Extra long twin,200,740,ANSI/BIFMA X5.1
+FUR-BED-004,Bed Full/Double 1370x1905,Furniture,1370,500,1905,Bedroom,Floor-based,Wood/Metal,Full/Double bed frame,1-2 persons compact,Full size,280,1036,ANSI/BIFMA X5.1
+FUR-BED-005,Bed Queen 1525x2030,Furniture,1525,500,2030,Bedroom,Floor-based,Wood/Metal,Queen bed frame,2-person standard,Most popular size,350,1295,ANSI/BIFMA X5.1
+FUR-BED-006,Bed King 1930x2030,Furniture,1930,500,2030,Bedroom,Floor-based,Wood/Metal,King bed frame,2-person spacious,Large size,450,1665,ANSI/BIFMA X5.1
+FUR-BED-007,Bed California King 1830x2130,Furniture,1830,500,2130,Bedroom,Floor-based,Wood/Metal,Cal King bed frame,2-person extra long,Longer than king,450,1665,ANSI/BIFMA X5.1
+FUR-BED-008,Bed Bunk Twin Over Twin,Furniture,990,1650,1905,Bedroom,Floor-based,Wood/Metal,Bunk bed twin over twin,2-person space saving,Vertical stacking,400,1480,ANSI/BIFMA X5.1
+FUR-BED-009,Bed Loft Twin Elevated,Furniture,990,1800,1905,Bedroom,Floor-based,Wood/Metal,Loft bed elevated,1-person with space below,Desk/storage underneath,350,1295,ANSI/BIFMA X5.1
+FUR-BED-010,Bed Murphy Queen Wall,Furniture,1525,400,2030,Bedroom,Wall-mounted,Wood/Hardware,Murphy wall bed queen,2-person fold-away,Space-saving fold-up,800,2960,ANSI/BIFMA X5.1
+FUR-NTS-001,Nightstand 2-Drawer 400x500,Furniture,400,600,500,Bedroom,Floor-based,Wood,2-drawer nightstand,Bedside storage,Standard height,80,296,ANSI/BIFMA X5.9
+FUR-NTS-002,Nightstand 3-Drawer 450x500,Furniture,450,700,500,Bedroom,Floor-based,Wood,3-drawer nightstand,Bedside storage tall,Extra storage,100,370,ANSI/BIFMA X5.9
+FUR-NTS-003,Nightstand Floating Wall,Furniture,450,150,400,Bedroom,Wall-mounted,Wood,Floating wall nightstand,Bedside minimalist,Space-saving,60,222,ANSI/BIFMA X5.9
+FUR-NTS-004,Nightstand Open Shelf,Furniture,400,600,400,Bedroom,Floor-based,Wood/Metal,Open shelf nightstand,Bedside display,Modern minimalist,70,259,ANSI/BIFMA X5.9
+FUR-DRS-001,Dresser 6-Drawer Horizontal,Furniture,1200,850,450,Bedroom,Floor-based,Wood,6-drawer horizontal dresser,Clothing storage,Standard dresser,180,666,ANSI/BIFMA X5.9
+FUR-DRS-002,Dresser 9-Drawer Triple,Furniture,1500,900,450,Bedroom,Floor-based,Wood,9-drawer triple dresser,Large clothing storage,Master bedroom,250,925,ANSI/BIFMA X5.9
+FUR-DRS-003,Chest 5-Drawer Tall,Furniture,800,1200,450,Bedroom,Floor-based,Wood,5-drawer chest tall,Vertical storage,Space-efficient,150,555,ANSI/BIFMA X5.9
+FUR-DRS-004,Chest 7-Drawer Lingerie,Furniture,600,1400,400,Bedroom,Floor-based,Wood,7-drawer lingerie chest,Small items storage,Narrow tall unit,130,481,ANSI/BIFMA X5.9
+FUR-WAR-001,Wardrobe 2-Door 1000x2100,Furniture,1000,2100,600,Bedroom,Floor-based,Wood,2-door wardrobe,Hanging clothes,Single wardrobe,300,1110,ANSI/BIFMA X5.9
+FUR-WAR-002,Wardrobe 3-Door 1500x2100,Furniture,1500,2100,600,Bedroom,Floor-based,Wood,3-door triple wardrobe,Large hanging storage,Triple wardrobe,450,1665,ANSI/BIFMA X5.9
+FUR-WAR-003,Wardrobe Sliding 2000x2100,Furniture,2000,2100,600,Bedroom,Floor-based,Wood/Mirror,Sliding door wardrobe,Space-saving large,Mirrored doors,500,1850,ANSI/BIFMA X5.9
+FUR-WAR-004,Armoire Entertainment 1200x2000,Furniture,1200,2000,600,Bedroom,Floor-based,Wood,Entertainment armoire,TV/Media storage,Multi-purpose,350,1295,ANSI/BIFMA X5.9
+FUR-SOF-001,Sofa 2-Seater 1500x850,Furniture,1500,850,900,Living,Floor-based,Upholstery/Wood,2-seater sofa loveseat,2-person seating,Compact sofa,400,1480,ANSI/BIFMA X5.4
+FUR-SOF-002,Sofa 3-Seater 2100x850,Furniture,2100,850,900,Living,Floor-based,Upholstery/Wood,3-seater standard sofa,3-person seating,Standard sofa,550,2035,ANSI/BIFMA X5.4
+FUR-SOF-003,Sofa 4-Seater 2700x850,Furniture,2700,850,900,Living,Floor-based,Upholstery/Wood,4-seater large sofa,4-person seating,Large sofa,700,2590,ANSI/BIFMA X5.4
+FUR-SOF-004,Sectional L-Shape Left,Furniture,2500,850,2500,Living,Floor-based,Upholstery/Wood,L-shaped sectional left,5-6 person seating,Corner sectional,900,3330,ANSI/BIFMA X5.4
+FUR-SOF-005,Sectional U-Shape,Furniture,3000,850,2500,Living,Floor-based,Upholstery/Wood,U-shaped sectional,7-9 person seating,Large entertaining,1300,4810,ANSI/BIFMA X5.4
+FUR-SOF-006,Sectional Modular Corner,Furniture,900,850,900,Living,Floor-based,Upholstery/Wood,Modular corner piece,Sectional component,Configure layouts,350,1295,ANSI/BIFMA X5.4
+FUR-SOF-007,Sofa Sleeper Queen,Furniture,2100,900,1000,Living/Guest,Floor-based,Upholstery/Metal,Queen sleeper sofa,Sofa & queen bed,Dual purpose,800,2960,ANSI/BIFMA X5.4
+FUR-SOF-008,Futon Convertible,Furniture,1800,850,900,Living/Guest,Floor-based,Upholstery/Wood,Futon sofa bed,Sofa & sleeping,Budget sleeper,350,1295,ANSI/BIFMA X5.4
+FUR-CHR-001,Armchair Standard,Furniture,800,900,850,Living,Floor-based,Upholstery/Wood,Standard armchair,1-person seating,Accent chair,250,925,ANSI/BIFMA X5.4
+FUR-CHR-002,Armchair Wing Back,Furniture,850,1100,850,Living,Floor-based,Upholstery/Wood,Wing back chair,1-person traditional,Classic style,300,1110,ANSI/BIFMA X5.4
+FUR-CHR-003,Recliner Manual,Furniture,900,1050,950,Living,Floor-based,Upholstery/Metal,Manual recliner,1-person reclining,Relaxation,450,1665,ANSI/BIFMA X5.4
+FUR-CHR-004,Recliner Power Lift,Furniture,900,1100,950,Living,Floor-based,Upholstery/Metal,Power lift recliner,1-person assisted,Elderly friendly,800,2960,ANSI/BIFMA X5.4
+FUR-CHR-005,Recliner Rocker Glider,Furniture,850,1050,900,Living/Nursery,Floor-based,Upholstery/Wood,Rocker glider recliner,1-person nursing,Nursery rocking,500,1850,ANSI/BIFMA X5.4
+FUR-CHR-006,Ottoman Storage 900x450,Furniture,900,450,600,Living,Floor-based,Upholstery/Wood,Storage ottoman,Footrest & storage,Multi-purpose,150,555,ANSI/BIFMA X5.4
+FUR-CHR-007,Bean Bag Lounge,Furniture,1000,800,1000,Living/Playroom,Floor-based,Fabric/Foam,Bean bag lounge chair,Casual seating,Informal,100,370,ANSI/BIFMA X5.4

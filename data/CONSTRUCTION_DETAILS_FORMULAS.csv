@@ -1,0 +1,46 @@
+FormulaId,Name,Expression,Description,Category,Unit,InputParameters,OutputType
+CD-STL-BOLT-SHR,Bolt Group Shear Strength,{N_Bolts} * {Fnv} * {Ab},Nominal shear capacity of bolt group (Rn = N × Fnv × Ab),Steel-Connection,kN,N_Bolts:Fnv(MPa):Ab(mm²),Force
+CD-STL-BOLT-BRG,Bolt Bearing Strength,"MIN({N_Bolts} * 2.4 * {d} * {t} * {Fu}, {N_Bolts} * 1.2 * {Lc} * {t} * {Fu})",Lesser of bearing and tear-out controls,Steel-Connection,kN,N_Bolts:d(mm):t(mm):Fu(MPa):Lc(mm),Force
+CD-STL-BOLT-AREA,Bolt Cross-Section Area,3.14159 * ({d} / 2) ^ 2,Nominal cross-sectional area of bolt from diameter,Steel-Connection,mm²,d(mm),Area
+CD-STL-BOLT-SPG,Bolt Spacing Check,"IF({Spacing} >= 2.67 * {BoltDia}, PASS, FAIL)",AISC J3.2 minimum spacing compliance,Steel-Connection,pass/fail,Spacing(mm):BoltDia(mm),Status
+CD-STL-BOLT-EDG,Bolt Edge Distance Check,"IF({EdgeDist} >= 1.5 * {BoltDia}, PASS, FAIL)",AISC J3.3 minimum edge-distance compliance,Steel-Connection,pass/fail,EdgeDist(mm):BoltDia(mm),Status
+CD-STL-WELD-THR,Fillet Weld Effective Throat,0.707 * {FilletLeg},Effective throat of equal-leg fillet weld,Steel-Connection,mm,FilletLeg(mm),Length
+CD-STL-WELD-CAP,Fillet Weld Linear Capacity,{Throat} * {Fexx} * 0.6,Weld metal shear capacity per unit length (Rn/L),Steel-Connection,kN/mm,Throat(mm):Fexx(MPa),Force-per-Length
+CD-STL-WELD-LEN,Required Weld Length,CEIL({Vu} / ({Throat} * {Fexx} * 0.6)),Minimum total weld length required for shear demand,Steel-Connection,mm,Vu(kN):Throat(mm):Fexx(MPa),Length
+CD-STL-BP-AREA,Base Plate Required Area,CEIL({ColLoad} / {Fp}),Min base plate area = column load / allowable bearing,Steel-Connection,mm²,ColLoad(kN):Fp(MPa),Area
+CD-STL-BP-THICK,Base Plate Thickness,CEIL({n} * SQRT(2 * {Pu} / ({0.9} * {Fy} * {BParea}))),AISC Design Guide 1 base plate thickness,Steel-Connection,mm,n(mm):Pu(kN):Fy(MPa):BParea(mm²),Length
+CD-STL-COST-BOLT,Bolt Group Cost,{N_Bolts} * {UnitCost_Bolt} + {N_Washers} * {UnitCost_Washer} + {N_Nuts} * {UnitCost_Nut},Total cost bolts + washers + nuts,Steel-Connection,USD,N_Bolts:UnitCost_Bolt:N_Washers:UnitCost_Washer:N_Nuts:UnitCost_Nut,Cost
+CD-STL-COST-PLATE,Connection Plate Cost,{Weight_kg} * {PricePerKg},Plate cost from mass and unit price,Steel-Connection,USD,Weight_kg:PricePerKg(USD/kg),Cost
+CD-STL-COST-WELD,Weld Cost Estimate,{LengthMm} * {CostPerMm},Weld fabrication cost from length,Steel-Connection,USD,LengthMm:CostPerMm(USD/mm),Cost
+CD-STL-COST-CONN,Total Connection Cost,{PlateCost} + {BoltCost} + {WeldCost} + {LaborHrs} * {LaborRate},Fully loaded connection cost,Steel-Connection,USD,PlateCost:BoltCost:WeldCost:LaborHrs:LaborRate(USD/hr),Cost
+CD-WOD-BOLT-CAP,Wood Bolt Allowable Capacity,{Z} * {CD} * {CM} * {Ct} * {Ceg},Adjusted lateral design value for single bolt (NDS Ch 12),Wood-Connection,kN,Z(kN):CD:CM:Ct:Ceg,Force
+CD-WOD-LAG-PEN,Lag Screw Min Penetration Check,"IF({Penetration} >= 10 * {LagDia}, PASS, FAIL)",NDS 10.3.2 minimum penetration compliance,Wood-Connection,pass/fail,Penetration(mm):LagDia(mm),Status
+CD-WOD-LAG-CAP,Lag Screw Allowable Capacity,{Zs} * {CD} * {CM} * {Ct},Adjusted lateral design value single lag screw,Wood-Connection,kN,Zs(kN):CD:CM:Ct,Force
+CD-WOD-HGTRN-QTY,Hurricane Tie Quantity Per Rafter,"IF({WindZone} >= 110, 1, 1)",Min hurricane ties per rafter connection,Wood-Connection,ties,WindZone(mph),Count
+CD-WOD-LEDGER-SPG,Ledger Bolt Spacing Check,"IF({Spacing} <= 600, PASS, FAIL)",IRC R507.1 max ledger fastener spacing 600mm,Wood-Connection,pass/fail,Spacing(mm),Status
+CD-WOD-LEDGER-QTY,Ledger Bolt Count,CEIL({LedgerLength} / {MaxSpacing}) + 1,Number of ledger bolts for given ledger length,Wood-Connection,bolts,LedgerLength(mm):MaxSpacing(mm),Count
+CD-WOD-HD-UPLIFT,Hold-Down Uplift Capacity Check,"IF({T_Rating} >= {Uplift_Design}, PASS, FAIL)",Hold-down rated capacity vs design uplift demand,Wood-Connection,pass/fail,T_Rating(kN):Uplift_Design(kN),Status
+CD-WOD-COST-HGR,Joist Hanger Cost Per Bay,{N_Joists} * {UnitCost_Hanger} + ({N_Joists} * {Nails_Each}) * {UnitCost_Nail},Total hanger hardware cost for one bay,Wood-Connection,USD,N_Joists:UnitCost_Hanger:Nails_Each:UnitCost_Nail,Cost
+CD-WOD-COST-HD,Hold-Down Cost Per Wall,2 * {UnitCost_HD} + 2 * {UnitCost_AnchorBolt},Two hold-downs + two anchor bolts per shear wall,Wood-Connection,USD,UnitCost_HD:UnitCost_AnchorBolt,Cost
+CD-WOD-COST-CONN,Total Wood Connection Cost,{HangerCost} + {HoldDownCost} + {HurricaneCost} + {PostBaseCost},Sum of all wood-connection hardware in one dwelling,Wood-Connection,USD,HangerCost:HoldDownCost:HurricaneCost:PostBaseCost,Cost
+CD-FND-ANCHOR-SPG,Mudsill Anchor Spacing Check,"IF({Spacing} <= 1830, PASS, FAIL)",IRC R403.1 max 1830mm spacing between anchors,Foundation-Connection,pass/fail,Spacing(mm),Status
+CD-FND-ANCHOR-QTY,Mudsill Anchor Count,CEIL({SillLength} / {MaxSpacing}) + 1,Number of mudsill anchors for perimeter length,Foundation-Connection,anchors,SillLength(mm):MaxSpacing(mm),Count
+CD-FND-ANCHOR-EMBED,Anchor Bolt Embedment Check,"IF({Embed} >= 12 * {BoltDia}, PASS, FAIL)",ACI 318 min embedment for J/L cast-in anchors,Foundation-Connection,pass/fail,Embed(mm):BoltDia(mm),Status
+CD-FND-COST-ANCHOR,Foundation Anchor Cost,{N_Anchors} * {UnitCost_Anchor} + {N_Anchors} * {UnitCost_Washer} + {N_Anchors} * {UnitCost_Nut},Total mudsill anchor hardware cost,Foundation-Connection,USD,N_Anchors:UnitCost_Anchor:UnitCost_Washer:UnitCost_Nut,Cost
+CD-FND-SEISMIC-CHK,Seismic Anchor Uplift Check,"IF({CapacityAnchor} >= 1.5 * {Pu_Seismic}, PASS, FAIL)",ASCE 7 seismic uplift capacity ≥ 1.5× design uplift,Foundation-Connection,pass/fail,CapacityAnchor(kN):Pu_Seismic(kN),Status
+CD-WP-AREA,Waterproofed Surface Area,({Length} * {Width}) + 2 * ({Length} + {Width}) * {WallHeight},Total waterproofed area: floor slab + all below-grade walls,Waterproofing,m²,Length(m):Width(m):WallHeight(m),Area
+CD-WP-OVERLAP-LEN,Membrane Overlap Length,{Perimeter} * {OverlapWidth},Total extra membrane area consumed by lap joints,Waterproofing,m²,Perimeter(m):OverlapWidth(m),Area
+CD-WP-SHEETS-QTY,Sheet Membrane Rolls Required,CEIL({TotalArea} / ({RollWidth} * {RollLength}) * (1 + {WastePct} / 100)),Number of membrane rolls accounting for waste,Waterproofing,rolls,TotalArea(m²):RollWidth(m):RollLength(m):WastePct(%),Count
+CD-WP-DRY-FILM,Liquid Membrane Coverage,{TotalArea} / {CoveragePerBucket},Number of buckets / containers for liquid membrane,Waterproofing,buckets,TotalArea(m²):CoveragePerBucket(m²/bucket),Count
+CD-WP-SEALANT-LEN,Sealant Joint Total Length,"SUM({JointLen_1},{JointLen_2},{JointLen_3},{JointLen_4})",Total linear metres of sealant joints,Waterproofing,m,JointLen_1:JointLen_2:JointLen_3:JointLen_4,Length
+CD-WP-SEALANT-QTY,Sealant Tubes Required,CEIL({TotalLength} / {CoveragePerTube}),Number of sealant tubes from total joint length,Waterproofing,tubes,TotalLength(m):CoveragePerTube(m/tube),Count
+CD-WP-COST-LIQUID,Liquid Membrane Installed Cost,{Buckets} * {CostPerBucket} + {TotalArea} * {LabourPerSqM},Material + labour for liquid-applied membrane,Waterproofing,USD,Buckets:CostPerBucket:TotalArea(m²):LabourPerSqM(USD/m²),Cost
+CD-WP-COST-SHEET,Sheet Membrane Installed Cost,{Rolls} * {CostPerRoll} + {TotalArea} * {LabourPerSqM},Material + labour for sheet membrane,Waterproofing,USD,Rolls:CostPerRoll:TotalArea(m²):LabourPerSqM(USD/m²),Cost
+CD-FL-WIN-PERIM,Window Flashing Perimeter,2 * ({WinWidth} + {WinHeight}) + 2 * {Overlap},Total flashing run around one window opening,Flashing,m,WinWidth(m):WinHeight(m):Overlap(m),Length
+CD-FL-VALLEY-LEN,Roof Valley Flashing Length,{RidgeToEave} / COS({SlopeAngle_deg} * 3.14159 / 180),Valley flashing length along the slope,Flashing,m,RidgeToEave(m):SlopeAngle_deg,Length
+CD-FL-STEP-QTY,Step Flashing Piece Count,CEIL({SlopeLength} / {CourseHeight}) + 1,Number of step-flashing pieces for one slope run,Flashing,pieces,SlopeLength(m):CourseHeight(m),Count
+CD-FL-VENT-QTY,Vent Pipe Boot Count,{N_WC} + {N_Tub} + {N_Kitchen} + {N_Utility},Total roof penetrations needing vent boots,Flashing,boots,N_WC:N_Tub:N_Kitchen:N_Utility,Count
+CD-FL-SHEET-QTY,Flashing Sheet Quantity,CEIL({TotalLength} / {SheetLength}) * {Sheets_Per_Width},Number of flat flashing sheets from total run,Flashing,sheets,TotalLength(m):SheetLength(m):Sheets_Per_Width,Count
+CD-FL-EXP-JT-LEN,Expansion Joint Cover Length,"SUM({Span_1},{Span_2},{Span_3},{Span_4})",Total linear length of expansion-joint covers,Flashing,m,Span_1:Span_2:Span_3:Span_4,Length
+CD-FL-COST-WIN,Window Flashing Cost,{N_Windows} * ({HeadLen} + {SillLen} + 2 * {JambLen}) * {CostPerMetre},Total window-flashing material cost,Flashing,USD,N_Windows:HeadLen(m):SillLen(m):JambLen(m):CostPerMetre(USD/m),Cost
+CD-FL-COST-TOTAL,Total Flashing Cost,{WindowFlashCost} + {RoofFlashCost} + {VentBootCost} + {ExpJointCost},Sum of all flashing sub-costs for the building,Flashing,USD,WindowFlashCost:RoofFlashCost:VentBootCost:ExpJointCost,Cost

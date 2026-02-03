@@ -1,0 +1,832 @@
+UtteranceId,Text,Intent,Entities_JSON,Slots_JSON,Canonical,Augmented
+UT-0001,add a bedroom,CREATE_ROOM_TYPED,bedroom|bedroom,RoomType=bedroom,CREATE_ROOM type=bedroom,0
+UT-0002,create a bedroom,CREATE_ROOM_TYPED,bedroom|bedroom,RoomType=bedroom,CREATE_ROOM type=bedroom,0
+UT-0003,make a bedroom,CREATE_ROOM_TYPED,bedroom|bedroom,RoomType=bedroom,CREATE_ROOM type=bedroom,1
+UT-0004,I need a bedroom,CREATE_ROOM_TYPED,bedroom|bedroom,RoomType=bedroom,CREATE_ROOM type=bedroom,1
+UT-0005,put a bedroom in the plan,CREATE_ROOM_TYPED,bedroom|bedroom,RoomType=bedroom,CREATE_ROOM type=bedroom,1
+UT-0006,build a bedroom,CREATE_ROOM_TYPED,bedroom|bedroom,RoomType=bedroom,CREATE_ROOM type=bedroom,1
+UT-0007,generate a bedroom room,CREATE_ROOM_TYPED,bedroom|bedroom,RoomType=bedroom,CREATE_ROOM type=bedroom,1
+UT-0008,insert a bedroom,CREATE_ROOM_TYPED,bedroom|bedroom,RoomType=bedroom,CREATE_ROOM type=bedroom,1
+UT-0009,place a bedroom,CREATE_ROOM_TYPED,bedroom|bedroom,RoomType=bedroom,CREATE_ROOM type=bedroom,1
+UT-0010,design a bedroom,CREATE_ROOM_TYPED,bedroom|bedroom,RoomType=bedroom,CREATE_ROOM type=bedroom,1
+UT-0011,add a kitchen,CREATE_ROOM_TYPED,kitchen|kitchen,RoomType=kitchen,CREATE_ROOM type=kitchen,0
+UT-0012,create a kitchen,CREATE_ROOM_TYPED,kitchen|kitchen,RoomType=kitchen,CREATE_ROOM type=kitchen,1
+UT-0013,make a kitchen,CREATE_ROOM_TYPED,kitchen|kitchen,RoomType=kitchen,CREATE_ROOM type=kitchen,1
+UT-0014,I need a kitchen,CREATE_ROOM_TYPED,kitchen|kitchen,RoomType=kitchen,CREATE_ROOM type=kitchen,1
+UT-0015,put a kitchen in,CREATE_ROOM_TYPED,kitchen|kitchen,RoomType=kitchen,CREATE_ROOM type=kitchen,1
+UT-0016,build a kitchen,CREATE_ROOM_TYPED,kitchen|kitchen,RoomType=kitchen,CREATE_ROOM type=kitchen,1
+UT-0017,insert a kitchen,CREATE_ROOM_TYPED,kitchen|kitchen,RoomType=kitchen,CREATE_ROOM type=kitchen,1
+UT-0018,place a kitchen,CREATE_ROOM_TYPED,kitchen|kitchen,RoomType=kitchen,CREATE_ROOM type=kitchen,1
+UT-0019,add a bathroom,CREATE_ROOM_TYPED,bathroom|bathroom,RoomType=bathroom,CREATE_ROOM type=bathroom,1
+UT-0020,create a bathroom,CREATE_ROOM_TYPED,bathroom|bathroom,RoomType=bathroom,CREATE_ROOM type=bathroom,1
+UT-0021,make a bathroom,CREATE_ROOM_TYPED,bathroom|bathroom,RoomType=bathroom,CREATE_ROOM type=bathroom,1
+UT-0022,I need a bathroom,CREATE_ROOM_TYPED,bathroom|bathroom,RoomType=bathroom,CREATE_ROOM type=bathroom,1
+UT-0023,put a bathroom in,CREATE_ROOM_TYPED,bathroom|bathroom,RoomType=bathroom,CREATE_ROOM type=bathroom,1
+UT-0024,build a bathroom,CREATE_ROOM_TYPED,bathroom|bathroom,RoomType=bathroom,CREATE_ROOM type=bathroom,1
+UT-0025,insert a bathroom,CREATE_ROOM_TYPED,bathroom|bathroom,RoomType=bathroom,CREATE_ROOM type=bathroom,1
+UT-0026,add a living room,CREATE_ROOM_TYPED,living room|living room,RoomType=living-room,CREATE_ROOM type=living-room,1
+UT-0027,create a living room,CREATE_ROOM_TYPED,living room|living room,RoomType=living-room,CREATE_ROOM type=living-room,1
+UT-0028,make a living room,CREATE_ROOM_TYPED,living room|living room,RoomType=living-room,CREATE_ROOM type=living-room,1
+UT-0029,I need a living room,CREATE_ROOM_TYPED,living room|living room,RoomType=living-room,CREATE_ROOM type=living-room,1
+UT-0030,put in a living room,CREATE_ROOM_TYPED,living room|living room,RoomType=living-room,CREATE_ROOM type=living-room,1
+UT-0031,build a living room,CREATE_ROOM_TYPED,living room|living room,RoomType=living-room,CREATE_ROOM type=living-room,1
+UT-0032,add a 4m x 5m bedroom,CREATE_ROOM_SIZED,bedroom|4m|5m,RoomType=bedroom;Width=4m;Length=5m,CREATE_ROOM type=bedroom w=4 l=5,1
+UT-0033,create a bedroom 4 by 5,CREATE_ROOM_SIZED,bedroom|4m|5m,RoomType=bedroom;Width=4m;Length=5m,CREATE_ROOM type=bedroom w=4 l=5,1
+UT-0034,make a 12 by 10 foot bedroom,CREATE_ROOM_SIZED,bedroom|4m|5m,RoomType=bedroom;Width=4m;Length=5m,CREATE_ROOM type=bedroom w=4 l=5,1
+UT-0035,add a bedroom that is 4 metres by 5,CREATE_ROOM_SIZED,bedroom|4m|5m,RoomType=bedroom;Width=4m;Length=5m,CREATE_ROOM type=bedroom w=4 l=5,1
+UT-0036,create a room 12 by 15 feet,CREATE_ROOM_SIZED,bedroom|4m|5m,RoomType=bedroom;Width=4m;Length=5m,CREATE_ROOM type=bedroom w=4 l=5,1
+UT-0037,I want a bedroom 5m wide and 4m long,CREATE_ROOM_SIZED,bedroom|4m|5m,RoomType=bedroom;Width=4m;Length=5m,CREATE_ROOM type=bedroom w=4 l=5,1
+UT-0038,put in a 3.5 by 4 metre kitchen,CREATE_ROOM_SIZED,bedroom|4m|5m,RoomType=bedroom;Width=4m;Length=5m,CREATE_ROOM type=bedroom w=4 l=5,1
+UT-0039,create a kitchen 12 by 12 feet,CREATE_ROOM_SIZED,bedroom|4m|5m,RoomType=bedroom;Width=4m;Length=5m,CREATE_ROOM type=bedroom w=4 l=5,1
+UT-0040,make a bathroom 10 by 8,CREATE_ROOM_SIZED,bedroom|4m|5m,RoomType=bedroom;Width=4m;Length=5m,CREATE_ROOM type=bedroom w=4 l=5,1
+UT-0041,add a 5 by 7 living room,CREATE_ROOM_SIZED,bedroom|4m|5m,RoomType=bedroom;Width=4m;Length=5m,CREATE_ROOM type=bedroom w=4 l=5,1
+UT-0042,add a garage,CREATE_ROOM_TYPED,garage|garage,RoomType=garage,CREATE_ROOM type=garage,1
+UT-0043,create a garage,CREATE_ROOM_TYPED,garage|garage,RoomType=garage,CREATE_ROOM type=garage,1
+UT-0044,I need a garage,CREATE_ROOM_TYPED,garage|garage,RoomType=garage,CREATE_ROOM type=garage,1
+UT-0045,put in a garage,CREATE_ROOM_TYPED,garage|garage,RoomType=garage,CREATE_ROOM type=garage,1
+UT-0046,add a two car garage,CREATE_ROOM_TYPED,garage|garage,RoomType=garage,CREATE_ROOM type=garage,1
+UT-0047,build a garage,CREATE_ROOM_TYPED,garage|garage,RoomType=garage,CREATE_ROOM type=garage,1
+UT-0048,add a foyer,CREATE_ROOM_TYPED,foyer|foyer,RoomType=foyer,CREATE_ROOM type=foyer,1
+UT-0049,create a foyer,CREATE_ROOM_TYPED,foyer|foyer,RoomType=foyer,CREATE_ROOM type=foyer,1
+UT-0050,make a foyer,CREATE_ROOM_TYPED,foyer|foyer,RoomType=foyer,CREATE_ROOM type=foyer,1
+UT-0051,add an entryway,CREATE_ROOM_TYPED,foyer|foyer,RoomType=foyer,CREATE_ROOM type=foyer,1
+UT-0052,create an entrance hall,CREATE_ROOM_TYPED,foyer|foyer,RoomType=foyer,CREATE_ROOM type=foyer,1
+UT-0053,put in a vestibule,CREATE_ROOM_TYPED,foyer|foyer,RoomType=foyer,CREATE_ROOM type=foyer,1
+UT-0054,make an entry,CREATE_ROOM_TYPED,foyer|foyer,RoomType=foyer,CREATE_ROOM type=foyer,1
+UT-0055,add a powder room,CREATE_ROOM_TYPED,powder room|powder room,RoomType=powder-room,CREATE_ROOM type=powder-room,1
+UT-0056,create a half bath,CREATE_ROOM_TYPED,powder room|powder room,RoomType=powder-room,CREATE_ROOM type=powder-room,1
+UT-0057,make a powder room,CREATE_ROOM_TYPED,powder room|powder room,RoomType=powder-room,CREATE_ROOM type=powder-room,1
+UT-0058,I need a powder room,CREATE_ROOM_TYPED,powder room|powder room,RoomType=powder-room,CREATE_ROOM type=powder-room,1
+UT-0059,put in a half bathroom,CREATE_ROOM_TYPED,powder room|powder room,RoomType=powder-room,CREATE_ROOM type=powder-room,1
+UT-0060,add a wall,CREATE_WALL,wall|wall,WallType=interior,CREATE_WALL type=interior,1
+UT-0061,draw a wall,CREATE_WALL,wall|wall,WallType=interior,CREATE_WALL type=interior,1
+UT-0062,create a wall,CREATE_WALL,wall|wall,WallType=interior,CREATE_WALL type=interior,1
+UT-0063,put a wall here,CREATE_WALL,wall|wall,WallType=interior,CREATE_WALL type=interior,1
+UT-0064,I need a wall,CREATE_WALL,wall|wall,WallType=interior,CREATE_WALL type=interior,1
+UT-0065,make a wall,CREATE_WALL,wall|wall,WallType=interior,CREATE_WALL type=interior,1
+UT-0066,insert a wall,CREATE_WALL,wall|wall,WallType=interior,CREATE_WALL type=interior,1
+UT-0067,place a wall,CREATE_WALL,wall|wall,WallType=interior,CREATE_WALL type=interior,1
+UT-0068,build a wall,CREATE_WALL,wall|wall,WallType=interior,CREATE_WALL type=interior,1
+UT-0069,add an exterior wall,CREATE_EXTERIOR_WALL,exterior wall|exterior wall,WallType=exterior,CREATE_WALL type=exterior,1
+UT-0070,draw an outside wall,CREATE_EXTERIOR_WALL,exterior wall|exterior wall,WallType=exterior,CREATE_WALL type=exterior,1
+UT-0071,create an ext wall,CREATE_EXTERIOR_WALL,exterior wall|exterior wall,WallType=exterior,CREATE_WALL type=exterior,1
+UT-0072,make an outer wall,CREATE_EXTERIOR_WALL,exterior wall|exterior wall,WallType=exterior,CREATE_WALL type=exterior,1
+UT-0073,put in an exterior wall,CREATE_EXTERIOR_WALL,exterior wall|exterior wall,WallType=exterior,CREATE_WALL type=exterior,1
+UT-0074,build an external wall,CREATE_EXTERIOR_WALL,exterior wall|exterior wall,WallType=exterior,CREATE_WALL type=exterior,1
+UT-0075,add a load-bearing wall,CREATE_LOADBEARING_WALL,load-bearing wall|load-bearing wall,WallType=load-bearing,CREATE_WALL type=load-bearing,1
+UT-0076,create a structural wall,CREATE_LOADBEARING_WALL,load-bearing wall|load-bearing wall,WallType=load-bearing,CREATE_WALL type=load-bearing,1
+UT-0077,make a bearing wall,CREATE_LOADBEARING_WALL,load-bearing wall|load-bearing wall,WallType=load-bearing,CREATE_WALL type=load-bearing,1
+UT-0078,put in a load bearing wall,CREATE_LOADBEARING_WALL,load-bearing wall|load-bearing wall,WallType=load-bearing,CREATE_WALL type=load-bearing,1
+UT-0079,build a structural wall,CREATE_LOADBEARING_WALL,load-bearing wall|load-bearing wall,WallType=load-bearing,CREATE_WALL type=load-bearing,1
+UT-0080,add a load bearing wall,CREATE_LOADBEARING_WALL,load-bearing wall|load-bearing wall,WallType=load-bearing,CREATE_WALL type=load-bearing,1
+UT-0081,add a shear wall,CREATE_SHEAR_WALL,shear wall|shear wall,WallType=shear,CREATE_WALL type=shear,1
+UT-0082,create a shear wall,CREATE_SHEAR_WALL,shear wall|shear wall,WallType=shear,CREATE_WALL type=shear,1
+UT-0083,make a shear wall in the core,CREATE_SHEAR_WALL,shear wall|shear wall,WallType=shear,CREATE_WALL type=shear,1
+UT-0084,put in a lateral wall,CREATE_SHEAR_WALL,shear wall|shear wall,WallType=shear,CREATE_WALL type=shear,1
+UT-0085,build a shear wall,CREATE_SHEAR_WALL,shear wall|shear wall,WallType=shear,CREATE_WALL type=shear,1
+UT-0086,add a partition,CREATE_INTERIOR_WALL,partition|partition,WallType=partition,CREATE_WALL type=partition,1
+UT-0087,create a partition wall,CREATE_INTERIOR_WALL,partition|partition,WallType=partition,CREATE_WALL type=partition,1
+UT-0088,draw a partition,CREATE_INTERIOR_WALL,partition|partition,WallType=partition,CREATE_WALL type=partition,1
+UT-0089,make a divider,CREATE_INTERIOR_WALL,partition|partition,WallType=partition,CREATE_WALL type=partition,1
+UT-0090,put in an interior wall,CREATE_INTERIOR_WALL,partition|partition,WallType=partition,CREATE_WALL type=partition,1
+UT-0091,build a partition wall,CREATE_INTERIOR_WALL,partition|partition,WallType=partition,CREATE_WALL type=partition,1
+UT-0092,add a room divider,CREATE_INTERIOR_WALL,partition|partition,WallType=partition,CREATE_WALL type=partition,1
+UT-0093,add a door,CREATE_DOOR,door|door,DoorType=single,CREATE_DOOR type=single,1
+UT-0094,put a door,CREATE_DOOR,door|door,DoorType=single,CREATE_DOOR type=single,1
+UT-0095,create a door,CREATE_DOOR,door|door,DoorType=single,CREATE_DOOR type=single,1
+UT-0096,place a door in the wall,CREATE_DOOR,door|door,DoorType=single,CREATE_DOOR type=single,1
+UT-0097,make a door,CREATE_DOOR,door|door,DoorType=single,CREATE_DOOR type=single,1
+UT-0098,insert a door,CREATE_DOOR,door|door,DoorType=single,CREATE_DOOR type=single,1
+UT-0099,I need a door,CREATE_DOOR,door|door,DoorType=single,CREATE_DOOR type=single,1
+UT-0100,build a door opening,CREATE_DOOR,door|door,DoorType=single,CREATE_DOOR type=single,1
+UT-0101,add a sliding door,CREATE_DOOR_TYPED,sliding door|sliding door,DoorType=sliding,CREATE_DOOR type=sliding,1
+UT-0102,create a slider,CREATE_DOOR_TYPED,sliding door|sliding door,DoorType=sliding,CREATE_DOOR type=sliding,1
+UT-0103,put in a sliding door,CREATE_DOOR_TYPED,sliding door|sliding door,DoorType=sliding,CREATE_DOOR type=sliding,1
+UT-0104,make a sliding door,CREATE_DOOR_TYPED,sliding door|sliding door,DoorType=sliding,CREATE_DOOR type=sliding,1
+UT-0105,I want a sliding door,CREATE_DOOR_TYPED,sliding door|sliding door,DoorType=sliding,CREATE_DOOR type=sliding,1
+UT-0106,add a french door,CREATE_DOOR_TYPED,french door|french door,DoorType=french,CREATE_DOOR type=french,1
+UT-0107,create french doors,CREATE_DOOR_TYPED,french door|french door,DoorType=french,CREATE_DOOR type=french,1
+UT-0108,put in french doors,CREATE_DOOR_TYPED,french door|french door,DoorType=french,CREATE_DOOR type=french,1
+UT-0109,make a french door,CREATE_DOOR_TYPED,french door|french door,DoorType=french,CREATE_DOOR type=french,1
+UT-0110,I want french doors,CREATE_DOOR_TYPED,french door|french door,DoorType=french,CREATE_DOOR type=french,1
+UT-0111,add a pocket door,CREATE_DOOR_TYPED,pocket door|pocket door,DoorType=pocket,CREATE_DOOR type=pocket,1
+UT-0112,create a pocket door,CREATE_DOOR_TYPED,pocket door|pocket door,DoorType=pocket,CREATE_DOOR type=pocket,1
+UT-0113,make a concealed door,CREATE_DOOR_TYPED,pocket door|pocket door,DoorType=pocket,CREATE_DOOR type=pocket,1
+UT-0114,put in a pocket door,CREATE_DOOR_TYPED,pocket door|pocket door,DoorType=pocket,CREATE_DOOR type=pocket,1
+UT-0115,add a window,CREATE_WINDOW,window|window,WindowType=fixed,CREATE_WINDOW type=fixed,1
+UT-0116,put in a window,CREATE_WINDOW,window|window,WindowType=fixed,CREATE_WINDOW type=fixed,1
+UT-0117,create a window,CREATE_WINDOW,window|window,WindowType=fixed,CREATE_WINDOW type=fixed,1
+UT-0118,place a window,CREATE_WINDOW,window|window,WindowType=fixed,CREATE_WINDOW type=fixed,1
+UT-0119,make a window,CREATE_WINDOW,window|window,WindowType=fixed,CREATE_WINDOW type=fixed,1
+UT-0120,insert a window,CREATE_WINDOW,window|window,WindowType=fixed,CREATE_WINDOW type=fixed,1
+UT-0121,I need a window,CREATE_WINDOW,window|window,WindowType=fixed,CREATE_WINDOW type=fixed,1
+UT-0122,draw a window,CREATE_WINDOW,window|window,WindowType=fixed,CREATE_WINDOW type=fixed,1
+UT-0123,add a casement window,CREATE_WINDOW_TYPED,casement window|casement window,WindowType=casement,CREATE_WINDOW type=casement,1
+UT-0124,create a casement,CREATE_WINDOW_TYPED,casement window|casement window,WindowType=casement,CREATE_WINDOW type=casement,1
+UT-0125,put in a hinged window,CREATE_WINDOW_TYPED,casement window|casement window,WindowType=casement,CREATE_WINDOW type=casement,1
+UT-0126,make a casement window,CREATE_WINDOW_TYPED,casement window|casement window,WindowType=casement,CREATE_WINDOW type=casement,1
+UT-0127,I want casement windows,CREATE_WINDOW_TYPED,casement window|casement window,WindowType=casement,CREATE_WINDOW type=casement,1
+UT-0128,add a skylight,CREATE_WINDOW_TYPED,skylight|skylight,WindowType=skylight,CREATE_WINDOW type=skylight,1
+UT-0129,create a skylight,CREATE_WINDOW_TYPED,skylight|skylight,WindowType=skylight,CREATE_WINDOW type=skylight,1
+UT-0130,put in a roof window,CREATE_WINDOW_TYPED,skylight|skylight,WindowType=skylight,CREATE_WINDOW type=skylight,1
+UT-0131,make a skylight,CREATE_WINDOW_TYPED,skylight|skylight,WindowType=skylight,CREATE_WINDOW type=skylight,1
+UT-0132,add overhead glazing,CREATE_WINDOW_TYPED,skylight|skylight,WindowType=skylight,CREATE_WINDOW type=skylight,1
+UT-0133,add a bay window,CREATE_WINDOW_TYPED,bay window|bay window,WindowType=bay,CREATE_WINDOW type=bay,1
+UT-0134,create a bay window,CREATE_WINDOW_TYPED,bay window|bay window,WindowType=bay,CREATE_WINDOW type=bay,1
+UT-0135,put in a projecting window,CREATE_WINDOW_TYPED,bay window|bay window,WindowType=bay,CREATE_WINDOW type=bay,1
+UT-0136,make a bay window,CREATE_WINDOW_TYPED,bay window|bay window,WindowType=bay,CREATE_WINDOW type=bay,1
+UT-0137,add a toilet,CREATE_TOILET,toilet|toilet,ToiletType=two-piece,CREATE_TOILET type=two-piece,1
+UT-0138,place a toilet,CREATE_TOILET,toilet|toilet,ToiletType=two-piece,CREATE_TOILET type=two-piece,1
+UT-0139,create a toilet,CREATE_TOILET,toilet|toilet,ToiletType=two-piece,CREATE_TOILET type=two-piece,1
+UT-0140,put in a WC,CREATE_TOILET,toilet|toilet,ToiletType=two-piece,CREATE_TOILET type=two-piece,1
+UT-0141,make a toilet,CREATE_TOILET,toilet|toilet,ToiletType=two-piece,CREATE_TOILET type=two-piece,1
+UT-0142,I need a toilet,CREATE_TOILET,toilet|toilet,ToiletType=two-piece,CREATE_TOILET type=two-piece,1
+UT-0143,insert a toilet,CREATE_TOILET,toilet|toilet,ToiletType=two-piece,CREATE_TOILET type=two-piece,1
+UT-0144,add a sink,CREATE_SINK,sink|sink,SinkType=drop-in,CREATE_SINK type=drop-in,1
+UT-0145,create a sink,CREATE_SINK,sink|sink,SinkType=drop-in,CREATE_SINK type=drop-in,1
+UT-0146,put in a sink,CREATE_SINK,sink|sink,SinkType=drop-in,CREATE_SINK type=drop-in,1
+UT-0147,place a sink,CREATE_SINK,sink|sink,SinkType=drop-in,CREATE_SINK type=drop-in,1
+UT-0148,make a sink,CREATE_SINK,sink|sink,SinkType=drop-in,CREATE_SINK type=drop-in,1
+UT-0149,I need a sink,CREATE_SINK,sink|sink,SinkType=drop-in,CREATE_SINK type=drop-in,1
+UT-0150,add a basin,CREATE_SINK,sink|sink,SinkType=drop-in,CREATE_SINK type=drop-in,1
+UT-0151,add a shower,CREATE_SHOWER,shower|shower,ShowerType=prefab,CREATE_SHOWER type=prefab,1
+UT-0152,create a shower,CREATE_SHOWER,shower|shower,ShowerType=prefab,CREATE_SHOWER type=prefab,1
+UT-0153,put in a shower,CREATE_SHOWER,shower|shower,ShowerType=prefab,CREATE_SHOWER type=prefab,1
+UT-0154,make a shower stall,CREATE_SHOWER,shower|shower,ShowerType=prefab,CREATE_SHOWER type=prefab,1
+UT-0155,I need a shower,CREATE_SHOWER,shower|shower,ShowerType=prefab,CREATE_SHOWER type=prefab,1
+UT-0156,build a shower,CREATE_SHOWER,shower|shower,ShowerType=prefab,CREATE_SHOWER type=prefab,1
+UT-0157,add a bathtub,CREATE_BATHTUB,bathtub|bathtub,TubType=alcove,CREATE_BATHTUB type=alcove,1
+UT-0158,create a tub,CREATE_BATHTUB,bathtub|bathtub,TubType=alcove,CREATE_BATHTUB type=alcove,1
+UT-0159,put in a bathtub,CREATE_BATHTUB,bathtub|bathtub,TubType=alcove,CREATE_BATHTUB type=alcove,1
+UT-0160,make a bath,CREATE_BATHTUB,bathtub|bathtub,TubType=alcove,CREATE_BATHTUB type=alcove,1
+UT-0161,I need a bathtub,CREATE_BATHTUB,bathtub|bathtub,TubType=alcove,CREATE_BATHTUB type=alcove,1
+UT-0162,place a bath,CREATE_BATHTUB,bathtub|bathtub,TubType=alcove,CREATE_BATHTUB type=alcove,1
+UT-0163,add a water heater,CREATE_WATER_HEATER,water heater|water heater,HeaterType=gas-tank,CREATE_WATER_HEATER type=gas-tank,1
+UT-0164,create a water heater,CREATE_WATER_HEATER,water heater|water heater,HeaterType=gas-tank,CREATE_WATER_HEATER type=gas-tank,1
+UT-0165,put in a boiler,CREATE_WATER_HEATER,water heater|water heater,HeaterType=gas-tank,CREATE_WATER_HEATER type=gas-tank,1
+UT-0166,make a hot water unit,CREATE_WATER_HEATER,water heater|water heater,HeaterType=gas-tank,CREATE_WATER_HEATER type=gas-tank,1
+UT-0167,I need a water heater,CREATE_WATER_HEATER,water heater|water heater,HeaterType=gas-tank,CREATE_WATER_HEATER type=gas-tank,1
+UT-0168,add ductwork,CREATE_DUCTWORK,duct|duct,DuctType=supply,CREATE_DUCTWORK type=supply,1
+UT-0169,create ducts,CREATE_DUCTWORK,duct|duct,DuctType=supply,CREATE_DUCTWORK type=supply,1
+UT-0170,put in a supply duct,CREATE_DUCTWORK,duct|duct,DuctType=supply,CREATE_DUCTWORK type=supply,1
+UT-0171,run a duct,CREATE_DUCTWORK,duct|duct,DuctType=supply,CREATE_DUCTWORK type=supply,1
+UT-0172,make ductwork,CREATE_DUCTWORK,duct|duct,DuctType=supply,CREATE_DUCTWORK type=supply,1
+UT-0173,I need ducts,CREATE_DUCTWORK,duct|duct,DuctType=supply,CREATE_DUCTWORK type=supply,1
+UT-0174,add air ducts,CREATE_DUCTWORK,duct|duct,DuctType=supply,CREATE_DUCTWORK type=supply,1
+UT-0175,add a pipe,CREATE_PIPE,pipe|pipe,PipeType=supply,CREATE_PIPE type=supply,1
+UT-0176,create plumbing,CREATE_PIPE,pipe|pipe,PipeType=supply,CREATE_PIPE type=supply,1
+UT-0177,run a pipe,CREATE_PIPE,pipe|pipe,PipeType=supply,CREATE_PIPE type=supply,1
+UT-0178,put in a water line,CREATE_PIPE,pipe|pipe,PipeType=supply,CREATE_PIPE type=supply,1
+UT-0179,make a pipe run,CREATE_PIPE,pipe|pipe,PipeType=supply,CREATE_PIPE type=supply,1
+UT-0180,I need piping,CREATE_PIPE,pipe|pipe,PipeType=supply,CREATE_PIPE type=supply,1
+UT-0181,add a light,CREATE_LIGHTING,light|light,LightType=recessed,CREATE_LIGHTING type=recessed,1
+UT-0182,put in a fixture,CREATE_LIGHTING,light|light,LightType=recessed,CREATE_LIGHTING type=recessed,1
+UT-0183,create a light,CREATE_LIGHTING,light|light,LightType=recessed,CREATE_LIGHTING type=recessed,1
+UT-0184,place a lamp,CREATE_LIGHTING,light|light,LightType=recessed,CREATE_LIGHTING type=recessed,1
+UT-0185,make lighting,CREATE_LIGHTING,light|light,LightType=recessed,CREATE_LIGHTING type=recessed,1
+UT-0186,I need a light,CREATE_LIGHTING,light|light,LightType=recessed,CREATE_LIGHTING type=recessed,1
+UT-0187,add a pendant light,CREATE_LIGHTING,light|light,LightType=recessed,CREATE_LIGHTING type=recessed,1
+UT-0188,add a downlight,CREATE_LIGHTING,light|light,LightType=recessed,CREATE_LIGHTING type=recessed,1
+UT-0189,add an outlet,CREATE_OUTLET,outlet|outlet,OutletType=standard,CREATE_OUTLET type=standard,1
+UT-0190,put in a receptacle,CREATE_OUTLET,outlet|outlet,OutletType=standard,CREATE_OUTLET type=standard,1
+UT-0191,create a socket,CREATE_OUTLET,outlet|outlet,OutletType=standard,CREATE_OUTLET type=standard,1
+UT-0192,place an outlet,CREATE_OUTLET,outlet|outlet,OutletType=standard,CREATE_OUTLET type=standard,1
+UT-0193,make an outlet,CREATE_OUTLET,outlet|outlet,OutletType=standard,CREATE_OUTLET type=standard,1
+UT-0194,I need an outlet,CREATE_OUTLET,outlet|outlet,OutletType=standard,CREATE_OUTLET type=standard,1
+UT-0195,add a smoke detector,CREATE_SMOKE_DETECTOR,smoke detector|smoke detector,Type=ionisation,CREATE_SMOKE_DETECTOR type=ionisation,1
+UT-0196,create a fire alarm,CREATE_SMOKE_DETECTOR,smoke detector|smoke detector,Type=ionisation,CREATE_SMOKE_DETECTOR type=ionisation,1
+UT-0197,place a detector,CREATE_SMOKE_DETECTOR,smoke detector|smoke detector,Type=ionisation,CREATE_SMOKE_DETECTOR type=ionisation,1
+UT-0198,I need a smoke detector,CREATE_SMOKE_DETECTOR,smoke detector|smoke detector,Type=ionisation,CREATE_SMOKE_DETECTOR type=ionisation,1
+UT-0199,put in a fire alarm,CREATE_SMOKE_DETECTOR,smoke detector|smoke detector,Type=ionisation,CREATE_SMOKE_DETECTOR type=ionisation,1
+UT-0200,add a column,CREATE_COLUMN,column|column,ColumnType=W12,CREATE_COLUMN type=W12,1
+UT-0201,place a column,CREATE_COLUMN,column|column,ColumnType=W12,CREATE_COLUMN type=W12,1
+UT-0202,create a pillar,CREATE_COLUMN,column|column,ColumnType=W12,CREATE_COLUMN type=W12,1
+UT-0203,put in a post,CREATE_COLUMN,column|column,ColumnType=W12,CREATE_COLUMN type=W12,1
+UT-0204,make a column,CREATE_COLUMN,column|column,ColumnType=W12,CREATE_COLUMN type=W12,1
+UT-0205,I need a column,CREATE_COLUMN,column|column,ColumnType=W12,CREATE_COLUMN type=W12,1
+UT-0206,insert a column,CREATE_COLUMN,column|column,ColumnType=W12,CREATE_COLUMN type=W12,1
+UT-0207,add a beam,CREATE_BEAM,beam|beam,BeamType=W14,CREATE_BEAM type=W14,1
+UT-0208,create a beam,CREATE_BEAM,beam|beam,BeamType=W14,CREATE_BEAM type=W14,1
+UT-0209,place a girder,CREATE_BEAM,beam|beam,BeamType=W14,CREATE_BEAM type=W14,1
+UT-0210,put in a header,CREATE_BEAM,beam|beam,BeamType=W14,CREATE_BEAM type=W14,1
+UT-0211,make a beam,CREATE_BEAM,beam|beam,BeamType=W14,CREATE_BEAM type=W14,1
+UT-0212,I need a beam,CREATE_BEAM,beam|beam,BeamType=W14,CREATE_BEAM type=W14,1
+UT-0213,insert a beam,CREATE_BEAM,beam|beam,BeamType=W14,CREATE_BEAM type=W14,1
+UT-0214,add a connection,CREATE_CONNECTION,connection|connection,ConnType=shear-tab,CREATE_CONNECTION type=shear-tab,1
+UT-0215,create a steel joint,CREATE_CONNECTION,connection|connection,ConnType=shear-tab,CREATE_CONNECTION type=shear-tab,1
+UT-0216,put in a bolted connection,CREATE_CONNECTION,connection|connection,ConnType=shear-tab,CREATE_CONNECTION type=shear-tab,1
+UT-0217,make a connection,CREATE_CONNECTION,connection|connection,ConnType=shear-tab,CREATE_CONNECTION type=shear-tab,1
+UT-0218,I need a joint,CREATE_CONNECTION,connection|connection,ConnType=shear-tab,CREATE_CONNECTION type=shear-tab,1
+UT-0219,add a shear tab,CREATE_CONNECTION,connection|connection,ConnType=shear-tab,CREATE_CONNECTION type=shear-tab,1
+UT-0220,add a base plate,CREATE_BASE_PLATE,base plate|base plate,Type=pinned,CREATE_BASE_PLATE type=pinned,1
+UT-0221,create a column base,CREATE_BASE_PLATE,base plate|base plate,Type=pinned,CREATE_BASE_PLATE type=pinned,1
+UT-0222,put in a base plate,CREATE_BASE_PLATE,base plate|base plate,Type=pinned,CREATE_BASE_PLATE type=pinned,1
+UT-0223,make a base plate,CREATE_BASE_PLATE,base plate|base plate,Type=pinned,CREATE_BASE_PLATE type=pinned,1
+UT-0224,I need a base plate,CREATE_BASE_PLATE,base plate|base plate,Type=pinned,CREATE_BASE_PLATE type=pinned,1
+UT-0225,add joist hangers,CREATE_CONNECTION,joist hangers|joist hangers,ConnType=joist-hanger,CREATE_CONNECTION type=joist-hanger,1
+UT-0226,create joist hangers,CREATE_CONNECTION,joist hangers|joist hangers,ConnType=joist-hanger,CREATE_CONNECTION type=joist-hanger,1
+UT-0227,put in joist hangers,CREATE_CONNECTION,joist hangers|joist hangers,ConnType=joist-hanger,CREATE_CONNECTION type=joist-hanger,1
+UT-0228,I need joist hangers,CREATE_CONNECTION,joist hangers|joist hangers,ConnType=joist-hanger,CREATE_CONNECTION type=joist-hanger,1
+UT-0229,add hangers for the joists,CREATE_CONNECTION,joist hangers|joist hangers,ConnType=joist-hanger,CREATE_CONNECTION type=joist-hanger,1
+UT-0230,add hurricane ties,CREATE_CONNECTION,hurricane ties|hurricane ties,ConnType=hurricane-tie,CREATE_CONNECTION type=hurricane-tie,1
+UT-0231,put in hurricane ties,CREATE_CONNECTION,hurricane ties|hurricane ties,ConnType=hurricane-tie,CREATE_CONNECTION type=hurricane-tie,1
+UT-0232,create hurricane ties,CREATE_CONNECTION,hurricane ties|hurricane ties,ConnType=hurricane-tie,CREATE_CONNECTION type=hurricane-tie,1
+UT-0233,I need hurricane ties,CREATE_CONNECTION,hurricane ties|hurricane ties,ConnType=hurricane-tie,CREATE_CONNECTION type=hurricane-tie,1
+UT-0234,add rafter ties,CREATE_CONNECTION,hurricane ties|hurricane ties,ConnType=hurricane-tie,CREATE_CONNECTION type=hurricane-tie,1
+UT-0235,add hold-downs,CREATE_CONNECTION,hold-downs|hold-downs,ConnType=hold-down,CREATE_CONNECTION type=hold-down,1
+UT-0236,create hold-downs,CREATE_CONNECTION,hold-downs|hold-downs,ConnType=hold-down,CREATE_CONNECTION type=hold-down,1
+UT-0237,put in hold downs,CREATE_CONNECTION,hold-downs|hold-downs,ConnType=hold-down,CREATE_CONNECTION type=hold-down,1
+UT-0238,I need hold downs,CREATE_CONNECTION,hold-downs|hold-downs,ConnType=hold-down,CREATE_CONNECTION type=hold-down,1
+UT-0239,add tie-downs at the shear wall,CREATE_CONNECTION,hold-downs|hold-downs,ConnType=hold-down,CREATE_CONNECTION type=hold-down,1
+UT-0240,add a moment frame,CREATE_CONNECTION,moment frame|moment frame,ConnType=moment-frame,CREATE_CONNECTION type=moment-frame,1
+UT-0241,create a moment connection,CREATE_CONNECTION,moment frame|moment frame,ConnType=moment-frame,CREATE_CONNECTION type=moment-frame,1
+UT-0242,put in a rigid frame,CREATE_CONNECTION,moment frame|moment frame,ConnType=moment-frame,CREATE_CONNECTION type=moment-frame,1
+UT-0243,make a moment frame,CREATE_CONNECTION,moment frame|moment frame,ConnType=moment-frame,CREATE_CONNECTION type=moment-frame,1
+UT-0244,I need a moment connection,CREATE_CONNECTION,moment frame|moment frame,ConnType=moment-frame,CREATE_CONNECTION type=moment-frame,1
+UT-0245,add ledger bolts,CREATE_CONNECTION,ledger bolts|ledger bolts,ConnType=ledger-bolt,CREATE_CONNECTION type=ledger-bolt,1
+UT-0246,create ledger fasteners,CREATE_CONNECTION,ledger bolts|ledger bolts,ConnType=ledger-bolt,CREATE_CONNECTION type=ledger-bolt,1
+UT-0247,put in ledger bolts,CREATE_CONNECTION,ledger bolts|ledger bolts,ConnType=ledger-bolt,CREATE_CONNECTION type=ledger-bolt,1
+UT-0248,I need ledger bolts,CREATE_CONNECTION,ledger bolts|ledger bolts,ConnType=ledger-bolt,CREATE_CONNECTION type=ledger-bolt,1
+UT-0249,add deck ledger bolts,CREATE_CONNECTION,ledger bolts|ledger bolts,ConnType=ledger-bolt,CREATE_CONNECTION type=ledger-bolt,1
+UT-0250,add a gusset plate,CREATE_CONNECTION,gusset plate|gusset plate,ConnType=gusset-plate,CREATE_CONNECTION type=gusset-plate,1
+UT-0251,create a gusset,CREATE_CONNECTION,gusset plate|gusset plate,ConnType=gusset-plate,CREATE_CONNECTION type=gusset-plate,1
+UT-0252,put in a gusset plate,CREATE_CONNECTION,gusset plate|gusset plate,ConnType=gusset-plate,CREATE_CONNECTION type=gusset-plate,1
+UT-0253,make a gusset plate,CREATE_CONNECTION,gusset plate|gusset plate,ConnType=gusset-plate,CREATE_CONNECTION type=gusset-plate,1
+UT-0254,I need a gusset,CREATE_CONNECTION,gusset plate|gusset plate,ConnType=gusset-plate,CREATE_CONNECTION type=gusset-plate,1
+UT-0255,add waterproofing,CREATE_WATERPROOFING,waterproofing|waterproofing,Type=sheet,CREATE_WATERPROOFING type=sheet,1
+UT-0256,create a membrane,CREATE_WATERPROOFING,waterproofing|waterproofing,Type=sheet,CREATE_WATERPROOFING type=sheet,1
+UT-0257,waterproof the foundation,CREATE_WATERPROOFING,waterproofing|waterproofing,Type=sheet,CREATE_WATERPROOFING type=sheet,1
+UT-0258,put in waterproofing,CREATE_WATERPROOFING,waterproofing|waterproofing,Type=sheet,CREATE_WATERPROOFING type=sheet,1
+UT-0259,make it waterproof,CREATE_WATERPROOFING,waterproofing|waterproofing,Type=sheet,CREATE_WATERPROOFING type=sheet,1
+UT-0260,I need waterproofing,CREATE_WATERPROOFING,waterproofing|waterproofing,Type=sheet,CREATE_WATERPROOFING type=sheet,1
+UT-0261,add liquid waterproofing,CREATE_WATERPROOFING,liquid waterproofing|liquid membrane,Type=liquid,CREATE_WATERPROOFING type=liquid,1
+UT-0262,create a liquid membrane,CREATE_WATERPROOFING,liquid waterproofing|liquid membrane,Type=liquid,CREATE_WATERPROOFING type=liquid,1
+UT-0263,put on liquid WP,CREATE_WATERPROOFING,liquid waterproofing|liquid membrane,Type=liquid,CREATE_WATERPROOFING type=liquid,1
+UT-0264,apply liquid membrane,CREATE_WATERPROOFING,liquid waterproofing|liquid membrane,Type=liquid,CREATE_WATERPROOFING type=liquid,1
+UT-0265,brush on waterproofing,CREATE_WATERPROOFING,liquid waterproofing|liquid membrane,Type=liquid,CREATE_WATERPROOFING type=liquid,1
+UT-0266,add bentonite,CREATE_WATERPROOFING,bentonite|bentonite,Type=bentonite,CREATE_WATERPROOFING type=bentonite,1
+UT-0267,create bentonite waterproofing,CREATE_WATERPROOFING,bentonite|bentonite,Type=bentonite,CREATE_WATERPROOFING type=bentonite,1
+UT-0268,put in bentonite,CREATE_WATERPROOFING,bentonite|bentonite,Type=bentonite,CREATE_WATERPROOFING type=bentonite,1
+UT-0269,I need bentonite panels,CREATE_WATERPROOFING,bentonite|bentonite,Type=bentonite,CREATE_WATERPROOFING type=bentonite,1
+UT-0270,add clay waterproofing,CREATE_WATERPROOFING,bentonite|bentonite,Type=bentonite,CREATE_WATERPROOFING type=bentonite,1
+UT-0271,add sealant,CREATE_WATERPROOFING,sealant|sealant,Type=sealant,CREATE_WATERPROOFING type=sealant,1
+UT-0272,create a sealant joint,CREATE_WATERPROOFING,sealant|sealant,Type=sealant,CREATE_WATERPROOFING type=sealant,1
+UT-0273,put in caulking,CREATE_WATERPROOFING,sealant|sealant,Type=sealant,CREATE_WATERPROOFING type=sealant,1
+UT-0274,seal the joint,CREATE_WATERPROOFING,sealant|sealant,Type=sealant,CREATE_WATERPROOFING type=sealant,1
+UT-0275,apply sealant,CREATE_WATERPROOFING,sealant|sealant,Type=sealant,CREATE_WATERPROOFING type=sealant,1
+UT-0276,add flashing,CREATE_FLASHING,flashing|flashing,FlashType=head,CREATE_FLASHING type=head,1
+UT-0277,create window flashing,CREATE_FLASHING,flashing|flashing,FlashType=head,CREATE_FLASHING type=head,1
+UT-0278,put in roof flashing,CREATE_FLASHING,flashing|flashing,FlashType=head,CREATE_FLASHING type=head,1
+UT-0279,make flashing,CREATE_FLASHING,flashing|flashing,FlashType=head,CREATE_FLASHING type=head,1
+UT-0280,I need flashing,CREATE_FLASHING,flashing|flashing,FlashType=head,CREATE_FLASHING type=head,1
+UT-0281,add head flashing,CREATE_FLASHING,flashing|flashing,FlashType=head,CREATE_FLASHING type=head,1
+UT-0282,add step flashing,CREATE_FLASHING,step flashing|step flashing,FlashType=step,CREATE_FLASHING type=step,1
+UT-0283,create step flashing,CREATE_FLASHING,step flashing|step flashing,FlashType=step,CREATE_FLASHING type=step,1
+UT-0284,put in step flash,CREATE_FLASHING,step flashing|step flashing,FlashType=step,CREATE_FLASHING type=step,1
+UT-0285,I need step flashing,CREATE_FLASHING,step flashing|step flashing,FlashType=step,CREATE_FLASHING type=step,1
+UT-0286,add L-sheet flashing,CREATE_FLASHING,step flashing|step flashing,FlashType=step,CREATE_FLASHING type=step,1
+UT-0287,add valley flashing,CREATE_FLASHING,valley flashing|valley flashing,FlashType=valley,CREATE_FLASHING type=valley,1
+UT-0288,create valley flashing,CREATE_FLASHING,valley flashing|valley flashing,FlashType=valley,CREATE_FLASHING type=valley,1
+UT-0289,put in valley flash,CREATE_FLASHING,valley flashing|valley flashing,FlashType=valley,CREATE_FLASHING type=valley,1
+UT-0290,I need valley flashing,CREATE_FLASHING,valley flashing|valley flashing,FlashType=valley,CREATE_FLASHING type=valley,1
+UT-0291,add open valley,CREATE_FLASHING,valley flashing|valley flashing,FlashType=valley,CREATE_FLASHING type=valley,1
+UT-0292,add vent boots,CREATE_FLASHING,vent boots|vent boots,FlashType=vent-boot,CREATE_FLASHING type=vent-boot,1
+UT-0293,create vent boot flashing,CREATE_FLASHING,vent boots|vent boots,FlashType=vent-boot,CREATE_FLASHING type=vent-boot,1
+UT-0294,put in pipe boots,CREATE_FLASHING,vent boots|vent boots,FlashType=vent-boot,CREATE_FLASHING type=vent-boot,1
+UT-0295,I need vent boots,CREATE_FLASHING,vent boots|vent boots,FlashType=vent-boot,CREATE_FLASHING type=vent-boot,1
+UT-0296,add plumbing boots,CREATE_FLASHING,vent boots|vent boots,FlashType=vent-boot,CREATE_FLASHING type=vent-boot,1
+UT-0297,make it bigger,MODIFY_DIMENSION,,,MODIFY_DIMENSION,1
+UT-0298,change the size,MODIFY_DIMENSION,,,MODIFY_DIMENSION,1
+UT-0299,resize it,MODIFY_DIMENSION,,,MODIFY_DIMENSION,1
+UT-0300,make it larger,MODIFY_DIMENSION,,,MODIFY_DIMENSION,1
+UT-0301,increase the size,MODIFY_DIMENSION,,,MODIFY_DIMENSION,1
+UT-0302,adjust dimensions,MODIFY_DIMENSION,,,MODIFY_DIMENSION,1
+UT-0303,change dimensions to,MODIFY_DIMENSION,,,MODIFY_DIMENSION,1
+UT-0304,change the width,MODIFY_WIDTH,,,MODIFY_WIDTH,1
+UT-0305,make it wider,MODIFY_WIDTH,,,MODIFY_WIDTH,1
+UT-0306,set width to,MODIFY_WIDTH,,,MODIFY_WIDTH,1
+UT-0307,adjust the width,MODIFY_WIDTH,,,MODIFY_WIDTH,1
+UT-0308,widen it,MODIFY_WIDTH,,,MODIFY_WIDTH,1
+UT-0309,how wide is it,MODIFY_WIDTH,,,MODIFY_WIDTH,1
+UT-0310,wider please,MODIFY_WIDTH,,,MODIFY_WIDTH,1
+UT-0311,change the height,MODIFY_HEIGHT,,,MODIFY_HEIGHT,1
+UT-0312,make it taller,MODIFY_HEIGHT,,,MODIFY_HEIGHT,1
+UT-0313,set height to,MODIFY_HEIGHT,,,MODIFY_HEIGHT,1
+UT-0314,adjust the height,MODIFY_HEIGHT,,,MODIFY_HEIGHT,1
+UT-0315,raise it,MODIFY_HEIGHT,,,MODIFY_HEIGHT,1
+UT-0316,taller please,MODIFY_HEIGHT,,,MODIFY_HEIGHT,1
+UT-0317,increase height,MODIFY_HEIGHT,,,MODIFY_HEIGHT,1
+UT-0318,change thickness,MODIFY_THICKNESS,,,MODIFY_THICKNESS,1
+UT-0319,make it thicker,MODIFY_THICKNESS,,,MODIFY_THICKNESS,1
+UT-0320,thinner wall,MODIFY_THICKNESS,,,MODIFY_THICKNESS,1
+UT-0321,adjust thickness,MODIFY_THICKNESS,,,MODIFY_THICKNESS,1
+UT-0322,thicker please,MODIFY_THICKNESS,,,MODIFY_THICKNESS,1
+UT-0323,set thickness to,MODIFY_THICKNESS,,,MODIFY_THICKNESS,1
+UT-0324,change to brick,MODIFY_MATERIAL,,,MODIFY_MATERIAL,1
+UT-0325,make it concrete,MODIFY_MATERIAL,,,MODIFY_MATERIAL,1
+UT-0326,switch to wood,MODIFY_MATERIAL,,,MODIFY_MATERIAL,1
+UT-0327,use steel instead,MODIFY_MATERIAL,,,MODIFY_MATERIAL,1
+UT-0328,change material,MODIFY_MATERIAL,,,MODIFY_MATERIAL,1
+UT-0329,timber instead,MODIFY_MATERIAL,,,MODIFY_MATERIAL,1
+UT-0330,glass please,MODIFY_MATERIAL,,,MODIFY_MATERIAL,1
+UT-0331,change to hardwood,MODIFY_FLOOR_TYPE,,,MODIFY_FLOOR_TYPE,1
+UT-0332,switch to tile,MODIFY_FLOOR_TYPE,,,MODIFY_FLOOR_TYPE,1
+UT-0333,use carpet,MODIFY_FLOOR_TYPE,,,MODIFY_FLOOR_TYPE,1
+UT-0334,tile the floor,MODIFY_FLOOR_TYPE,,,MODIFY_FLOOR_TYPE,1
+UT-0335,change flooring,MODIFY_FLOOR_TYPE,,,MODIFY_FLOOR_TYPE,1
+UT-0336,carpet instead,MODIFY_FLOOR_TYPE,,,MODIFY_FLOOR_TYPE,1
+UT-0337,LVP please,MODIFY_FLOOR_TYPE,,,MODIFY_FLOOR_TYPE,1
+UT-0338,vinyl floor,MODIFY_FLOOR_TYPE,,,MODIFY_FLOOR_TYPE,1
+UT-0339,raise the ceiling,MODIFY_CEILING_HEIGHT,,,MODIFY_CEILING_HEIGHT,1
+UT-0340,lower the ceiling,MODIFY_CEILING_HEIGHT,,,MODIFY_CEILING_HEIGHT,1
+UT-0341,change ceiling height,MODIFY_CEILING_HEIGHT,,,MODIFY_CEILING_HEIGHT,1
+UT-0342,taller ceiling,MODIFY_CEILING_HEIGHT,,,MODIFY_CEILING_HEIGHT,1
+UT-0343,ceiling higher,MODIFY_CEILING_HEIGHT,,,MODIFY_CEILING_HEIGHT,1
+UT-0344,ceiling lower please,MODIFY_CEILING_HEIGHT,,,MODIFY_CEILING_HEIGHT,1
+UT-0345,change to sliding door,MODIFY_DOOR_TYPE,,,MODIFY_DOOR_TYPE,1
+UT-0346,swap to french door,MODIFY_DOOR_TYPE,,,MODIFY_DOOR_TYPE,1
+UT-0347,pocket door instead,MODIFY_DOOR_TYPE,,,MODIFY_DOOR_TYPE,1
+UT-0348,make it a bifold,MODIFY_DOOR_TYPE,,,MODIFY_DOOR_TYPE,1
+UT-0349,different door type,MODIFY_DOOR_TYPE,,,MODIFY_DOOR_TYPE,1
+UT-0350,change the door type,MODIFY_DOOR_TYPE,,,MODIFY_DOOR_TYPE,1
+UT-0351,delete this,DELETE_ELEMENT,,,DELETE_ELEMENT,1
+UT-0352,remove it,DELETE_ELEMENT,,,DELETE_ELEMENT,1
+UT-0353,erase that,DELETE_ELEMENT,,,DELETE_ELEMENT,1
+UT-0354,take it away,DELETE_ELEMENT,,,DELETE_ELEMENT,1
+UT-0355,get rid of it,DELETE_ELEMENT,,,DELETE_ELEMENT,1
+UT-0356,delete that element,DELETE_ELEMENT,,,DELETE_ELEMENT,1
+UT-0357,remove this one,DELETE_ELEMENT,,,DELETE_ELEMENT,1
+UT-0358,remove the wall,DELETE_WALL,wall|wall,Element=wall,DELETE_WALL,1
+UT-0359,delete this wall,DELETE_WALL,wall|wall,Element=wall,DELETE_WALL,1
+UT-0360,erase that wall,DELETE_WALL,wall|wall,Element=wall,DELETE_WALL,1
+UT-0361,take out the wall,DELETE_WALL,wall|wall,Element=wall,DELETE_WALL,1
+UT-0362,delete the partition,DELETE_WALL,wall|wall,Element=wall,DELETE_WALL,1
+UT-0363,remove the door,DELETE_DOOR,door|door,Element=door,DELETE_DOOR,1
+UT-0364,delete this door,DELETE_DOOR,door|door,Element=door,DELETE_DOOR,1
+UT-0365,take out the door,DELETE_DOOR,door|door,Element=door,DELETE_DOOR,1
+UT-0366,erase the door,DELETE_DOOR,door|door,Element=door,DELETE_DOOR,1
+UT-0367,delete that door,DELETE_DOOR,door|door,Element=door,DELETE_DOOR,1
+UT-0368,remove the window,DELETE_WINDOW,window|window,Element=window,DELETE_WINDOW,1
+UT-0369,delete this window,DELETE_WINDOW,window|window,Element=window,DELETE_WINDOW,1
+UT-0370,take out the window,DELETE_WINDOW,window|window,Element=window,DELETE_WINDOW,1
+UT-0371,erase the window,DELETE_WINDOW,window|window,Element=window,DELETE_WINDOW,1
+UT-0372,delete that window,DELETE_WINDOW,window|window,Element=window,DELETE_WINDOW,1
+UT-0373,delete the room,DELETE_ROOM,room|room,Element=room,DELETE_ROOM,1
+UT-0374,remove this room,DELETE_ROOM,room|room,Element=room,DELETE_ROOM,1
+UT-0375,erase the bedroom,DELETE_ROOM,room|room,Element=room,DELETE_ROOM,1
+UT-0376,take out that room,DELETE_ROOM,room|room,Element=room,DELETE_ROOM,1
+UT-0377,how big is it,QUERY_DIMENSION,,,QUERY_DIMENSION,1
+UT-0378,what are the dimensions,QUERY_DIMENSION,,,QUERY_DIMENSION,1
+UT-0379,what is the size,QUERY_DIMENSION,,,QUERY_DIMENSION,1
+UT-0380,tell me the dimensions,QUERY_DIMENSION,,,QUERY_DIMENSION,1
+UT-0381,size of this,QUERY_DIMENSION,,,QUERY_DIMENSION,1
+UT-0382,what is the area,QUERY_AREA,,,QUERY_AREA,1
+UT-0383,how much area,QUERY_AREA,,,QUERY_AREA,1
+UT-0384,square footage,QUERY_AREA,,,QUERY_AREA,1
+UT-0385,floor area,QUERY_AREA,,,QUERY_AREA,1
+UT-0386,total area of this,QUERY_AREA,,,QUERY_AREA,1
+UT-0387,area please,QUERY_AREA,,,QUERY_AREA,1
+UT-0388,how much does it cost,QUERY_COST,,,QUERY_COST,1
+UT-0389,what is the cost,QUERY_COST,,,QUERY_COST,1
+UT-0390,total cost,QUERY_COST,,,QUERY_COST,1
+UT-0391,price of this,QUERY_COST,,,QUERY_COST,1
+UT-0392,budget for this,QUERY_COST,,,QUERY_COST,1
+UT-0393,cost please,QUERY_COST,,,QUERY_COST,1
+UT-0394,how many rooms,QUERY_COUNT,,,QUERY_COUNT,1
+UT-0395,how many doors,QUERY_COUNT,,,QUERY_COUNT,1
+UT-0396,count the windows,QUERY_COUNT,,,QUERY_COUNT,1
+UT-0397,number of walls,QUERY_COUNT,,,QUERY_COUNT,1
+UT-0398,how many fixtures,QUERY_COUNT,,,QUERY_COUNT,1
+UT-0399,count everything,QUERY_COUNT,,,QUERY_COUNT,1
+UT-0400,what is the fire rating,QUERY_FIRE_RATING,,,QUERY_FIRE_RATING,1
+UT-0401,how fire resistant,QUERY_FIRE_RATING,,,QUERY_FIRE_RATING,1
+UT-0402,fire rating of this,QUERY_FIRE_RATING,,,QUERY_FIRE_RATING,1
+UT-0403,fire resistance level,QUERY_FIRE_RATING,,,QUERY_FIRE_RATING,1
+UT-0404,1hr or 2hr,QUERY_FIRE_RATING,,,QUERY_FIRE_RATING,1
+UT-0405,what is the R-value,QUERY_R_VALUE,,,QUERY_R_VALUE,1
+UT-0406,thermal resistance,QUERY_R_VALUE,,,QUERY_R_VALUE,1
+UT-0407,insulation value,QUERY_R_VALUE,,,QUERY_R_VALUE,1
+UT-0408,R value please,QUERY_R_VALUE,,,QUERY_R_VALUE,1
+UT-0409,how insulated is it,QUERY_R_VALUE,,,QUERY_R_VALUE,1
+UT-0410,is it ADA compliant,QUERY_ACCESSIBILITY,,,QUERY_ACCESSIBILITY,1
+UT-0411,accessibility check,QUERY_ACCESSIBILITY,,,QUERY_ACCESSIBILITY,1
+UT-0412,wheelchair access,QUERY_ACCESSIBILITY,,,QUERY_ACCESSIBILITY,1
+UT-0413,is it accessible,QUERY_ACCESSIBILITY,,,QUERY_ACCESSIBILITY,1
+UT-0414,ADA compliance,QUERY_ACCESSIBILITY,,,QUERY_ACCESSIBILITY,1
+UT-0415,does it meet code,QUERY_CODE_COMPLIANCE,,,QUERY_CODE_COMPLIANCE,1
+UT-0416,is it compliant,QUERY_CODE_COMPLIANCE,,,QUERY_CODE_COMPLIANCE,1
+UT-0417,check the code,QUERY_CODE_COMPLIANCE,,,QUERY_CODE_COMPLIANCE,1
+UT-0418,building code check,QUERY_CODE_COMPLIANCE,,,QUERY_CODE_COMPLIANCE,1
+UT-0419,code compliance,QUERY_CODE_COMPLIANCE,,,QUERY_CODE_COMPLIANCE,1
+UT-0420,meets regulations,QUERY_CODE_COMPLIANCE,,,QUERY_CODE_COMPLIANCE,1
+UT-0421,what is the STC,QUERY_SOUND_RATING,,,QUERY_SOUND_RATING,1
+UT-0422,sound transmission class,QUERY_SOUND_RATING,,,QUERY_SOUND_RATING,1
+UT-0423,how soundproof,QUERY_SOUND_RATING,,,QUERY_SOUND_RATING,1
+UT-0424,acoustic rating,QUERY_SOUND_RATING,,,QUERY_SOUND_RATING,1
+UT-0425,sound insulation level,QUERY_SOUND_RATING,,,QUERY_SOUND_RATING,1
+UT-0426,how many fixture units,QUERY_FIXTURE_UNITS,,,QUERY_FIXTURE_UNITS,1
+UT-0427,FU count,QUERY_FIXTURE_UNITS,,,QUERY_FIXTURE_UNITS,1
+UT-0428,plumbing load,QUERY_FIXTURE_UNITS,,,QUERY_FIXTURE_UNITS,1
+UT-0429,total fixture units,QUERY_FIXTURE_UNITS,,,QUERY_FIXTURE_UNITS,1
+UT-0430,fixture units please,QUERY_FIXTURE_UNITS,,,QUERY_FIXTURE_UNITS,1
+UT-0431,what pipe size,QUERY_PIPE_SIZE,,,QUERY_PIPE_SIZE,1
+UT-0432,pipe diameter needed,QUERY_PIPE_SIZE,,,QUERY_PIPE_SIZE,1
+UT-0433,size the pipe,QUERY_PIPE_SIZE,,,QUERY_PIPE_SIZE,1
+UT-0434,required pipe size,QUERY_PIPE_SIZE,,,QUERY_PIPE_SIZE,1
+UT-0435,pipe sizing,QUERY_PIPE_SIZE,,,QUERY_PIPE_SIZE,1
+UT-0436,nearest door,QUERY_NEAREST,,,QUERY_NEAREST,1
+UT-0437,closest exit,QUERY_NEAREST,,,QUERY_NEAREST,1
+UT-0438,find the nearest,QUERY_NEAREST,,,QUERY_NEAREST,1
+UT-0439,what is closest,QUERY_NEAREST,,,QUERY_NEAREST,1
+UT-0440,nearest toilet please,QUERY_NEAREST,,,QUERY_NEAREST,1
+UT-0441,show me the kitchen,NAVIGATE_TO_ROOM,room|room,Room=kitchen,NAVIGATE_TO_ROOM,1
+UT-0442,go to the bedroom,NAVIGATE_TO_ROOM,room|room,Room=kitchen,NAVIGATE_TO_ROOM,1
+UT-0443,navigate to the bathroom,NAVIGATE_TO_ROOM,room|room,Room=kitchen,NAVIGATE_TO_ROOM,1
+UT-0444,zoom to the living room,NAVIGATE_TO_ROOM,room|room,Room=kitchen,NAVIGATE_TO_ROOM,1
+UT-0445,take me to the office,NAVIGATE_TO_ROOM,room|room,Room=kitchen,NAVIGATE_TO_ROOM,1
+UT-0446,zoom in,NAVIGATE_ZOOM_IN,,,NAVIGATE_ZOOM_IN,1
+UT-0447,get closer,NAVIGATE_ZOOM_IN,,,NAVIGATE_ZOOM_IN,1
+UT-0448,magnify,NAVIGATE_ZOOM_IN,,,NAVIGATE_ZOOM_IN,1
+UT-0449,make it bigger on screen,NAVIGATE_ZOOM_IN,,,NAVIGATE_ZOOM_IN,1
+UT-0450,closer please,NAVIGATE_ZOOM_IN,,,NAVIGATE_ZOOM_IN,1
+UT-0451,zoom out,NAVIGATE_ZOOM_OUT,,,NAVIGATE_ZOOM_OUT,1
+UT-0452,pull back,NAVIGATE_ZOOM_OUT,,,NAVIGATE_ZOOM_OUT,1
+UT-0453,overview,NAVIGATE_ZOOM_OUT,,,NAVIGATE_ZOOM_OUT,1
+UT-0454,see the whole thing,NAVIGATE_ZOOM_OUT,,,NAVIGATE_ZOOM_OUT,1
+UT-0455,step back,NAVIGATE_ZOOM_OUT,,,NAVIGATE_ZOOM_OUT,1
+UT-0456,full view,NAVIGATE_ZOOM_OUT,,,NAVIGATE_ZOOM_OUT,1
+UT-0457,3D view,NAVIGATE_3D_VIEW,,,NAVIGATE_3D_VIEW,1
+UT-0458,isometric view,NAVIGATE_3D_VIEW,,,NAVIGATE_3D_VIEW,1
+UT-0459,perspective,NAVIGATE_3D_VIEW,,,NAVIGATE_3D_VIEW,1
+UT-0460,show in 3D,NAVIGATE_3D_VIEW,,,NAVIGATE_3D_VIEW,1
+UT-0461,three dimensional view,NAVIGATE_3D_VIEW,,,NAVIGATE_3D_VIEW,1
+UT-0462,top view,NAVIGATE_TOP_VIEW,,,NAVIGATE_TOP_VIEW,1
+UT-0463,plan view,NAVIGATE_TOP_VIEW,,,NAVIGATE_TOP_VIEW,1
+UT-0464,bird eye view,NAVIGATE_TOP_VIEW,,,NAVIGATE_TOP_VIEW,1
+UT-0465,look down,NAVIGATE_TOP_VIEW,,,NAVIGATE_TOP_VIEW,1
+UT-0466,2D plan view,NAVIGATE_TOP_VIEW,,,NAVIGATE_TOP_VIEW,1
+UT-0467,go to floor 2,NAVIGATE_TO_LEVEL,level|level,Level=2,NAVIGATE_TO_LEVEL,1
+UT-0468,switch to level 3,NAVIGATE_TO_LEVEL,level|level,Level=2,NAVIGATE_TO_LEVEL,1
+UT-0469,show basement,NAVIGATE_TO_LEVEL,level|level,Level=2,NAVIGATE_TO_LEVEL,1
+UT-0470,ground floor,NAVIGATE_TO_LEVEL,level|level,Level=2,NAVIGATE_TO_LEVEL,1
+UT-0471,navigate to story 2,NAVIGATE_TO_LEVEL,level|level,Level=2,NAVIGATE_TO_LEVEL,1
+UT-0472,help,HELP_GENERAL,,,HELP_GENERAL,1
+UT-0473,what can you do,HELP_GENERAL,,,HELP_GENERAL,1
+UT-0474,show help,HELP_GENERAL,,,HELP_GENERAL,1
+UT-0475,assist me,HELP_GENERAL,,,HELP_GENERAL,1
+UT-0476,I need help,HELP_GENERAL,,,HELP_GENERAL,1
+UT-0477,help me please,HELP_GENERAL,,,HELP_GENERAL,1
+UT-0478,yes,CONFIRM,,,CONFIRM,1
+UT-0479,ok,CONFIRM,,,CONFIRM,1
+UT-0480,confirm,CONFIRM,,,CONFIRM,1
+UT-0481,go ahead,CONFIRM,,,CONFIRM,1
+UT-0482,do it,CONFIRM,,,CONFIRM,1
+UT-0483,apply,CONFIRM,,,CONFIRM,1
+UT-0484,yep,CONFIRM,,,CONFIRM,1
+UT-0485,sure,CONFIRM,,,CONFIRM,1
+UT-0486,agreed,CONFIRM,,,CONFIRM,1
+UT-0487,no,DENY,,,DENY,1
+UT-0488,don't do that,DENY,,,DENY,1
+UT-0489,reject,DENY,,,DENY,1
+UT-0490,nope,DENY,,,DENY,1
+UT-0491,not that,DENY,,,DENY,1
+UT-0492,deny,DENY,,,DENY,1
+UT-0493,no thanks,DENY,,,DENY,1
+UT-0494,undo,UNDO,,,UNDO,1
+UT-0495,undo that,UNDO,,,UNDO,1
+UT-0496,go back,UNDO,,,UNDO,1
+UT-0497,revert,UNDO,,,UNDO,1
+UT-0498,take that back,UNDO,,,UNDO,1
+UT-0499,undo last,UNDO,,,UNDO,1
+UT-0500,cancel,CANCEL,,,CANCEL,1
+UT-0501,stop,CANCEL,,,CANCEL,1
+UT-0502,abort,CANCEL,,,CANCEL,1
+UT-0503,never mind,CANCEL,,,CANCEL,1
+UT-0504,cancel that,CANCEL,,,CANCEL,1
+UT-0505,let me start over,CANCEL,,,CANCEL,1
+UT-0506,hello,GREETING,,,GREETING,1
+UT-0507,hi,GREETING,,,GREETING,1
+UT-0508,good morning,GREETING,,,GREETING,1
+UT-0509,hey,GREETING,,,GREETING,1
+UT-0510,greetings,GREETING,,,GREETING,1
+UT-0511,what's up,GREETING,,,GREETING,1
+UT-0512,hi there,GREETING,,,GREETING,1
+UT-0513,thank you,THANKS,,,THANKS,1
+UT-0514,thanks,THANKS,,,THANKS,1
+UT-0515,appreciate it,THANKS,,,THANKS,1
+UT-0516,cheers,THANKS,,,THANKS,1
+UT-0517,much appreciated,THANKS,,,THANKS,1
+UT-0518,goodbye,FAREWELL,,,FAREWELL,1
+UT-0519,bye,FAREWELL,,,FAREWELL,1
+UT-0520,see you,FAREWELL,,,FAREWELL,1
+UT-0521,later,FAREWELL,,,FAREWELL,1
+UT-0522,thanks bye,FAREWELL,,,FAREWELL,1
+UT-0523,compare costs,COMPARE_COSTS,,,COMPARE_COSTS,1
+UT-0524,which is cheaper,COMPARE_COSTS,,,COMPARE_COSTS,1
+UT-0525,cost comparison,COMPARE_COSTS,,,COMPARE_COSTS,1
+UT-0526,which option costs less,COMPARE_COSTS,,,COMPARE_COSTS,1
+UT-0527,price compare,COMPARE_COSTS,,,COMPARE_COSTS,1
+UT-0528,compare materials,COMPARE_MATERIALS,,,COMPARE_MATERIALS,1
+UT-0529,which material is better,COMPARE_MATERIALS,,,COMPARE_MATERIALS,1
+UT-0530,material comparison,COMPARE_MATERIALS,,,COMPARE_MATERIALS,1
+UT-0531,better material please,COMPARE_MATERIALS,,,COMPARE_MATERIALS,1
+UT-0532,which is more soundproof,COMPARE_ACOUSTIC,,,COMPARE_ACOUSTIC,1
+UT-0533,acoustic comparison,COMPARE_ACOUSTIC,,,COMPARE_ACOUSTIC,1
+UT-0534,compare STC,COMPARE_ACOUSTIC,,,COMPARE_ACOUSTIC,1
+UT-0535,better sound insulation,COMPARE_ACOUSTIC,,,COMPARE_ACOUSTIC,1
+UT-0536,compare fire ratings,COMPARE_FIRE_RATINGS,,,COMPARE_FIRE_RATINGS,1
+UT-0537,which is more fire resistant,COMPARE_FIRE_RATINGS,,,COMPARE_FIRE_RATINGS,1
+UT-0538,fire rating compare,COMPARE_FIRE_RATINGS,,,COMPARE_FIRE_RATINGS,1
+UT-0539,better fire rating,COMPARE_FIRE_RATINGS,,,COMPARE_FIRE_RATINGS,1
+UT-0540,export PDF,EXPORT_PDF,PDF|PDF,Format=PDF,EXPORT_PDF,1
+UT-0541,save as PDF,EXPORT_PDF,PDF|PDF,Format=PDF,EXPORT_PDF,1
+UT-0542,print to PDF,EXPORT_PDF,PDF|PDF,Format=PDF,EXPORT_PDF,1
+UT-0543,PDF export,EXPORT_PDF,PDF|PDF,Format=PDF,EXPORT_PDF,1
+UT-0544,PDF please,EXPORT_PDF,PDF|PDF,Format=PDF,EXPORT_PDF,1
+UT-0545,export IFC,EXPORT_IFC,IFC|IFC,Format=IFC,EXPORT_IFC,1
+UT-0546,save as IFC,EXPORT_IFC,IFC|IFC,Format=IFC,EXPORT_IFC,1
+UT-0547,BIM export,EXPORT_IFC,IFC|IFC,Format=IFC,EXPORT_IFC,1
+UT-0548,IFC file,EXPORT_IFC,IFC|IFC,Format=IFC,EXPORT_IFC,1
+UT-0549,IFC export,EXPORT_IFC,IFC|IFC,Format=IFC,EXPORT_IFC,1
+UT-0550,export DWG,EXPORT_DWG,DWG|DWG,Format=DWG,EXPORT_DWG,1
+UT-0551,save as DWG,EXPORT_DWG,DWG|DWG,Format=DWG,EXPORT_DWG,1
+UT-0552,AutoCAD file,EXPORT_DWG,DWG|DWG,Format=DWG,EXPORT_DWG,1
+UT-0553,DWG export,EXPORT_DWG,DWG|DWG,Format=DWG,EXPORT_DWG,1
+UT-0554,DWG please,EXPORT_DWG,DWG|DWG,Format=DWG,EXPORT_DWG,1
+UT-0555,change to casement,MODIFY_WINDOW_TYPE,,,MODIFY_WINDOW_TYPE,1
+UT-0556,switch to a fixed window,MODIFY_WINDOW_TYPE,,,MODIFY_WINDOW_TYPE,1
+UT-0557,window type change,MODIFY_WINDOW_TYPE,,,MODIFY_WINDOW_TYPE,1
+UT-0558,different window type,MODIFY_WINDOW_TYPE,,,MODIFY_WINDOW_TYPE,1
+UT-0559,awning window instead,MODIFY_WINDOW_TYPE,,,MODIFY_WINDOW_TYPE,1
+UT-0560,casement please,MODIFY_WINDOW_TYPE,,,MODIFY_WINDOW_TYPE,1
+UT-0561,steeper roof,MODIFY_ROOF_SLOPE,,,MODIFY_ROOF_SLOPE,1
+UT-0562,change the pitch,MODIFY_ROOF_SLOPE,,,MODIFY_ROOF_SLOPE,1
+UT-0563,flatter roof,MODIFY_ROOF_SLOPE,,,MODIFY_ROOF_SLOPE,1
+UT-0564,roof pitch change,MODIFY_ROOF_SLOPE,,,MODIFY_ROOF_SLOPE,1
+UT-0565,adjust the slope,MODIFY_ROOF_SLOPE,,,MODIFY_ROOF_SLOPE,1
+UT-0566,7 to 12 pitch,MODIFY_ROOF_SLOPE,,,MODIFY_ROOF_SLOPE,1
+UT-0567,raise the sill,MODIFY_WINDOW_SILL_HEIGHT,,,MODIFY_WINDOW_SILL_HEIGHT,1
+UT-0568,lower sill height,MODIFY_WINDOW_SILL_HEIGHT,,,MODIFY_WINDOW_SILL_HEIGHT,1
+UT-0569,sill at 900,MODIFY_WINDOW_SILL_HEIGHT,,,MODIFY_WINDOW_SILL_HEIGHT,1
+UT-0570,change sill height,MODIFY_WINDOW_SILL_HEIGHT,,,MODIFY_WINDOW_SILL_HEIGHT,1
+UT-0571,higher window sill,MODIFY_WINDOW_SILL_HEIGHT,,,MODIFY_WINDOW_SILL_HEIGHT,1
+UT-0572,change door swing,MODIFY_DOOR_SWING,,,MODIFY_DOOR_SWING,1
+UT-0573,flip the door,MODIFY_DOOR_SWING,,,MODIFY_DOOR_SWING,1
+UT-0574,swing it inward,MODIFY_DOOR_SWING,,,MODIFY_DOOR_SWING,1
+UT-0575,open outward,MODIFY_DOOR_SWING,,,MODIFY_DOOR_SWING,1
+UT-0576,reverse the swing,MODIFY_DOOR_SWING,,,MODIFY_DOOR_SWING,1
+UT-0577,door swing change,MODIFY_DOOR_SWING,,,MODIFY_DOOR_SWING,1
+UT-0578,change to matte,MODIFY_PAINT_FINISH,,,MODIFY_PAINT_FINISH,1
+UT-0579,glossy paint,MODIFY_PAINT_FINISH,,,MODIFY_PAINT_FINISH,1
+UT-0580,eggshell finish,MODIFY_PAINT_FINISH,,,MODIFY_PAINT_FINISH,1
+UT-0581,satin paint please,MODIFY_PAINT_FINISH,,,MODIFY_PAINT_FINISH,1
+UT-0582,paint finish change,MODIFY_PAINT_FINISH,,,MODIFY_PAINT_FINISH,1
+UT-0583,change to lever handle,MODIFY_DOOR_HARDWARE,,,MODIFY_DOOR_HARDWARE,1
+UT-0584,deadbolt please,MODIFY_DOOR_HARDWARE,,,MODIFY_DOOR_HARDWARE,1
+UT-0585,electronic lock,MODIFY_DOOR_HARDWARE,,,MODIFY_DOOR_HARDWARE,1
+UT-0586,new door hardware,MODIFY_DOOR_HARDWARE,,,MODIFY_DOOR_HARDWARE,1
+UT-0587,handle change,MODIFY_DOOR_HARDWARE,,,MODIFY_DOOR_HARDWARE,1
+UT-0588,double glazing please,MODIFY_WINDOW_GLAZING,,,MODIFY_WINDOW_GLAZING,1
+UT-0589,triple pane glass,MODIFY_WINDOW_GLAZING,,,MODIFY_WINDOW_GLAZING,1
+UT-0590,low-E glass,MODIFY_WINDOW_GLAZING,,,MODIFY_WINDOW_GLAZING,1
+UT-0591,laminated glass,MODIFY_WINDOW_GLAZING,,,MODIFY_WINDOW_GLAZING,1
+UT-0592,change the glazing,MODIFY_WINDOW_GLAZING,,,MODIFY_WINDOW_GLAZING,1
+UT-0593,upgrade glazing,MODIFY_WINDOW_GLAZING,,,MODIFY_WINDOW_GLAZING,1
+UT-0594,slate roof please,MODIFY_ROOF_MATERIAL,,,MODIFY_ROOF_MATERIAL,1
+UT-0595,metal roofing,MODIFY_ROOF_MATERIAL,,,MODIFY_ROOF_MATERIAL,1
+UT-0596,clay tile roof,MODIFY_ROOF_MATERIAL,,,MODIFY_ROOF_MATERIAL,1
+UT-0597,shingle roof,MODIFY_ROOF_MATERIAL,,,MODIFY_ROOF_MATERIAL,1
+UT-0598,change roof material,MODIFY_ROOF_MATERIAL,,,MODIFY_ROOF_MATERIAL,1
+UT-0599,change riser height,MODIFY_STAIR_RISER,,,MODIFY_STAIR_RISER,1
+UT-0600,set rise to 180,MODIFY_STAIR_RISER,,,MODIFY_STAIR_RISER,1
+UT-0601,lower the rise,MODIFY_STAIR_RISER,,,MODIFY_STAIR_RISER,1
+UT-0602,step height change,MODIFY_STAIR_RISER,,,MODIFY_STAIR_RISER,1
+UT-0603,wider tread please,MODIFY_STAIR_TREAD,,,MODIFY_STAIR_TREAD,1
+UT-0604,tread at 250,MODIFY_STAIR_TREAD,,,MODIFY_STAIR_TREAD,1
+UT-0605,change tread depth,MODIFY_STAIR_TREAD,,,MODIFY_STAIR_TREAD,1
+UT-0606,step depth change,MODIFY_STAIR_TREAD,,,MODIFY_STAIR_TREAD,1
+UT-0607,what is the volume,QUERY_VOLUME,,,QUERY_VOLUME,1
+UT-0608,how much volume,QUERY_VOLUME,,,QUERY_VOLUME,1
+UT-0609,room volume,QUERY_VOLUME,,,QUERY_VOLUME,1
+UT-0610,cubic metres,QUERY_VOLUME,,,QUERY_VOLUME,1
+UT-0611,volume please,QUERY_VOLUME,,,QUERY_VOLUME,1
+UT-0612,what is the perimeter,QUERY_PERIMETER,,,QUERY_PERIMETER,1
+UT-0613,total wall length around,QUERY_PERIMETER,,,QUERY_PERIMETER,1
+UT-0614,perimeter please,QUERY_PERIMETER,,,QUERY_PERIMETER,1
+UT-0615,how far around,QUERY_PERIMETER,,,QUERY_PERIMETER,1
+UT-0616,how much does it weigh,QUERY_WEIGHT,,,QUERY_WEIGHT,1
+UT-0617,dead load,QUERY_WEIGHT,,,QUERY_WEIGHT,1
+UT-0618,structural weight,QUERY_WEIGHT,,,QUERY_WEIGHT,1
+UT-0619,weight please,QUERY_WEIGHT,,,QUERY_WEIGHT,1
+UT-0620,weight of the slab,QUERY_WEIGHT,,,QUERY_WEIGHT,1
+UT-0621,what is the span,QUERY_SPAN,,,QUERY_SPAN,1
+UT-0622,beam span,QUERY_SPAN,,,QUERY_SPAN,1
+UT-0623,how far does it span,QUERY_SPAN,,,QUERY_SPAN,1
+UT-0624,max span please,QUERY_SPAN,,,QUERY_SPAN,1
+UT-0625,load capacity,QUERY_CAPACITY,,,QUERY_CAPACITY,1
+UT-0626,how much can it hold,QUERY_CAPACITY,,,QUERY_CAPACITY,1
+UT-0627,max load,QUERY_CAPACITY,,,QUERY_CAPACITY,1
+UT-0628,bearing capacity please,QUERY_CAPACITY,,,QUERY_CAPACITY,1
+UT-0629,capacity of this,QUERY_CAPACITY,,,QUERY_CAPACITY,1
+UT-0630,what standard applies,QUERY_STANDARD,,,QUERY_STANDARD,1
+UT-0631,which code governs,QUERY_STANDARD,,,QUERY_STANDARD,1
+UT-0632,regulation for this,QUERY_STANDARD,,,QUERY_STANDARD,1
+UT-0633,which rule applies,QUERY_STANDARD,,,QUERY_STANDARD,1
+UT-0634,total floor area,QUERY_TOTAL_FLOOR_AREA,,,QUERY_TOTAL_FLOOR_AREA,1
+UT-0635,gross floor area,QUERY_TOTAL_FLOOR_AREA,,,QUERY_TOTAL_FLOOR_AREA,1
+UT-0636,GFA of the building,QUERY_TOTAL_FLOOR_AREA,,,QUERY_TOTAL_FLOOR_AREA,1
+UT-0637,overall area,QUERY_TOTAL_FLOOR_AREA,,,QUERY_TOTAL_FLOOR_AREA,1
+UT-0638,total building area,QUERY_TOTAL_FLOOR_AREA,,,QUERY_TOTAL_FLOOR_AREA,1
+UT-0639,lot coverage ratio,QUERY_LOT_COVERAGE,,,QUERY_LOT_COVERAGE,1
+UT-0640,ground floor ratio,QUERY_LOT_COVERAGE,,,QUERY_LOT_COVERAGE,1
+UT-0641,coverage percentage,QUERY_LOT_COVERAGE,,,QUERY_LOT_COVERAGE,1
+UT-0642,how much of the plot,QUERY_LOT_COVERAGE,,,QUERY_LOT_COVERAGE,1
+UT-0643,FAR of the building,QUERY_FLOOR_AREA_RATIO,,,QUERY_FLOOR_AREA_RATIO,1
+UT-0644,floor area ratio,QUERY_FLOOR_AREA_RATIO,,,QUERY_FLOOR_AREA_RATIO,1
+UT-0645,plot ratio please,QUERY_FLOOR_AREA_RATIO,,,QUERY_FLOOR_AREA_RATIO,1
+UT-0646,what is the FAR,QUERY_FLOOR_AREA_RATIO,,,QUERY_FLOOR_AREA_RATIO,1
+UT-0647,seismic zone,QUERY_SEISMIC_ZONE,,,QUERY_SEISMIC_ZONE,1
+UT-0648,earthquake classification,QUERY_SEISMIC_ZONE,,,QUERY_SEISMIC_ZONE,1
+UT-0649,seismic category,QUERY_SEISMIC_ZONE,,,QUERY_SEISMIC_ZONE,1
+UT-0650,which seismic zone,QUERY_SEISMIC_ZONE,,,QUERY_SEISMIC_ZONE,1
+UT-0651,energy efficiency,QUERY_ENERGY_EFFICIENCY,,,QUERY_ENERGY_EFFICIENCY,1
+UT-0652,energy rating,QUERY_ENERGY_EFFICIENCY,,,QUERY_ENERGY_EFFICIENCY,1
+UT-0653,thermal performance please,QUERY_ENERGY_EFFICIENCY,,,QUERY_ENERGY_EFFICIENCY,1
+UT-0654,how efficient is it,QUERY_ENERGY_EFFICIENCY,,,QUERY_ENERGY_EFFICIENCY,1
+UT-0655,add a sprinkler,CREATE_SPRINKLER,sprinkler|sprinkler,Type=pendant,CREATE_SPRINKLER type=pendant,1
+UT-0656,create a fire sprinkler,CREATE_SPRINKLER,sprinkler|sprinkler,Type=pendant,CREATE_SPRINKLER type=pendant,1
+UT-0657,place a sprinkler head,CREATE_SPRINKLER,sprinkler|sprinkler,Type=pendant,CREATE_SPRINKLER type=pendant,1
+UT-0658,sprinkler please,CREATE_SPRINKLER,sprinkler|sprinkler,Type=pendant,CREATE_SPRINKLER type=pendant,1
+UT-0659,I need sprinklers,CREATE_SPRINKLER,sprinkler|sprinkler,Type=pendant,CREATE_SPRINKLER type=pendant,1
+UT-0660,add a fire extinguisher,CREATE_FIRE_EXTINGUISHER,fire extinguisher|fire extinguisher,Type=ABC,CREATE_FIRE_EXTINGUISHER type=ABC,1
+UT-0661,place an extinguisher,CREATE_FIRE_EXTINGUISHER,fire extinguisher|fire extinguisher,Type=ABC,CREATE_FIRE_EXTINGUISHER type=ABC,1
+UT-0662,I need an FE,CREATE_FIRE_EXTINGUISHER,fire extinguisher|fire extinguisher,Type=ABC,CREATE_FIRE_EXTINGUISHER type=ABC,1
+UT-0663,fire extinguisher please,CREATE_FIRE_EXTINGUISHER,fire extinguisher|fire extinguisher,Type=ABC,CREATE_FIRE_EXTINGUISHER type=ABC,1
+UT-0664,mount an extinguisher,CREATE_FIRE_EXTINGUISHER,fire extinguisher|fire extinguisher,Type=ABC,CREATE_FIRE_EXTINGUISHER type=ABC,1
+UT-0665,add an expansion joint,CREATE_EXPANSION_JOINT,expansion joint|expansion joint,Width=25mm,CREATE_EXPANSION_JOINT width=25mm,1
+UT-0666,create a movement joint,CREATE_EXPANSION_JOINT,expansion joint|expansion joint,Width=25mm,CREATE_EXPANSION_JOINT width=25mm,1
+UT-0667,I need an exp joint,CREATE_EXPANSION_JOINT,expansion joint|expansion joint,Width=25mm,CREATE_EXPANSION_JOINT width=25mm,1
+UT-0668,expansion joint please,CREATE_EXPANSION_JOINT,expansion joint|expansion joint,Width=25mm,CREATE_EXPANSION_JOINT width=25mm,1
+UT-0669,joint for thermal movement,CREATE_EXPANSION_JOINT,expansion joint|expansion joint,Width=25mm,CREATE_EXPANSION_JOINT width=25mm,1
+UT-0670,add an elevator,CREATE_ELEVATOR,elevator|elevator,Type=traction,CREATE_ELEVATOR type=traction,1
+UT-0671,create a lift,CREATE_ELEVATOR,elevator|elevator,Type=traction,CREATE_ELEVATOR type=traction,1
+UT-0672,put in an elevator cab,CREATE_ELEVATOR,elevator|elevator,Type=traction,CREATE_ELEVATOR type=traction,1
+UT-0673,elevator please,CREATE_ELEVATOR,elevator|elevator,Type=traction,CREATE_ELEVATOR type=traction,1
+UT-0674,I need a lift,CREATE_ELEVATOR,elevator|elevator,Type=traction,CREATE_ELEVATOR type=traction,1
+UT-0675,add a fire stair,CREATE_FIRE_STAIR,fire stair|fire stair,Width=1200mm,CREATE_FIRE_STAIR width=1200mm,1
+UT-0676,create fire stairs,CREATE_FIRE_STAIR,fire stair|fire stair,Width=1200mm,CREATE_FIRE_STAIR width=1200mm,1
+UT-0677,fire-rated stairwell,CREATE_FIRE_STAIR,fire stair|fire stair,Width=1200mm,CREATE_FIRE_STAIR width=1200mm,1
+UT-0678,fire stairway please,CREATE_FIRE_STAIR,fire stair|fire stair,Width=1200mm,CREATE_FIRE_STAIR width=1200mm,1
+UT-0679,protected stair,CREATE_FIRE_STAIR,fire stair|fire stair,Width=1200mm,CREATE_FIRE_STAIR width=1200mm,1
+UT-0680,add a ramp,CREATE_RAMP,ramp|ramp,Slope=1:12,CREATE_RAMP slope=1:12,1
+UT-0681,create an accessible ramp,CREATE_RAMP,ramp|ramp,Slope=1:12,CREATE_RAMP slope=1:12,1
+UT-0682,put in a ramp,CREATE_RAMP,ramp|ramp,Slope=1:12,CREATE_RAMP slope=1:12,1
+UT-0683,wheelchair ramp please,CREATE_RAMP,ramp|ramp,Slope=1:12,CREATE_RAMP slope=1:12,1
+UT-0684,I need a ramp,CREATE_RAMP,ramp|ramp,Slope=1:12,CREATE_RAMP slope=1:12,1
+UT-0685,how many sprinklers,QUERY_COUNT,sprinklers|sprinklers,ElementType=sprinkler,QUERY_COUNT type=sprinkler,1
+UT-0686,sprinkler count,QUERY_COUNT,sprinklers|sprinklers,ElementType=sprinkler,QUERY_COUNT type=sprinkler,1
+UT-0687,number of sprinkler heads,QUERY_COUNT,sprinklers|sprinklers,ElementType=sprinkler,QUERY_COUNT type=sprinkler,1
+UT-0688,total sprinklers,QUERY_COUNT,sprinklers|sprinklers,ElementType=sprinkler,QUERY_COUNT type=sprinkler,1
+UT-0689,is the exit wide enough,QUERY_EGRESS,,,QUERY_EGRESS,1
+UT-0690,egress width,QUERY_EGRESS,,,QUERY_EGRESS,1
+UT-0691,exit door size,QUERY_EGRESS,,,QUERY_EGRESS,1
+UT-0692,how wide is the exit,QUERY_EGRESS,,,QUERY_EGRESS,1
+UT-0693,egress requirement,QUERY_EGRESS,,,QUERY_EGRESS,1
+UT-0694,is the bolt spacing ok,QUERY_BOLT_SPACING,,,QUERY_BOLT_SPACING,1
+UT-0695,check bolt spacing,QUERY_BOLT_SPACING,,,QUERY_BOLT_SPACING,1
+UT-0696,bolt spacing check,QUERY_BOLT_SPACING,,,QUERY_BOLT_SPACING,1
+UT-0697,minimum bolt spacing,QUERY_BOLT_SPACING,,,QUERY_BOLT_SPACING,1
+UT-0698,bolt edge distance,QUERY_BOLT_SPACING,,,QUERY_BOLT_SPACING,1
+UT-0699,what weld size,QUERY_WELD_TYPE,,,QUERY_WELD_TYPE,1
+UT-0700,fillet or butt weld,QUERY_WELD_TYPE,,,QUERY_WELD_TYPE,1
+UT-0701,size the weld,QUERY_WELD_TYPE,,,QUERY_WELD_TYPE,1
+UT-0702,weld type needed,QUERY_WELD_TYPE,,,QUERY_WELD_TYPE,1
+UT-0703,weld calculation,QUERY_WELD_TYPE,,,QUERY_WELD_TYPE,1
+UT-0704,do I need waterproofing,QUERY_WATERPROOFING_REQ,,,QUERY_WATERPROOFING_REQ,1
+UT-0705,is WP required,QUERY_WATERPROOFING_REQ,,,QUERY_WATERPROOFING_REQ,1
+UT-0706,waterproofing needed,QUERY_WATERPROOFING_REQ,,,QUERY_WATERPROOFING_REQ,1
+UT-0707,membrane required,QUERY_WATERPROOFING_REQ,,,QUERY_WATERPROOFING_REQ,1
+UT-0708,should I waterproof,QUERY_WATERPROOFING_REQ,,,QUERY_WATERPROOFING_REQ,1
+UT-0709,do I need flashing,QUERY_FLASHING_REQ,,,QUERY_FLASHING_REQ,1
+UT-0710,is flashing required,QUERY_FLASHING_REQ,,,QUERY_FLASHING_REQ,1
+UT-0711,where is flashing needed,QUERY_FLASHING_REQ,,,QUERY_FLASHING_REQ,1
+UT-0712,flashing required,QUERY_FLASHING_REQ,,,QUERY_FLASHING_REQ,1
+UT-0713,flashing check,QUERY_FLASHING_REQ,,,QUERY_FLASHING_REQ,1
+UT-0714,how many planks,QUERY_PLANK_COUNT,,,QUERY_PLANK_COUNT,1
+UT-0715,plank count,QUERY_PLANK_COUNT,,,QUERY_PLANK_COUNT,1
+UT-0716,boards needed,QUERY_PLANK_COUNT,,,QUERY_PLANK_COUNT,1
+UT-0717,hardwood count please,QUERY_PLANK_COUNT,,,QUERY_PLANK_COUNT,1
+UT-0718,how much concrete,QUERY_CONCRETE_VOLUME,,,QUERY_CONCRETE_VOLUME,1
+UT-0719,concrete volume,QUERY_CONCRETE_VOLUME,,,QUERY_CONCRETE_VOLUME,1
+UT-0720,concrete needed,QUERY_CONCRETE_VOLUME,,,QUERY_CONCRETE_VOLUME,1
+UT-0721,cubic metres concrete,QUERY_CONCRETE_VOLUME,,,QUERY_CONCRETE_VOLUME,1
+UT-0722,change insulation to R-30,MODIFY_INSULATION,,,MODIFY_INSULATION,1
+UT-0723,R-30 insulation,MODIFY_INSULATION,,,MODIFY_INSULATION,1
+UT-0724,upgrade insulation,MODIFY_INSULATION,,,MODIFY_INSULATION,1
+UT-0725,better insulation please,MODIFY_INSULATION,,,MODIFY_INSULATION,1
+UT-0726,insulate it more,MODIFY_INSULATION,,,MODIFY_INSULATION,1
+UT-0727,add more insulation,MODIFY_INSULATION,,,MODIFY_INSULATION,1
+UT-0728,increase fire rating,MODIFY_FIRE_RATING,,,MODIFY_FIRE_RATING,1
+UT-0729,set to 2 hour rating,MODIFY_FIRE_RATING,,,MODIFY_FIRE_RATING,1
+UT-0730,fire resistant please,MODIFY_FIRE_RATING,,,MODIFY_FIRE_RATING,1
+UT-0731,upgrade fire rating,MODIFY_FIRE_RATING,,,MODIFY_FIRE_RATING,1
+UT-0732,2hr fire rating,MODIFY_FIRE_RATING,,,MODIFY_FIRE_RATING,1
+UT-0733,set temperature to 22,MODIFY_HVAC_SETPOINT,,,MODIFY_HVAC_SETPOINT,1
+UT-0734,change setpoint to 21,MODIFY_HVAC_SETPOINT,,,MODIFY_HVAC_SETPOINT,1
+UT-0735,thermostat to 20,MODIFY_HVAC_SETPOINT,,,MODIFY_HVAC_SETPOINT,1
+UT-0736,HVAC setpoint change,MODIFY_HVAC_SETPOINT,,,MODIFY_HVAC_SETPOINT,1
+UT-0737,warmer please,MODIFY_HVAC_SETPOINT,,,MODIFY_HVAC_SETPOINT,1
+UT-0738,dim the lights,MODIFY_LIGHTING_DIM,,,MODIFY_LIGHTING_DIM,1
+UT-0739,brighten lights,MODIFY_LIGHTING_DIM,,,MODIFY_LIGHTING_DIM,1
+UT-0740,500 lux please,MODIFY_LIGHTING_DIM,,,MODIFY_LIGHTING_DIM,1
+UT-0741,lighting change,MODIFY_LIGHTING_DIM,,,MODIFY_LIGHTING_DIM,1
+UT-0742,light level lower,MODIFY_LIGHTING_DIM,,,MODIFY_LIGHTING_DIM,1
+UT-0743,increase ventilation,MODIFY_VENTILATION,,,MODIFY_VENTILATION,1
+UT-0744,fresh air rate higher,MODIFY_VENTILATION,,,MODIFY_VENTILATION,1
+UT-0745,CFM to 200,MODIFY_VENTILATION,,,MODIFY_VENTILATION,1
+UT-0746,better ventilation,MODIFY_VENTILATION,,,MODIFY_VENTILATION,1
+UT-0747,more airflow,MODIFY_VENTILATION,,,MODIFY_VENTILATION,1
+UT-0748,change to low-flow toilet,MODIFY_TOILET_GPF,,,MODIFY_TOILET_GPF,1
+UT-0749,1.28 GPF toilet,MODIFY_TOILET_GPF,,,MODIFY_TOILET_GPF,1
+UT-0750,HET toilet please,MODIFY_TOILET_GPF,,,MODIFY_TOILET_GPF,1
+UT-0751,efficient toilet,MODIFY_TOILET_GPF,,,MODIFY_TOILET_GPF,1
+UT-0752,heating load,QUERY_HVAC_LOAD,,,QUERY_HVAC_LOAD,1
+UT-0753,cooling load please,QUERY_HVAC_LOAD,,,QUERY_HVAC_LOAD,1
+UT-0754,HVAC load,QUERY_HVAC_LOAD,,,QUERY_HVAC_LOAD,1
+UT-0755,BTU required,QUERY_HVAC_LOAD,,,QUERY_HVAC_LOAD,1
+UT-0756,how much heating,QUERY_HVAC_LOAD,,,QUERY_HVAC_LOAD,1
+UT-0757,what lux level,QUERY_LIGHTING_LEVEL,,,QUERY_LIGHTING_LEVEL,1
+UT-0758,lighting requirement,QUERY_LIGHTING_LEVEL,,,QUERY_LIGHTING_LEVEL,1
+UT-0759,how bright,QUERY_LIGHTING_LEVEL,,,QUERY_LIGHTING_LEVEL,1
+UT-0760,lux needed please,QUERY_LIGHTING_LEVEL,,,QUERY_LIGHTING_LEVEL,1
+UT-0761,water demand,QUERY_WATER_DEMAND,,,QUERY_WATER_DEMAND,1
+UT-0762,daily water use,QUERY_WATER_DEMAND,,,QUERY_WATER_DEMAND,1
+UT-0763,how much water,QUERY_WATER_DEMAND,,,QUERY_WATER_DEMAND,1
+UT-0764,water consumption,QUERY_WATER_DEMAND,,,QUERY_WATER_DEMAND,1
+UT-0765,hot water load,QUERY_WATER_DEMAND,,,QUERY_WATER_DEMAND,1
+UT-0766,how many windows,QUERY_WINDOW_COUNT,,,QUERY_WINDOW_COUNT,1
+UT-0767,window count,QUERY_WINDOW_COUNT,,,QUERY_WINDOW_COUNT,1
+UT-0768,number of windows in the room,QUERY_WINDOW_COUNT,,,QUERY_WINDOW_COUNT,1
+UT-0769,what rooms are next to,QUERY_ROOM_ADJACENCY,,,QUERY_ROOM_ADJACENCY,1
+UT-0770,adjacent rooms,QUERY_ROOM_ADJACENCY,,,QUERY_ROOM_ADJACENCY,1
+UT-0771,neighbour rooms,QUERY_ROOM_ADJACENCY,,,QUERY_ROOM_ADJACENCY,1
+UT-0772,room adjacency,QUERY_ROOM_ADJACENCY,,,QUERY_ROOM_ADJACENCY,1
+UT-0773,list all rooms,QUERY_ROOM_LIST,,,QUERY_ROOM_LIST,1
+UT-0774,what rooms are there,QUERY_ROOM_LIST,,,QUERY_ROOM_LIST,1
+UT-0775,show me all rooms,QUERY_ROOM_LIST,,,QUERY_ROOM_LIST,1
+UT-0776,room list,QUERY_ROOM_LIST,,,QUERY_ROOM_LIST,1
+UT-0777,where is the kitchen,QUERY_ROOM_LOCATION,,,QUERY_ROOM_LOCATION,1
+UT-0778,location of bedroom,QUERY_ROOM_LOCATION,,,QUERY_ROOM_LOCATION,1
+UT-0779,which floor is the office,QUERY_ROOM_LOCATION,,,QUERY_ROOM_LOCATION,1
+UT-0780,find the bathroom,QUERY_ROOM_LOCATION,,,QUERY_ROOM_LOCATION,1
+UT-0781,natural light in the room,QUERY_NATURAL_LIGHT,,,QUERY_NATURAL_LIGHT,1
+UT-0782,daylight factor,QUERY_NATURAL_LIGHT,,,QUERY_NATURAL_LIGHT,1
+UT-0783,how much sunlight,QUERY_NATURAL_LIGHT,,,QUERY_NATURAL_LIGHT,1
+UT-0784,daylight check,QUERY_NATURAL_LIGHT,,,QUERY_NATURAL_LIGHT,1
+UT-0785,show north elevation,NAVIGATE_ELEVATION_VIEW,,,NAVIGATE_ELEVATION_VIEW,1
+UT-0786,front elevation view,NAVIGATE_ELEVATION_VIEW,,,NAVIGATE_ELEVATION_VIEW,1
+UT-0787,west elevation,NAVIGATE_ELEVATION_VIEW,,,NAVIGATE_ELEVATION_VIEW,1
+UT-0788,rear elevation,NAVIGATE_ELEVATION_VIEW,,,NAVIGATE_ELEVATION_VIEW,1
+UT-0789,section through kitchen,NAVIGATE_SECTION_VIEW,,,NAVIGATE_SECTION_VIEW,1
+UT-0790,cross section view,NAVIGATE_SECTION_VIEW,,,NAVIGATE_SECTION_VIEW,1
+UT-0791,cut through the building,NAVIGATE_SECTION_VIEW,,,NAVIGATE_SECTION_VIEW,1
+UT-0792,rotate the view,NAVIGATE_ROTATE_VIEW,,,NAVIGATE_ROTATE_VIEW,1
+UT-0793,orbit around,NAVIGATE_ROTATE_VIEW,,,NAVIGATE_ROTATE_VIEW,1
+UT-0794,turn the model,NAVIGATE_ROTATE_VIEW,,,NAVIGATE_ROTATE_VIEW,1
+UT-0795,spin it,NAVIGATE_ROTATE_VIEW,,,NAVIGATE_ROTATE_VIEW,1
+UT-0796,reset the view,NAVIGATE_RESET_VIEW,,,NAVIGATE_RESET_VIEW,1
+UT-0797,home view,NAVIGATE_RESET_VIEW,,,NAVIGATE_RESET_VIEW,1
+UT-0798,default camera,NAVIGATE_RESET_VIEW,,,NAVIGATE_RESET_VIEW,1
+UT-0799,starting view,NAVIGATE_RESET_VIEW,,,NAVIGATE_RESET_VIEW,1
+UT-0800,show walls only,NAVIGATE_TOGGLE_LAYER,,,NAVIGATE_TOGGLE_LAYER,1
+UT-0801,hide dimensions,NAVIGATE_TOGGLE_LAYER,,,NAVIGATE_TOGGLE_LAYER,1
+UT-0802,turn off grid,NAVIGATE_TOGGLE_LAYER,,,NAVIGATE_TOGGLE_LAYER,1
+UT-0803,toggle the layer,NAVIGATE_TOGGLE_LAYER,,,NAVIGATE_TOGGLE_LAYER,1
+UT-0804,export image,EXPORT_IMAGE,,,EXPORT_IMAGE,1
+UT-0805,save as PNG,EXPORT_IMAGE,,,EXPORT_IMAGE,1
+UT-0806,render an image,EXPORT_IMAGE,,,EXPORT_IMAGE,1
+UT-0807,screenshot please,EXPORT_IMAGE,,,EXPORT_IMAGE,1
+UT-0808,JPG export,EXPORT_IMAGE,,,EXPORT_IMAGE,1
+UT-0809,export CSV,EXPORT_CSV,,,EXPORT_CSV,1
+UT-0810,save to spreadsheet,EXPORT_CSV,,,EXPORT_CSV,1
+UT-0811,data as CSV,EXPORT_CSV,,,EXPORT_CSV,1
+UT-0812,CSV export please,EXPORT_CSV,,,EXPORT_CSV,1
+UT-0813,how to create something,HELP_CREATE,,,HELP_CREATE,1
+UT-0814,how do I add,HELP_CREATE,,,HELP_CREATE,1
+UT-0815,help me build,HELP_CREATE,,,HELP_CREATE,1
+UT-0816,creation help,HELP_CREATE,,,HELP_CREATE,1
+UT-0817,how to modify,HELP_MODIFY,,,HELP_MODIFY,1
+UT-0818,how do I change,HELP_MODIFY,,,HELP_MODIFY,1
+UT-0819,how to edit,HELP_MODIFY,,,HELP_MODIFY,1
+UT-0820,editing help,HELP_MODIFY,,,HELP_MODIFY,1
+UT-0821,how to export,HELP_EXPORT,,,HELP_EXPORT,1
+UT-0822,export help,HELP_EXPORT,,,HELP_EXPORT,1
+UT-0823,how do I save as,HELP_EXPORT,,,HELP_EXPORT,1
+UT-0824,save help,HELP_EXPORT,,,HELP_EXPORT,1
+UT-0825,what commands are available,LIST_COMMANDS,,,LIST_COMMANDS,1
+UT-0826,list commands,LIST_COMMANDS,,,LIST_COMMANDS,1
+UT-0827,show me commands,LIST_COMMANDS,,,LIST_COMMANDS,1
+UT-0828,available actions,LIST_COMMANDS,,,LIST_COMMANDS,1
+UT-0829,open settings,SETTINGS,,,SETTINGS,1
+UT-0830,show preferences,SETTINGS,,,SETTINGS,1
+UT-0831,configuration please,SETTINGS,,,SETTINGS,1

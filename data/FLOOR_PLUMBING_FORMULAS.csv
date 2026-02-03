@@ -1,0 +1,27 @@
+FormulaId,Name,Expression,Description,Category,Unit,InputParameters,OutputType
+FL-AREA,Floor Area,{Length} * {Width},Total floor area of a single room,Floor,m²,Length(m):Width(m),Area
+FL-PERIMETER,Floor Perimeter,2 * ({Length} + {Width}),Perimeter of rectangular floor,Floor,m,Length(m):Width(m),Length
+FL-TILE-COUNT-RECT,Tile Count Rectangular,{FloorArea} / ({TileW} * {TileL}),Number of tiles needed (no waste),Floor,tiles,FloorArea(m²):TileW(m):TileL(m),Count
+FL-TILE-COUNT-WASTE,Tile Count with Waste,CEIL({FloorArea} / ({TileW} * {TileL}) * (1 + {WastePct} / 100)),Tile count including waste factor,Floor,tiles,FloorArea(m²):TileW(m):TileL(m):WastePct(%),Count
+FL-PLANK-COUNT,Plank Count,CEIL({FloorArea} / ({PlankW} * {PlankL}) * (1 + {WastePct} / 100)),Hardwood / LVP plank count with waste,Floor,planks,FloorArea(m²):PlankW(m):PlankL(m):WastePct(%),Count
+FL-CARPET-SQYD,Carpet Area in Sq Yards,{FloorArea} * 10.764,Convert m² to yd² for carpet ordering,Floor,yd²,FloorArea(m²),Area
+FL-CARPET-ROLL,Carpet Rolls Required,CEIL(({RoomWidth} * {RoomLength}) / ({RollWidth} * {RollLength})),Roll count for seam-to-seam install,Floor,rolls,RoomWidth(m):RoomLength(m):RollWidth(m):RollLength(m),Count
+FL-COST-MAT,Floor Material Cost,{FloorArea} * {CostPerSqM},Total material cost only,Floor,USD,FloorArea(m²):CostPerSqM(USD/m²),Cost
+FL-COST-INST,Floor Installed Cost,{FloorArea} * ({CostPerSqM} + {LabourPerSqM}),Total installed cost mat + labour,Floor,USD,FloorArea(m²):CostPerSqM(USD/m²):LabourPerSqM(USD/m²),Cost
+FL-COST-TOTAL,Floor Total Cost with Waste,{FloorArea} * (1 + {WastePct} / 100) * ({CostPerSqM} + {LabourPerSqM}),Fully loaded floor cost,Floor,USD,FloorArea(m²):WastePct(%):CostPerSqM:LabourPerSqM,Cost
+FL-RVALUE,Floor Assembly R-Value,"SUM({R1},{R2},{R3},{R4},{R5})",Total R-value summing all layers,Floor,m²·K/W,R1:R2:R3:R4:R5,R-Value
+FL-UVALUE,Floor U-Value,1 / {R_Total},Thermal transmittance from total R,Floor,W/m²·K,R_Total(m²·K/W),U-Value
+FL-HEAT-LOSS,Floor Heat Loss,{Area} * {UValue} * {DeltaT},Steady-state heat loss through floor,Floor,W,Area(m²):UValue(W/m²·K):DeltaT(K),Power
+FL-STC-CHECK,STC Compliance Check,"IF({STC} >= {MinSTC}, PASS, FAIL)",Sound-transmission compliance flag,Floor,pass/fail,STC:MinSTC,Status
+PL-FU-TOTAL,Total Fixture Units,"SUM({FU_WC} * {N_WC}, {FU_Lav} * {N_Lav}, {FU_Shw} * {N_Shw}, {FU_Tub} * {N_Tub})",Sum of all fixture units in a bathroom,Plumbing,FU,FU_WC:N_WC:FU_Lav:N_Lav:FU_Shw:N_Shw:FU_Tub:N_Tub,Count
+PL-FU-SINGLE,Single Fixture Unit,"IF({Type}==WC,4, IF({Type}==Lav,1, IF({Type}==Shw,2, IF({Type}==Tub,2, IF({Type}==KSink,2, 1)))))",FU for one fixture by type,Plumbing,FU,Type,Count
+PL-PIPE-DWV,DWV Pipe Min Size,"IF({FU_Total}<=1,38, IF({FU_Total}<=3,51, IF({FU_Total}<=8,76, 102)))",Min DWV pipe diameter (mm) for FU total,Plumbing,mm,FU_Total,Diameter
+PL-PIPE-SUPPLY,Supply Pipe Min Size,"IF({FU_Total}<=4,19, IF({FU_Total}<=10,25, IF({FU_Total}<=40,32, 38)))",Min supply pipe diameter (mm) for FU total,Plumbing,mm,FU_Total,Diameter
+PL-FLOW-WC,WC Flow per Flush,{GPF} * 3.785,Litres per flush from rated GPF,Plumbing,L,GPF,Volume
+PL-FLOW-DAILY,Daily Water Demand,{Persons} * {PerCapita},Daily water demand for dwelling,Plumbing,L,Persons:PerCapita(L/person/day),Volume
+PL-HEATER-SIZE,Water Heater Sizing,{Persons} * {LitresPerPerson} / {RecoveryHr},Required water-heater recovery rate,Plumbing,L/hr,Persons:LitresPerPerson:RecoveryHr,FlowRate
+PL-COST-FIXTURE,Plumbing Fixture Cost,"SUM({UnitCost_1},{UnitCost_2},{UnitCost_3},{UnitCost_4})",Sum of individual fixture costs,Plumbing,USD,UnitCost_1:UnitCost_2:UnitCost_3:UnitCost_4,Cost
+PL-COST-INSTALLED,Plumbing Installed Cost,{FixtureCost} + ({HourlyRate} * {InstallHours}),Fixture + labour installed cost,Plumbing,USD,FixtureCost:HourlyRate(USD/hr):InstallHours,Cost
+PL-ADA-WC,WC ADA Seat Height Check,"IF(({SeatTop} >= 432) AND ({SeatTop} <= 483), PASS, FAIL)",ADA toilet seat-top height check,Plumbing,pass/fail,SeatTop(mm),Status
+PL-ADA-LAV,Lavatory ADA Knee Check,"IF({KneeClear} >= 686, PASS, FAIL)",ADA lavatory knee-clearance check,Plumbing,pass/fail,KneeClear(mm),Status
+PL-ADA-SHWR,Shower ADA Clear-Floor Check,"IF({ClearFloor} >= 915, PASS, FAIL)",ADA shower transfer clear-floor check,Plumbing,pass/fail,ClearFloor(mm),Status

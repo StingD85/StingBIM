@@ -1,0 +1,151 @@
+MaterialId,Name,Category,SubCategory,ThermalConductivity,Density,UnitCost,Currency,FireRating,Region
+MAT-FL-001,Red Oak Solid 3/4x2.25 Select,Floor,Hardwood-Solid,0.1,680,8.5,USD,Class-A,International
+MAT-FL-002,Red Oak Solid 3/4x3.25 Select,Floor,Hardwood-Solid,0.1,680,10.5,USD,Class-A,International
+MAT-FL-003,Red Oak Engineered 1/2x5 Select,Floor,Hardwood-Engineered,0.12,700,9.5,USD,Class-A,International
+MAT-FL-004,Red Oak Engineered 5/8x7 Select,Floor,Hardwood-Engineered,0.12,700,11.5,USD,Class-A,International
+MAT-FL-005,White Oak Solid 3/4x5 Select,Floor,Hardwood-Solid,0.11,710,10.5,USD,Class-A,International
+MAT-FL-006,White Oak Solid 3/4x7 Wide Plank,Floor,Hardwood-Solid,0.11,710,14.5,USD,Class-A,International
+MAT-FL-007,White Oak Engineered 1/2x7.5 Rift,Floor,Hardwood-Engineered,0.12,720,16.5,USD,Class-A,International
+MAT-FL-008,Maple Solid 3/4x2.25 Select,Floor,Hardwood-Solid,0.1,750,9.5,USD,Class-A,International
+MAT-FL-009,Maple Solid 3/4x3.25 Select,Floor,Hardwood-Solid,0.1,750,11.5,USD,Class-A,International
+MAT-FL-010,Maple Engineered 1/2x5 Select,Floor,Hardwood-Engineered,0.11,760,10.5,USD,Class-A,International
+MAT-FL-011,Hickory Solid 3/4x5 Natural,Floor,Hardwood-Solid,0.1,810,11.5,USD,Class-A,International
+MAT-FL-012,Hickory Engineered 5/8x6 Rustic,Floor,Hardwood-Engineered,0.11,820,13.5,USD,Class-A,International
+MAT-FL-013,Cherry Solid 3/4x3 Select,Floor,Hardwood-Solid,0.1,660,12.5,USD,Class-A,International
+MAT-FL-014,Cherry Solid 3/4x5 Select,Floor,Hardwood-Solid,0.1,660,15.5,USD,Class-A,International
+MAT-FL-015,Cherry Engineered 1/2x5 Select,Floor,Hardwood-Engineered,0.11,670,13.5,USD,Class-A,International
+MAT-FL-016,Walnut Solid 3/4x5 Natural,Floor,Hardwood-Solid,0.1,630,16.5,USD,Class-A,International
+MAT-FL-017,Walnut Engineered 5/8x7 Select,Floor,Hardwood-Engineered,0.11,640,18.5,USD,Class-A,International
+MAT-FL-018,Ash Solid 3/4x3.25 Select,Floor,Hardwood-Solid,0.1,690,9.5,USD,Class-A,International
+MAT-FL-019,Ash Solid 3/4x5 Wide Plank,Floor,Hardwood-Solid,0.1,690,11.5,USD,Class-A,International
+MAT-FL-020,Bamboo Solid 5/8x3.75 Horizontal,Floor,Bamboo-Solid,0.1,650,7.5,USD,Class-A,International
+MAT-FL-021,Bamboo Solid 5/8x5 Strand Woven,Floor,Bamboo-Solid,0.1,1100,9.5,USD,Class-A,International
+MAT-FL-022,Bamboo Engineered 1/2x5 Click,Floor,Bamboo-Engineered,0.11,650,8.5,USD,Class-A,International
+MAT-FL-023,Brazilian Cherry Solid 3/4x3.25,Floor,Hardwood-Solid,0.09,820,18.5,USD,Class-A,International
+MAT-FL-024,Brazilian Cherry Solid 3/4x5,Floor,Hardwood-Solid,0.09,820,22.5,USD,Class-A,International
+MAT-FL-025,Teak Solid 3/4x5 Select,Floor,Hardwood-Solid,0.1,630,28.5,USD,Class-A,International
+MAT-FL-026,Acacia Solid 3/4x4.75 Handscraped,Floor,Hardwood-Solid,0.1,770,12.5,USD,Class-A,International
+MAT-FL-027,Reclaimed Oak 3/4 Random Width,Floor,Hardwood-Reclaimed,0.1,680,22.5,USD,Class-A,International
+MAT-FL-028,Reclaimed Barn Wood Mixed Species,Floor,Hardwood-Reclaimed,0.11,600,18.5,USD,Class-A,International
+MAT-FL-029,Pine Solid 3/4x3.25 Select,Floor,Hardwood-Solid,0.08,510,6.5,USD,Class-A,International
+MAT-FL-030,Douglas Fir Solid 3/4x5 Select,Floor,Hardwood-Solid,0.09,550,7.5,USD,Class-A,International
+MAT-FL-031,Ceramic Tile 12x12 Glazed Matte,Floor,Tile-Ceramic,0.9,2000,3.5,USD,Class-A,International
+MAT-FL-032,Ceramic Tile 18x18 Glazed Polished,Floor,Tile-Ceramic,0.9,2000,5.5,USD,Class-A,International
+MAT-FL-033,Ceramic Tile 12x24 Glazed Textured,Floor,Tile-Ceramic,0.9,2000,4.5,USD,Class-A,International
+MAT-FL-034,Ceramic Mosaic 1in Hexagon Sheet,Floor,Tile-Ceramic,0.9,2000,12.5,USD,Class-A,International
+MAT-FL-035,Ceramic Mosaic Penny Round Sheet,Floor,Tile-Ceramic,0.9,2000,14.5,USD,Class-A,International
+MAT-FL-036,Porcelain 12x12 Through-Body Matte,Floor,Tile-Porcelain,1.0,2300,5.5,USD,Class-A,International
+MAT-FL-037,Porcelain 24x24 Through-Body Polished,Floor,Tile-Porcelain,1.0,2300,9.5,USD,Class-A,International
+MAT-FL-038,Porcelain 12x24 Rectified Wood-Look,Floor,Tile-Porcelain,1.0,2300,8.5,USD,Class-A,International
+MAT-FL-039,Porcelain 6x36 Plank Wood-Look,Floor,Tile-Porcelain,1.0,2300,9.5,USD,Class-A,International
+MAT-FL-040,Porcelain 8x48 Large Plank Wood-Look,Floor,Tile-Porcelain,1.0,2300,12.5,USD,Class-A,International
+MAT-FL-041,Porcelain 12x24 Marble-Look Polished,Floor,Tile-Porcelain,1.0,2300,11.5,USD,Class-A,International
+MAT-FL-042,Porcelain 24x24 Travertine-Look Honed,Floor,Tile-Porcelain,1.0,2300,10.5,USD,Class-A,International
+MAT-FL-043,Porcelain 24x48 Large-Format Marble,Floor,Tile-Porcelain,1.0,2300,16.5,USD,Class-A,International
+MAT-FL-044,Porcelain 12x24 Slate-Look Textured,Floor,Tile-Porcelain,1.0,2300,8.0,USD,Class-A,International
+MAT-FL-045,Porcelain 24x24 Concrete-Look Matte,Floor,Tile-Porcelain,1.0,2300,9.0,USD,Class-A,International
+MAT-FL-046,Marble 12x12 Carrara Honed,Floor,Tile-Natural-Stone,2.5,2700,18.5,USD,Class-A,International
+MAT-FL-047,Marble 18x18 Calacatta Polished,Floor,Tile-Natural-Stone,2.5,2700,35.5,USD,Class-A,International
+MAT-FL-048,Travertine 12x12 Filled Honed,Floor,Tile-Natural-Stone,1.7,2500,12.5,USD,Class-A,International
+MAT-FL-049,Travertine 16x16 Tumbled,Floor,Tile-Natural-Stone,1.7,2500,14.5,USD,Class-A,International
+MAT-FL-050,Slate 12x12 Natural Cleft,Floor,Tile-Natural-Stone,2.2,2800,11.5,USD,Class-A,International
+MAT-FL-051,Slate 16x16 Gauged Honed,Floor,Tile-Natural-Stone,2.2,2800,13.5,USD,Class-A,International
+MAT-FL-052,Granite 12x12 Polished,Floor,Tile-Natural-Stone,2.6,2700,15.5,USD,Class-A,International
+MAT-FL-053,Granite 24x24 Flamed,Floor,Tile-Natural-Stone,2.6,2700,22.5,USD,Class-A,International
+MAT-FL-054,Sandstone 12x12 Tumbled,Floor,Tile-Natural-Stone,1.8,2400,10.5,USD,Class-A,International
+MAT-FL-055,Limestone 12x12 Honed,Floor,Tile-Natural-Stone,1.3,2500,14.0,USD,Class-A,International
+MAT-FL-056,Slate 12x24 Gauged Matte,Floor,Tile-Natural-Stone,2.2,2800,13.0,USD,Class-A,International
+MAT-FL-057,Basalt 12x12 Honed Dark,Floor,Tile-Natural-Stone,1.9,2900,16.0,USD,Class-A,International
+MAT-FL-058,Quartzite 12x24 Polished,Floor,Tile-Natural-Stone,2.4,2700,18.0,USD,Class-A,International
+MAT-FL-059,Onyx 12x12 Polished Amber,Floor,Tile-Natural-Stone,2.5,2650,42.0,USD,Class-A,International
+MAT-FL-060,Pebble River Stone 12x24 Sheet,Floor,Tile-Natural-Stone,1.6,2500,22.0,USD,Class-A,International
+MAT-FL-061,LVT 12x24 Tile 4mm 12mil Wear,Floor,Resilient-LVT,0.16,1400,2.8,USD,Class-A,International
+MAT-FL-062,LVT 12x12 Tile 5mm 20mil Wear,Floor,Resilient-LVT,0.16,1450,3.2,USD,Class-A,International
+MAT-FL-063,LVT 18x18 Tile 6mm 12mil Wear,Floor,Resilient-LVT,0.16,1400,3.8,USD,Class-A,International
+MAT-FL-064,LVT 24x24 Tile 8mm 20mil Wear,Floor,Resilient-LVT,0.16,1500,4.5,USD,Class-A,International
+MAT-FL-065,LVP 6x48 Plank 3mm 6mil Wear,Floor,Resilient-LVP,0.15,1200,1.9,USD,Class-A,International
+MAT-FL-066,LVP 6x48 Plank 4mm 12mil Wear,Floor,Resilient-LVP,0.15,1300,2.4,USD,Class-A,International
+MAT-FL-067,LVP 7x48 Plank 5mm 12mil Wear,Floor,Resilient-LVP,0.15,1350,2.8,USD,Class-A,International
+MAT-FL-068,LVP 7x60 Plank 6mm 12mil Wear,Floor,Resilient-LVP,0.15,1400,3.2,USD,Class-A,International
+MAT-FL-069,LVP 8x48 Wide Plank 6mm 20mil,Floor,Resilient-LVP,0.15,1400,3.8,USD,Class-A,International
+MAT-FL-070,LVP 9x60 Extra-Wide 8mm 20mil,Floor,Resilient-LVP,0.15,1500,4.5,USD,Class-A,International
+MAT-FL-071,SPC 6x36 Plank 4mm Rigid Core,Floor,Resilient-SPC,0.17,1700,2.2,USD,Class-A,International
+MAT-FL-072,SPC 7x48 Plank 5mm Rigid Core,Floor,Resilient-SPC,0.17,1750,2.8,USD,Class-A,International
+MAT-FL-073,SPC 9x60 Wide Plank 6mm Rigid,Floor,Resilient-SPC,0.17,1800,3.5,USD,Class-A,International
+MAT-FL-074,SPC 12x24 Tile 5mm Rigid Core,Floor,Resilient-SPC,0.17,1750,2.9,USD,Class-A,International
+MAT-FL-075,WPC 6x48 Plank 6mm Core,Floor,Resilient-WPC,0.14,1100,2.5,USD,Class-A,International
+MAT-FL-076,WPC 7x48 Plank 8mm Core,Floor,Resilient-WPC,0.14,1150,3.2,USD,Class-A,International
+MAT-FL-077,WPC 9x60 Wide 8mm Core,Floor,Resilient-WPC,0.14,1150,3.8,USD,Class-A,International
+MAT-FL-078,LVT 12x24 2mm Glue-Down Commercial,Floor,Resilient-LVT,0.16,1300,2.5,USD,Class-A,International
+MAT-FL-079,LVT 6x36 2.5mm Glue-Down Commercial,Floor,Resilient-LVP,0.15,1350,2.8,USD,Class-A,International
+MAT-FL-080,LVT 18x18 3.3mm Glue-Down Healthcare,Floor,Resilient-LVT,0.16,1400,3.5,USD,Class-A,International
+MAT-FL-081,LVT 24x24 2mm Glue-Down Education,Floor,Resilient-LVT,0.16,1300,2.6,USD,Class-A,International
+MAT-FL-082,LVT 12x24 2.5mm Glue-Down Retail,Floor,Resilient-LVT,0.16,1350,2.7,USD,Class-A,International
+MAT-FL-083,LVT 18x18 3mm Conductive Lab,Floor,Resilient-LVT,0.16,1500,4.0,USD,Class-A,International
+MAT-FL-084,LVP 6x36 2mm Glue-Down Budget,Floor,Resilient-LVP,0.15,1200,1.8,USD,Class-A,International
+MAT-FL-085,LVT 12x12 2.5mm Glue-Down Hotel,Floor,Resilient-LVT,0.16,1350,2.9,USD,Class-A,International
+MAT-FL-086,Sheet Vinyl 12ft Cushion 2mm Residential,Floor,Sheet-Vinyl,0.16,1200,1.6,USD,Class-A,International
+MAT-FL-087,Sheet Vinyl 12ft Felt 2.5mm Residential,Floor,Sheet-Vinyl,0.16,1250,2.0,USD,Class-A,International
+MAT-FL-088,Sheet Vinyl 6ft Cushion 3mm Commercial,Floor,Sheet-Vinyl,0.16,1300,2.4,USD,Class-A,International
+MAT-FL-089,Sheet Vinyl 12ft Inlaid 3mm Commercial,Floor,Sheet-Vinyl,0.16,1350,2.8,USD,Class-A,International
+MAT-FL-090,Sheet Vinyl 6ft Inlaid 3.2mm Healthcare,Floor,Sheet-Vinyl,0.16,1400,3.2,USD,Class-A,International
+MAT-FL-091,Sheet Vinyl 6ft Conductive 3mm Lab,Floor,Sheet-Vinyl,0.16,1500,4.0,USD,Class-A,International
+MAT-FL-092,Sheet Vinyl 12ft Cushion 2mm Kids,Floor,Sheet-Vinyl,0.16,1200,1.7,USD,Class-A,International
+MAT-FL-093,Sheet Vinyl 6ft Slip-Resist 3mm Wet,Floor,Sheet-Vinyl,0.16,1400,2.9,USD,Class-A,International
+MAT-FL-094,Linoleum 12ft Roll 2mm Residential,Floor,Linoleum,0.1,1100,1.8,USD,Class-A,International
+MAT-FL-095,Linoleum 6ft Roll 2.5mm Commercial,Floor,Linoleum,0.1,1150,2.2,USD,Class-A,International
+MAT-FL-096,Linoleum Tile 12x12 2mm Click,Floor,Linoleum,0.1,1100,2.0,USD,Class-A,International
+MAT-FL-097,Linoleum Tile 18x18 2.5mm Glue,Floor,Linoleum,0.1,1150,2.5,USD,Class-A,International
+MAT-FL-098,Linoleum 6ft Roll 3.2mm Hospital,Floor,Linoleum,0.1,1200,3.0,USD,Class-A,International
+MAT-FL-099,Linoleum 12ft Roll 2.5mm Education,Floor,Linoleum,0.1,1150,2.1,USD,Class-A,International
+MAT-FL-100,Linoleum 6ft Roll 3.2mm Office,Floor,Linoleum,0.1,1200,2.8,USD,Class-A,International
+MAT-FL-101,Linoleum 12ft Roll 3.2mm Retail,Floor,Linoleum,0.1,1200,2.6,USD,Class-A,International
+MAT-FL-102,Carpet Nylon Cut-Pile 1/2in Light,Floor,Carpet-Nylon,0.04,1040,1.2,USD,Class-B,International
+MAT-FL-103,Carpet Nylon Cut-Pile 5/8in Medium,Floor,Carpet-Nylon,0.04,1050,1.6,USD,Class-B,International
+MAT-FL-104,Carpet Nylon Cut-Pile 3/4in Heavy,Floor,Carpet-Nylon,0.04,1070,2.0,USD,Class-B,International
+MAT-FL-105,Carpet Nylon Loop 3/8in Medium,Floor,Carpet-Nylon,0.04,1050,1.3,USD,Class-B,International
+MAT-FL-106,Carpet Nylon Loop 1/2in Heavy,Floor,Carpet-Nylon,0.04,1070,1.7,USD,Class-B,International
+MAT-FL-107,Carpet Nylon Cut-Loop 1/2in Textured,Floor,Carpet-Nylon,0.04,1060,1.5,USD,Class-B,International
+MAT-FL-108,Carpet Nylon Saxony 3/4in Luxury,Floor,Carpet-Nylon,0.04,1070,2.4,USD,Class-B,International
+MAT-FL-109,Carpet Nylon Frieze 5/8in Shag,Floor,Carpet-Nylon,0.04,1050,1.8,USD,Class-B,International
+MAT-FL-110,Carpet Polyester Cut-Pile 1/2in,Floor,Carpet-Polyester,0.04,1030,1.0,USD,Class-B,International
+MAT-FL-111,Carpet Polyester Frieze 5/8in Shag,Floor,Carpet-Polyester,0.04,1040,1.4,USD,Class-B,International
+MAT-FL-112,Carpet Polyester Saxony 3/4in Luxury,Floor,Carpet-Polyester,0.04,1050,1.8,USD,Class-B,International
+MAT-FL-113,Carpet Wool Cut-Pile 1/2in Premium,Floor,Carpet-Wool,0.04,1200,4.5,USD,Class-B,International
+MAT-FL-114,Carpet Wool Loop 3/8in Berber,Floor,Carpet-Wool,0.04,1180,5.0,USD,Class-B,International
+MAT-FL-115,Carpet Wool Saxony 5/8in Luxury,Floor,Carpet-Wool,0.04,1200,5.8,USD,Class-B,International
+MAT-FL-116,Carpet Tile 18x18 Nylon Loop Office,Floor,Carpet-Tile,0.04,1100,2.2,USD,Class-A,International
+MAT-FL-117,Carpet Tile 24x24 Nylon Cut Office,Floor,Carpet-Tile,0.04,1120,2.8,USD,Class-A,International
+MAT-FL-118,Carpet Tile 18x18 Nylon Premium,Floor,Carpet-Tile,0.04,1130,3.2,USD,Class-A,International
+MAT-FL-119,Carpet Tile 18x18 Polyester Budget,Floor,Carpet-Tile,0.04,1050,1.8,USD,Class-A,International
+MAT-FL-120,Carpet Nylon 12ft 40oz Loop Commercial,Floor,Carpet-Nylon,0.04,1100,2.5,USD,Class-A,International
+MAT-FL-121,Carpet Nylon 12ft 50oz Cut Hospitality,Floor,Carpet-Nylon,0.04,1120,3.0,USD,Class-A,International
+MAT-FL-122,Carpet Olefin Loop 28oz Outdoor,Floor,Carpet-Olefin,0.04,900,0.9,USD,Class-A,International
+MAT-FL-123,Carpet Olefin Cut 32oz Indoor,Floor,Carpet-Olefin,0.04,920,1.1,USD,Class-A,International
+MAT-FL-124,Carpet Olefin Loop 36oz Commercial,Floor,Carpet-Olefin,0.04,950,1.5,USD,Class-A,International
+MAT-FL-125,Carpet Olefin Tile 18x18 Commercial,Floor,Carpet-Olefin,0.04,940,1.6,USD,Class-A,International
+MAT-FL-126,Carpet Olefin Frieze 40oz Budget,Floor,Carpet-Olefin,0.04,960,1.3,USD,Class-B,International
+MAT-FL-127,Cork Tile 12x12 Glue-Down Natural,Floor,Cork,0.07,120,4.5,USD,Class-A,International
+MAT-FL-128,Cork Tile 12x24 Glue-Down Stained,Floor,Cork,0.07,120,5.2,USD,Class-A,International
+MAT-FL-129,Cork Plank 6x36 Click Natural,Floor,Cork,0.07,150,5.8,USD,Class-A,International
+MAT-FL-130,Cork Plank 6x36 Click Stained,Floor,Cork,0.07,150,6.2,USD,Class-A,International
+MAT-FL-131,Cork Underlayment 1/4in Roll,Floor,Cork,0.07,100,1.2,USD,Class-A,International
+MAT-FL-132,Cork Snap-Together 12x24 Foam-Core,Floor,Cork,0.06,130,4.8,USD,Class-A,International
+MAT-FL-133,Cork Tile 18x18 Glue-Down Premium,Floor,Cork,0.07,125,7.0,USD,Class-A,International
+MAT-FL-134,Cork WPC Plank 6x36 Rigid,Floor,Cork,0.08,1100,5.5,USD,Class-A,International
+MAT-FL-135,Rubber Tile 12x12 3/8in Gym,Floor,Rubber,0.16,1200,3.8,USD,Class-A,International
+MAT-FL-136,Rubber Tile 18x18 3/8in Commercial,Floor,Rubber,0.16,1200,4.2,USD,Class-A,International
+MAT-FL-137,Rubber Roll 4ft 3/8in Gym,Floor,Rubber,0.16,1200,3.6,USD,Class-A,International
+MAT-FL-138,Rubber Tile 12x12 1/4in Commercial,Floor,Rubber,0.15,1150,2.8,USD,Class-A,International
+MAT-FL-139,Rubber Coin Tile 12x12 3/8in Heavy,Floor,Rubber,0.16,1250,4.5,USD,Class-A,International
+MAT-FL-140,Rubber Roll 3ft 1/2in Playground,Floor,Rubber,0.18,1300,5.0,USD,Class-A,International
+MAT-FL-141,Epoxy Coating 1/16in Floor Industrial,Floor,Epoxy,0.25,1100,3.5,USD,Class-A,International
+MAT-FL-142,Epoxy Coating 1/8in Floor Chemical-Resist,Floor,Epoxy,0.25,1150,4.8,USD,Class-A,International
+MAT-FL-143,Epoxy Flake 1/8in Decorative Garage,Floor,Epoxy,0.25,1200,3.8,USD,Class-A,International
+MAT-FL-144,Epoxy Metallic 1/16in Floor Premium,Floor,Epoxy,0.25,1100,5.2,USD,Class-A,International
+MAT-FL-145,Terrazzo Tile 12x12 Cement-Based,Floor,Terrazzo,1.8,2200,12.0,USD,Class-A,International
+MAT-FL-146,Terrazzo Tile 24x24 Cement-Based,Floor,Terrazzo,1.8,2200,16.0,USD,Class-A,International
+MAT-FL-147,Terrazzo Tile 12x12 Resin-Based,Floor,Terrazzo,1.6,2100,14.0,USD,Class-A,International
+MAT-FL-148,Polished Concrete Sealer Matte,Floor,Polished-Concrete,1.5,2400,2.8,USD,Class-A,International
+MAT-FL-149,Polished Concrete Sealer Satin,Floor,Polished-Concrete,1.5,2400,3.0,USD,Class-A,International
+MAT-FL-150,Polished Concrete Sealer High-Gloss,Floor,Polished-Concrete,1.5,2400,3.2,USD,Class-A,International

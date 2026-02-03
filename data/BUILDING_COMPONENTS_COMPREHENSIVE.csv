@@ -1,0 +1,60 @@
+ComponentID,Name,Category,Type,Size,Width_MM,Height_MM,Depth_MM,Weight_KG_Linear_Or_Unit,Weight_Total_KG,Density_KG_M3,Description,Application,Standard,Cost_USD,Cost_UGX
+COMP-STL-001,Steel Wide Flange W8x10,Structural-Steel,Wide-Flange,W8x10,203,106,5.8,4.3,14.9,7850,Light steel beam,Residential/light commercial,ASTM A992,12,44400
+COMP-STL-002,Steel Wide Flange W12x26,Structural-Steel,Wide-Flange,W12x26,310,165,6.5,9.9,38.7,7850,Medium steel beam,Commercial buildings,ASTM A992,32,118400
+COMP-STL-003,Steel Wide Flange W18x50,Structural-Steel,Wide-Flange,W18x50,457,190,9.0,14.0,74.5,7850,Heavy steel beam,Large spans,ASTM A992,65,240500
+COMP-STL-004,Steel Wide Flange W24x84,Structural-Steel,Wide-Flange,W24x84,610,229,10.3,17.3,125.1,7850,Very heavy beam,Industrial/high-rise,ASTM A992,105,388500
+COMP-STL-005,Steel Column W8x31,Structural-Steel,Wide-Flange-Column,W8x31,203,203,7.2,10.2,46.2,7850,Square column section,Building columns,ASTM A992,38,140600
+COMP-STL-006,Steel Column W12x72,Structural-Steel,Wide-Flange-Column,W12x72,305,305,11.0,16.3,107.3,7850,Medium column,Multi-story columns,ASTM A992,90,333000
+COMP-STL-007,Steel Tube HSS 4x4x1/4,Structural-Steel,HSS-Square,4x4x1/4,102,102,6.4,6.4,17.3,7850,Hollow structural section,Bracing/columns,ASTM A500,22,81400
+COMP-STL-008,Steel Tube HSS 6x6x3/8,Structural-Steel,HSS-Square,6x6x3/8,152,152,9.5,9.5,40.5,7850,Heavy HSS column,Heavy-duty columns,ASTM A500,50,185000
+COMP-STL-009,Steel Angle L4x4x1/2,Structural-Steel,Angle,L4x4x1/2,102,102,12.7,0,22.6,7850,Equal leg angle,Bracing/connections,ASTM A36,28,103600
+COMP-STL-010,Steel Channel C10x15.3,Structural-Steel,Channel,C10x15.3,254,67,5.7,7.2,22.8,7850,Standard channel,Framing/supports,ASTM A36,19,70300
+COMP-LUM-001,Lumber 2x4 SPF,Dimensional-Lumber,Stud,2x4,38,89,0,0,0.67,450,Standard stud,"Wall framing 16"" OC",SPF Grade 2,3.5,12950
+COMP-LUM-002,Lumber 2x6 SPF,Dimensional-Lumber,Stud,2x6,38,140,0,0,1.04,450,Wide stud,Exterior walls,SPF Grade 2,5.5,20350
+COMP-LUM-003,Lumber 2x8 SPF,Dimensional-Lumber,Joist,2x8,38,184,0,0,1.39,450,Floor joist,Floor/ceiling framing,SPF Grade 2,7.5,27750
+COMP-LUM-004,Lumber 2x10 SPF,Dimensional-Lumber,Joist,2x10,38,235,0,0,1.78,450,Deep joist,Long span floors,SPF Grade 2,10,37000
+COMP-LUM-005,Lumber 2x12 SPF,Dimensional-Lumber,Joist,2x12,38,286,0,0,2.17,450,Very deep joist,Heavy loads/spans,SPF Grade 2,13,48100
+COMP-LUM-006,Lumber 4x4 PT,Dimensional-Lumber,Post,4x4,89,89,0,0,1.58,550,Pressure treated post,Deck posts/exterior,PT Southern Pine,8,29600
+COMP-LUM-007,Lumber 6x6 PT,Dimensional-Lumber,Post,6x6,140,140,0,0,3.91,550,Heavy PT post,Large deck structures,PT Southern Pine,18,66600
+COMP-LUM-008,"LVL 1-3/4"" x 11-7/8""",Engineered-Lumber,LVL-Beam,1.75x11.875,44,302,0,0,2.65,550,Laminated veneer lumber,Long span beams,APA PRI-400,22,81400
+COMP-LUM-009,"LVL 3-1/2"" x 14""",Engineered-Lumber,LVL-Beam,3.5x14,89,356,0,0,6.32,550,Heavy LVL beam,Main beams/headers,APA PRI-400,45,166500
+COMP-LUM-010,"Glulam 5-1/8"" x 12""",Engineered-Lumber,Glulam-Beam,5.125x12,130,305,0,0,7.91,500,Glulam beam,Post & beam construction,ANSI/AITC A190.1,55,203500
+COMP-CNC-001,Concrete Mix 3000 PSI,Concrete,Ready-Mix,3000-PSI,0,0,0,0,0,2400,Standard concrete,General construction,ASTM C94,120,444000
+COMP-CNC-002,Concrete Mix 4000 PSI,Concrete,Ready-Mix,4000-PSI,0,0,0,0,0,2400,High-strength concrete,Structural slabs/beams,ASTM C94,135,499500
+COMP-CNC-003,Concrete Mix 5000 PSI,Concrete,Ready-Mix,5000-PSI,0,0,0,0,0,2400,Very high-strength,Columns/prestressed,ASTM C94,150,555000
+COMP-CNC-004,"Rebar #3 (3/8"" dia)",Concrete-Reinforcement,Rebar,#3,9.5,0,0,0,0.559,7850,Small rebar,Light reinforcement,ASTM A615,1.2,4440
+COMP-CNC-005,"Rebar #4 (1/2"" dia)",Concrete-Reinforcement,Rebar,#4,12.7,0,0,0,0.994,7850,Standard rebar,General reinforcement,ASTM A615,1.8,6660
+COMP-CNC-006,"Rebar #5 (5/8"" dia)",Concrete-Reinforcement,Rebar,#5,15.9,0,0,0,1.552,7850,Medium rebar,Structural slabs,ASTM A615,2.5,9250
+COMP-CNC-007,"Rebar #6 (3/4"" dia)",Concrete-Reinforcement,Rebar,#6,19.1,0,0,0,2.235,7850,Heavy rebar,Beams/columns,ASTM A615,3.5,12950
+COMP-CNC-008,Welded Wire Mesh 6x6-W1.4xW1.4,Concrete-Reinforcement,WWM,6x6-W1.4,0,0,0,0,0.19,7850,Wire mesh reinforcement,Slab-on-grade,ASTM A185,2.5,9250
+COMP-DR-001,"Door HC 24""x80"" 1-3/8""",Door,Interior-Hollow-Core,24x80,610,2032,35,12,4.5,Hollow core interior,Closets/utility,ANSI/WDMA I.S.1-A,45,166500
+COMP-DR-002,"Door HC 28""x80"" 1-3/8""",Door,Interior-Hollow-Core,28x80,711,2032,35,14,5.0,Hollow core interior,Bedrooms/bathrooms,ANSI/WDMA I.S.1-A,50,185000
+COMP-DR-003,"Door HC 30""x80"" 1-3/8""",Door,Interior-Hollow-Core,30x80,762,2032,35,15,5.4,Hollow core interior,Standard passage,ANSI/WDMA I.S.1-A,55,203500
+COMP-DR-004,"Door HC 32""x80"" 1-3/8""",Door,Interior-Hollow-Core,32x80,813,2032,35,16,5.9,Hollow core interior,Accessible width,ANSI/WDMA I.S.1-A,60,222000
+COMP-DR-005,"Door HC 36""x80"" 1-3/8""",Door,Interior-Hollow-Core,36x80,914,2032,35,18,6.8,Hollow core interior,Wide passages,ANSI/WDMA I.S.1-A,65,240500
+COMP-DR-006,"Door SC 28""x80"" 1-3/4""",Door,Interior-Solid-Core,28x80,711,2032,44,25,11.3,Solid core interior,Sound control,ANSI/WDMA I.S.1-A,95,351500
+COMP-DR-007,"Door SC 30""x80"" 1-3/4""",Door,Interior-Solid-Core,30x80,762,2032,44,27,12.2,Solid core interior,Privacy/acoustic,ANSI/WDMA I.S.1-A,100,370000
+COMP-DR-008,"Door SC 32""x80"" 1-3/4""",Door,Interior-Solid-Core,32x80,813,2032,44,29,13.2,Solid core interior,High-traffic areas,ANSI/WDMA I.S.1-A,110,407000
+COMP-DR-009,"Door SC 36""x80"" 1-3/4""",Door,Interior-Solid-Core,36x80,914,2032,44,32,14.5,Solid core interior,Wide passage acoustic,ANSI/WDMA I.S.1-A,120,444000
+COMP-DR-010,"Door Ext Steel 32""x80"" 1-3/4""",Door,Exterior-Steel,32x80,813,2032,44,32,18.1,Insulated steel exterior,Entry door,ANSI/WDMA I.S.2,250,925000
+COMP-DR-011,"Door Ext Steel 36""x80"" 1-3/4""",Door,Exterior-Steel,36x80,914,2032,44,36,20.4,Insulated steel exterior,Main entry,ANSI/WDMA I.S.2,275,1017500
+COMP-DR-012,"Door Ext Fiberglass 36""x80""",Door,Exterior-Fiberglass,36x80,914,2032,44,36,22.7,Fiberglass exterior,Premium entry,ANSI/WDMA I.S.2,450,1665000
+COMP-DR-013,"Door Ext Wood 36""x80"" 1-3/4""",Door,Exterior-Wood,36x80,914,2032,44,36,27.2,Solid wood exterior,Traditional entry,ANSI/WDMA I.S.2,600,2220000
+COMP-DR-014,"Door Fire 36""x80"" 20-Min",Door,Fire-Rated,36x80-20min,914,2032,44,36,29.5,20-minute fire door,Light fire separation,NFPA 80,350,1295000
+COMP-DR-015,"Door Fire 36""x80"" 45-Min",Door,Fire-Rated,36x80-45min,914,2032,44,36,31.8,45-minute fire door,Fire separation,NFPA 80,450,1665000
+COMP-DR-016,"Door Fire 36""x80"" 90-Min",Door,Fire-Rated,36x80-90min,914,2032,54,36,36.3,90-minute fire door,Corridor/exit,NFPA 80,650,2405000
+COMP-WN-001,"Window Single-Hung 24""x36""",Window,Single-Hung,24x36,610,914,100,0.35,15.9,Vinyl single-hung,Bedroom/bathroom,AAMA/WDMA/CSA 101,180,666000
+COMP-WN-002,"Window Single-Hung 30""x48""",Window,Single-Hung,30x48,762,1219,100,0.35,22.7,Vinyl single-hung,Standard residential,AAMA/WDMA/CSA 101,220,814000
+COMP-WN-003,"Window Single-Hung 36""x60""",Window,Single-Hung,36x60,914,1524,100,0.35,31.8,Vinyl single-hung,Large bedroom,AAMA/WDMA/CSA 101,280,1036000
+COMP-WN-004,"Window Double-Hung 28""x48""",Window,Double-Hung,28x48,711,1219,100,0.32,22.7,Vinyl double-hung,Traditional style,AAMA/WDMA/CSA 101,280,1036000
+COMP-WN-005,"Window Double-Hung 32""x54""",Window,Double-Hung,32x54,813,1372,100,0.32,27.2,Vinyl double-hung,Standard living,AAMA/WDMA/CSA 101,320,1184000
+COMP-WN-006,"Window Double-Hung 36""x60""",Window,Double-Hung,36x60,914,1524,100,0.32,34.0,Vinyl double-hung,Large opening,AAMA/WDMA/CSA 101,360,1332000
+COMP-WN-007,"Window Casement 24""x36""",Window,Casement,24x36,610,914,100,0.28,15.9,Vinyl casement,Maximum ventilation,AAMA/WDMA/CSA 101,240,888000
+COMP-WN-008,"Window Casement 30""x48""",Window,Casement,30x48,762,1219,100,0.28,24.5,Vinyl casement,Modern style,AAMA/WDMA/CSA 101,300,1110000
+COMP-WN-009,"Window Casement 36""x60""",Window,Casement,36x60,914,1524,100,0.28,36.3,Vinyl casement,Large casement,AAMA/WDMA/CSA 101,380,1406000
+COMP-WN-010,"Window Slider 48""x36""",Window,Sliding,48x36,1219,914,100,0.32,27.2,Vinyl slider,Horizontal opening,AAMA/WDMA/CSA 101,280,1036000
+COMP-WN-011,"Window Slider 60""x48""",Window,Sliding,60x48,1524,1219,100,0.32,40.9,Vinyl slider,Wide view,AAMA/WDMA/CSA 101,360,1332000
+COMP-WN-012,"Window Slider 72""x60""",Window,Sliding,72x60,1829,1524,100,0.32,61.4,Vinyl slider,Panoramic view,AAMA/WDMA/CSA 101,480,1776000
+COMP-WN-013,"Window Picture 48""x48""",Window,Picture-Fixed,48x48,1219,1219,100,0.28,31.8,Vinyl picture window,Non-operable view,AAMA/WDMA/CSA 101,320,1184000
+COMP-WN-014,"Window Picture 60""x48""",Window,Picture-Fixed,60x48,1524,1219,100,0.28,40.9,Vinyl picture window,Large fixed,AAMA/WDMA/CSA 101,400,1480000
+COMP-WN-015,"Window Picture 72""x60""",Window,Picture-Fixed,72x60,1829,1524,100,0.28,61.4,Vinyl picture window,Panoramic fixed,AAMA/WDMA/CSA 101,550,2035000
